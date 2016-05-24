@@ -1,7 +1,7 @@
 \contentsline {chapter}{Acknowledgments}{iv}
 \contentsline {chapter}{Abstract}{v}
-\contentsline {chapter}{List of Tables}{viii}
-\contentsline {chapter}{List of Figures}{ix}
+\contentsline {chapter}{List of Tables}{vii}
+\contentsline {chapter}{List of Figures}{viii}
 \contentsline {chapter}{Chapter{} \numberline {1}Introduction}{1}
 \contentsline {section}{\numberline {1.1}Motivation}{1}
 \contentsline {section}{\numberline {1.2}This Dissertation}{1}
