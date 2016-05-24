@@ -1,0 +1,60 @@
+This is pBibTeX, Version 0.99d-j0.33 (utf8.euc) (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: thesis.aux
+A level-1 auxiliary file: chapter1.aux
+A level-1 auxiliary file: chapter2.aux
+A level-1 auxiliary file: chapter3.aux
+A level-1 auxiliary file: chapter4.aux
+A level-1 auxiliary file: chapter5.aux
+A level-1 auxiliary file: chapter6.aux
+A level-1 auxiliary file: chapter7.aux
+A level-1 auxiliary file: appendix1.aux
+The style file: plain.bst
+Database file #1: references.bib
+Repeated entry---line 216 of file references.bib
+ : @inproceedings{jiang2008comparing
+ :                                  ,
+I'm skipping whatever remains of this entry
+You've used 14 entries,
+            2118 wiz_defined-function locations,
+            610 strings with 7617 characters,
+and the built_in function-call counts, 5611 in all, are:
+= -- 581
+> -- 258
+< -- 5
++ -- 103
+- -- 88
+* -- 406
+:= -- 903
+add.period$ -- 48
+call.type$ -- 14
+change.case$ -- 85
+chr.to.int$ -- 0
+cite$ -- 14
+duplicate$ -- 217
+empty$ -- 423
+format.name$ -- 88
+if$ -- 1199
+int.to.chr$ -- 0
+int.to.str$ -- 14
+missing$ -- 15
+newline$ -- 73
+num.names$ -- 28
+pop$ -- 86
+preamble$ -- 1
+purify$ -- 71
+quote$ -- 0
+skip$ -- 153
+stack$ -- 0
+substring$ -- 381
+swap$ -- 59
+text.length$ -- 5
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 54
+warning$ -- 0
+while$ -- 55
+width$ -- 16
+write$ -- 168
+is.kanji.str$ -- 0
+(There was 1 error message)
