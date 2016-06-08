@@ -24,6 +24,33 @@ Norman~E Fenton and Martin Neil.
 \newblock {\em Journal of Systems and Software, publisher: Elsevier},
   47(2):149--157, 1999.
 
+\bibitem{gartnerMobileOSMarketshare}
+Inc. Gartner.
+\newblock Gartner says worldwide smartphone sales grew 9.7 percent in fourth
+  quarter of 2015.
+\newblock \url{http://www.gartner.com/newsroom/id/3215217}, February 2016.
+\newblock accessed on 06.08.2016.
+
+\bibitem{goadrich2011smart}
+Mark~H Goadrich and Michael~P Rogers.
+\newblock Smart smartphone development: ios versus android.
+\newblock In {\em Proceedings of the 42nd ACM technical symposium on Computer
+  science education}, pages 607--612. ACM, 2011.
+
+\bibitem{androidDevelopers}
+Inc. Google.
+\newblock Sensors overview.
+\newblock
+  \url{https://developer.android.com/guide/topics/sensors/sensors_overview.html}.
+\newblock accessed on 06.08.2016.
+
+\bibitem{holzinger2012making}
+Andreas Holzinger, Peter Treitler, and Wolfgang Slany.
+\newblock Making apps useable on multiple different mobile platforms: On
+  interoperability for business application development on smartphones.
+\newblock In {\em Multidisciplinary research and practice for information
+  systems}, pages 176--189. Springer, 2012.
+
 \bibitem{jiang2008comparing}
 Yue Jiang, Bojan Cuki, Tim Menzies, and Nick Bartlow.
 \newblock Comparing design and code metrics for software quality prediction.
@@ -79,6 +106,11 @@ Cindy Norris, Frank Barry, James~B Fenwick~Jr, Kathryn Reid, and Josh Rountree.
   developers really work.
 \newblock {\em ACM SIGCSE Bulletin, publisher: ACM}, 40(3):37--41, 2008.
 
+\bibitem{ross2005exterminators}
+Philip~E Ross.
+\newblock The exterminators [software bugs].
+\newblock {\em Spectrum, IEEE}, 42(9):36--41, 2005.
+
 \bibitem{snipes2013towards}
 Will Snipes, Vinay Augustine, Anil~R Nair, and Emerson Murphy-Hill.
 \newblock Towards recognizing and rewarding efficient developer work patterns.
@@ -98,5 +130,12 @@ Paul~Andrew Watters, Frances Martin, and Zoltan Schreter.
 \newblock Caffeine and cognitive performance: the nonlinear yerkes--dodson law.
 \newblock {\em Human Psychopharmacology: Clinical and Experimental, publisher:
   Wiley Online Library}, 12(3):249--257, 1997.
+
+\bibitem{zhu2015mining}
+Hengshu Zhu, Enhong Chen, Hui Xiong, Kuifei Yu, Huanhuan Cao, and Jilei Tian.
+\newblock Mining mobile user preferences for personalized context-aware
+  recommendation.
+\newblock {\em ACM Transactions on Intelligent Systems and Technology (TIST)},
+  5(4):58, 2015.
 
 \end{thebibliography}

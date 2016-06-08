@@ -30,13 +30,12 @@
 \usepackage{graphicx,color}
 \usepackage{anysize}
 \usepackage{amsmath}
-
-\usepackage{pgfplotstable}
 \usepackage{pgfplots}
-
+\pgfplotsset{compat=1.8}
 \usepackage{lmodern}
+\usepackage{url}
 
-%\hyphenation{ human, measuring, several, students}
+%\hyphenation{human, measuring, several, students}
 
 \leftchapter                       								%% Uncomment one of these if you want  
 %\centerchapter                      							%% left-justified, centered or
@@ -55,10 +54,10 @@
 
 \renewcommand{\thesisauthor}{Michael Christian Frick}        	%% Your official UT name.
 \renewcommand{\thesismonth}{September}             			%% Your month of graduation.
-\renewcommand{\thesisyear}{2017}                     			%% Your year of graduation.
+\renewcommand{\thesisyear}{2016}                     			%% Your year of graduation.
 \renewcommand{\thesistitle}{\large{Learning Processes and Consistency in the Quality of Software Development Based on Environmental Influences} }            %% The title of your thesis; use mixed-case.
 \renewcommand{\thesisauthorpreviousdegrees}{M.Sc.}  		%% Your previous degrees, abbreviated; separate multiple degrees by commas.
-\renewcommand{\thesissupervisor}{Barrett Stephen}      		%% Your thesis supervisor; use mixed-case and don't use any titles or degrees.
+\renewcommand{\thesissupervisor}{Stephen Barrett}      		%% Your thesis supervisor; use mixed-case and don't use any titles or degrees.
 
 	
 \renewcommand{\thesisauthoraddress}{Dublin, Ireland}
@@ -107,14 +106,14 @@
 
 \thesistitlepage                                  		%% Generate the title page.
 
-\thesisdeclarationpage				%% Generate the declaration page.
+\thesisdeclarationpage									%% Generate the declaration page.
 
-\thesispermissionpage				 %% Generate the copyright permission page
+\thesispermissionpage									 %% Generate the copyright permission page
 
 %\thesisdedicationpage                             %% Generate the dedication page.
 
 \begin{thesisacknowledgments}                 %% Use this to write your
-			                          		%% acknowledgments; it can be anything
+			                          							%% acknowledgments; it can be anything
 Give many thanks and stuff...
 
 \end{thesisacknowledgments}                    %% allowed in LaTeX2e par-mode.
@@ -132,10 +131,11 @@ The abstract or summary or whatever...
 %%
 %% Include thesis chapters here...
 %%
-\include{chapter1}                                
-\include{chapter2}                                
-\include{chapter3}
-\include{chapter4}
+
+\include{introduction}                                
+\include{sota}                                
+\include{design}
+\include{implementation}
 \include{chapter5}
 \include{chapter6}
 \include{chapter7}
@@ -146,6 +146,7 @@ The abstract or summary or whatever...
 \include{appendix1}
 %\include{appendix2}
 \end{appendix}
+
 
 %\addcontentsline {toc}{chapter}{Bibliography}     %% Force Bibliography to appear in contents
 %\addcontentsline{toc}{section}{References}
