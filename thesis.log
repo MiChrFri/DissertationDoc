@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.18)  8 JUN 2016 12:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.18)  26 JUN 2016 15:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -598,7 +598,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 ) (./thesis.aux
 (./introduction.aux) (./sota.aux) (./design.aux) (./implementation.aux)
-(./chapter5.aux) (./chapter6.aux) (./chapter7.aux) (./appendix1.aux))
+(./chapter5.aux) (./results.aux) (./chapter7.aux) (./appendix1.aux))
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 105.
@@ -764,57 +764,70 @@ Chapter 1.
 [1
 
 
-]) [2]
+] [2] [3] [4]) [5]
 \openout2 = `sota.aux'.
 
  (./sota.tex
 Chapter 2.
-[3
+[6
 
 
 
-] [4] [5]) [6] [7] [8]
+] [7] [8]) [9] [10] [11]
 \openout2 = `design.aux'.
 
  (./design.tex
 Chapter 3.
-[9
+[12
 
 
 
-] [10]) [11]
+] [13]
+
+LaTeX Warning: Citation `vogel2010android' on page 14 undefined on input line 6
+7.
+
+) [14]
 \openout2 = `implementation.aux'.
 
  (./implementation.tex
 Chapter 4.
-) [12
+[15
 
 
 
-]
+]) [16]
 \openout2 = `chapter5.aux'.
 
  (./chapter5.tex
 Chapter 5.
-) [13
+) [17
 
 
 
 ]
-\openout2 = `chapter6.aux'.
+\openout2 = `results.aux'.
 
- (./chapter6.tex
+ (./results.tex
 Chapter 6.
-) [14
+Missing character: There is no , in font nullfont!
+NOTE: coordinate (1Y4.0e1],4Y0.0e0]) has been dropped because it is unbounded (
+in y). (see also unbounded coords=jump). 
+
+Overfull \hbox (3.1924pt too wide) in paragraph at lines 81--83
+ [][] 
+ []
+
+) [18
 
 
 
-]
+] [19]
 \openout2 = `chapter7.aux'.
 
  (./chapter7.tex
 Chapter 7.
-) [15
+) [20
 
 
 
@@ -823,7 +836,7 @@ Chapter 7.
 
  (./appendix1.tex
 Appendix A.
-) [16
+) [21
 
 
 
@@ -833,34 +846,39 @@ LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 31.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/lm/ot1lmtt.fd
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [17
+) [22
 
 
-] [18])
-[19] (./thesis.aux (./introduction.aux) (./sota.aux) (./design.aux)
-(./implementation.aux) (./chapter5.aux) (./chapter6.aux) (./chapter7.aux)
-(./appendix1.aux)) ) 
+] [23])
+[24] (./thesis.aux (./introduction.aux) (./sota.aux) (./design.aux)
+(./implementation.aux) (./chapter5.aux) (./results.aux) (./chapter7.aux)
+(./appendix1.aux))
+
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 21738 strings out of 493089
- 558022 string characters out of 6134841
+ 21792 strings out of 493089
+ 559169 string characters out of 6134841
  720527 words of memory out of 5000000
- 24765 multiletter control sequences out of 15000+600000
- 45678 words of font info for 36 fonts, out of 8000000 for 9000
+ 24819 multiletter control sequences out of 15000+600000
+ 48626 words of font info for 37 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,19n,110p,918b,2270s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-r
-mtt.enc}{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/
-local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-rmsc.enc}</usr/local/texliv
-e/2015/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2015/tex
-mf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/texlive/2015/texmf-dist/f
-onts/type1/public/lm/lmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/
-public/lm/lmri12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/
-lmro12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmtt12.pfb
->
-Output written on thesis.pdf (28 pages, 188629 bytes).
+{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-rmtt.enc}{/usr/loca
+l/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/
+2015/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2015/texmf-dis
+t/fonts/enc/dvips/lm/lm-rmsc.enc}</usr/local/texlive/2015/texmf-dist/fonts/type
+1/public/lm/lmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/l
+m/lmcsc10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmmi12.
+pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/l
+ocal/texlive/2015/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texli
+ve/2015/texmf-dist/fonts/type1/public/lm/lmro12.pfb></usr/local/texlive/2015/te
+xmf-dist/fonts/type1/public/lm/lmtt12.pfb>
+Output written on thesis.pdf (33 pages, 203553 bytes).
 PDF statistics:
- 124 PDF objects out of 1000 (max. 8388607)
- 87 compressed objects within 1 object stream
+ 146 PDF objects out of 1000 (max. 8388607)
+ 102 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
