@@ -24,6 +24,11 @@ Norman~E Fenton and Martin Neil.
 \newblock {\em Journal of Systems and Software, publisher: Elsevier},
   47(2):149--157, 1999.
 
+\bibitem{ferreira2015aware}
+Denzil Ferreira, Vassilis Kostakos, and Anind~K Dey.
+\newblock Aware: mobile context instrumentation framework. frontiers in ict 2,
+  6: 1--9, 2015.
+
 \bibitem{gartnerMobileOSMarketshare}
 Inc. Gartner.
 \newblock Gartner says worldwide smartphone sales grew 9.7 percent in fourth
@@ -94,6 +99,13 @@ Iftikhar~Ahmed Khan, Robert~M Hierons, and Willem~Paul Brinkman.
 \newblock In {\em Proceedings of the 14th European conference on Cognitive
   ergonomics: invent! explore!}, pages 269--272, London UK, Aug 2007. ACM.
 
+\bibitem{laugesen2010factors}
+John Laugesen and Yufei Yuan.
+\newblock What factors contributed to the success of apple's iphone?
+\newblock In {\em Mobile Business and 2010 Ninth Global Mobility Roundtable
+  (ICMB-GMR), 2010 Ninth International Conference on}, pages 91--99. IEEE,
+  2010.
+
 \bibitem{Martin:2008:CCH:1388398}
 Robert~C. Martin.
 \newblock {\em Clean Code: A Handbook of Agile Software Craftsmanship}.
@@ -124,6 +136,11 @@ Jeremy~PE Spencer.
   memory, learning and neuro-cognitive performance.
 \newblock {\em Proceedings of the Nutrition Society, publisher: Cambridge Univ
   Press}, 67(02):238--252, 2008.
+
+\bibitem{vogel2010android}
+Lars Vogel.
+\newblock Android sqlite database and contentprovider-tutorial.
+\newblock {\em Java, Eclipse, Android and Web programming tutorials}, 8, 2010.
 
 \bibitem{watters1997caffeine}
 Paul~Andrew Watters, Frances Martin, and Zoltan Schreter.

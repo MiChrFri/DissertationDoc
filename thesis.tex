@@ -26,7 +26,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \documentclass[a4paper, 12pt, oneside]{report}    	%% LaTeX2e document.
-\usepackage {tcdthesis}              				%% Preamble.
+\usepackage {tcdthesis}              								%% Preamble.
 \usepackage{graphicx,color}
 \usepackage{anysize}
 \usepackage{amsmath}
@@ -37,24 +37,24 @@
 
 %\hyphenation{human, measuring, several, students}
 
-\leftchapter                       								%% Uncomment one of these if you want  
-%\centerchapter                      							%% left-justified, centered or
-% \rightchapter                     							%% right-justified chapter headings.
+\leftchapter                       							%% Uncomment one of these if you want  
+%\centerchapter                      					%% left-justified, centered or
+% \rightchapter                     						%% right-justified chapter headings.
                                      								%% Chapter headings includes the
                                      								%% Contents, Acknowledgments, Lists
                                      								%% of Tables and Figures and the Vita.
                                      								%% The default is \centerchapter.
 
-% \singlespace                       							%% Uncomment one of these if you want
-% \oneandhalfspace                   						%% single-spacing, space-and-a-half
- \doublespace                       							%% or double-spacing; the default is
+% \singlespace                       					%% Uncomment one of these if you want
+% \oneandhalfspace                   				%% single-spacing, space-and-a-half
+ \doublespace                       						%% or double-spacing; the default is
                                      								%% \oneandhalfspace, which is the
                                      								%% minimum spacing accepted by the
                                      								%% Graduate School.
 
-\renewcommand{\thesisauthor}{Michael Christian Frick}        	%% Your official UT name.
+\renewcommand{\thesisauthor}{Michael Christian Frick}        %% Your official UT name.
 \renewcommand{\thesismonth}{September}             			%% Your month of graduation.
-\renewcommand{\thesisyear}{2016}                     			%% Your year of graduation.
+\renewcommand{\thesisyear}{2016}                     				%% Your year of graduation.
 \renewcommand{\thesistitle}{\large{Learning Processes and Consistency in the Quality of Software Development Based on Environmental Influences} }            %% The title of your thesis; use mixed-case.
 \renewcommand{\thesisauthorpreviousdegrees}{B.Sc.}  		%% Your previous degrees, abbreviated; separate multiple degrees by commas.
 \renewcommand{\thesissupervisor}{Stephen Barrett}      		%% Your thesis supervisor; use mixed-case and don't use any titles or degrees.
@@ -108,15 +108,15 @@
 
 \thesisdeclarationpage									%% Generate the declaration page.
 
-\thesispermissionpage									 %% Generate the copyright permission page
+\thesispermissionpage									%% Generate the copyright permission page
 
-%\thesisdedicationpage                             %% Generate the dedication page.
+%\thesisdedicationpage                            %% Generate the dedication page.
 
-\begin{thesisacknowledgments}                 %% Use this to write your
+\begin{thesisacknowledgments}               	%% Use this to write your
 			                          							%% acknowledgments; it can be anything
 Give many thanks and stuff...
 
-\end{thesisacknowledgments}                    %% allowed in LaTeX2e par-mode.
+\end{thesisacknowledgments}                   %% allowed in LaTeX2e par-mode.
 
 \begin{thesisabstract}
 
@@ -124,16 +124,16 @@ The abstract or summary or whatever...
 
 \end{thesisabstract}
 
-\tableofcontents                                  	%% Generate table of contents.
-\listoftables                                     		%% Uncomment this to generate list of tables.
-\listoffigures                                    		%% Uncomment this to generate list of figures.
+\tableofcontents                                  		%% Generate table of contents.
+\listoftables                                     			%% Uncomment this to generate list of tables.
+\listoffigures                                    			%% Uncomment this to generate list of figures.
 
-%%
-%% Include thesis chapters here...
-%%
+%%%%%%%%%%%%%%%%%%%%%%
+%-------- Thesis Chapter Includes --------%
 
 \include{introduction}                                
-\include{sota}                                
+\include{sota}         
+\include{background}                       
 \include{design}
 \include{implementation}
 \include{chapter5}
@@ -146,7 +146,6 @@ The abstract or summary or whatever...
 \include{appendix1}
 %\include{appendix2}
 \end{appendix}
-
 
 %\addcontentsline {toc}{chapter}{Bibliography}     %% Force Bibliography to appear in contents
 %\addcontentsline{toc}{section}{References}
