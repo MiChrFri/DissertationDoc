@@ -34,6 +34,9 @@
 \pgfplotsset{compat=1.8}
 \usepackage{lmodern}
 \usepackage{url}
+\usepackage{hyperref}
+
+
 
 
 \usepackage{graphicx}
@@ -74,13 +77,6 @@
 %%% are different from the default values in utthesis.sty.  To use them,
 %%% simply uncomment (remove the leading %) the line(s).
 
-% \renewcommand{\thesiscommitteesize}{...}
-                                     %% Uncomment this only if your thesis
-                                     %% committee does NOT have 5 members
-                                     %% for \phdthesis or 2 for \mastersthesis.
-                                     %% Replace the "..." with the correct
-                                     %% number of members.
-
 \renewcommand{\thesisdegree}{Master of Science in Computer Science}  %% Uncomment this only if your thesis
                                      %% degree is NOT "DOCTOR OF PHILOSOPHY"
                                      %% for \phdthesis or "MASTER OF ARTS"
@@ -99,9 +95,6 @@
                                      %% Provide the OFFICIAL type of the
                                      %% thesis; use mixed-case.
 
-% \renewcommand{\thesistypist}{...}  %% Use this to specify the name of
-                                     %% the thesis typist if it is anything
-                                     %% other than "the author".
                                      
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -124,17 +117,18 @@ Give many thanks and stuff...
 
 \begin{thesisabstract}
 
-The abstract or summary or whatever...
+\include{abstract}      
 
 \end{thesisabstract}
 
-\tableofcontents                                  		%% Generate table of contents.
-\listoftables                                     			%% Uncomment this to generate list of tables.
-\listoffigures                                    			%% Uncomment this to generate list of figures.
+%%%%%%%%%%%%%%%%%%%%%%
+%-------- Table of Content --------%
+\tableofcontents 
+\listoftables                                     			%% add list of tables.
+\listoffigures                                    			%% add list of figures.
 
 %%%%%%%%%%%%%%%%%%%%%%
 %-------- Thesis Chapter Includes --------%
-
 \include{introduction}                                
 \include{sota}         
 \include{background}                       

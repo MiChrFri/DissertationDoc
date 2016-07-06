@@ -1,46 +1,49 @@
-\contentsline {chapter}{Acknowledgments}{iv}
-\contentsline {chapter}{Abstract}{v}
-\contentsline {chapter}{List of Tables}{viii}
-\contentsline {chapter}{List of Figures}{ix}
-\contentsline {chapter}{Chapter{} \numberline {1}Introduction}{1}
-\contentsline {section}{\numberline {1.1}Motivation}{3}
-\contentsline {section}{\numberline {1.2}Aims}{4}
-\contentsline {section}{\numberline {1.3}Road-map}{5}
-\contentsline {chapter}{Chapter{} \numberline {2}The State of the Art}{6}
-\contentsline {section}{\numberline {2.1}Software Metrics}{7}
-\contentsline {section}{\numberline {2.2}Metrics Measurement and Analysis}{8}
-\contentsline {section}{\numberline {2.3}Mobile Data Gathering}{9}
-\contentsline {section}{\numberline {2.4}Cognitive Performance}{10}
-\contentsline {chapter}{Chapter{} \numberline {3}Background}{13}
-\contentsline {section}{\numberline {3.1}Mobile Device Sensors}{13}
-\contentsline {chapter}{Chapter{} \numberline {4}Design}{14}
-\contentsline {section}{\numberline {4.1}Functionality Overview}{14}
-\contentsline {section}{\numberline {4.2}Mobile Application Design}{14}
-\contentsline {subsection}{\numberline {4.2.1}App Architecture}{16}
-\contentsline {subsection}{\numberline {4.2.2}User Interface}{16}
-\contentsline {subsection}{\numberline {4.2.3}Data Storage}{17}
-\contentsline {subsection}{\numberline {4.2.4}API}{17}
-\contentsline {subsection}{\numberline {4.2.5}User Information}{18}
-\contentsline {section}{\numberline {4.3}Server Design}{18}
-\contentsline {subsection}{\numberline {4.3.1}Server Frontend Design}{19}
-\contentsline {subsection}{\numberline {4.3.2}Server Backend Design}{19}
-\contentsline {section}{\numberline {4.4}Encrpting Tool}{19}
-\contentsline {chapter}{Chapter{} \numberline {5}Implementation}{20}
-\contentsline {section}{\numberline {5.1}Android}{20}
-\contentsline {subsection}{\numberline {5.1.1}User Interface}{21}
-\contentsline {subsubsection}{Gather View}{21}
-\contentsline {subsubsection}{Question View}{22}
-\contentsline {subsubsection}{Information View}{22}
-\contentsline {subsubsection}{Permissions View}{22}
-\contentsline {subsection}{\numberline {5.1.2}Data Gathering}{22}
-\contentsline {subsection}{\numberline {5.1.3}Data Storage}{23}
-\contentsline {subsection}{\numberline {5.1.4}Security}{24}
-\contentsline {section}{\numberline {5.2}Server}{25}
-\contentsline {subsection}{\numberline {5.2.1}Back-End}{25}
-\contentsline {subsection}{\numberline {5.2.2}Webpages}{25}
-\contentsline {section}{\numberline {5.3}Encryption Tool}{26}
-\contentsline {chapter}{Chapter{} \numberline {6}Experiment}{27}
-\contentsline {chapter}{Chapter{} \numberline {7}Results}{28}
-\contentsline {chapter}{Chapter{} \numberline {8}Conclusions}{30}
-\contentsline {chapter}{Appendix{} \numberline {A}Abbreviations}{31}
-\contentsline {chapter}{Bibliography}{32}
+\contentsline {chapter}{Acknowledgments}{iv}{chapter*.3}
+\contentsline {chapter}{Abstract}{v}{chapter*.4}
+\contentsline {chapter}{List of Tables}{x}{chapter*.7}
+\contentsline {chapter}{List of Figures}{xi}{chapter*.8}
+\contentsline {chapter}{Chapter{} \numberline {1}Introduction}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Motivation}{3}{section.1.1}
+\contentsline {section}{\numberline {1.2}Aims}{5}{section.1.2}
+\contentsline {section}{\numberline {1.3}Road-map}{5}{section.1.3}
+\contentsline {chapter}{Chapter{} \numberline {2}The State of the Art}{6}{chapter.2}
+\contentsline {section}{\numberline {2.1}Software Metrics}{7}{section.2.1}
+\contentsline {section}{\numberline {2.2}Metrics Measurement and Analysis}{8}{section.2.2}
+\contentsline {section}{\numberline {2.3}Mobile Data Gathering}{10}{section.2.3}
+\contentsline {section}{\numberline {2.4}Cognitive Performance}{10}{section.2.4}
+\contentsline {chapter}{Chapter{} \numberline {3}Background}{13}{chapter.3}
+\contentsline {section}{\numberline {3.1}Mobile Device Sensors}{13}{section.3.1}
+\contentsline {chapter}{Chapter{} \numberline {4}Design}{14}{chapter.4}
+\contentsline {section}{\numberline {4.1}Functionality Overview}{14}{section.4.1}
+\contentsline {section}{\numberline {4.2}Mobile Application Design}{14}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}App Architecture}{16}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}User Interface}{16}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Data Storage}{17}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}API}{17}{subsection.4.2.4}
+\contentsline {subsection}{\numberline {4.2.5}User Information}{18}{subsection.4.2.5}
+\contentsline {section}{\numberline {4.3}Server Design}{19}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Server Frontend Design}{19}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Server Backend Design}{19}{subsection.4.3.2}
+\contentsline {section}{\numberline {4.4}Encrpting Tool}{19}{section.4.4}
+\contentsline {chapter}{Chapter{} \numberline {5}Implementation}{20}{chapter.5}
+\contentsline {section}{\numberline {5.1}Android}{20}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}User Interface}{21}{subsection.5.1.1}
+\contentsline {subsubsection}{Gather View}{21}{section*.9}
+\contentsline {subsubsection}{Question View}{22}{section*.10}
+\contentsline {subsubsection}{Information View}{22}{section*.11}
+\contentsline {subsubsection}{Permissions View}{22}{section*.12}
+\contentsline {subsection}{\numberline {5.1.2}Data Gathering}{23}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.3}Data Storage}{23}{subsection.5.1.3}
+\contentsline {subsection}{\numberline {5.1.4}Security}{24}{subsection.5.1.4}
+\contentsline {section}{\numberline {5.2}Server}{25}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Back-End}{25}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Webpages}{26}{subsection.5.2.2}
+\contentsline {section}{\numberline {5.3}Encryption Tool}{26}{section.5.3}
+\contentsline {chapter}{Chapter{} \numberline {6}Experiment}{27}{chapter.6}
+\contentsline {section}{\numberline {6.1}Setup and Execution}{27}{section.6.1}
+\contentsline {section}{\numberline {6.2}Expected Results}{28}{section.6.2}
+\contentsline {chapter}{Chapter{} \numberline {7}Results}{30}{chapter.7}
+\contentsline {chapter}{Chapter{} \numberline {8}Conclusions}{32}{chapter.8}
+\contentsline {section}{\numberline {8.1}Future Work}{32}{section.8.1}
+\contentsline {chapter}{Appendix{} \numberline {A}Abbreviations}{33}{appendix.A}
+\contentsline {chapter}{Bibliography}{34}{appendix*.13}

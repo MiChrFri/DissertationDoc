@@ -8,7 +8,6 @@ First, I will start with a brief description of the two components and will foll
 \section{Functionality Overview}
 The purpose of the software is to gather information from a mobile device of a participant while he/she is working on a programming task. Afterwards the application sends the collected data to a server for further processing and analysis. The participant also simultaneously submits the written code which code quality will be detected and then correlated with the processed mobile device information. 
 
-
 \section{Mobile Application Design}
 
 % Define bar chart colors
@@ -53,48 +52,48 @@ The purpose of the software is to gather information from a mobile device of a p
 
         \end{axis}
  	\end{tikzpicture}
- 	\caption{Smartphone OS marketshare}\label{result}
+ 	\caption{Smartphone OS Marketshare}\label{result}
  	\vspace{10 mm}
 \end{figure}
 
 \begin{flushleft}
-In quarter 4 of 2015 Android had a market share of 80.7\% in smart-phone sales by operating system (see Figure \ref{result}). The trend also shows that the number increased from the last year \cite{gartnerMobileOSMarketshare}. Therefore I decided to realize the mobile application implementation for Android in order to be able to work with more users who have access to that application.
+In quarter 4 of 2015 Android had a market share of 80.7\% in smart-phone sales by operating system (see Figure \ref{result}). The trend also shows that the number increased from the last year \cite{gartnerMobileOSMarketshare}. Therefore I decided to realize the mobile application implementation for Android in order to be able to work with more users who have access to that application.\\
 An alternative to the native implementation (e.g. iOS or Android) could have been a hybrid application. A hybrid apps is based on web-technology and using the addvantage of resposive web design to be able to work with every aspect ratio and resolution on an mobile device. One way doing that would be by using a framework such as PhoneGap, wich internally creates a native webview applicationand just loads the hybrid JavaScript, HTML, CSS in it. Another software for cerating a hybrid solution is Titanum accelerator which itself is using native UI components. Both frameworks have the advantage is the simple development and the OS independence. The problem with hybrid apps are the performance and limited accessiblity to hardware components including some sensors \cite{holzinger2012making}.  
-
+\bigbreak
 The Android application make use of its build in sensors and information provided by the Android operating system. Different than iOS, Android is an OS that can be installed of different devices from different vendors and with different hardware components \cite{goadrich2011smart}. Thus the buit in sensors which are clustered in motion sensors, environmental sensors and position sensors \cite{androidDevelopers} can differ between the different devices. Components which are required for standard functionality such as making phone calls are more common than other sensors. For example the the microphone for recording the users voice or the light sensor, which is used to detect whether the user has the phone at his ear can be found in almost every mobile android device. 
 
 \subsection{App Architecture}
-The Android app is built based on the Model View Controller design principles. This design principle defines the interfaces between the three different parts, the Model, the View and the Controller and states the tasks and responsibilities of each part. 
+The Android app is built based on the Model View Controller design principles. This design principle defines the interfaces between the three different parts, the Model, the View and the Controller and states the tasks and responsibilities of each part.\\
 The Model is the data source and in this app represented by the SQLite Database and can only communication happens to the Controller. 
 The Controllers are called Activities in the Android Framework and is responsible for managing the Views, which are defined in XML files and then modified by the responsible Controller. 
 To keep the code base clean and to avoid bugs, the communication is separated by the controller. The Model doesn't directly communicate with the View and can't update it. It the case of changes, the Model informs the Controller, which decides whether or not to update the view etc. 
 
 \subsection{User Interface}
-The Application contains of two main user Interfaces, the gathering view and the question view. 
+The Application contains of two main user Interfaces, the gathering view and the question view.\\
 The gathering view is the control interface for starting and stopping the data gathering. Its interface changes depending the current state and the logical functionality and also provides an input field for the users email address.
-
+\bigbreak
 After sending the gathered data to the server the application displays the question view. Here the user sees a number of questions and check-boxes to answer the binary yes and no questions. 
 This interface also provides a send button to submit the answered questions to the Server.
 
 \subsection{Data Storage}
-For storing the gathered data entries, the app uses a SQLite datebase. SQLite uses SQL syntax which and is embedded in Android and well documented by Google. \cite{vogel2010android}. It is a very light weight database and provides an abstracted and easy way to store the values in an object oriented environment. SQLite is storing the data unencrypted by default. In order to make sure the stored data is save and can't be read, the data is been encrypted as soon it's been gathered.
+For storing the gathered data entries, the app uses a SQLite datebase. SQLite uses SQL syntax which and is embedded in Android and well documented by Google. \cite{vogel2010android}. It is a very light weight database and provides an abstracted and easy way to store the values in an object oriented environment. SQLite is storing the data unencrypted by default. In order to make sure the stored data is save and can't be read, the data is been encrypted as soon it's been gathered.\\
 Additional to the SQLite database, Android provides a way to store single entries such as the field with the email address of the user. The so called "shared preferences" are storing key-value-pairs persistently on the phone and can be accessed from everywhere in the application.
 
 \subsection{API}
 The gathered data and afterwards the answered questions will asynchronously send to the Server and written into the database. When the response will be received, the view shows a visual confirmation and moves on to the next step or in case of the questions back to the gathering interface. 
-
-The communication to the Server uses HTTP connection over a stateless REST-full service. The REST-Service is a centralized way to allow making entries to the database and use the computing power of the server. PHP is the programming language used server-side and is establishing the connection to the MYSQL database. 
+\bigbreak
+The communication to the Server uses HTTP connection over a stateless REST-full service. The REST-Service is a centralized way to allow making entries to the database and use the computing power of the server. PHP is the programming language used server-side and is establishing the connection to the MYSQL database.\\
 As this application just requires to send information to the server but not receive information, the data gets converted to JSON format and send to the server via a POST request. The server response with a success or fail and provides some additional information in case entries were added to the database. 
 
 \subsection{User Information}
-For accessing the information from the mobile device, Android requires the user to granting the permissions for specific functionality such as using using the internet connection of the phone or access information like the telephone book entries. 
-The permissions were given when the the user by simply downloading the app from the PlayStore all in one place. However, since Android 6, the developer now is forced to ask for the permissions within the application itself  \cite{androidpermissions}. 
+For accessing the information from the mobile device, Android requires the user to granting the permissions for specific functionality such as using using the internet connection of the phone or access information like the telephone book entries.\\
+The permissions were given when the the user by simply downloading the app from the PlayStore all in one place. However, since Android 6, the developer now is forced to ask for the permissions within the application itself  \cite{androidpermissions}.\\
 Thus, the users with Android 6 or higher are provided by a additional interface which is specifically asking for permissions for Internet Access, access internet state information, using the device microphone and getting the location of the device. 
-
+\bigbreak
 Independent from the Android version the user needs to read and accept the terms of use at the first start of the application. The displayed text informs the user about the rights and what is happening with the data and information the user provides through this app usage.
-
+\bigbreak
 Within the app the user is asked to enter his/her email address. The email address then is being hashed with the SHA256 algorithm to ensure the data will be anonymous and can't connected to the user.   
-
+\bigbreak
 Also the gathered data are stored encrypted in the SQLite database on the mobile device and just decrypted on a local computer after the researchers downloaded the encrypted entries from the SQL database on the server. That ensure that the files are not accessible in readable format at any time. 
  
 \end{flushleft}
@@ -103,13 +102,13 @@ Also the gathered data are stored encrypted in the SQLite database on the mobile
 The server is hosted by 1\&1 Internet SE as a completely pre-configured server backend PHP version 5.6 and the MYSQL-server phpMyAdmin in version 4.1.14.8. The also pre-configured server file system can be accessed using SSH or via FTP.
 
 \subsection{Server Frontend Design}
-The information for the participants of the study can access information web pages and access the downloadable Android application.
+The information for the participants of the study can access information web pages and access the downloadable Android application.\\
 The frontend is implemented in HTML5 and CSS3 and simply uploaded to the server. As everything is public available and accessible there was no need or using a framework or any further security implementation. 
 
 \subsection{Server Backend Design}
-The backend is implemented in PHP with the MYSQL-server phpMyAdmin database. 
+The backend is implemented in PHP with the MYSQL-server phpMyAdmin database.\\ 
 No external frameworks have been used to implement the basic REST-full service and the establishing of the database connection and the SQL queries. 
 
 \section{Encrpting Tool}
-The encryption tool an executable program written in Java for locally encrypting the downloaded gathered data. 
+The encryption tool an executable program written in Java for locally encrypting the downloaded gathered data.\\
 Its interface contains of an input field for the path of the downloaded data in JSON-format, a button for first reading and afterwards decrypting and a output text that shows the current state of the application. The tool writes the decrypted input values in a separate text file in the same directory of the input file with the same name but with the file extension .txt instead of .json. 
