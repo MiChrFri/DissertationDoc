@@ -69,11 +69,20 @@ The Controllers are called Activities in the Android Framework and is responsibl
 To keep the code base clean and to avoid bugs, the communication is separated by the controller. The Model doesn't directly communicate with the View and can't update it. It the case of changes, the Model informs the Controller, which decides whether or not to update the view etc. 
 
 \subsection{User Interface}
+
+\begin{figure}
+\includegraphics[width=\textwidth]{AndroidUI}
+\caption{Android Views}\label{aviews}
+\vspace{10 mm}
+\end{figure}
+
 The Application contains of two main user Interfaces, the gathering view and the question view.\\
 The gathering view is the control interface for starting and stopping the data gathering. Its interface changes depending the current state and the logical functionality and also provides an input field for the users email address.
 \bigbreak
 After sending the gathered data to the server the application displays the question view. Here the user sees a number of questions and check-boxes to answer the binary yes and no questions. 
 This interface also provides a send button to submit the answered questions to the Server.
+\bigbreak
+In Figure \ref{aviews} you can see the flow of the views in the applications.
 
 \subsection{Data Storage}
 For storing the gathered data entries, the app uses a SQLite datebase. SQLite uses SQL syntax which and is embedded in Android and well documented by Google. \cite{vogel2010android}. It is a very light weight database and provides an abstracted and easy way to store the values in an object oriented environment. SQLite is storing the data unencrypted by default. In order to make sure the stored data is save and can't be read, the data is been encrypted as soon it's been gathered.\\

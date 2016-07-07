@@ -19,31 +19,31 @@
 \contentsline {subsection}{\numberline {4.2.1}App Architecture}{16}{subsection.4.2.1}
 \contentsline {subsection}{\numberline {4.2.2}User Interface}{16}{subsection.4.2.2}
 \contentsline {subsection}{\numberline {4.2.3}Data Storage}{17}{subsection.4.2.3}
-\contentsline {subsection}{\numberline {4.2.4}API}{17}{subsection.4.2.4}
+\contentsline {subsection}{\numberline {4.2.4}API}{18}{subsection.4.2.4}
 \contentsline {subsection}{\numberline {4.2.5}User Information}{18}{subsection.4.2.5}
 \contentsline {section}{\numberline {4.3}Server Design}{19}{section.4.3}
 \contentsline {subsection}{\numberline {4.3.1}Server Frontend Design}{19}{subsection.4.3.1}
 \contentsline {subsection}{\numberline {4.3.2}Server Backend Design}{19}{subsection.4.3.2}
-\contentsline {section}{\numberline {4.4}Encrpting Tool}{19}{section.4.4}
-\contentsline {chapter}{Chapter{} \numberline {5}Implementation}{20}{chapter.5}
-\contentsline {section}{\numberline {5.1}Android}{20}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}User Interface}{21}{subsection.5.1.1}
-\contentsline {subsubsection}{Gather View}{21}{section*.9}
-\contentsline {subsubsection}{Question View}{22}{section*.10}
-\contentsline {subsubsection}{Information View}{22}{section*.11}
-\contentsline {subsubsection}{Permissions View}{22}{section*.12}
-\contentsline {subsection}{\numberline {5.1.2}Data Gathering}{23}{subsection.5.1.2}
-\contentsline {subsection}{\numberline {5.1.3}Data Storage}{23}{subsection.5.1.3}
-\contentsline {subsection}{\numberline {5.1.4}Security}{24}{subsection.5.1.4}
-\contentsline {section}{\numberline {5.2}Server}{25}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Back-End}{25}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}Webpages}{26}{subsection.5.2.2}
-\contentsline {section}{\numberline {5.3}Encryption Tool}{26}{section.5.3}
-\contentsline {chapter}{Chapter{} \numberline {6}Experiment}{27}{chapter.6}
-\contentsline {section}{\numberline {6.1}Setup and Execution}{27}{section.6.1}
-\contentsline {section}{\numberline {6.2}Expected Results}{28}{section.6.2}
-\contentsline {chapter}{Chapter{} \numberline {7}Results}{30}{chapter.7}
-\contentsline {chapter}{Chapter{} \numberline {8}Conclusions}{32}{chapter.8}
-\contentsline {section}{\numberline {8.1}Future Work}{32}{section.8.1}
-\contentsline {chapter}{Appendix{} \numberline {A}Abbreviations}{33}{appendix.A}
-\contentsline {chapter}{Bibliography}{34}{appendix*.13}
+\contentsline {section}{\numberline {4.4}Encrpting Tool}{20}{section.4.4}
+\contentsline {chapter}{Chapter{} \numberline {5}Implementation}{21}{chapter.5}
+\contentsline {section}{\numberline {5.1}Android}{21}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}User Interface}{22}{subsection.5.1.1}
+\contentsline {subsubsection}{Gather View}{22}{section*.9}
+\contentsline {subsubsection}{Question View}{23}{section*.10}
+\contentsline {subsubsection}{Information View}{23}{section*.11}
+\contentsline {subsubsection}{Permissions View}{23}{section*.12}
+\contentsline {subsection}{\numberline {5.1.2}Data Gathering}{24}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.3}Data Storage}{24}{subsection.5.1.3}
+\contentsline {subsection}{\numberline {5.1.4}Security}{25}{subsection.5.1.4}
+\contentsline {section}{\numberline {5.2}Server}{26}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Back-End}{26}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Webpages}{27}{subsection.5.2.2}
+\contentsline {section}{\numberline {5.3}Encryption Tool}{27}{section.5.3}
+\contentsline {chapter}{Chapter{} \numberline {6}Experiment}{28}{chapter.6}
+\contentsline {section}{\numberline {6.1}Setup and Execution}{28}{section.6.1}
+\contentsline {section}{\numberline {6.2}Expected Results}{29}{section.6.2}
+\contentsline {chapter}{Chapter{} \numberline {7}Results}{31}{chapter.7}
+\contentsline {chapter}{Chapter{} \numberline {8}Conclusions}{33}{chapter.8}
+\contentsline {section}{\numberline {8.1}Future Work}{33}{section.8.1}
+\contentsline {chapter}{Appendix{} \numberline {A}Abbreviations}{34}{appendix.A}
+\contentsline {chapter}{Bibliography}{35}{appendix*.13}
