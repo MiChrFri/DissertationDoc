@@ -1,6 +1,75 @@
-\chapter{Results}
+	\chapter{Results}
 
-The results.
+The results.......................................................................
+\bigbreak
+
+
+The outdoor light as seen in table \ref{outLight}! 
+
+\vspace{5 mm}
+
+%%%% TABLE outdoor light
+\setlength{\tabcolsep}{10pt}
+\renewcommand{\arraystretch}{1.5}
+{\rowcolors{3}{black!10!white!90}{white!100}
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{ |p{4cm}|p{4cm}|  }
+ \hline
+ \rowcolor{lightgray} \multicolumn{2}{|c|}{{\bf Common Light Levels Outdoor - Daytime}} \\
+ \hline
+{\bf Condition} & {\bf Illumination in lux}\\
+ \hline
+ Sunlight   		& 107,527\\
+ Full Daylight   	& 10,752.7\\
+ Overcast Day	& 1,075.3\\
+ Very Dark Day	& 107,527\\
+ \hline
+\end{tabular}
+\caption{Common Outdoor Light Levels}
+\label{outLight}
+\end{table}
+
+
+\begin{adjustbox}{width=\textwidth}
+\begin{tikzpicture}
+\begin{axis}[domain=0:1,legend pos=outer north east]
+\addplot[orange,very thick][smooth]coordinates {(0,0)(1,0.1)(4,0.9)(7,0.1)(12,0)};
+\addplot[green,very thick][smooth]coordinates {(0,0)(4,0)(5,0.1)(8,0.9)(11,0.1)(12,0)};
+\addplot[red,very thick]coordinates {(0,0)(12,0)};
+
+\legend{y,z,x}
+
+\end{axis}
+\end{tikzpicture}
+\end{adjustbox}
+
+
+
+%%%% TABLE indoor light
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{ |p{10cm}|p{4cm}|  }
+ \hline
+ \rowcolor{lightgray} \multicolumn{2}{|c|}{{\bf Common and Recommended Light Levels Indoor}} \\
+ \hline
+{\bf Activity/Location} & {\bf Illumination in lux}\\
+ \hline
+ Warehouses, Homes, Theaters, Archives   																	& 150\\
+ Easy Office Work, Classes   																						& 250\\
+ Normal Office Work, PC Work, Study Library, Groceries, Show Rooms, Laboratories	& 500\\
+ Supermarkets, Mechanical Workshops, Office Landscapes 											& 750\\
+ Normal Drawing Work, Detailed Mechanical Workshops, Operation Theatres 				& 1,000\\
+ Detailed Drawing Work, Very Detailed Mechanical Works 											& 1,500 - 2,000\\
+ \hline
+\end{tabular}
+\caption{Common \& Recommended Indoor Light Levels}
+\label{inLight}
+\end{table}
+
+
 
 
 \begin{figure}
@@ -14,27 +83,22 @@ The results.
 	title=Example Results,
 	unbounded coords=discard],
 	
+	
 	\addplot coordinates {
-		(0,0) 
-		(10,50) 
-		(20,100) 
-		(30,200) 
-		(40,inf) 
-		(50,600) 
-		(60,800) 
-		(80,1000)
-		(90,1000)
-		(100,1000)
-		(110,1000)
-		(120,1000)
-		(130,1000)
-		(140,1000)
-		(150,1000)
-		(160,1000)
-		(170,1000)
-		(180,1000)
+		(0,36.0)
+		(1,37.0)
+		(2,41.0)
+		(3,45.0)
+		(4,49.0)
+		(5,40.0)
+		(6,38.0)
+		(7,37.0)
+		(8,37.0)
+		(9,37.0)
+		(10,35.0)
 	};
 	
+			
 \addplot coordinates {
 		(0,0) 
 		(10,10) 
@@ -77,6 +141,10 @@ The results.
 		(180,1000)
 	};	
 	
+	
+
+	
+
 \end{axis}
 \end{tikzpicture}
  	\vspace{10 mm}

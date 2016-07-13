@@ -10,40 +10,41 @@
 \contentsline {section}{\numberline {2.1}Software Metrics}{7}{section.2.1}
 \contentsline {section}{\numberline {2.2}Metrics Measurement and Analysis}{8}{section.2.2}
 \contentsline {section}{\numberline {2.3}Mobile Data Gathering}{10}{section.2.3}
-\contentsline {section}{\numberline {2.4}Cognitive Performance}{10}{section.2.4}
-\contentsline {chapter}{Chapter{} \numberline {3}Background}{13}{chapter.3}
-\contentsline {section}{\numberline {3.1}Mobile Device Sensors}{13}{section.3.1}
-\contentsline {chapter}{Chapter{} \numberline {4}Design}{14}{chapter.4}
-\contentsline {section}{\numberline {4.1}Functionality Overview}{14}{section.4.1}
-\contentsline {section}{\numberline {4.2}Mobile Application Design}{14}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}App Architecture}{16}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}User Interface}{16}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {4.2.3}Data Storage}{17}{subsection.4.2.3}
-\contentsline {subsection}{\numberline {4.2.4}API}{18}{subsection.4.2.4}
-\contentsline {subsection}{\numberline {4.2.5}User Information}{18}{subsection.4.2.5}
-\contentsline {section}{\numberline {4.3}Server Design}{19}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Server Frontend Design}{19}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Server Backend Design}{19}{subsection.4.3.2}
-\contentsline {section}{\numberline {4.4}Encrpting Tool}{20}{section.4.4}
-\contentsline {chapter}{Chapter{} \numberline {5}Implementation}{21}{chapter.5}
-\contentsline {section}{\numberline {5.1}Android}{21}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}User Interface}{22}{subsection.5.1.1}
-\contentsline {subsubsection}{Gather View}{22}{section*.9}
-\contentsline {subsubsection}{Question View}{23}{section*.10}
-\contentsline {subsubsection}{Information View}{23}{section*.11}
-\contentsline {subsubsection}{Permissions View}{23}{section*.12}
-\contentsline {subsection}{\numberline {5.1.2}Data Gathering}{24}{subsection.5.1.2}
-\contentsline {subsection}{\numberline {5.1.3}Data Storage}{24}{subsection.5.1.3}
-\contentsline {subsection}{\numberline {5.1.4}Security}{25}{subsection.5.1.4}
-\contentsline {section}{\numberline {5.2}Server}{26}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Back-End}{26}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}Webpages}{27}{subsection.5.2.2}
-\contentsline {section}{\numberline {5.3}Encryption Tool}{27}{section.5.3}
-\contentsline {chapter}{Chapter{} \numberline {6}Experiment}{28}{chapter.6}
-\contentsline {section}{\numberline {6.1}Setup and Execution}{28}{section.6.1}
-\contentsline {section}{\numberline {6.2}Expected Results}{29}{section.6.2}
-\contentsline {chapter}{Chapter{} \numberline {7}Results}{31}{chapter.7}
-\contentsline {chapter}{Chapter{} \numberline {8}Conclusions}{33}{chapter.8}
-\contentsline {section}{\numberline {8.1}Future Work}{33}{section.8.1}
-\contentsline {chapter}{Appendix{} \numberline {A}Abbreviations}{34}{appendix.A}
-\contentsline {chapter}{Bibliography}{35}{appendix*.13}
+\contentsline {section}{\numberline {2.4}Cognitive Performance}{11}{section.2.4}
+\contentsline {section}{\numberline {2.5}Long Term improvements}{12}{section.2.5}
+\contentsline {chapter}{Chapter{} \numberline {3}Background}{14}{chapter.3}
+\contentsline {section}{\numberline {3.1}Mobile Device Sensors}{14}{section.3.1}
+\contentsline {chapter}{Chapter{} \numberline {4}Design}{15}{chapter.4}
+\contentsline {section}{\numberline {4.1}Functionality Overview}{15}{section.4.1}
+\contentsline {section}{\numberline {4.2}Mobile Application Design}{15}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}App Architecture}{17}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}User Interface}{17}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Data Storage}{18}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}API}{19}{subsection.4.2.4}
+\contentsline {subsection}{\numberline {4.2.5}User Information}{19}{subsection.4.2.5}
+\contentsline {section}{\numberline {4.3}Server Design}{20}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Server Frontend Design}{20}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Server Backend Design}{20}{subsection.4.3.2}
+\contentsline {section}{\numberline {4.4}Encrpting Tool}{21}{section.4.4}
+\contentsline {chapter}{Chapter{} \numberline {5}Implementation}{22}{chapter.5}
+\contentsline {section}{\numberline {5.1}Android}{22}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}User Interface}{23}{subsection.5.1.1}
+\contentsline {subsubsection}{Gather View}{23}{section*.9}
+\contentsline {subsubsection}{Question View}{24}{section*.10}
+\contentsline {subsubsection}{Information View}{24}{section*.11}
+\contentsline {subsubsection}{Permissions View}{24}{section*.12}
+\contentsline {subsection}{\numberline {5.1.2}Data Gathering}{25}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.3}Data Storage}{25}{subsection.5.1.3}
+\contentsline {subsection}{\numberline {5.1.4}Security}{26}{subsection.5.1.4}
+\contentsline {section}{\numberline {5.2}Server}{27}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Back-End}{27}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Webpages}{28}{subsection.5.2.2}
+\contentsline {section}{\numberline {5.3}Encryption Tool}{28}{section.5.3}
+\contentsline {chapter}{Chapter{} \numberline {6}Experiment}{29}{chapter.6}
+\contentsline {section}{\numberline {6.1}Setup and Execution}{29}{section.6.1}
+\contentsline {section}{\numberline {6.2}Expected Results}{30}{section.6.2}
+\contentsline {chapter}{Chapter{} \numberline {7}Results}{32}{chapter.7}
+\contentsline {chapter}{Chapter{} \numberline {8}Conclusions}{35}{chapter.8}
+\contentsline {section}{\numberline {8.1}Future Work}{35}{section.8.1}
+\contentsline {chapter}{Appendix{} \numberline {A}Abbreviations}{36}{appendix.A}
+\contentsline {chapter}{Bibliography}{38}{appendix*.13}

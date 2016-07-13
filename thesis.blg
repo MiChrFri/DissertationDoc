@@ -1,55 +1,58 @@
 This is BibTeX, Version 0.99d (TeX Live 2015)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: thesis.aux
+A level-1 auxiliary file: abstract.aux
 A level-1 auxiliary file: introduction.aux
 A level-1 auxiliary file: sota.aux
 A level-1 auxiliary file: background.aux
 A level-1 auxiliary file: design.aux
 A level-1 auxiliary file: implementation.aux
-A level-1 auxiliary file: chapter5.aux
+A level-1 auxiliary file: experiement.aux
 A level-1 auxiliary file: results.aux
-A level-1 auxiliary file: chapter7.aux
+A level-1 auxiliary file: conclusion.aux
 A level-1 auxiliary file: appendix1.aux
 The style file: plain.bst
 Database file #1: references.bib
-You've used 24 entries,
+Warning--to sort, need author or key in androidpermissions
+You've used 25 entries,
             2118 wiz_defined-function locations,
-            667 strings with 9471 characters,
-and the built_in function-call counts, 8814 in all, are:
-= -- 906
-> -- 388
-< -- 8
-+ -- 156
-- -- 130
-* -- 593
-:= -- 1418
-add.period$ -- 82
-call.type$ -- 24
+            670 strings with 9465 characters,
+and the built_in function-call counts, 8699 in all, are:
+= -- 891
+> -- 373
+< -- 7
++ -- 152
+- -- 124
+* -- 581
+:= -- 1404
+add.period$ -- 84
+call.type$ -- 25
 change.case$ -- 136
 chr.to.int$ -- 0
-cite$ -- 24
-duplicate$ -- 349
-empty$ -- 694
-format.name$ -- 130
-if$ -- 1899
+cite$ -- 26
+duplicate$ -- 342
+empty$ -- 700
+format.name$ -- 124
+if$ -- 1868
 int.to.chr$ -- 0
-int.to.str$ -- 24
+int.to.str$ -- 25
 missing$ -- 22
-newline$ -- 124
+newline$ -- 129
 num.names$ -- 48
-pop$ -- 153
+pop$ -- 156
 preamble$ -- 1
-purify$ -- 112
+purify$ -- 111
 quote$ -- 0
-skip$ -- 254
+skip$ -- 245
 stack$ -- 0
-substring$ -- 548
-swap$ -- 96
-text.length$ -- 8
+substring$ -- 533
+swap$ -- 86
+text.length$ -- 7
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 94
-warning$ -- 0
-while$ -- 88
-width$ -- 26
-write$ -- 279
+type$ -- 98
+warning$ -- 1
+while$ -- 87
+width$ -- 27
+write$ -- 286
+(There was 1 warning)

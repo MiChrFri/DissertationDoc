@@ -1,5 +1,11 @@
 \begin{thebibliography}{10}
 
+\bibitem{androidpermissions}
+System permissions.
+\newblock
+  \url{https://developer.android.com/guide/topics/security/permissions.html}.
+\newblock accessed on 02.07.2016.
+
 \bibitem{amabile1996assessing}
 Teresa~M Amabile, Regina Conti, Heather Coon, Jeffrey Lazenby, and Michael
   Herron.
@@ -34,7 +40,7 @@ Inc. Gartner.
 \newblock Gartner says worldwide smartphone sales grew 9.7 percent in fourth
   quarter of 2015.
 \newblock \url{http://www.gartner.com/newsroom/id/3215217}, February 2016.
-\newblock accessed on 06.08.2016.
+\newblock accessed on 08.06.2016.
 
 \bibitem{goadrich2011smart}
 Mark~H Goadrich and Michael~P Rogers.
@@ -47,7 +53,7 @@ Inc. Google.
 \newblock Sensors overview.
 \newblock
   \url{https://developer.android.com/guide/topics/sensors/sensors_overview.html}.
-\newblock accessed on 06.08.2016.
+\newblock accessed on 08.06.2016.
 
 \bibitem{holzinger2012making}
 Andreas Holzinger, Peter Treitler, and Wolfgang Slany.
@@ -123,13 +129,6 @@ Philip~E Ross.
 \newblock The exterminators [software bugs].
 \newblock {\em Spectrum, IEEE}, 42(9):36--41, 2005.
 
-\bibitem{snipes2013towards}
-Will Snipes, Vinay Augustine, Anil~R Nair, and Emerson Murphy-Hill.
-\newblock Towards recognizing and rewarding efficient developer work patterns.
-\newblock In {\em Proceedings of the 2013 International Conference on Software
-  Engineering}, pages 1277--1280, San Francisco, California, USA, 2013. IEEE
-  Press.
-
 \bibitem{spencer2008food}
 Jeremy~PE Spencer.
 \newblock Food for thought: the role of dietary flavonoids in enhancing human
@@ -147,6 +146,11 @@ Paul~Andrew Watters, Frances Martin, and Zoltan Schreter.
 \newblock Caffeine and cognitive performance: the nonlinear yerkes--dodson law.
 \newblock {\em Human Psychopharmacology: Clinical and Experimental, publisher:
   Wiley Online Library}, 12(3):249--257, 1997.
+
+\bibitem{wirth2008brief}
+Niklaus Wirth.
+\newblock A brief history of software engineering.
+\newblock {\em IEEE Annals of the History of Computing}, 1(3):32--39, 2008.
 
 \bibitem{zhu2015mining}
 Hengshu Zhu, Enhong Chen, Hui Xiong, Kuifei Yu, Huanhuan Cao, and Jilei Tian.

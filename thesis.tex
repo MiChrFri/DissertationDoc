@@ -28,6 +28,7 @@
 \documentclass[a4paper, 12pt, oneside]{report}    	%% LaTeX2e document.
 \usepackage {tcdthesis}              								%% Preamble.
 \usepackage{graphicx,color}
+\usepackage[table]{xcolor}
 \usepackage{anysize}
 \usepackage{amsmath}
 \usepackage{pgfplots}
@@ -35,8 +36,8 @@
 \usepackage{lmodern}
 \usepackage{url}
 \usepackage{hyperref}
-
 \usepackage{graphicx}
+\usepackage{adjustbox}
 \graphicspath{ {images/} }
 
 %\hyphenation{human, measuring, several, students}
@@ -56,55 +57,25 @@
                                      								%% minimum spacing accepted by the
                                      								%% Graduate School.
 
-\renewcommand{\thesisauthor}{Michael Christian Frick}        %% Your official UT name.
+\renewcommand{\thesisauthor}{Michael Christian Frick}
 \renewcommand{\thesismonth}{September}             			%% Your month of graduation.
 \renewcommand{\thesisyear}{2016}                     				%% Your year of graduation.
-\renewcommand{\thesistitle}{\large{Learning Processes and Consistency in the Quality of Software Development Based on Environmental Influences} }            %% The title of your thesis; use mixed-case.
+\renewcommand{\thesistitle}{\large{Learning Processes and Consistency in the Quality of Software Development Based on Environmental Influences} }
 \renewcommand{\thesisauthorpreviousdegrees}{B.Sc.}  		%% Your previous degrees, abbreviated; separate multiple degrees by commas.
-\renewcommand{\thesissupervisor}{Stephen Barrett}      		%% Your thesis supervisor; use mixed-case and don't use any titles or degrees.
+\renewcommand{\thesissupervisor}{Stephen Barrett}
 
-	
 \renewcommand{\thesisauthoraddress}{Dublin, Ireland}
-
-%\renewcommand{\thesisdedication}{...}     %% Your dedication, if you have one; use "\\" for linebreaks.
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%% The following commands are all optional, but useful if your requirements
-%%% are different from the default values in utthesis.sty.  To use them,
-%%% simply uncomment (remove the leading %) the line(s).
-
-\renewcommand{\thesisdegree}{Master of Science in Computer Science}  %% Uncomment this only if your thesis
-                                     %% degree is NOT "DOCTOR OF PHILOSOPHY"
-                                     %% for \phdthesis or "MASTER OF ARTS"
-                                     %% for \mastersthesis.  Provide the
-                                     %% correct FULL OFFICIAL name of
-                                     %% the degree.
-
+\renewcommand{\thesisdegree}{Master of Science in Computer Science}
 \renewcommand{\thesisdegreeabbreviation}{M.Sc.}
-                                     %% Use this if you also use the above
-                                     %% command; provide the OFFICIAL
-                                     %% abbreviation of your thesis degree.
-
-\renewcommand{\thesistype}{Dissertation}    %% Use this ONLY if your thesis type
-                                     %% is NOT "Dissertation" for \phdthesis
-                                     %% or "Thesis" for \mastersthesis.
-                                     %% Provide the OFFICIAL type of the
-                                     %% thesis; use mixed-case.
+\renewcommand{\thesistype}{Dissertation}
 
                                      
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
-\begin{document}                                  	%% BEGIN THE DOCUMENT
+%%%%%%%%%%%%%%%%%%%% BEGIN THE DOCUMENT %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
 
 \thesistitlepage                                  		%% Generate the title page.
-
 \thesisdeclarationpage									%% Generate the declaration page.
-
 \thesispermissionpage									%% Generate the copyright permission page
-
-%\thesisdedicationpage                            %% Generate the dedication page.
 
 \begin{thesisacknowledgments}               	%% Use this to write your
 			                          							%% acknowledgments; it can be anything
@@ -113,9 +84,7 @@ Give many thanks and stuff...
 \end{thesisacknowledgments}                   %% allowed in LaTeX2e par-mode.
 
 \begin{thesisabstract}
-
 \include{abstract}      
-
 \end{thesisabstract}
 
 %%%%%%%%%%%%%%%%%%%%%%
@@ -149,4 +118,4 @@ Give many thanks and stuff...
 \bibliographystyle{plain}
 %\end{thebibliography}      
 
-\end{document}                                    %% END THE DOCUMENT
+\end{document}
