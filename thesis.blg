@@ -14,45 +14,46 @@ A level-1 auxiliary file: appendix1.aux
 The style file: plain.bst
 Database file #1: references.bib
 Warning--to sort, need author or key in androidpermissions
-You've used 25 entries,
+Warning--to sort, need author or key in weatherArchive
+You've used 34 entries,
             2118 wiz_defined-function locations,
-            670 strings with 9465 characters,
-and the built_in function-call counts, 8699 in all, are:
-= -- 891
-> -- 373
+            724 strings with 10924 characters,
+and the built_in function-call counts, 11261 in all, are:
+= -- 1148
+> -- 481
 < -- 7
-+ -- 152
-- -- 124
-* -- 581
-:= -- 1404
-add.period$ -- 84
-call.type$ -- 25
-change.case$ -- 136
++ -- 198
+- -- 158
+* -- 753
+:= -- 1832
+add.period$ -- 112
+call.type$ -- 34
+change.case$ -- 179
 chr.to.int$ -- 0
-cite$ -- 26
-duplicate$ -- 342
-empty$ -- 700
-format.name$ -- 124
-if$ -- 1868
+cite$ -- 36
+duplicate$ -- 434
+empty$ -- 915
+format.name$ -- 158
+if$ -- 2398
 int.to.chr$ -- 0
-int.to.str$ -- 25
-missing$ -- 22
-newline$ -- 129
-num.names$ -- 48
-pop$ -- 156
+int.to.str$ -- 34
+missing$ -- 30
+newline$ -- 175
+num.names$ -- 64
+pop$ -- 203
 preamble$ -- 1
-purify$ -- 111
+purify$ -- 146
 quote$ -- 0
-skip$ -- 245
+skip$ -- 308
 stack$ -- 0
-substring$ -- 533
-swap$ -- 86
+substring$ -- 688
+swap$ -- 95
 text.length$ -- 7
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 98
-warning$ -- 1
-while$ -- 87
-width$ -- 27
-write$ -- 286
-(There was 1 warning)
+type$ -- 132
+warning$ -- 2
+while$ -- 114
+width$ -- 36
+write$ -- 383
+(There were 2 warnings)

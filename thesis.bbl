@@ -6,12 +6,32 @@ System permissions.
   \url{https://developer.android.com/guide/topics/security/permissions.html}.
 \newblock accessed on 02.07.2016.
 
+\bibitem{weatherArchive}
+Weather archive.
+\newblock \url{http://www.timeanddate.com/weather}.
+\newblock accessed on 14.07.2016.
+
 \bibitem{amabile1996assessing}
 Teresa~M Amabile, Regina Conti, Heather Coon, Jeffrey Lazenby, and Michael
   Herron.
 \newblock Assessing the work environment for creativity.
 \newblock {\em Academy of management journal, publisher: Academy of
   Management}, 39(5):1154--1184, 1996.
+
+\bibitem{bercovici2015}
+Jeff Bercovici.
+\newblock Slack is our company of the year. here's why everybody's talking
+  about it.
+\newblock
+  \url{http://www.inc.com/magazine/201512/jeff-bercovici/slack-company-of-the-year-2015.html},
+  2015.
+\newblock accessed on 15.07.2016.
+
+\bibitem{carmel1999global}
+Erran Carmel.
+\newblock {\em Global software teams: collaborating across borders and time
+  zones}.
+\newblock Prentice Hall PTR, 1999.
 
 \bibitem{cusumano1997microsoft}
 Michael~A Cusumano.
@@ -61,6 +81,11 @@ Andreas Holzinger, Peter Treitler, and Wolfgang Slany.
   interoperability for business application development on smartphones.
 \newblock In {\em Multidisciplinary research and practice for information
   systems}, pages 176--189. Springer, 2012.
+
+\bibitem{jarvenpaa1998communication}
+Sirkka~L Jarvenpaa and Dorothy~E Leidner.
+\newblock Communication and trust in global virtual teams.
+\newblock {\em Journal of Computer-Mediated Communication}, 3(4):0--0, 1998.
 
 \bibitem{jiang2008comparing}
 Yue Jiang, Bojan Cuki, Tim Menzies, and Nick Bartlow.
@@ -118,11 +143,40 @@ Robert~C. Martin.
 \newblock Prentice Hall PTR, ISBN 0132350882, 9780132350884, Upper Saddle
   River, NJ, USA, 1 edition, 2008.
 
+\bibitem{moe2010teamwork}
+Nils~Brede Moe, Torgeir Dings{\o}yr, and Tore Dyb{\aa}.
+\newblock A teamwork model for understanding an agile team: A case study of a
+  scrum project.
+\newblock {\em Information and Software Technology}, 52(5):480--491, 2010.
+
 \bibitem{norris2008clockit}
 Cindy Norris, Frank Barry, James~B Fenwick~Jr, Kathryn Reid, and Josh Rountree.
 \newblock Clockit: collecting quantitative data on how beginning software
   developers really work.
 \newblock {\em ACM SIGCSE Bulletin, publisher: ACM}, 40(3):37--41, 2008.
+
+\bibitem{pinto1990project}
+Mary~Beth Pinto and Jeffrey~K Pinto.
+\newblock Project team communication and cross-functional cooperation in new
+  program development.
+\newblock {\em Journal of product innovation management}, 7(3):200--212, 1990.
+
+\bibitem{pope2015impact}
+Devin~G Pope and Ian Fillmore.
+\newblock The impact of time between cognitive tasks on performance: Evidence
+  from advanced placement exams.
+\newblock {\em Economics of Education Review, publisher: Elsevier}, 48:30--40,
+  2015.
+
+\bibitem{ramesh2006can}
+Balasubramaniam Ramesh, Lan Cao, Kannan Mohan, and Peng Xu.
+\newblock Can distributed software development be agile?
+\newblock {\em Communications of the ACM}, 49(10):41--46, 2006.
+
+\bibitem{rising2000scrum}
+Linda Rising and Norman~S Janoff.
+\newblock The scrum software development process for small teams.
+\newblock {\em IEEE software}, 17(4):26, 2000.
 
 \bibitem{ross2005exterminators}
 Philip~E Ross.

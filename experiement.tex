@@ -17,3 +17,108 @@ After completing the task, the participant uploads the solution code to Github a
 
 \section{Expected Results}
 Based on the previous work of other researchers in this area and based on my own experience, I expect to find correlations between the code quality and the environmental noise. The high amount of distraction noises will probably negatively influence the concentration of the participants and decrease the code quality. My own experience showed me that background music can improve the cognitive functionality but depending on the concentration which is needed for the task. Before doing research I was sure to find correlations between sunshine and a better performance compared to cloudy or even rainy days for a big amount of the participants. Anyways, I think that the result might show different groups of people that perform different in the same environment compared to each other. It would be possible to find out that some group of people work better at night listening to music and another group performs best during the morning on a bench in a quite park.
+
+
+\section{Classification}
+With the values it might be possible to find correlations between them and the coding quality. However, that approach is not using the full capability. In order to understand the values rather than just using them it makes sense to interpret them and bring it into a context. Previous research results as well as classifying controlled tested events using the gathered values will be described in further detail within the next paragraphs.
+
+\subsection{Indoor Outdoor differentiation}
+The brightness of indoor lightning differs from outdoor light a lot. Indoor environments are mostly receiving light during a artificial light source which flickers in a rate than can't be noticed by the human eye. Sadly the light sensor of the mobile devices is not precise enough to detect that flickering. Anyhow, also the luminance indoor and outdoor is different. Artificial lights are just not as powerful as the sun it would require a  ridiculous amount of lighthouses. 
+As seen in the two tables \ref{outLight} and \ref{inLight} based on the lux from the light sensor it is possible to detect whether the device is indoor or outdoor by a high probability.
+
+
+%%%% TABLE outdoor light
+\setlength{\tabcolsep}{10pt}
+\renewcommand{\arraystretch}{1.5}
+{\rowcolors{3}{black!10!white!90}{white!100}
+
+\begin{table}[!htb]
+\centering
+\begin{tabular}{ |p{4cm}|p{4cm}|  }
+ \hline
+ \rowcolor{lightgray} \multicolumn{2}{|c|}{{\bf Common Light Levels Outdoor - Daytime}} \\
+ \hline
+{\bf Condition} & {\bf Illumination in lux}\\
+ \hline
+ Sunlight   		& 107,527\\
+ Full Daylight   	& 10,752.7\\
+ Overcast Day	& 1,075.3\\
+ Very Dark Day	& 107,527\\
+ \hline
+\end{tabular}
+\caption{Common Outdoor Light Levels}
+\label{outLight}
+\end{table}
+
+%%%% TABLE indoor light
+\begin{table}[!htb]
+\centering
+\begin{tabular}{ |p{10cm}|p{4cm}|  }
+ \hline
+ \rowcolor{lightgray} \multicolumn{2}{|c|}{{\bf Common and Recommended Light Levels Indoor}} \\
+ \hline
+{\bf Activity/Location} & {\bf Illumination in lux}\\
+ \hline
+ Warehouses, Homes, Theaters, Archives   																	& 150\\
+ Easy Office Work, Classes   																						& 250\\
+ Normal Office Work, PC Work, Study Library, Groceries, Show Rooms, Laboratories	& 500\\
+ Supermarkets, Mechanical Workshops, Office Landscapes 											& 750\\
+ Normal Drawing Work, Detailed Mechanical Workshops, Operation Theatres 				& 1,000\\
+ Detailed Drawing Work, Very Detailed Mechanical Works 											& 1,500 - 2,000\\
+ \hline
+\end{tabular}
+\caption{Common \& Recommended Indoor Light Levels}
+\label{inLight}
+\end{table}
+
+\FloatBarrier
+\clearpage
+
+\subsection{Usage of Mobile Phone}
+The Y and Z axis of the 3D accelerometer can be used to detect whether the participant uses his phone. The simple classification picks up the change between the mobile device laying flat on the desk and the device being in a vertical position which is the position it would be when the user holds it in his/her hand. The graphic \ref{accDev} shows shows the two states and the changes in the Y and Z-axis values. 
+
+\begin{figure}[!htb]
+\centering
+\includegraphics[width=10cm]{accDevice}
+\caption{Android Views}\label{accDev}
+\vspace{10 mm}
+\end{figure}
+
+\FloatBarrier
+
+\subsection{Guessing the users location}
+In order to guess the location of the user, the location with the environmental noise as well as the detection whether the user is indoor our outside. The location accuracy depends on the way how it is been calculated which is ether the network or GPS. However, it can vary and can't ensure a perfect detected location but using the noise and indoor/outdoor information can help to limit the results to less possibilities. When, for example the location shows a radius in an area with a library, a coffee shop and a public crowded square it's a high chance that the library is not an option in the case of a noisy environment. In order to detect whether the user is in the coffee-shop or the square, the light sensor can detect whether the light value is in the outdoor or indoor brightness range. 
+
+\subsection{Movement}
+The movement of the user can directly be seen by the steps he/she walks during the start of the gathering until the ending. The distance and the frequency shows if the user just walks to the fridge, toilet or somewhere close or actually walks from one place to another. Also the locations can indicate that. 
+The location can also show whether the user was on public transport, on a train/car or an Airplane depending on the travel speed and from where the user started and where he/she arrives (airport, garage, train-station etc.). 
+
+\subsection{Weather Conditions}
+With the location and the timestamps of the gathering and it is possible to get information about the local weather of the users location at the time when the gathering happend using the website   http://www.timeanddate.com/weather \cite{weatherArchive}.
+
+\subsection{Music}
+Using the environmental noise it is possible to find patterns that can be related to music. In general modern music has a very constant noise level rather than the dynamic classical music. The iTunes top 100 songs at July 14th 2016 have an average length of 3:39 minutes, the shortest song is 2:42 minutes and the longest 5:13 minutes long.
+In order to detect whether the participant is listening to music the volume should go down for 2-5 seconds between a track with a duration between 2:30 minutes and 5:30 minutes. 
+A regular pattern with these attributes should indicate that the user is listening to background music while working on the coding task.
+
+\section{Questions}
+After the gathering process, the participant is asked to answer some questions:
+\begin{itemize}
+\item Are you a Student?
+\item Did you work in a team?
+\item Did you listen to music?
+\item Did you feel tired?
+\item Did you enjoy the tasks?
+\item Did you give all you attention to the tasks?
+\item Were you distracted during the tasks?
+\item Did you feel stressed
+\item Do you think the tasks were easy?
+\end{itemize}
+
+All the questions can either be checked to indicate 'yes' or leave unchecked for 'no'. The answers can help to clarify the classification or to get new additional contexts. Some of the questions are created based on the knowledge from previous work of researchers and their results that can possibly influence cognitive performance. 
+In a long term, asking questions is not optimal. In the future the app is supposed to learn and slowly make the questions unnecessary. Currently there is a way to detect whether the user is listening to music by identifying patterns but the accuracy is not exactly known and therefore also asked as a question. If the detection using the environmental noise is highly accurate, the question can be removed from the app. 
+ 
+
+
+
+
