@@ -82,6 +82,11 @@ Andreas Holzinger, Peter Treitler, and Wolfgang Slany.
 \newblock In {\em Multidisciplinary research and practice for information
   systems}, pages 176--189. Springer, 2012.
 
+\bibitem{jain1999data}
+Anil~K Jain, M~Narasimha Murty, and Patrick~J Flynn.
+\newblock Data clustering: a review.
+\newblock {\em ACM computing surveys (CSUR)}, 31(3):264--323, 1999.
+
 \bibitem{jarvenpaa1998communication}
 Sirkka~L Jarvenpaa and Dorothy~E Leidner.
 \newblock Communication and trust in global virtual teams.
@@ -130,6 +135,13 @@ Iftikhar~Ahmed Khan, Robert~M Hierons, and Willem~Paul Brinkman.
 \newblock In {\em Proceedings of the 14th European conference on Cognitive
   ergonomics: invent! explore!}, pages 269--272, London UK, Aug 2007. ACM.
 
+\bibitem{korpipaa2003bayesian}
+Panu Korpip{\"a}{\"a}, Miika Koskinen, Johannes Peltola, Satu-Marja
+  M{\"a}kel{\"a}, and Tapio Sepp{\"a}nen.
+\newblock Bayesian approach to sensor-based context awareness.
+\newblock {\em Personal and Ubiquitous Computing, publisher: Springer-Verlag},
+  7(2):113--124, 2003.
+
 \bibitem{laugesen2010factors}
 John Laugesen and Yufei Yuan.
 \newblock What factors contributed to the success of apple's iphone?
@@ -177,6 +189,12 @@ Balasubramaniam Ramesh, Lan Cao, Kannan Mohan, and Peng Xu.
 Linda Rising and Norman~S Janoff.
 \newblock The scrum software development process for small teams.
 \newblock {\em IEEE software}, 17(4):26, 2000.
+
+\bibitem{rogers1995costs}
+Robert~D Rogers and Stephen Monsell.
+\newblock Costs of a predicatible switch between simple cognitive tasks.
+\newblock {\em Journal of experimental psychology: General, publisher: American
+  Psychological Association}, 124(2):207--231, 1995.
 
 \bibitem{ross2005exterminators}
 Philip~E Ross.

@@ -10,54 +10,55 @@
 \contentsline {section}{\numberline {2.1}Software Metrics}{7}{section.2.1}
 \contentsline {section}{\numberline {2.2}Metrics Measurement and Analysis}{8}{section.2.2}
 \contentsline {section}{\numberline {2.3}Mobile Data Gathering}{10}{section.2.3}
-\contentsline {section}{\numberline {2.4}Variable Quality Influences}{11}{section.2.4}
-\contentsline {section}{\numberline {2.5}Team Communication}{11}{section.2.5}
-\contentsline {section}{\numberline {2.6}Cognitive Performance}{13}{section.2.6}
-\contentsline {subsection}{\numberline {2.6.1}Context Switching}{13}{subsection.2.6.1}
-\contentsline {subsection}{\numberline {2.6.2}Work environment}{13}{subsection.2.6.2}
-\contentsline {subsection}{\numberline {2.6.3}Arousal}{14}{subsection.2.6.3}
-\contentsline {subsection}{\numberline {2.6.4}Diet}{15}{subsection.2.6.4}
-\contentsline {chapter}{Chapter{} \numberline {3}Background}{16}{chapter.3}
-\contentsline {section}{\numberline {3.1}Mobile Device Sensors}{16}{section.3.1}
-\contentsline {chapter}{Chapter{} \numberline {4}Design}{17}{chapter.4}
-\contentsline {section}{\numberline {4.1}Functionality Overview}{17}{section.4.1}
-\contentsline {section}{\numberline {4.2}Mobile Application Design}{17}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}App Architecture}{19}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}User Interface}{19}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {4.2.3}Data Storage}{20}{subsection.4.2.3}
-\contentsline {subsection}{\numberline {4.2.4}API}{21}{subsection.4.2.4}
-\contentsline {subsection}{\numberline {4.2.5}User Information}{21}{subsection.4.2.5}
-\contentsline {section}{\numberline {4.3}Server Design}{22}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Server Frontend Design}{22}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Server Backend Design}{22}{subsection.4.3.2}
-\contentsline {section}{\numberline {4.4}Encrpting Tool}{23}{section.4.4}
-\contentsline {chapter}{Chapter{} \numberline {5}Implementation}{24}{chapter.5}
-\contentsline {section}{\numberline {5.1}Android}{24}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}User Interface}{25}{subsection.5.1.1}
-\contentsline {subsubsection}{Gather View}{25}{section*.9}
-\contentsline {subsubsection}{Question View}{26}{section*.10}
-\contentsline {subsubsection}{Information View}{26}{section*.11}
-\contentsline {subsubsection}{Permissions View}{26}{section*.12}
-\contentsline {subsection}{\numberline {5.1.2}Data Gathering}{27}{subsection.5.1.2}
-\contentsline {subsection}{\numberline {5.1.3}Data Storage}{27}{subsection.5.1.3}
-\contentsline {subsection}{\numberline {5.1.4}Security}{28}{subsection.5.1.4}
-\contentsline {section}{\numberline {5.2}Server}{29}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Back-End}{29}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}Webpages}{30}{subsection.5.2.2}
-\contentsline {section}{\numberline {5.3}Encryption Tool}{30}{section.5.3}
-\contentsline {chapter}{Chapter{} \numberline {6}Experiment}{31}{chapter.6}
-\contentsline {section}{\numberline {6.1}Setup and Execution}{31}{section.6.1}
-\contentsline {section}{\numberline {6.2}Expected Results}{32}{section.6.2}
-\contentsline {section}{\numberline {6.3}Classification}{33}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}Indoor Outdoor differentiation}{33}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}Usage of Mobile Phone}{35}{subsection.6.3.2}
-\contentsline {subsection}{\numberline {6.3.3}Guessing the users location}{35}{subsection.6.3.3}
-\contentsline {subsection}{\numberline {6.3.4}Movement}{36}{subsection.6.3.4}
-\contentsline {subsection}{\numberline {6.3.5}Weather Conditions}{36}{subsection.6.3.5}
-\contentsline {subsection}{\numberline {6.3.6}Music}{36}{subsection.6.3.6}
-\contentsline {section}{\numberline {6.4}Questions}{37}{section.6.4}
-\contentsline {chapter}{Chapter{} \numberline {7}Results}{38}{chapter.7}
-\contentsline {chapter}{Chapter{} \numberline {8}Conclusions}{39}{chapter.8}
-\contentsline {section}{\numberline {8.1}Future Work}{39}{section.8.1}
-\contentsline {chapter}{Appendix{} \numberline {A}Abbreviations}{40}{appendix.A}
-\contentsline {chapter}{Bibliography}{42}{appendix*.13}
+\contentsline {section}{\numberline {2.4}Data Clustering}{11}{section.2.4}
+\contentsline {section}{\numberline {2.5}Variable Quality Influences}{12}{section.2.5}
+\contentsline {section}{\numberline {2.6}Team Communication}{12}{section.2.6}
+\contentsline {section}{\numberline {2.7}Cognitive Performance}{14}{section.2.7}
+\contentsline {subsection}{\numberline {2.7.1}Context Switching}{14}{subsection.2.7.1}
+\contentsline {subsection}{\numberline {2.7.2}Work environment}{15}{subsection.2.7.2}
+\contentsline {subsection}{\numberline {2.7.3}Arousal}{16}{subsection.2.7.3}
+\contentsline {subsection}{\numberline {2.7.4}Diet}{17}{subsection.2.7.4}
+\contentsline {chapter}{Chapter{} \numberline {3}Background}{18}{chapter.3}
+\contentsline {section}{\numberline {3.1}Mobile Device Sensors}{18}{section.3.1}
+\contentsline {chapter}{Chapter{} \numberline {4}Design}{19}{chapter.4}
+\contentsline {section}{\numberline {4.1}Functionality Overview}{19}{section.4.1}
+\contentsline {section}{\numberline {4.2}Mobile Application Design}{19}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}App Architecture}{21}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}User Interface}{21}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Data Storage}{22}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}API}{23}{subsection.4.2.4}
+\contentsline {subsection}{\numberline {4.2.5}User Information}{23}{subsection.4.2.5}
+\contentsline {section}{\numberline {4.3}Server Design}{24}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Server Frontend Design}{24}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Server Backend Design}{24}{subsection.4.3.2}
+\contentsline {section}{\numberline {4.4}Encrpting Tool}{25}{section.4.4}
+\contentsline {chapter}{Chapter{} \numberline {5}Implementation}{26}{chapter.5}
+\contentsline {section}{\numberline {5.1}Android}{26}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}User Interface}{27}{subsection.5.1.1}
+\contentsline {subsubsection}{Gather View}{27}{section*.9}
+\contentsline {subsubsection}{Question View}{28}{section*.10}
+\contentsline {subsubsection}{Information View}{28}{section*.11}
+\contentsline {subsubsection}{Permissions View}{28}{section*.12}
+\contentsline {subsection}{\numberline {5.1.2}Data Gathering}{29}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.3}Data Storage}{29}{subsection.5.1.3}
+\contentsline {subsection}{\numberline {5.1.4}Security}{30}{subsection.5.1.4}
+\contentsline {section}{\numberline {5.2}Server}{31}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Back-End}{31}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Webpages}{32}{subsection.5.2.2}
+\contentsline {section}{\numberline {5.3}Encryption Tool}{32}{section.5.3}
+\contentsline {chapter}{Chapter{} \numberline {6}Experiment}{33}{chapter.6}
+\contentsline {section}{\numberline {6.1}Setup and Execution}{33}{section.6.1}
+\contentsline {section}{\numberline {6.2}Expected Results}{34}{section.6.2}
+\contentsline {section}{\numberline {6.3}Classification}{35}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Indoor Outdoor differentiation}{35}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Usage of Mobile Phone}{37}{subsection.6.3.2}
+\contentsline {subsection}{\numberline {6.3.3}Guessing the users location}{37}{subsection.6.3.3}
+\contentsline {subsection}{\numberline {6.3.4}Movement}{38}{subsection.6.3.4}
+\contentsline {subsection}{\numberline {6.3.5}Weather Conditions}{38}{subsection.6.3.5}
+\contentsline {subsection}{\numberline {6.3.6}Music}{38}{subsection.6.3.6}
+\contentsline {section}{\numberline {6.4}Questions}{39}{section.6.4}
+\contentsline {chapter}{Chapter{} \numberline {7}Results}{40}{chapter.7}
+\contentsline {chapter}{Chapter{} \numberline {8}Conclusions}{41}{chapter.8}
+\contentsline {section}{\numberline {8.1}Future Work}{41}{section.8.1}
+\contentsline {chapter}{Appendix{} \numberline {A}Abbreviations}{42}{appendix.A}
+\contentsline {chapter}{Bibliography}{44}{appendix*.13}
