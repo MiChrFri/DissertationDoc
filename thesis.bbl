@@ -38,6 +38,13 @@ Michael~A Cusumano.
 \newblock How microsoft makes large teams work like small teams.
 \newblock {\em MIT Sloan Management Review}, 39(1):9, 1997.
 
+\bibitem{dabbish2012social}
+Laura Dabbish, Colleen Stuart, Jason Tsay, and Jim Herbsleb.
+\newblock Social coding in github: transparency and collaboration in an open
+  software repository.
+\newblock In {\em Proceedings of the ACM 2012 conference on Computer Supported
+  Cooperative Work}, pages 1277--1286. ACM, 2012.
+
 \bibitem{denissen2008effects}
 Jaap~JA Denissen, Ligaya Butalid, Lars Penke, and Marcel~AG Van~Aken.
 \newblock The effects of weather on daily mood: A multilevel approach.
@@ -200,6 +207,13 @@ Robert~D Rogers and Stephen Monsell.
 Philip~E Ross.
 \newblock The exterminators [software bugs].
 \newblock {\em Spectrum, IEEE}, 42(9):36--41, 2005.
+
+\bibitem{schops20153d}
+Thomas Sch{\"o}ps, Torsten Sattler, Christian H{\"a}ne, and Marc Pollefeys.
+\newblock 3d modeling on the go: Interactive 3d reconstruction of large-scale
+  scenes on mobile devices.
+\newblock In {\em 3D Vision (3DV), 2015 International Conference on}, pages
+  291--299. IEEE, 2015.
 
 \bibitem{spencer2008food}
 Jeremy~PE Spencer.

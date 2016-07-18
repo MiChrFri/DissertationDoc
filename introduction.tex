@@ -11,7 +11,6 @@ Steve Jobs
 \end{quote}
 \vspace{10 mm}
 
-\begin{flushleft}
 A computer is the powerful hardware that is able to do much more than a human being could be capable to do. However, The enormous capacity is useless without software which is making use of it. In order to make the increasing computations controllable and keep the machines as customizable as possible, different layers of abstractions allow to control and use the computing power. The abstraction reaches from machine readable code over Assembly to high level programming languages which can almost be read as an English sentence and on top of that libraries and frameworks that already provide functionality \cite{Martin:2008:CCH:1388398}. A big part of the complexity is already encapsulated and the software engineers can focus on the functionality of the software and their specific problems.
 \bigbreak
 Over the years, the performance of the computers rapidly increased and with it the complexity of the code \cite{wirth2008brief}.
@@ -19,8 +18,7 @@ Software can be a simple tool that is written in a short time by a single person
 In order to allow to split the work on a software project, an encapsulation of the modules is mandatory. A general structure must be given to ensure that the different parts can integrate hand in hand and to keep the code understandable. The more people work on one project, the more important it is to provide a organized, well planned architecture and keep the code clean.
 \bigbreak
 In today's world, software is everywhere. The traffic is controlled by computers, security systems, nuclear power plants or just a messenger app on a mobile phone. 
-The ubiquity of computers can make life easier, but can also cause unpredictable trouble.
-\bigbreak
+The ubiquity of computers can make life easier, but can also cause unpredictable trouble.\\
 In the early 1890s at the United Kingdom's Royal Air Force an engineer found a bug that could fire a missile without any command. \cite{ross2005exterminators}
 The quality requirements varies for different software products. A crashing weather app on a mobile is not as bad a bug causing a production stop in a plant. 
 However, the quality of the software can make the difference whether a company will be successful or just be one of many abortive start-ups with a good idea but a bad execution.
@@ -29,15 +27,13 @@ In the software industry, the most significant factor in the creating process is
 \bigbreak
 In this dissertation, my own approach will be to make use of the sensors and information provided by the user's mobile phone. I will write and Android application that the user can install on his/her device, which is gathering the location of the user, collecting sensor data from the light sensor, accelerometer, the environmental noise from the microphone and the data from the step counter of the device. \\
 The sensors and the software will gather the data while the participant is working an a provided programming task. Afterwards the user gets asked to answer some questions such as information about disturbance or for example mood and more. \\
-Based on that information I will try to find patterns in behavior and environment that are influencing the quality of a programmer. The gathered information will be clustered into a specific classified behavior or context and compare them to find correlations with the code quality.
-\bigbreak
+Based on that information I will try to find patterns in behavior and environment that are influencing the quality of a programmer. The gathered information will be clustered into a specific classified behavior or context and compare them to find correlations with the code quality.\\
 For determining the code quality I will use a tool that can analyze the code that is uploaded on GitHub and calculate a level of quality.
 \bigbreak
 I expect that this work will find some influencing factors for the general programmer. Of course, programmers are all different and their optimal environment and way to work is different but I hope that this work is providing the basics and shows the importance for giving feedback to software developers in order to improve.
 \bigbreak
 In the future, the app could become an every-day tool for developers and students. It could be used hand in hand with project management tools, that require the exact times, a programmer worked on a project and it could simultaneously provide real time feedback about the code quality itself or destructive aspects in the working environment. Rather than comparing the information with other app users, the app could make use of systematic learning of and optimal working environment and behavior of the specific programmer. Having this information, the app could inform the user when the optimal environment is not given and provide the information how it could be reached (e.g. "Find a place with better lighting conditions and less environmental noise to increase your productivity"). 
 
-\end{flushleft}
 
 \section{Motivation}
 Learning how to program is getting more and more important and still not a requiered subject in school. On the other hand, it is the computer with it's software which is controlling almost everything in our everyday life such as traffic, gates, calendars etc. I failure could have dramatic impacts in peoples life.\\
@@ -59,15 +55,10 @@ This knowledge might inspire and help future researchers and the industry to do 
 Also for academia, a tool that provides feedback on code quality for the students can help to bring them on a higher level when they leave college. 
 
 \section{Road-map}
-In the next chapter I am summarizing the state of the art in the area of defining, measuring and improving code quality. I'm am also writing about previous research in cognitive performance and influencing working environments.\\
-Afterwards I will describe my design concepts of my approach followed by description of the implementation. 
-The following chapters will inform about a study which is done using the developed Android application and the results. 
-At the end I will evaluate the results and conclude the outcomes and findings. 
-
-	Chapter 2 - State of the Art
-	Chapter 3 - Design of Experiments 
-	Chapter 4 - Implementation
-	Chapter 5 - Experiment
-	Chapter 6 - Evaluation
-	Chapter 7 - Conclusion 
+In the next chapter I am summarizing the state of the art in the area in software metrics, its measurements and analysis, data gathering followed by data clustering and factors that influence cognitive performance and software quality. 
+Chapter 3 explains why it is the right time for this project and why it is important. 
+The following Chapter describes the design of the different software components that are using to gather the data, provide information to the participants and to ensure the privacy of the gathered information. 
+Chapter 5 contains information and the process of the implementation of the different software components. 
+The experiment is being described in chapter 6 and includes the setup and execution, the expected results and the data classification as well as the questions that are being asked to the participants. 
+The last two chapters describe and interpret the results and conclude the subject and information of the experiment
 
