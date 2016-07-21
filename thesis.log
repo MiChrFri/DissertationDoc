@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.18)  18 JUL 2016 16:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.18)  21 JUL 2016 12:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -780,9 +780,9 @@ Package: placeins 2005/04/18  v 2.2
 (/usr/local/texlive/2015/texmf-dist/tex/latex/parskip/parskip.sty
 Package: parskip 2001/04/09 non-zero parskip adjustments
 )
-(./thesis.aux (./abstract.aux) (./introduction.aux) (./sota.aux)
-(./background.aux) (./design.aux) (./implementation.aux) (./experiement.aux)
-(./results.aux) (./conclusion.aux) (./appendix1.aux))
+(./thesis.aux (./abstract.aux) (./introduction.aux) (./sota.aux) (./design.aux)
+(./implementation.aux) (./experiement.aux) (./results.aux) (./conclusion.aux)
+(./appendix1.aux))
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 76.
@@ -800,8 +800,7 @@ LaTeX Font Info:    ... okay on input line 76.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 76.
 LaTeX Font Info:    ... okay on input line 76.
 LaTeX Font Info:    Try loading font information for OT1+lmr on input line 76.
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/lm/ot1lmr.fd
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
@@ -939,67 +938,64 @@ Chapter 1.
 [1
 
 
-] [2] [3] [4] [5]) [6]
+] [2] [3] [4] [5] [6]) [7]
 \openout2 = `sota.aux'.
 
  (./sota.tex
 Chapter 2.
-[7
+[8
 
 
 
-] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17]) [18]
-\openout2 = `background.aux'.
+]
+Overfull \hbox (1.17278pt too wide) in paragraph at lines 11--17
+[]\OT1/lmr/m/n/12 A good pro-gram-mer nowa-days is de-scribed as a per-son who 
+can solve com-pli-cated problems
+ []
 
- (./background.tex
-Chapter 3.
-[19
-
-
-
-]) [20]
+[9] [10] [11] [12] [13] [14] [15] [16] [17] [18] [19]) [20]
 \openout2 = `design.aux'.
 
  (./design.tex
-Chapter 4.
+Chapter 3.
 [21
 
 
 
-] [22] <images/AndroidUI.png, id=550, 2007.5pt x 593.21625pt>
+] [22] <images/AndroidUI.png, id=585, 2007.5pt x 593.21625pt>
 File: images/AndroidUI.png Graphic file (type png)
 
 <use images/AndroidUI.png>
 Package pdftex.def Info: images/AndroidUI.png used on input line 75.
 (pdftex.def)             Requested size: 455.24411pt x 134.5179pt.
  [23] [24 <./images/AndroidUI.png>] [25] [26])
-[27]
+[27] [28]
 \openout2 = `implementation.aux'.
 
  (./implementation.tex
-Chapter 5.
-[28
+Chapter 4.
+[29
 
 
 
-] [29] [30] [31] <images/dataflow.png, id=604, 1100.11pt x 354.32375pt>
+] [30] [31] [32] <images/dataflow.png, id=644, 1100.11pt x 354.32375pt>
 File: images/dataflow.png Graphic file (type png)
 
 <use images/dataflow.png>
 Package pdftex.def Info: images/dataflow.png used on input line 53.
 (pdftex.def)             Requested size: 455.24411pt x 146.6253pt.
- [32] [33 <./images/dataflow.png>]
+ [33] [34 <./images/dataflow.png>]
 Overfull \hbox (3.89554pt too wide) in paragraph at lines 77--79
 \OT1/lmr/m/n/12 Different fonts were em-bed-ded us-ing Google-Webfonts from htt
 ps://fonts.google.com which
  []
 
-) [34] [35]
+[35] [36]) [37]
 \openout2 = `experiement.aux'.
 
  (./experiement.tex
-Chapter 6.
-<images/experiment.png, id=623, 1242.6425pt x 733.74126pt>
+Chapter 5.
+<images/experiment.png, id=666, 1242.6425pt x 733.74126pt>
 File: images/experiment.png Graphic file (type png)
 
 <use images/experiment.png>
@@ -1010,11 +1006,11 @@ LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 12.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/lm/ot1lmtt.fd
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [36
+) [38
 
 
 
-] [37 <./images/experiment.png>] [38]
+] [39 <./images/experiment.png>] [40]
 Underfull \hbox (badness 1024) in paragraph at lines 65--65
 []|\OT1/lmr/m/n/12 Supermarkets, Me-chan-i-cal Work-shops, Of-fice Land-
  []
@@ -1024,15 +1020,15 @@ Underfull \hbox (badness 1205) in paragraph at lines 67--67
 []|\OT1/lmr/m/n/12 Detailed Draw-ing Work, Very De-tailed Me-chan-i-cal
  []
 
-[39] <images/accDevice.png, id=648, 1003.75pt x 642.4pt>
+[41] <images/accDevice.png, id=691, 1003.75pt x 642.4pt>
 File: images/accDevice.png Graphic file (type png)
 
 <use images/accDevice.png>
 Package pdftex.def Info: images/accDevice.png used on input line 82.
 (pdftex.def)             Requested size: 284.52756pt x 182.09587pt.
- [40
+ [42
 
- <./images/accDevice.png>] [41]
+ <./images/accDevice.png>] [43]
 LaTeX Font Info:    Try loading font information for OMS+lmr on input line 107.
 
 
@@ -1041,22 +1037,23 @@ File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 107.
-) [42]
+) [44]
 \openout2 = `results.aux'.
 
 
 (./results.tex
-Chapter 7.
-) [43
+Chapter 6.
+Missing character: There is no , in font nullfont!
+) [45
 
 
 
-]
+] [46]
 \openout2 = `conclusion.aux'.
 
  (./conclusion.tex
-Chapter 8.
-) [44
+Chapter 7.
+) [47
 
 
 
@@ -1065,20 +1062,21 @@ Chapter 8.
 
  (./appendix1.tex
 Appendix A.
-)
-Overfull \hbox (13.49446pt too wide) in paragraph at lines 6--111
+
+Overfull \hbox (13.49446pt too wide) in paragraph at lines 6--36
 [] 
  []
 
-[45
+[48
 
 
 
-]
-Overfull \vbox (7.8578pt too high) has occurred while \output is active []
+])
+Overfull \hbox (13.49446pt too wide) in paragraph at lines 37--110
+[][] 
+ []
 
-
-[46] (./thesis.bbl
+[49] [50] (./thesis.bbl
 Underfull \hbox (badness 1281) in paragraph at lines 22--29
 []\OT1/lmr/m/n/12 Jeff Bercovici.  Slack is our com-pany of the year. here's wh
 y ev-ery-body's
@@ -1090,47 +1088,48 @@ Underfull \hbox (badness 3668) in paragraph at lines 22--29
 com / magazine / 201512 / jeff-[]bercovici /
  []
 
-[47
+[51
 
 
-] [48] [49] [50]) [51]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 123.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 123.
+] [52] [53] [54]) [55]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 122.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 122.
  (./thesis.aux (./abstract.aux) (./introduction.aux)
-(./sota.aux) (./background.aux) (./design.aux) (./implementation.aux)
-(./experiement.aux) (./results.aux) (./conclusion.aux) (./appendix1.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 123.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 123.
+(./sota.aux) (./design.aux) (./implementation.aux) (./experiement.aux)
+(./results.aux) (./conclusion.aux) (./appendix1.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 122.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 122.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 257F392AD415913D130EF44283372484;3832.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 123.
+(rerunfilecheck)             Checksum: 0B0DE16605B70874901292D84E9DCDE6;4381.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 122.
  )
 (\end occurred inside a group at level 1)
 
 ### simple group (level 1) entered at line 33 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 26336 strings out of 493089
- 628787 string characters out of 6134841
- 777127 words of memory out of 5000000
- 29088 multiletter control sequences out of 15000+600000
+ 26607 strings out of 493089
+ 633877 string characters out of 6134841
+ 826488 words of memory out of 5000000
+ 29352 multiletter control sequences out of 15000+600000
  48626 words of font info for 37 fonts, out of 8000000 for 9000
- 1147 hyphenation exceptions out of 8191
- 62i,19n,110p,1283b,2274s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-maths
-y.enc}{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-rmtt.enc}{/usr/
-local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/
+ 1150 hyphenation exceptions out of 8191
+ 62i,19n,110p,1375b,2274s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-rm.en
+c}{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/lo
+cal/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-rmtt.enc}{/usr/local/texlive/
 2015/texmf-dist/fonts/enc/dvips/lm/lm-rmsc.enc}</usr/local/texlive/2015/texmf-d
 ist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/
 type1/public/lm/lmcsc10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/pub
-lic/lm/lmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmri
-12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmro12.pfb></u
-sr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/t
-exlive/2015/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on thesis.pdf (62 pages, 810471 bytes).
+lic/lm/lmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmr8
+.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr
+/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmro12.pfb></usr/local/tex
+live/2015/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2015/
+texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
+Output written on thesis.pdf (66 pages, 842985 bytes).
 PDF statistics:
- 781 PDF objects out of 1000 (max. 8388607)
- 695 compressed objects within 7 object streams
- 178 named destinations out of 1000 (max. 500000)
- 521 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 840 PDF objects out of 1000 (max. 8388607)
+ 748 compressed objects within 8 object streams
+ 189 named destinations out of 1000 (max. 500000)
+ 577 words of extra memory for PDF output out of 10000 (max. 10000000)
 
