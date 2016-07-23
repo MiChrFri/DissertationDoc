@@ -1,6 +1,9 @@
 \chapter{Experiment}
 In this chapter, I describe the details about the experiment to find correlations between the data gathered from the mobile devices and the code quality. It shows the execution of the experiment as well as the usage of the gathered data and interpretation. 
 
+
+\section{Crowd Experiment}
+
 \begin{figure}
 \includegraphics[width=\textwidth]{experiment}
 \caption{Experiment Execution}\label{experiment}
@@ -8,7 +11,7 @@ In this chapter, I describe the details about the experiment to find correlation
 \end{figure}
 
 In the experiment, participants are solving a programming task while the Dather Android App is running to record behavior and environmental factors. After the submitted code is been analyzed, it has been compared with the gathered data in order to find correlations between the participants performance and the information from the gathered data. You can see the flow of the experiment in Figure \ref{result}. 
-\section{Setup and Execution}
+\subsection{Setup and Execution}
 Every participant needs to have access to a mobile phone with Android version 4.4 or later. In order to take part at the experiment, a participant needs to install the Dather Application of his/her device. The Application can be downloaded from the website \url{http://frickm.de} when it's been accessed from the Android device. 
 \bigbreak
 After installing the downloaded apk-file, the participant gives permissions within the application to gather the data and allows the data to be used for research. 
@@ -16,15 +19,10 @@ As the last step before being able to start the experiment, the user needs to en
 After setting up the application and accessing the website which contains the programming task, the experiment is ready to start. The participant runs the gathering process while working on the programming task.\\
 After completing the task, the participant uploads the solution code to Github and sends a link of the Github repository from the Email address. The github account name can later be used to match the gathered data with the uploaded solution-code of the participant. 
 
-\section{Expected Results}
-Based on the previous work of other researchers in this area and also based on my own experience, I expect to find correlations between the code quality and the environmental noise. The high amount of distraction noises will probably negatively influence the ability to focus on a problem of the participants and decrease the code quality. My own experience showed me that background music can improve the cognitive functionality but just if the cognitive requirement is not very high for the given task. Before doing research I was sure to find correlations between sunshine and a better performance compared to cloudy or even rainy days for a big amount of the participants. I also see the daily mood as an important impact.
-Anyways, I think that the result might show different groups of people that perform different in the same environment compared to each other. It might be possible to find out that some group of people work better at night listening to music and another group performs best during the morning on a bench in a quite park.
-
-
-\section{Classification}
+\subsection{Classification}
 With the result values it might there might occur correlations between the entries and the coding quality. However, that approach is not using the full capability. In order to understand the values rather than just using them, it makes sense to interpret them and bring it into a context. Previous research results and also classifying controlled tested events using the gathered values will be described in further detail within the next paragraphs.
 
-\subsection{Indoor Outdoor differentiation}
+\subsubsection{Indoor Outdoor differentiation}
 The brightness of indoor lightning is different from the brightness outdoors. Indoor environments are mostly receiving light from an artificial light source which flickers in a rate than can't be noticed by the human eye. Sadly the light sensor of the mobile devices is not precise enough to detect that flickering. Anyhow, also the luminance is different indoors and outdoors. Artificial lights are just not as powerful as the sun and it would require a ridiculous amount of artificial light sources and windows to create the same brightness within buildings as they are outside. 
 As seen in the two tables \ref{outLight} and \ref{inLight} based on the lux from the light sensor it is possible to detect whether the device is indoor or outdoor by a high probability.
 
@@ -75,7 +73,7 @@ As seen in the two tables \ref{outLight} and \ref{inLight} based on the lux from
 \FloatBarrier
 \clearpage
 
-\subsection{Usage of Mobile Phone}
+\subsubsection{Usage of Mobile Phone}
 The Y and Z axis of the 3D accelerometer can be used to detect whether the participant uses his phone. The simple classification picks up the change between the mobile device laying flat on the desk and the device being in a vertical position which is the position it would be when the user holds it in his/her hand. The graphic \ref{accDev} shows shows the two states and the changes in the Y and Z-axis values. 
 
 \begin{figure}[!htb]
@@ -87,22 +85,22 @@ The Y and Z axis of the 3D accelerometer can be used to detect whether the parti
 
 \FloatBarrier
 
-\subsection{Guessing the users location}
+\subsubsection{Guessing the users location}
 In order to guess the location of the user, the location with the environmental noise as well as the detection whether the user is indoor our outside. The location accuracy depends on the way how it is been calculated which is ether the network or GPS. However, it can vary and can't ensure a perfect detected location but using the noise and indoor/outdoor information can help to limit the results to less possibilities. When, for example the location shows a radius in an area with a library, a coffee shop and a public crowded square it's a high chance that the library is not an option in the case of a noisy environment. In order to detect whether the user is in the coffee-shop or the square, the light sensor can detect whether the light value is in the outdoor or indoor brightness range. 
 
-\subsection{Movement}
+\subsubsection{Movement}
 The movement of the user can directly be seen by the steps he/she walks during the start of the gathering until the ending. The distance and the frequency shows if the user just walks to the fridge, toilet or somewhere close or actually walks from one place to another. Also the locations can indicate that. 
 The location can also show whether the user was on public transport, on a train/car or an Airplane depending on the travel speed and from where the user started and where he/she arrives (airport, garage, train-station etc.). 
 
-\subsection{Weather Conditions}
+\subsubsection{Weather Conditions}
 With the location and the timestamps of the gathering and it is possible to get information about the local weather of the users location at the time when the gathering happend using the website   http://www.timeanddate.com/weather \cite{weatherArchive}.
 
-\subsection{Music}
+\subsubsection{Music}
 Using the environmental noise it is possible to find patterns that can be related to music. In general modern music has a very constant noise level rather than the dynamic classical music. The iTunes top 100 songs at July 14th 2016 have an average length of 3:39 minutes, the shortest song is 2:42 minutes and the longest 5:13 minutes long.
 In order to detect whether the participant is listening to music the volume should go down for 2-5 seconds between a track with a duration between 2:30 minutes and 5:30 minutes. 
 A regular pattern with these attributes should indicate that the user is listening to background music while working on the coding task.
 
-\section{Questions}
+\subsection{Questions}
 After the gathering process, the participant is asked to answer some questions:
 \begin{itemize}
 \item Are you a Student?
@@ -117,9 +115,29 @@ After the gathering process, the participant is asked to answer some questions:
 \end{itemize}
 
 All the questions can either be checked to indicate 'yes' or leave unchecked for 'no'. The answers can help to clarify the classification or to get new additional contexts. Some of the questions are created based on the knowledge from previous work of researchers and their results that can possibly influence cognitive performance. 
-In a long term, asking questions is not optimal. In the future the app is supposed to learn and slowly make the questions unnecessary. Currently there is a way to detect whether the user is listening to music by identifying patterns but the accuracy is not exactly known and therefore also asked as a question. If the detection using the environmental noise is highly accurate, the question can be removed from the app. 
+In a long term, asking questions is not optimal. In the future the app is supposed to learn and slowly make the questions unnecessary. Currently there is a way to detect whether the user is listening to music by identifying patterns but the accuracy is not exactly known and therefore also asked as a question as well could it be that the user is wearing headphones. If the detection using the environmental noise is highly accurate, the question can be removed from the app.
  
+ 
+\section{Individual Experiment}
+In the second experiment I investigated some influences in the cognitive performance of a single individual. I tested different scenarios on the performance, measured in time. 
 
+\subsection{Setup and Execution}
+In this experiment a single person did some cognitive tasks while being in a controlled environment in order to test the performance influences of isolated influences. Of course it is very unlikely or even impossible to only change one factor. There are always side factor which could be for example the human itself, sudden unpredictable changes in the environment and of course the problem in keeping the factors of one part of the measurement equal to the factors of other measurements. 
+However, with this problems in mind, my idea to measure changes in the cognitive performance of a person was measuring the time of finishing a Sudoku game. 
+The game where the goal is to systematically add missing numbers in a 9x9 matrix requires concentration and logical combining of numbers. 
+Sudoku can be randomly generated and a difficulty level of can be calculated to make sure that every Sudoku is equally hard to solve. 
+For generating the Sudoku riddles I used the website for generating Sudokus \cite{sudokugen} which uses an engine that is part of the gnome-sudoku software \cite{gnomeSudoku}. 
+I chose a medium difficulty level and limited the calculated range of difficulty to +/- 0.02 of 0.5 and printed the Sudoku on paper, one per page. 
 
+\subsection{Scenarios}
+The following scenarios have been tested. Each scenario was performed 10 times to get a good mean which decreases the randomness in the experiment. In order to control the environment variables, a modified version of the Android app recorded the environmental light and volume and it was made sure that the values don't differ much to have a influence in the results. 
+The experiments were executed over a several days in mixed up order to avoid that the training-process in solving the Sudokus can also influence the overall average of the outcomes.
 
+\subsubsection{Music}
+The scenarios to compare in this part the influence of two different types of music and as a control scenario no music at all. The participant did the Sudokus while listening to Spotify-Radio \cite{spotify} 'Heavy Metal' and 'Classical' over headphones on a defined level of volume. In the control case without music, the participant was not wearing headphone but working in a very quite environment.
+
+\subsubsection{Coffee}
+In this scenario I wanted to test the influences of Coffee in the cognitive performance as discovered by Watters, Paul Andrew et. al. \cite{watters1997caffeine}. Simultaneously to their results I used a caffeine level that is almost the value that they found out is the optimum for cognitive performance of 400 mg. 
+First, the participant solved the Sudokus without taking any caffeine for more than 16 hours, which is more than enough to make sure no other caffeine intake can influence to experiment \cite{liguori1997absorption}. Additionally the participant had the same breakfast before every experiment. 
+For the second part of the experiment, the participant drank a drink that contained hot water with 5 espresso shots from Starbucks. The Coffee Franchise declare the one espresso with 75mg caffeine each which sums our drink up to 375mg. After having the coffee, the participant waited 40 minutes for the caffeine to be absorbed \cite{liguori1997absorption} and started with the Sudoku. 
 

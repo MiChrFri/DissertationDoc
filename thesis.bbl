@@ -1,5 +1,20 @@
 \begin{thebibliography}{10}
 
+\bibitem{gnomeSudoku}
+gnome-sudoku.
+\newblock \url{https://sourceforge.net/projects/gnome-sudoku/?source=navbar}.
+\newblock accessed on 20.07.2016.
+
+\bibitem{spotify}
+spotify.
+\newblock \url{https://www.spotify.com}.
+\newblock accessed on 23.07.2016.
+
+\bibitem{sudokugen}
+sudoku-generator.
+\newblock \url{http://www.opensky.ca/~jdhildeb/software/sudokugen/}.
+\newblock accessed on 20.07.2016.
+
 \bibitem{androidpermissions}
 System permissions.
 \newblock
@@ -43,7 +58,7 @@ Laura Dabbish, Colleen Stuart, Jason Tsay, and Jim Herbsleb.
 \newblock Social coding in github: transparency and collaboration in an open
   software repository.
 \newblock In {\em Proceedings of the ACM 2012 conference on Computer Supported
-  Cooperative Work}, pages 1277--1286. ACM, 2012.
+  Cooperative Work}, pages 1277--1286, Lyon, France, 2012. ACM.
 
 \bibitem{denissen2008effects}
 Jaap~JA Denissen, Ligaya Butalid, Lars Penke, and Marcel~AG Van~Aken.
@@ -59,8 +74,8 @@ Norman~E Fenton and Martin Neil.
 
 \bibitem{ferreira2015aware}
 Denzil Ferreira, Vassilis Kostakos, and Anind~K Dey.
-\newblock Aware: mobile context instrumentation framework. frontiers in ict 2,
-  6: 1--9, 2015.
+\newblock Aware: mobile context instrumentation framework.
+\newblock {\em Frontiers in ICT}, 2:6, 2015.
 
 \bibitem{gartnerMobileOSMarketshare}
 Inc. Gartner.
@@ -140,7 +155,7 @@ Cem Kaner et~al.
 Iftikhar~Ahmed Khan, Robert~M Hierons, and Willem~Paul Brinkman.
 \newblock Mood independent programming.
 \newblock In {\em Proceedings of the 14th European conference on Cognitive
-  ergonomics: invent! explore!}, pages 269--272, London UK, Aug 2007. ACM.
+  ergonomics: invent! explore!}, pages 269--272, London, UK, Aug 2007. ACM.
 
 \bibitem{korpipaa2003bayesian}
 Panu Korpip{\"a}{\"a}, Miika Koskinen, Johannes Peltola, Satu-Marja
@@ -155,6 +170,12 @@ John Laugesen and Yufei Yuan.
 \newblock In {\em Mobile Business and 2010 Ninth Global Mobility Roundtable
   (ICMB-GMR), 2010 Ninth International Conference on}, pages 91--99. IEEE,
   2010.
+
+\bibitem{liguori1997absorption}
+Anthony Liguori, John~R Hughes, and Jacob~A Grass.
+\newblock Absorption and subjective effects of caffeine from coffee, cola and
+  capsules.
+\newblock {\em Pharmacology Biochemistry and Behavior}, 58(3):721--726, 1997.
 
 \bibitem{Martin:2008:CCH:1388398}
 Robert~C. Martin.

@@ -4,7 +4,6 @@ The top-level auxiliary file: thesis.aux
 A level-1 auxiliary file: abstract.aux
 A level-1 auxiliary file: introduction.aux
 A level-1 auxiliary file: sota.aux
-A level-1 auxiliary file: background.aux
 A level-1 auxiliary file: design.aux
 A level-1 auxiliary file: implementation.aux
 A level-1 auxiliary file: experiement.aux
@@ -15,45 +14,48 @@ The style file: plain.bst
 Database file #1: references.bib
 Warning--to sort, need author or key in androidpermissions
 Warning--to sort, need author or key in weatherArchive
-You've used 39 entries,
+Warning--to sort, need author or key in sudokugen
+Warning--to sort, need author or key in gnomeSudoku
+Warning--to sort, need author or key in spotify
+You've used 43 entries,
             2118 wiz_defined-function locations,
-            754 strings with 12053 characters,
-and the built_in function-call counts, 13476 in all, are:
-= -- 1378
-> -- 586
+            773 strings with 12508 characters,
+and the built_in function-call counts, 14371 in all, are:
+= -- 1472
+> -- 607
 < -- 9
-+ -- 239
-- -- 194
-* -- 919
-:= -- 2176
-add.period$ -- 129
-call.type$ -- 39
-change.case$ -- 212
++ -- 249
+- -- 200
+* -- 972
+:= -- 2305
+add.period$ -- 142
+call.type$ -- 43
+change.case$ -- 227
 chr.to.int$ -- 0
-cite$ -- 41
-duplicate$ -- 515
-empty$ -- 1081
-format.name$ -- 194
-if$ -- 2874
+cite$ -- 48
+duplicate$ -- 551
+empty$ -- 1173
+format.name$ -- 200
+if$ -- 3075
 int.to.chr$ -- 0
-int.to.str$ -- 39
-missing$ -- 35
-newline$ -- 200
-num.names$ -- 74
-pop$ -- 236
+int.to.str$ -- 43
+missing$ -- 37
+newline$ -- 221
+num.names$ -- 76
+pop$ -- 262
 preamble$ -- 1
-purify$ -- 174
+purify$ -- 185
 quote$ -- 0
-skip$ -- 369
+skip$ -- 390
 stack$ -- 0
-substring$ -- 860
-swap$ -- 122
+substring$ -- 908
+swap$ -- 125
 text.length$ -- 9
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 152
-warning$ -- 2
-while$ -- 136
-width$ -- 41
-write$ -- 440
-(There were 2 warnings)
+type$ -- 168
+warning$ -- 5
+while$ -- 141
+width$ -- 45
+write$ -- 482
+(There were 5 warnings)
