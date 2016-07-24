@@ -6,14 +6,14 @@ In this chapter I will describe the implementation of the main application for A
 As mentioned before, the Android Application is for sensoring data of the user and get environmental information. For This purpose I wrote an Android application which can gather these information.\\ 
 Beside gathering the data using an App it is also possible to read the sensoring information which are being recorded continuously as described in the approach of
 Zhu, Hengshu, et al. \cite{zhu2015mining}. They are reading the device logs and get all the logged device more information about the apps being used etc. .
-Sandboxing is an Android security concept that only allows an app to access the data of the app itself and isolates the content for other applications. Thus it is impossible to access the device logs via an app without having physical access to the device.\\
+Sandboxing is an Android security concept that only allows an app to access the data of the app itself and isolates the content for other applications. Thus it is impossible to access the device logs via an app without having physical access to the device. \\
 In terms of the ideas for future usage of the app it doesn't make sense to require physical access to the device itself. Thus, the decision to use an App, installed on the users device, is the best way to go for this purpose.
 \bigbreak
 The implementation of the Android application has been done using the Android Studio IDE, which is provided free usage by Google, Inc. The code was written in Java, which is the official programming language for Android applications. Google also provides a variety of libraries and frameworks for user interface-Elements and basic functionality. For the user interface Android Studio has build in Solutions to either design the graphical user interface (GUI) using Java code or defining the elements in XML files. 
 
 \subsection{User Interface}
-The user interface contains of two main views, the gathering view and the question view. There are two more views, one for asking the user for permissions and a second one for informing about the experiment and the terms of the usage for the application.\\
-All view have a controller/activity java class which acts as the controller. The actual views contain of an activity XML and, depending on the complexity of the view, an additional content XML. Both are defining the UI-elements in XML tags and as well as their positioning within the view.\\
+The user interface contains of two main views, the gathering view and the question view. There are two more views, one for asking the user for permissions and a second one for informing about the experiment and the terms of the usage for the application. \\
+All view have a controller/activity java class which acts as the controller. The actual views contain of an activity XML and, depending on the complexity of the view, an additional content XML. Both are defining the UI-elements in XML tags and as well as their positioning within the view. \\
 The colorscheme of the app is mainly a dark grey background with a combination of bright UI-Elements and simple lightgrey fonts for information texts.
 
 \subsubsection{Gather View}
@@ -75,7 +75,7 @@ If the format of the data is correct, the script connects to the MySQL database 
 
 \subsection{Webpages}
 The websites are implemented as simple as possible. They are completely static and only for displaying styled text and images. Therefore the implementation is only been done using HTML5 for the structure and CSS3 for styling the fonts, images and visual structuring.\\
-Different fonts were embedded using Google-Webfonts from https://fonts.google.com which are dynamically being loaded at the page load or from the browser cache. 
+Different fonts were embedded using Google-Webfonts from https://fonts.google.com \cite{fontsGoogle} which are dynamically being loaded at the page load or from the browser cache. 
 
 \section{Tools}
 The development of the following tools was necessary to work with the data that can be downloaded from the MYSQL database.

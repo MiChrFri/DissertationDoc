@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.18)  23 JUL 2016 18:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.18)  24 JUL 2016 16:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -954,7 +954,12 @@ Overfull \hbox (1.17278pt too wide) in paragraph at lines 11--17
 can solve com-pli-cated problems
  []
 
-[9] [10] [11] [12] [13] [14] [15] [16] [17] [18] [19]) [20]
+[9] [10] [11] [12]
+
+LaTeX Warning: Citation `schilit1994context' on page 13 undefined on input line
+ 61.
+
+[13] [14] [15] [16] [17] [18] [19]) [20]
 \openout2 = `design.aux'.
 
  (./design.tex
@@ -969,8 +974,8 @@ File: images/AndroidUI.png Graphic file (type png)
 <use images/AndroidUI.png>
 Package pdftex.def Info: images/AndroidUI.png used on input line 75.
 (pdftex.def)             Requested size: 455.24411pt x 134.5179pt.
- [23] [24 <./images/AndroidUI.png>] [25] [26])
-[27] [28]
+ [23] [24 <./images/AndroidUI.png>] [25] [26]
+[27]) [28]
 \openout2 = `implementation.aux'.
 
  (./implementation.tex
@@ -1123,6 +1128,10 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 122.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 122.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: 612BA93A2F56A2FDB7873F3A708321A7;4230.
+
+
+LaTeX Warning: There were undefined references.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 122.
  )
 (\end occurred inside a group at level 1)
@@ -1130,10 +1139,10 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 122.
 ### simple group (level 1) entered at line 32 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 26630 strings out of 493089
- 634155 string characters out of 6134841
- 827943 words of memory out of 5000000
- 29355 multiletter control sequences out of 15000+600000
+ 26631 strings out of 493089
+ 634175 string characters out of 6134841
+ 827979 words of memory out of 5000000
+ 29356 multiletter control sequences out of 15000+600000
  48626 words of font info for 37 fonts, out of 8000000 for 9000
  1150 hyphenation exceptions out of 8191
  62i,19n,110p,1375b,2274s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1148,7 +1157,7 @@ lic/lm/lmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmr8
 /local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmro12.pfb></usr/local/tex
 live/2015/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2015/
 texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on thesis.pdf (69 pages, 849333 bytes).
+Output written on thesis.pdf (69 pages, 850522 bytes).
 PDF statistics:
  871 PDF objects out of 1000 (max. 8388607)
  776 compressed objects within 8 object streams

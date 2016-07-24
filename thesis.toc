@@ -15,7 +15,7 @@
 \contentsline {section}{\numberline {2.2}Metrics Measurement and Analysis}{10}{section.2.2}
 \contentsline {section}{\numberline {2.3}Mobile Data Gathering}{12}{section.2.3}
 \contentsline {section}{\numberline {2.4}Data Clustering}{13}{section.2.4}
-\contentsline {section}{\numberline {2.5}Variable Quality Influences}{14}{section.2.5}
+\contentsline {section}{\numberline {2.5}Variable Quality Influences}{15}{section.2.5}
 \contentsline {section}{\numberline {2.6}Team Communication}{15}{section.2.6}
 \contentsline {section}{\numberline {2.7}Cognitive Performance}{17}{section.2.7}
 \contentsline {subsection}{\numberline {2.7.1}Context Switching}{17}{subsection.2.7.1}
@@ -29,12 +29,12 @@
 \contentsline {subsection}{\numberline {3.2.2}User Interface}{24}{subsection.3.2.2}
 \contentsline {subsection}{\numberline {3.2.3}Data Storage}{24}{subsection.3.2.3}
 \contentsline {subsection}{\numberline {3.2.4}API}{25}{subsection.3.2.4}
-\contentsline {subsection}{\numberline {3.2.5}User Information}{25}{subsection.3.2.5}
-\contentsline {section}{\numberline {3.3}Server Design}{26}{section.3.3}
+\contentsline {subsection}{\numberline {3.2.5}User Information}{26}{subsection.3.2.5}
+\contentsline {section}{\numberline {3.3}Server Design}{27}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}Server Frontend Design}{27}{subsection.3.3.1}
 \contentsline {subsection}{\numberline {3.3.2}Server Backend Design}{27}{subsection.3.3.2}
 \contentsline {section}{\numberline {3.4}Tools}{27}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Decrypting Tool}{27}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.1}Decrypting Tool}{28}{subsection.3.4.1}
 \contentsline {subsection}{\numberline {3.4.2}Data Structuring Tools}{28}{subsection.3.4.2}
 \contentsline {chapter}{Chapter{} \numberline {4}Implementation}{29}{chapter.4}
 \contentsline {section}{\numberline {4.1}Android}{29}{section.4.1}
