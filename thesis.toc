@@ -67,12 +67,13 @@
 \contentsline {subsection}{\numberline {5.1.3}Questions}{44}{subsection.5.1.3}
 \contentsline {section}{\numberline {5.2}Individual Experiment}{45}{section.5.2}
 \contentsline {subsection}{\numberline {5.2.1}Setup and Execution}{45}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}Scenarios}{45}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.2}Scenarios}{46}{subsection.5.2.2}
 \contentsline {subsubsection}{Music}{46}{section*.19}
 \contentsline {subsubsection}{Coffee}{46}{section*.20}
-\contentsline {chapter}{Chapter{} \numberline {6}Results}{47}{chapter.6}
-\contentsline {chapter}{Chapter{} \numberline {7}Conclusions}{49}{chapter.7}
-\contentsline {section}{\numberline {7.1}Future Work}{49}{section.7.1}
-\contentsline {chapter}{Appendix{} \numberline {A}Abbreviations}{50}{appendix.A}
-\contentsline {chapter}{Appendix{} \numberline {B}Source Code}{53}{appendix.B}
-\contentsline {chapter}{Bibliography}{54}{appendix*.21}
+\contentsline {chapter}{Chapter{} \numberline {6}Results}{48}{chapter.6}
+\contentsline {section}{\numberline {6.1}Individual Experiment Results}{49}{section.6.1}
+\contentsline {chapter}{Chapter{} \numberline {7}Conclusions}{51}{chapter.7}
+\contentsline {section}{\numberline {7.1}Future Work}{51}{section.7.1}
+\contentsline {chapter}{Appendix{} \numberline {A}Abbreviations}{52}{appendix.A}
+\contentsline {chapter}{Appendix{} \numberline {B}Source Code}{54}{appendix.B}
+\contentsline {chapter}{Bibliography}{55}{appendix*.21}

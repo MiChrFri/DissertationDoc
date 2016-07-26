@@ -4,7 +4,6 @@ This chapter shows the results of the experiment and how the gathered data can b
 The results.......................................................................
 \bigbreak
 
-\iffalse %Something like uncommenting (START)
 
 \begin{adjustbox}{width=\textwidth}
 \begin{tikzpicture}
@@ -18,7 +17,6 @@ The results.....................................................................
 \end{axis}
 \end{tikzpicture}
 \end{adjustbox}
-\fi %Something like uncommenting (END)
 
 \begin{figure}
 	\centering
@@ -155,9 +153,48 @@ The results.....................................................................
 (120 , 7311.0)
 };
 
-
 \end{axis}
 \end{tikzpicture}
  	\vspace{10 mm}
 \end{figure}
+
+\FloatBarrier
+
+\section{Individual Experiment Results}
+
+%%%% Coffee times
+\setlength{\tabcolsep}{10pt}
+\renewcommand{\arraystretch}{1.5}
+{\rowcolors{3}{black!10!white!90}{white!100}
+
+\begin{table}[!htb]
+\centering
+\begin{adjustbox}{width=1\textwidth}
+\begin{tabular}{ |p{2,5cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|  }
+ \hline
+ \rowcolor{lightgray} \multicolumn{11}{|c|}{{\bf Common Light Levels Outdoor - Daytime}} \\
+ \hline
+ \hline
+  {Condition}
+   & \multicolumn{10}{|c|}{Duration} \\
+    \cline{2-11}
+    \hline
+ \hline
+ Measurement	& 1			& 2			& 3			& 4			& 5			& 6 			& 7 			& 8 			& 9			& 10			\\
+ No Coffee		& 20:43	& 21:36	& 13:14	& 23:02	& 09:32	& 12:18 	& 15:05 	& 09:49 	& 10:07	& 08:41	\\
+ Coffee   			& 12:39	& 22:32	& 09:00 	& 26:34 	& 14:23	& 16:21	& 25:18	& 16:16	& 14:47	& 18:15	\\
+ \hline
+\end{tabular}
+\end{adjustbox}
+\caption{Cognitive Performance with Coffee}
+\label{coffee}
+\end{table}
+
+The table \ref{coffee} shows the times of 10 Sudoku solvings of the participant. The results show that at the beginning, the participant was faster under the influence of caffeine and then later on the opposite. As the measurements where done on different days, the participant probably gained more practice in solving Sodukus, which shows the decreasing time to solve a Sudoku.
+\\
+The average time, the participant needed without drinking coffee was \textbf{14:24 Minutes} and after consuming \textbf{17:37 Minutes} minutes per Sudoku. The participnat needed 3:13 minutes or 22.34\%  longer after having a strong coffee. \\
+These results are different than the findings in \cite{liguori1997absorption}. Their results showed that a similar amount of caffeine increases the cognitive performance. \\
+However, in our case the participant of the Experiment mentioned to feel fretful after the intake of the high amount of caffeine. That could be a reason for the lower performance of the subject. Thus, it is possible that a overdose had negative impact on the participant and lower amount of caffeine would have had resulted better. 
+
+\FloatBarrier
 
