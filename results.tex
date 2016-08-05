@@ -177,6 +177,15 @@ The results.....................................................................
 
 \section{Individual Experiment Results}
 
+\subsection{coffee}
+The table \ref{coffee} shows the times of 10 Sudoku solvings of the participant. The results show that at the beginning, the participant was faster under the influence of caffeine and then later on the opposite. As the measurements where done on different days, the participant probably gained more practice in solving Sodukus, which shows the decreasing time to solve a Sudoku.
+\\
+The average time, the participant needed without drinking coffee was \textbf{14:24 minutes} and after consuming \textbf{17:37 minutes} minutes per Sudoku. The participnat needed 3:13 minutes or 22.34\%  longer after having a strong coffee \ref{resultCoffee}.\\
+These results are different than the findings in \cite{liguori1997absorption}. Their results showed that a similar amount of caffeine increases the cognitive performance. \\
+However, in our case the participant of the Experiment mentioned to feel fretful after the intake of the high amount of caffeine. That could be a reason for the lower performance of the subject. Thus, it is possible that a overdose had negative impact on the participant and lower amount of caffeine would have had resulted better. 
+
+\FloatBarrier
+
 %%%% Coffee times
 \setlength{\tabcolsep}{10pt}
 \renewcommand{\arraystretch}{1.5}
@@ -187,7 +196,7 @@ The results.....................................................................
 \begin{adjustbox}{width=1\textwidth}
 \begin{tabular}{ |p{2,5cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|  }
  \hline
- \rowcolor{lightgray} \multicolumn{11}{|c|}{{\bf Common Light Levels Outdoor - Daytime}} \\
+ \rowcolor{lightgray} \multicolumn{11}{|c|}{{\bf Experiment with Caffeine}} \\
  \hline
  \hline
   {Condition}
@@ -205,11 +214,131 @@ The results.....................................................................
 \label{coffee}
 \end{table}
 
-The table \ref{coffee} shows the times of 10 Sudoku solvings of the participant. The results show that at the beginning, the participant was faster under the influence of caffeine and then later on the opposite. As the measurements where done on different days, the participant probably gained more practice in solving Sodukus, which shows the decreasing time to solve a Sudoku.
-\\
-The average time, the participant needed without drinking coffee was \textbf{14:24 Minutes} and after consuming \textbf{17:37 Minutes} minutes per Sudoku. The participnat needed 3:13 minutes or 22.34\%  longer after having a strong coffee. \\
-These results are different than the findings in \cite{liguori1997absorption}. Their results showed that a similar amount of caffeine increases the cognitive performance. \\
-However, in our case the participant of the Experiment mentioned to feel fretful after the intake of the high amount of caffeine. That could be a reason for the lower performance of the subject. Thus, it is possible that a overdose had negative impact on the participant and lower amount of caffeine would have had resulted better. 
+
+% Define bar chart colors
+%
+\definecolor{noCoff}{HTML}{1c90e7}
+\definecolor{coffee}{HTML}{a4c639}
+
+\begin{figure}
+	\centering
+	\begin{tikzpicture}
+        \begin{axis}[
+            width  = 0.5*\textwidth,
+        	height = 8cm,
+        	major x tick style = transparent,
+        	ybar=2*\pgflinewidth,
+        	bar width=30pt,
+        	ymajorgrids = true,
+        	ylabel = {Average solving time},
+        	symbolic x coords={Influences},
+       	 	xtick = data,
+        	scaled y ticks = false,
+        	enlarge x limits=0.25,
+        	ymin=0,
+        	legend cell align=left,
+        	legend style={
+                at={(1,1.05)},
+                anchor=south east,
+                column sep=1ex
+        	}
+      	]
+     	\addplot[style={android,fill=noCoff,mark=no coffee}]
+            coordinates {(Influences, 14.04)};
+
+        \addplot[style={ios,fill=coffee,mark=coffee}]
+             coordinates {(Influences,18.25)};
+
+        \legend{No Coffee, Coffee} 
+
+        \end{axis}
+ 	\end{tikzpicture}
+ 	\caption{Solving times - Coffee}\label{resultCoffee}
+ 	\vspace{10 mm}
+\end{figure}
+
+\FloatBarrier
+
+\subsection{music}
+
+The table \ref{music} shows the times of 10 Sudoku solvings of the participant. 
+
+\FloatBarrier
+
+%%%% Music times
+\setlength{\tabcolsep}{10pt}
+\renewcommand{\arraystretch}{1.5}
+{\rowcolors{3}{black!10!white!90}{white!100}
+
+\begin{table}[!htb]
+\centering
+\begin{adjustbox}{width=1\textwidth}
+\begin{tabular}{ |p{2,5cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|  }
+ \hline
+ \rowcolor{lightgray} \multicolumn{11}{|c|}{{\bf Experiment with Music}} \\
+ \hline
+ \hline
+  {Condition}
+   & \multicolumn{10}{|c|}{Duration} \\
+    \cline{2-11}
+    \hline
+ \hline
+ Measurement	& 1			& 2			& 3			& 4			& 5			& 6 			& 7 			& 8 			& 9			& 10			\\
+ No Music			& 13:40	& 12:16	& 09:11	& 11:07	& 15:19	& 09:47	& 11:32	& 09:08	& 16:00	& 23:33	\\
+ Heavy Metal   	& 30:12	& 15:51	& 14:42	& 15:46	& 19:47	& 09:51	& 11:01	& 12:34	& 09:58	& 13:23	\\
+ Classical   		& 20:52	& 09:45	& 21:14	& 13:01	& 09:06	& 19:34	& 08:02	& 10:36	& 19:58	& 15:03	\\
+ \hline
+\end{tabular}
+\end{adjustbox}
+\caption{Cognitive Performance with Music}
+\label{music}
+\end{table}
+
+% Define bar chart colors
+%
+\definecolor{nada}{HTML}{e78d1c}
+\definecolor{metal}{HTML}{a4c639}
+\definecolor{classical}{HTML}{1c90e7}
+
+\begin{figure}
+	\centering
+	\begin{tikzpicture}
+        \begin{axis}[
+            width  = 0.5*\textwidth,
+        	height = 8cm,
+        	major x tick style = transparent,
+        	ybar=2*\pgflinewidth,
+        	bar width=30pt,
+        	ymajorgrids = true,
+        	ylabel = {Average solving time},
+        	symbolic x coords={Influences},
+       	 	xtick = data,
+        	scaled y ticks = false,
+        	enlarge x limits=0.25,
+        	ymin=0,
+        	legend cell align=left,
+        	legend style={
+                at={(1,1.05)},
+                anchor=south east,
+                column sep=1ex
+        	}
+      	]
+     	\addplot[style={android,fill=classical,mark=classical}]
+            coordinates {(Influences, 13.15)};
+
+        \addplot[style={ios,fill=,metal,mark=metal}]
+             coordinates {(Influences,15.316667)};
+
+        \addplot[style={others,fill=nada,mark=no music}]
+             coordinates {(Influences, 15.005)};
+
+        \legend{Classical, Metal, No Music} 
+
+        \end{axis}
+ 	\end{tikzpicture}
+ 	\caption{Solving times - Music}\label{resultMusic}
+ 	\vspace{10 mm}
+\end{figure}
 
 \FloatBarrier
 
