@@ -1,7 +1,7 @@
 \contentsline {chapter}{Acknowledgments}{iv}{chapter*.3}
 \contentsline {chapter}{Abstract}{v}{chapter*.4}
-\contentsline {chapter}{List of Tables}{x}{chapter*.7}
-\contentsline {chapter}{List of Figures}{xi}{chapter*.8}
+\contentsline {chapter}{List of Tables}{xii}{chapter*.7}
+\contentsline {chapter}{List of Figures}{xiii}{chapter*.8}
 \contentsline {chapter}{Chapter{} \numberline {1}Introduction}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Motivation}{4}{section.1.1}
 \contentsline {subsection}{\numberline {1.1.1}Mobile Device Sensors}{4}{subsection.1.1.1}
@@ -81,8 +81,44 @@
 \contentsline {section}{\numberline {6.1}Individual Experiment Results}{52}{section.6.1}
 \contentsline {subsection}{\numberline {6.1.1}coffee}{52}{subsection.6.1.1}
 \contentsline {subsection}{\numberline {6.1.2}music}{53}{subsection.6.1.2}
-\contentsline {chapter}{Chapter{} \numberline {7}Conclusions}{55}{chapter.7}
-\contentsline {section}{\numberline {7.1}Future Work}{55}{section.7.1}
-\contentsline {chapter}{Appendix{} \numberline {A}Abbreviations}{56}{appendix.A}
-\contentsline {chapter}{Appendix{} \numberline {B}Source Code}{58}{appendix.B}
-\contentsline {chapter}{Bibliography}{59}{appendix*.27}
+\contentsline {chapter}{Chapter{} \numberline {7}Conclusions}{56}{chapter.7}
+\contentsline {section}{\numberline {7.1}Future Work}{56}{section.7.1}
+\contentsline {chapter}{Appendix{} \numberline {A}Abbreviations}{58}{appendix.A}
+\contentsline {chapter}{Appendix{} \numberline {B}Source Code}{60}{appendix.B}
+\contentsline {chapter}{Appendix{} \numberline {C}Source Code}{61}{appendix.C}
+\contentsline {section}{\numberline {C.1}Participant 1}{62}{section.C.1}
+\contentsline {subsection}{\numberline {C.1.1}date \& time}{62}{subsection.C.1.1}
+\contentsline {subsection}{\numberline {C.1.2}Questions}{62}{subsection.C.1.2}
+\contentsline {subsection}{\numberline {C.1.3}Accelerometer}{63}{subsection.C.1.3}
+\contentsline {subsection}{\numberline {C.1.4}Light}{63}{subsection.C.1.4}
+\contentsline {subsection}{\numberline {C.1.5}Volume}{64}{subsection.C.1.5}
+\contentsline {subsection}{\numberline {C.1.6}Steps}{64}{subsection.C.1.6}
+\contentsline {subsection}{\numberline {C.1.7}Location}{65}{subsection.C.1.7}
+\contentsline {section}{\numberline {C.2}Participant 2}{66}{section.C.2}
+\contentsline {subsection}{\numberline {C.2.1}date \& time}{66}{subsection.C.2.1}
+\contentsline {subsection}{\numberline {C.2.2}Questions}{66}{subsection.C.2.2}
+\contentsline {subsection}{\numberline {C.2.3}Accelerometer}{67}{subsection.C.2.3}
+\contentsline {subsection}{\numberline {C.2.4}Light}{67}{subsection.C.2.4}
+\contentsline {subsection}{\numberline {C.2.5}Volume}{68}{subsection.C.2.5}
+\contentsline {subsection}{\numberline {C.2.6}Steps}{68}{subsection.C.2.6}
+\contentsline {subsection}{\numberline {C.2.7}Location}{69}{subsection.C.2.7}
+\contentsline {subsection}{\numberline {C.2.8}Weather}{69}{subsection.C.2.8}
+\contentsline {section}{\numberline {C.3}Participant 3}{70}{section.C.3}
+\contentsline {subsection}{\numberline {C.3.1}date \& time}{70}{subsection.C.3.1}
+\contentsline {subsection}{\numberline {C.3.2}Questions}{70}{subsection.C.3.2}
+\contentsline {subsection}{\numberline {C.3.3}Accelerometer}{71}{subsection.C.3.3}
+\contentsline {subsection}{\numberline {C.3.4}Light}{71}{subsection.C.3.4}
+\contentsline {subsection}{\numberline {C.3.5}Volume}{72}{subsection.C.3.5}
+\contentsline {subsection}{\numberline {C.3.6}Steps}{72}{subsection.C.3.6}
+\contentsline {subsection}{\numberline {C.3.7}Location}{73}{subsection.C.3.7}
+\contentsline {subsection}{\numberline {C.3.8}Weather}{73}{subsection.C.3.8}
+\contentsline {section}{\numberline {C.4}Participant 4}{74}{section.C.4}
+\contentsline {subsection}{\numberline {C.4.1}date \& time}{74}{subsection.C.4.1}
+\contentsline {subsection}{\numberline {C.4.2}Questions}{74}{subsection.C.4.2}
+\contentsline {subsection}{\numberline {C.4.3}Accelerometer}{75}{subsection.C.4.3}
+\contentsline {subsection}{\numberline {C.4.4}Light}{75}{subsection.C.4.4}
+\contentsline {subsection}{\numberline {C.4.5}Volume}{76}{subsection.C.4.5}
+\contentsline {subsection}{\numberline {C.4.6}Steps}{76}{subsection.C.4.6}
+\contentsline {subsection}{\numberline {C.4.7}Location}{77}{subsection.C.4.7}
+\contentsline {subsection}{\numberline {C.4.8}Weather}{77}{subsection.C.4.8}
+\contentsline {chapter}{Bibliography}{78}{appendix*.27}
