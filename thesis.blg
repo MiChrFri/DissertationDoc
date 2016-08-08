@@ -11,6 +11,7 @@ A level-1 auxiliary file: results.aux
 A level-1 auxiliary file: conclusion.aux
 A level-1 auxiliary file: appendix1.aux
 A level-1 auxiliary file: appendix2.aux
+A level-1 auxiliary file: appendix3.aux
 The style file: plain.bst
 Database file #1: references.bib
 Warning--to sort, need author or key in androidpermissions
@@ -21,7 +22,7 @@ Warning--to sort, need author or key in gnomeSudoku
 Warning--to sort, need author or key in spotify
 You've used 47 entries,
             2118 wiz_defined-function locations,
-            798 strings with 13350 characters,
+            799 strings with 13363 characters,
 and the built_in function-call counts, 16172 in all, are:
 = -- 1661
 > -- 692

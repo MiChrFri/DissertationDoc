@@ -39,13 +39,27 @@ Over the last decades, the University of Hawaii did a lot of research in PSP and
 Their first approach was originally described as ``A Discipline for Software Engineering''. It required the users to keep records about all the metrics by hand. The massive overhead was a high barrier for the students to adopt and keep on working with the PSP. For the best results they needed to write down every compiler error and they had to track the time they were working on their projects and had to stop it for interruptions.\\
 In 1998 the University of Hawaii started the Leap research project to provide a PSP with low overhead for the collection and analysis of the data. This generation of PSP was using automated tools which were asking the user for inputting the data. These tools were also able to display information and analyses to the user.
 Just a few students adopted the system. The researchers found out that another reason for the reluctant adoption was the constant context switches for the users. Inputting the data during the programming task interrupted and disturbed the ability to focus on the programming tasks. \cite{johnson2003beyond}
-In order to eliminate the adopting barriers, they started the Hackystat project in 2001. Hackystat is an open source framework for automatically gathering all the required metrics by data collection plugins in the development environments of the users.\\
+In order to eliminate the adopting barriers, they started the Hackystat project in 2001. Hackystat is an open source framework for automatically gathering all the required metrics by data collection plugins in the development environments of the users \ref{psps}.\\
 Plugins, that are installed by the in their programming environments automatically collect the data and forward it to a centralized web service. The web service orders and analyzes the data. If interesting results occur, the webservice sends emails to the developers to inform them about it. The web service also provides a rich visual representation of the data.
 All the different approaches to provide feedback about the code lead to improvements in the quality and the ability to estimate software projects. \cite{johnson2001project} 
 The Appalachian State University in North Carolina described a different approach. Their goal was to decrease the high attrition rate of computer science students and increase the attraction to get a computer science degree in general.\\
 The researchers were monitoring the students software development behaviour in order to find good practises for successfully learning programming. For gathering the data of the individual students, they developed a tool called ClockIt. ClockIt allows to, fully automatically, collect the data, analyze it and compare the results with the results from better or more experienced students visually. A web interface provides access to measurements for the student, the course instructor or an administrator.\\
 In their results they compared the data of three students out of 75 participants. The students with the best results, an average scoring student and the one with the lowest grade. 
 The comparison showed that the best student also spent the most time on the project, but wrote less code than the average scoring student who spend almost as much time. The worst student spend the least time and submitted the smallest amount of code. There was an interesting correlation between the grade and the compilation errors and the amount of compilations that were made. The best student compiled the code more than double as much as the average student and almost 6 times more than the worst student did. \cite{norris2008clockit}
+
+\begin{table}[ht]
+  \begin{tabular}{|P{5cm}|P{3cm}|P{3cm}|P{3cm}|}
+  \hline
+   \textbf{Characteristic}	& \textbf{Generation 1} & \textbf{Generation 2 - Leap} & \textbf{Generation 3 - Hackystat} \\ \hline
+	Collection overhead	& High 											& Medium  				& None \\ \hline
+	Analysis overhead	& High 											& Low 						& None \\ \hline
+	Context switching	& Yes 											& Yes 						& No \\ \hline
+	Metrics changes		& Simple 										& Software edits		& Tool dependent \\ \hline
+	Adoption barriers		& Overhead, Context-switching 	& Context-switching	& Privacy, Sensor availability \\ \hline
+  \end{tabular}
+  \newline\newline
+  \caption{University of Hawaii - PSPs}\label{psps}
+\end{table}
 
 \subsection{Summary}
 This section describes the evolution of analyzing software engineering processes. It started with documenting every step by hand up to fully automated plugins that gather and analyzed the data.

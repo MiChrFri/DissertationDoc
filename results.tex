@@ -14,172 +14,162 @@ Figure \ref{entries} shows how the gathered data look after the decryption.
 
 \FloatBarrier
 
-
-
-The results.......................................................................
 \bigbreak
 
+Participant number 2 was the only one who answered the question of being distracted during the experiment with 'yes'. Also the volume amplitude had some very high peeks that were not found in the measurements of other participants in that level. The distracted participant also needed to longest to solve the programming task \ref{volps}. 
 
-\begin{adjustbox}{width=\textwidth}
-\begin{tikzpicture}
-\begin{axis}[domain=0:1,legend pos=outer north east]
-\addplot[orange,very thick][smooth]coordinates {(0,0.9)(1,0.9)(2,0.9)(3,0.9)(4,0.9)(5,0.5)(6,0.1)(7,0)(8,0)(9,0)(10,0)(11,0)(12,0)};
-\addplot[green,very thick][smooth]coordinates {(0,0)(1,0)(2,0)(3,0)(4,0.1)(5,0.5)(6,0.9)(7,0.9)(8,0.9)(9,0.9)(10,0.9)(11,0.9)(12,0.9)};
-\addplot[red,very thick]coordinates {(0,0)(12,0)};
-
-\legend{y,z,x}
-
-\end{axis}
-\end{tikzpicture}
-\end{adjustbox}
-
-\begin{figure}
+\subsection{Volume}
+\begin{figure}[ht]
 	\centering
 	\begin{tikzpicture}
+	\pgfplotsset{ticks=none}
 \begin{axis}[
-	height=7cm,
+	height=6cm,
 	width=\textwidth,
-	xlabel=minutes,
-	ylabel=sensor,
-	title=Example Results,
+	ylabel=amplitude,
+	xlabel=duration,
+	title=Volume,
 	unbounded coords=discard],
 	
-	\addplot coordinates {
-(0 , 4383.0)
-(1 , 11423.0)
-(2 , 1918.0)
-(3 , 684.0)
-(4 , 805.0)
-(5 , 9602.0)
-(6 , 28165.0)
-(7 , 32264.0)
-(8 , 20283.0)
-(9 , 26030.0)
-(10 , 16563.0)
-(11 , 12407.0)
-(12 , 18819.0)
-(13 , 6708.0)
-(14 , 3220.0)
-(15 , 4047.0)
-(16 , 5069.0)
-(17 , 5662.0)
-(18 , 5772.0)
-(19 , 6661.0)
-(20 , 5561.0)
-(21 , 5056.0)
-(22 , 5205.0)
-(23 , 16217.0)
-(24 , 3994.0)
-(25 , 7474.0)
-(26 , 2220.0)
-(27 , 4465.0)
-(28 , 4437.0)
-(29 , 3405.0)
-(30 , 6689.0)
-(31 , 4498.0)
-(32 , 3983.0)
-(33 , 3864.0)
-(34 , 4413.0)
-(35 , 10377.0)
-(36 , 19460.0)
-(37 , 4237.0)
-(38 , 6751.0)
-(39 , 7734.0)
-(40 , 6122.0)
-(41 , 5758.0)
-(42 , 6460.0)
-(43 , 8085.0)
-(44 , 7039.0)
-(45 , 10894.0)
-(46 , 11810.0)
-(47 , 15247.0)
-(48 , 5769.0)
-(49 , 10496.0)
-(50 , 10942.0)
-(51 , 6352.0)
-(52 , 6403.0)
-(53 , 14557.0)
-(54 , 6105.0)
-(55 , 7545.0)
-(56 , 13146.0)
-(57 , 7435.0)
-(58 , 9412.0)
-(59 , 6426.0)
-(60 , 47340.0)
-(61 , 10167.0)
-(62 , 9147.0)
-(63 , 7569.0)
-(64 , 10373.0)
-(65 , 13084.0)
-(66 , 26832.0)
-(67 , 9606.0)
-(68 , 8393.0)
-(69 , 6832.0)
-(70 , 5402.0)
-(71 , 7218.0)
-(72 , 10548.0)
-(73 , 5827.0)
-(74 , 6796.0)
-(75 , 8080.0)
-(76 , 9051.0)
-(77 , 4888.0)
-(78 , 14292.0)
-(79 , 7959.0)
-(80 , 9081.0)
-(81 , 11426.0)
-(82 , 17525.0)
-(83 , 6801.0)
-(84 , 7673.0)
-(85 , 8264.0)
-(86 , 13528.0)
-(87 , 8007.0)
-(88 , 9657.0)
-(89 , 8775.0)
-(90 , 20563.0)
-(91 , 7282.0)
-(92 , 11904.0)
-(93 , 15465.0)
-(94 , 10871.0)
-(95 , 11887.0)
-(96 , 7567.0)
-(97 , 10745.0)
-(98 , 9067.0)
-(99 , 15943.0)
-(100 , 7914.0)
-(101 , 8823.0)
-(102 , 8461.0)
-(103 , 7110.0)
-(104 , 17129.0)
-(105 , 30584.0)
-(106 , 27321.0)
-(107 , 11586.0)
-(108 , 8531.0)
-(109 , 20998.0)
-(110 , 15785.0)
-(111 , 9681.0)
-(112 , 8923.0)
-(113 , 20168.0)
-(114 , 10760.0)
-(115 , 20493.0)
-(116 , 29414.0)
-(117 , 16085.0)
-(118 , 39551.0)
-(119 , 32556.0)
-(120 , 7311.0)
+\addplot coordinates {
+(0, 0.0)
+(3.5, 0.0)
+(7, 0.0)
+(10.5, 0.0)
+(14, 0.0)
+(17.5, 0.0)
+(21, 0.0)
+(24.5, 0.0)
+(28, 0.0)
+(31.5, 0.0)
+(35, 0.0)
+(38.5, 0.0)
+(42, 0.0)
+(45.5, 0.0)
+(49, 0.0)
+(52.5, 0.0)
+(56, 0.0)
+(59.5, 0.0)
 };
 
+\addplot coordinates {
+(0 , 59.5882352941)
+(1 , 83.125)
+(2 , 23.0)
+(3 , 88.25)
+(4 , 38.75)
+(5 , 162.333333333)
+(6 , 53.0)
+(7 , 462.666666667)
+(8 , 134.333333333)
+(9 , 298.5)
+(10 , 38.5)
+(11 , 64.3333333333)
+(12 , 42.0)
+(13 , 12.5)
+(14 , 117.75)
+(15 , 229.5)
+(16 , 39.6666666667)
+(17 , 57.0)
+(18 , 57.0)
+(19 , 344.333333333)
+(20 , 2060.0)
+(21 , 238.6)
+(22 , 365.0)
+(23 , 259.0)
+(24 , 1335.16666667)
+(25 , 35.0)
+(26 , 24.0)
+(27 , 39.3333333333)
+(28 , 80.0)
+(29 , 52.0)
+(30 , 13.25)
+(31 , 52.3333333333)
+(32 , 50.75)
+(33 , 105.5)
+(34 , 70.75)
+(35 , 147.666666667)
+(36 , 47.0)
+(37 , 76.5)
+(38 , 104.0)
+(39 , 80.8)
+(40 , 69.0)
+(41 , 45.1666666667)
+(42 , 90.3333333333)
+(43 , 208.0)
+(44 , 210.0)
+(45 , 65.3333333333)
+(46 , 86.5)
+(47 , 113.25)
+(48 , 220.0)
+(49 , 283.0)
+(50 , 91.5)
+(51 , 782.0)
+(52 , 333.666666667)
+(53 , 129.333333333)
+(54 , 102.0)
+(55 , 145.0)
+(56 , 171.0)
+(57 , 93.5789473684)
+(58 , 68.75)
+(59 , 100.0)
+(60 , 1637.83333333)
+};
+
+\addplot coordinates {
+(0 , 330.986057143)
+(5 , 327.141866667)
+(10 , 324.539771429)
+(15 , 322.701066667)
+(20 , 329.208342857)
+(25 , 335.669942857)
+(30 , 346.047466667)
+(35 , 352.541066667)
+(40 , 368.9453)
+(45 , 374.263066667)
+(50 , 355.196133333)
+(55 , 340.515885714)
+(60 , 332.4064)
+};
+
+\addplot coordinates {
+(0, 241.869565217)
+(3.3, 247.684210526)
+(6.6, 271.19047619)
+(9.9, 270.380952381)
+(13.2, 267.19047619)
+(16.5, 275.181818182)
+(19.8, 281.0)
+(23.1, 281.0)
+(26.4, 269.056565454)
+(29.7, 273.082245)
+(33, 270.457685359)
+(36.3, 268.358045125)
+(39.6, 272.456782138)
+(42.9, 268.0)
+(46.2, 270.121246868)
+(49.5, 274.154865478)
+(52.8, 270.782398425)
+(56.1, 286.252546845)
+(59.4, 284.054086785)
+};
+
+\addlegendentry{p1}
+\addlegendentry{p2}
+\addlegendentry{p3}
+\addlegendentry{p4}
 \end{axis}
+
 \end{tikzpicture}
- 	\vspace{10 mm}
+\caption{Noise Participants}\label{volps}
+ 	\vspace{5 mm}
 \end{figure}
 
 \FloatBarrier
 
 \section{Individual Experiment Results}
-
 The results of the individual experiment are demonstrating the usage and the abilities for the Dather Application for a single participant. Rather than in the first experiment, it is taking only the data of a single person into account.
 The data is only a trend but not a scientific result. A lot more test cases would be needed to create a more accurate average value. However, the purpose of this experiment was to demonstrate the usage of the data, more to create comparable environments rather than in experiment number 1 detect the environment and patterns. 
-
 
 \subsection{coffee}
 The table \ref{coffee} shows the times of 10 Sudoku solvings of the participant. The results show that at the beginning, the participant was faster under the influence of caffeine and then later on the opposite. As the measurements where done on different days, the participant probably gained more practice in solving Sodukus, which shows the decreasing time to solve a Sudoku.
@@ -257,7 +247,7 @@ However, in our case the participant of the Experiment mentioned to feel fretful
 
         \end{axis}
  	\end{tikzpicture}
- 	\caption{Solving times - Coffee}\label{resultCoffee}
+ 	\caption{Solving times - Coffee} \label{resultCoffee}
  	\vspace{10 mm}
 \end{figure}
 
