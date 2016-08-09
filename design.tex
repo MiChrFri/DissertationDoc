@@ -62,6 +62,9 @@ An alternative to the native implementation (e.g. iOS or Android) could have bee
 The Android application make use of its build in sensors and information provided by the Android operating system. Different than iOS, Android is an OS that can be installed of different devices from different vendors and with different hardware components \cite{goadrich2011smart}. Thus the buit in sensors which are clustered in motion sensors, environmental sensors and position sensors \cite{androidDevelopers} can differ between the different devices. Components which are required for standard functionality such as making phone calls are more common than other sensors. For example the the microphone for recording the users voice or the light sensor, which is used to detect whether the user has the phone at his ear can be found in almost every mobile android device. 
 \end{flushleft}
 
+\subsection{Requirements}
+The application is primarily created for the research project and therefore not for the everyday use. The participants should not waste much time in finding out how the app works. The goal was to create a simple and intuitive interface and a leading flow trough the functionality. The apps purpose is to gather the data of the participant during coding. That includes the usage of the mobile device during work. Thus, the gathering app must be able to run in the background, so the participant can use the app as he/she would normally do (e.g. Listing to music, texting etc.)
+
 \subsection{App Architecture}
 The Android app is built based on the Model View Controller design principles. This design principle defines the interfaces between the three different parts, the Model, the View and the Controller and states the tasks and responsibilities of each part.\\
 The Model is the data source and in this app represented by the SQLite Database and can only communication happens to the Controller. 
@@ -110,6 +113,10 @@ Also the gathered data are stored encrypted in the SQLite database on the mobile
 \section{Server Design}
 The server is hosted by 1\&1 Internet SE as a completely pre-configured server backend PHP version 5.6 and the MYSQL-server phpMyAdmin in version 4.1.14.8. The also pre-configured server file system can be accessed using SSH or via FTP.
 
+\subsection{requirements}
+The Website is required to provide all the information a participant could need to do the experiment. The Interface should be clean and the participant should be also able to download the android application from the same website as he/she gets the information about the experiment. 
+The backend will only be used by the researchers and therefore the user interface doesn't matter as much as for the participants. The functionality and the customization are the most important features. 
+
 \subsection{Server Frontend Design}
 The information for the participants of the study can access information web pages and access the downloadable Android application.\\
 The frontend is implemented in HTML5 and CSS3 and simply uploaded to the server. As everything is public available and accessible there was no need or using a framework or any further security implementation. 
@@ -120,6 +127,9 @@ No external frameworks have been used to implement the basic REST-full service a
 
 \section{Tools}
 The following tools are were used during the experiment primarily for the decryption of data to automate some processes.
+
+\subsection{requirements}
+The tools are also just for the usage of the researchers and the requirements therefor also the functionality, the security that no information are getting lost.
 
 \subsection{Decrypting Tool}
 The encryption tool an executable program written in Java for locally encrypting the downloaded gathered data.\\

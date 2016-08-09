@@ -1,12 +1,45 @@
-\chapter{Participant data}
+\chapter{Programming task}
 
-These are the results of the measurements from Experiment one for each participant. 
+The programming task for the crowd Experiment.
 
-\newpage
-\input{participant1}
-\newpage
-\input{participant2}
-\newpage
-\input{participant3}
-\newpage
-\input{participant4}
+
+\section{Palindromes}
+
+\subsection{Question}
+Generate a palindrome with the maximum possible amount of characters from an input string.\\
+Count the amount of characters from the input that you didn't use in your palindrome then add 65 to the result and convert the result to the respresending ASCII character
+
+\subsubsection{What's a palindrome?}
+A palindrome is a word which reads the same from left to right and right to left such as anna or racecar
+
+\subsubsection{Input structure}
+a String with characters from a-z and whitespace\\
+The first line indicates the number of test cases\\
+The following lines are the individual test cases\\
+
+\subsection{Example}
+\subsubsection{input}
+2\\
+hello my world\\
+amazing code\\
+
+\subsubsection{Explanation Testcase 1}
+The largest palindrome you can create from the characters:\\
+hello my world\\
+\quad \textbf{lohol}\\
+These are 7 leftover characters:\\
+\quad emywrld \quad\quad\quad\quad\quad\quad\quad\quad\textbackslash\textbackslash char.count = 7\\
+When we add 65 we get 72, which is a 'H' in the ASCII table\\
+65 + 7 = 72 \quad\quad\quad\quad\quad\quad\textbackslash\textbackslash char:'H'\\
+
+\subsubsection{Explanation Testcase 2}
+The largest palindrome you can create from the characters:\\
+amazing code\\
+\quad \textbf{ama}\\
+These are 8 leftover characters:\\
+\quad \textbf{zingcode}\quad\quad\quad\quad\quad\quad\textbackslash\textbackslash char.count = 8\\
+When we add 65 we get 73, which is a 'I' in the ASCII table\\
+65 + 8 = 73\quad\quad\quad\quad\quad\textbackslash\textbackslash char: 'I'
+
+\textbf{Result}\\
+HI
