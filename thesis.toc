@@ -1,7 +1,7 @@
 \contentsline {chapter}{Acknowledgments}{iv}{chapter*.3}
 \contentsline {chapter}{Abstract}{v}{chapter*.4}
-\contentsline {chapter}{List of Tables}{xii}{chapter*.7}
-\contentsline {chapter}{List of Figures}{xiii}{chapter*.8}
+\contentsline {chapter}{List of Tables}{xiii}{chapter*.7}
+\contentsline {chapter}{List of Figures}{xiv}{chapter*.8}
 \contentsline {chapter}{Chapter{} \numberline {1}Introduction}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Motivation}{4}{section.1.1}
 \contentsline {subsection}{\numberline {1.1.1}Mobile Device Sensors}{4}{subsection.1.1.1}
@@ -81,42 +81,43 @@
 \contentsline {subsubsection}{Coffee}{50}{section*.34}
 \contentsline {chapter}{Chapter{} \numberline {6}Results}{52}{chapter.6}
 \contentsline {subsection}{\numberline {6.0.1}output format}{52}{subsection.6.0.1}
-\contentsline {section}{\numberline {6.1}Individual Experiment Results}{53}{section.6.1}
+\contentsline {section}{\numberline {6.1}Individual Experiment Results}{54}{section.6.1}
 \contentsline {subsection}{\numberline {6.1.1}coffee}{54}{subsection.6.1.1}
 \contentsline {subsection}{\numberline {6.1.2}music}{55}{subsection.6.1.2}
-\contentsline {chapter}{Chapter{} \numberline {7}Conclusions}{57}{chapter.7}
-\contentsline {section}{\numberline {7.1}Project Overview}{57}{section.7.1}
-\contentsline {section}{\numberline {7.2}Contribution}{58}{section.7.2}
-\contentsline {section}{\numberline {7.3}Future Work}{58}{section.7.3}
-\contentsline {chapter}{Appendix{} \numberline {A}Abbreviations}{59}{appendix.A}
-\contentsline {chapter}{Appendix{} \numberline {B}Source Code}{61}{appendix.B}
-\contentsline {chapter}{Appendix{} \numberline {C}Programming task}{62}{appendix.C}
-\contentsline {section}{\numberline {C.1}Palindromes}{62}{section.C.1}
-\contentsline {subsection}{\numberline {C.1.1}Question}{62}{subsection.C.1.1}
-\contentsline {subsubsection}{What's a palindrome?}{62}{section*.42}
-\contentsline {subsubsection}{Input structure}{63}{section*.43}
-\contentsline {subsection}{\numberline {C.1.2}Example}{63}{subsection.C.1.2}
-\contentsline {subsubsection}{input}{63}{section*.44}
-\contentsline {subsubsection}{Explanation Testcase 1}{63}{section*.45}
-\contentsline {subsubsection}{Explanation Testcase 2}{64}{section*.46}
-\contentsline {chapter}{Appendix{} \numberline {D}Participant data}{65}{appendix.D}
-\contentsline {section}{\numberline {D.1}Participant 1}{66}{section.D.1}
-\contentsline {subsection}{\numberline {D.1.1}date \& time}{66}{subsection.D.1.1}
-\contentsline {subsection}{\numberline {D.1.2}Questions}{66}{subsection.D.1.2}
-\contentsline {subsection}{\numberline {D.1.3}Accelerometer}{67}{subsection.D.1.3}
-\contentsline {subsection}{\numberline {D.1.4}Light}{67}{subsection.D.1.4}
-\contentsline {subsection}{\numberline {D.1.5}Volume}{68}{subsection.D.1.5}
-\contentsline {subsection}{\numberline {D.1.6}Steps}{68}{subsection.D.1.6}
-\contentsline {subsection}{\numberline {D.1.7}Location}{68}{subsection.D.1.7}
-\contentsline {section}{\numberline {D.2}Participant 2}{69}{section.D.2}
-\contentsline {subsection}{\numberline {D.2.1}date \& time}{69}{subsection.D.2.1}
-\contentsline {subsection}{\numberline {D.2.2}Questions}{69}{subsection.D.2.2}
-\contentsline {subsection}{\numberline {D.2.3}Accelerometer}{70}{subsection.D.2.3}
-\contentsline {subsection}{\numberline {D.2.4}Light}{70}{subsection.D.2.4}
-\contentsline {subsection}{\numberline {D.2.5}Volume}{71}{subsection.D.2.5}
-\contentsline {subsection}{\numberline {D.2.6}Steps}{71}{subsection.D.2.6}
-\contentsline {subsection}{\numberline {D.2.7}Location}{71}{subsection.D.2.7}
-\contentsline {subsection}{\numberline {D.2.8}Weather}{71}{subsection.D.2.8}
+\contentsline {chapter}{Chapter{} \numberline {7}Conclusions}{58}{chapter.7}
+\contentsline {section}{\numberline {7.1}Project Overview}{58}{section.7.1}
+\contentsline {section}{\numberline {7.2}Contribution}{59}{section.7.2}
+\contentsline {section}{\numberline {7.3}Future Work}{59}{section.7.3}
+\contentsline {chapter}{Appendix{} \numberline {A}Abbreviations}{60}{appendix.A}
+\contentsline {chapter}{Appendix{} \numberline {B}Source Code}{62}{appendix.B}
+\contentsline {chapter}{Appendix{} \numberline {C}Programming task}{63}{appendix.C}
+\contentsline {section}{\numberline {C.1}Palindromes}{63}{section.C.1}
+\contentsline {subsection}{\numberline {C.1.1}Question}{63}{subsection.C.1.1}
+\contentsline {subsubsection}{What's a palindrome?}{63}{section*.42}
+\contentsline {subsubsection}{Input structure}{64}{section*.43}
+\contentsline {subsection}{\numberline {C.1.2}Example}{64}{subsection.C.1.2}
+\contentsline {subsubsection}{input}{64}{section*.44}
+\contentsline {subsubsection}{Explanation Testcase 1}{64}{section*.45}
+\contentsline {subsubsection}{Explanation Testcase 2}{65}{section*.46}
+\contentsline {chapter}{Appendix{} \numberline {D}Participant data}{66}{appendix.D}
+\contentsline {section}{\numberline {D.1}Participant 1}{67}{section.D.1}
+\contentsline {subsection}{\numberline {D.1.1}date \& time}{67}{subsection.D.1.1}
+\contentsline {subsection}{\numberline {D.1.2}Questions}{67}{subsection.D.1.2}
+\contentsline {subsection}{\numberline {D.1.3}Accelerometer}{68}{subsection.D.1.3}
+\contentsline {subsection}{\numberline {D.1.4}Light}{68}{subsection.D.1.4}
+\contentsline {subsection}{\numberline {D.1.5}Volume}{69}{subsection.D.1.5}
+\contentsline {subsection}{\numberline {D.1.6}Steps}{69}{subsection.D.1.6}
+\contentsline {subsection}{\numberline {D.1.7}Location}{69}{subsection.D.1.7}
+\contentsline {subsection}{\numberline {D.1.8}Weather}{69}{subsection.D.1.8}
+\contentsline {section}{\numberline {D.2}Participant 2}{70}{section.D.2}
+\contentsline {subsection}{\numberline {D.2.1}date \& time}{70}{subsection.D.2.1}
+\contentsline {subsection}{\numberline {D.2.2}Questions}{70}{subsection.D.2.2}
+\contentsline {subsection}{\numberline {D.2.3}Accelerometer}{71}{subsection.D.2.3}
+\contentsline {subsection}{\numberline {D.2.4}Light}{71}{subsection.D.2.4}
+\contentsline {subsection}{\numberline {D.2.5}Volume}{72}{subsection.D.2.5}
+\contentsline {subsection}{\numberline {D.2.6}Steps}{72}{subsection.D.2.6}
+\contentsline {subsection}{\numberline {D.2.7}Location}{72}{subsection.D.2.7}
+\contentsline {subsection}{\numberline {D.2.8}Weather}{72}{subsection.D.2.8}
 \contentsline {section}{\numberline {D.3}Participant 3}{73}{section.D.3}
 \contentsline {subsection}{\numberline {D.3.1}date \& time}{73}{subsection.D.3.1}
 \contentsline {subsection}{\numberline {D.3.2}Questions}{73}{subsection.D.3.2}
@@ -135,13 +136,13 @@
 \contentsline {subsection}{\numberline {D.4.6}Steps}{78}{subsection.D.4.6}
 \contentsline {subsection}{\numberline {D.4.7}Location}{78}{subsection.D.4.7}
 \contentsline {subsection}{\numberline {D.4.8}Weather}{78}{subsection.D.4.8}
-\contentsline {section}{\numberline {D.5}Participant 5}{80}{section.D.5}
-\contentsline {subsection}{\numberline {D.5.1}date \& time}{80}{subsection.D.5.1}
-\contentsline {subsection}{\numberline {D.5.2}Questions}{80}{subsection.D.5.2}
-\contentsline {subsection}{\numberline {D.5.3}Accelerometer}{81}{subsection.D.5.3}
-\contentsline {subsection}{\numberline {D.5.4}Light}{81}{subsection.D.5.4}
-\contentsline {subsection}{\numberline {D.5.5}Volume}{82}{subsection.D.5.5}
-\contentsline {subsection}{\numberline {D.5.6}Steps}{82}{subsection.D.5.6}
-\contentsline {subsection}{\numberline {D.5.7}Location}{82}{subsection.D.5.7}
-\contentsline {subsection}{\numberline {D.5.8}Weather}{82}{subsection.D.5.8}
-\contentsline {chapter}{Bibliography}{84}{appendix*.70}
+\contentsline {section}{\numberline {D.5}Participant 5}{79}{section.D.5}
+\contentsline {subsection}{\numberline {D.5.1}date \& time}{79}{subsection.D.5.1}
+\contentsline {subsection}{\numberline {D.5.2}Questions}{79}{subsection.D.5.2}
+\contentsline {subsection}{\numberline {D.5.3}Accelerometer}{80}{subsection.D.5.3}
+\contentsline {subsection}{\numberline {D.5.4}Light}{80}{subsection.D.5.4}
+\contentsline {subsection}{\numberline {D.5.5}Volume}{81}{subsection.D.5.5}
+\contentsline {subsection}{\numberline {D.5.6}Steps}{81}{subsection.D.5.6}
+\contentsline {subsection}{\numberline {D.5.7}Location}{81}{subsection.D.5.7}
+\contentsline {subsection}{\numberline {D.5.8}Weather}{81}{subsection.D.5.8}
+\contentsline {chapter}{Bibliography}{82}{appendix*.70}
