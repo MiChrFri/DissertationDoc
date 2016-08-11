@@ -10,139 +10,139 @@
 \contentsline {subsection}{\numberline {1.1.4}Working environment}{6}{subsection.1.1.4}
 \contentsline {section}{\numberline {1.2}Aims}{7}{section.1.2}
 \contentsline {section}{\numberline {1.3}Road-map}{7}{section.1.3}
-\contentsline {chapter}{Chapter{} \numberline {2}The State of the Art}{8}{chapter.2}
-\contentsline {section}{\numberline {2.1}Software Metrics}{9}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Summary}{10}{subsection.2.1.1}
-\contentsline {section}{\numberline {2.2}Metrics Measurement and Analysis}{11}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Summary}{12}{subsection.2.2.1}
-\contentsline {section}{\numberline {2.3}Mobile Data Gathering}{13}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Summary}{14}{subsection.2.3.1}
-\contentsline {section}{\numberline {2.4}Data Clustering}{14}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Summary}{16}{subsection.2.4.1}
-\contentsline {section}{\numberline {2.5}Variable Quality Influences}{16}{section.2.5}
-\contentsline {subsection}{\numberline {2.5.1}Team Communication}{16}{subsection.2.5.1}
-\contentsline {subsubsection}{Summary}{18}{section*.10}
-\contentsline {subsection}{\numberline {2.5.2}Cognitive Performance}{19}{subsection.2.5.2}
-\contentsline {subsubsection}{Working Environment}{19}{section*.11}
-\contentsline {subsubsection}{Context Switching}{20}{section*.12}
-\contentsline {subsubsection}{Arousal Effects}{21}{section*.13}
-\contentsline {subsubsection}{Diet}{22}{section*.14}
-\contentsline {subsubsection}{Summary}{22}{section*.15}
-\contentsline {chapter}{Chapter{} \numberline {3}Design}{24}{chapter.3}
-\contentsline {section}{\numberline {3.1}Functionality Overview}{24}{section.3.1}
-\contentsline {section}{\numberline {3.2}Mobile Application Design}{25}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Requirements}{26}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}App Architecture}{26}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}User Interface}{27}{subsection.3.2.3}
-\contentsline {subsection}{\numberline {3.2.4}Data Storage}{28}{subsection.3.2.4}
-\contentsline {subsection}{\numberline {3.2.5}API}{28}{subsection.3.2.5}
-\contentsline {subsection}{\numberline {3.2.6}User Information}{29}{subsection.3.2.6}
-\contentsline {section}{\numberline {3.3}Server Design}{30}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}requirements}{30}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Server Frontend Design}{30}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}Server Backend Design}{31}{subsection.3.3.3}
-\contentsline {section}{\numberline {3.4}Tools}{31}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}requirements}{31}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}Decrypting Tool}{31}{subsection.3.4.2}
-\contentsline {subsection}{\numberline {3.4.3}Data Structuring Tools}{32}{subsection.3.4.3}
-\contentsline {chapter}{Chapter{} \numberline {4}Implementation}{33}{chapter.4}
-\contentsline {section}{\numberline {4.1}Android}{33}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}User Interface}{34}{subsection.4.1.1}
-\contentsline {subsubsection}{Gather View}{34}{section*.18}
-\contentsline {subsubsection}{Question View}{35}{section*.19}
-\contentsline {subsubsection}{Information View}{35}{section*.20}
-\contentsline {subsubsection}{Permissions View}{36}{section*.21}
-\contentsline {subsection}{\numberline {4.1.2}Data Gathering}{36}{subsection.4.1.2}
-\contentsline {subsection}{\numberline {4.1.3}Data Storage}{37}{subsection.4.1.3}
-\contentsline {subsection}{\numberline {4.1.4}Security}{37}{subsection.4.1.4}
-\contentsline {section}{\numberline {4.2}Server}{39}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Back-End}{39}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Webpages}{39}{subsection.4.2.2}
-\contentsline {section}{\numberline {4.3}Tools}{40}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Encryption Tool}{40}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}User Separation Tool}{40}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {4.3.3}Value Separation Tool}{40}{subsection.4.3.3}
-\contentsline {subsection}{\numberline {4.3.4}Latex Plot Syntax Creating Tool}{41}{subsection.4.3.4}
-\contentsline {chapter}{Chapter{} \numberline {5}Experiments}{42}{chapter.5}
-\contentsline {section}{\numberline {5.1}Crowd Experiment}{42}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Setup and Execution}{43}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {5.1.2}Classification}{44}{subsection.5.1.2}
-\contentsline {subsubsection}{Indoor Outdoor differentiation}{44}{section*.24}
-\contentsline {subsubsection}{Usage of Mobile Phone}{46}{section*.27}
-\contentsline {subsubsection}{Guessing the users location}{46}{section*.29}
-\contentsline {subsubsection}{Movement}{47}{section*.30}
-\contentsline {subsubsection}{Weather Conditions}{47}{section*.31}
-\contentsline {subsubsection}{Music}{47}{section*.32}
-\contentsline {subsection}{\numberline {5.1.3}Questions}{48}{subsection.5.1.3}
-\contentsline {section}{\numberline {5.2}Individual Experiment}{49}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Setup and Execution}{49}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}Scenarios}{50}{subsection.5.2.2}
-\contentsline {subsubsection}{Music}{50}{section*.33}
-\contentsline {subsubsection}{Coffee}{50}{section*.34}
-\contentsline {chapter}{Chapter{} \numberline {6}Results}{52}{chapter.6}
-\contentsline {subsection}{\numberline {6.0.1}output format}{52}{subsection.6.0.1}
-\contentsline {section}{\numberline {6.1}Individual Experiment Results}{54}{section.6.1}
-\contentsline {subsection}{\numberline {6.1.1}coffee}{54}{subsection.6.1.1}
-\contentsline {subsection}{\numberline {6.1.2}music}{55}{subsection.6.1.2}
-\contentsline {chapter}{Chapter{} \numberline {7}Conclusions}{58}{chapter.7}
-\contentsline {section}{\numberline {7.1}Project Overview}{58}{section.7.1}
-\contentsline {section}{\numberline {7.2}Contribution}{59}{section.7.2}
-\contentsline {section}{\numberline {7.3}Future Work}{59}{section.7.3}
-\contentsline {chapter}{Appendix{} \numberline {A}Abbreviations}{60}{appendix.A}
-\contentsline {chapter}{Appendix{} \numberline {B}Source Code}{62}{appendix.B}
-\contentsline {chapter}{Appendix{} \numberline {C}Programming task}{63}{appendix.C}
-\contentsline {section}{\numberline {C.1}Palindromes}{63}{section.C.1}
-\contentsline {subsection}{\numberline {C.1.1}Question}{63}{subsection.C.1.1}
-\contentsline {subsubsection}{What's a palindrome?}{63}{section*.42}
-\contentsline {subsubsection}{Input structure}{64}{section*.43}
-\contentsline {subsection}{\numberline {C.1.2}Example}{64}{subsection.C.1.2}
-\contentsline {subsubsection}{input}{64}{section*.44}
-\contentsline {subsubsection}{Explanation Testcase 1}{64}{section*.45}
-\contentsline {subsubsection}{Explanation Testcase 2}{65}{section*.46}
-\contentsline {chapter}{Appendix{} \numberline {D}Participant data}{66}{appendix.D}
-\contentsline {section}{\numberline {D.1}Participant 1}{67}{section.D.1}
-\contentsline {subsection}{\numberline {D.1.1}date \& time}{67}{subsection.D.1.1}
-\contentsline {subsection}{\numberline {D.1.2}Questions}{67}{subsection.D.1.2}
-\contentsline {subsection}{\numberline {D.1.3}Accelerometer}{68}{subsection.D.1.3}
-\contentsline {subsection}{\numberline {D.1.4}Light}{68}{subsection.D.1.4}
-\contentsline {subsection}{\numberline {D.1.5}Volume}{69}{subsection.D.1.5}
-\contentsline {subsection}{\numberline {D.1.6}Steps}{69}{subsection.D.1.6}
-\contentsline {subsection}{\numberline {D.1.7}Location}{69}{subsection.D.1.7}
-\contentsline {subsection}{\numberline {D.1.8}Weather}{69}{subsection.D.1.8}
-\contentsline {section}{\numberline {D.2}Participant 2}{70}{section.D.2}
-\contentsline {subsection}{\numberline {D.2.1}date \& time}{70}{subsection.D.2.1}
-\contentsline {subsection}{\numberline {D.2.2}Questions}{70}{subsection.D.2.2}
-\contentsline {subsection}{\numberline {D.2.3}Accelerometer}{71}{subsection.D.2.3}
-\contentsline {subsection}{\numberline {D.2.4}Light}{71}{subsection.D.2.4}
-\contentsline {subsection}{\numberline {D.2.5}Volume}{72}{subsection.D.2.5}
-\contentsline {subsection}{\numberline {D.2.6}Steps}{72}{subsection.D.2.6}
-\contentsline {subsection}{\numberline {D.2.7}Location}{72}{subsection.D.2.7}
-\contentsline {subsection}{\numberline {D.2.8}Weather}{72}{subsection.D.2.8}
-\contentsline {section}{\numberline {D.3}Participant 3}{73}{section.D.3}
-\contentsline {subsection}{\numberline {D.3.1}date \& time}{73}{subsection.D.3.1}
-\contentsline {subsection}{\numberline {D.3.2}Questions}{73}{subsection.D.3.2}
-\contentsline {subsection}{\numberline {D.3.3}Accelerometer}{74}{subsection.D.3.3}
-\contentsline {subsection}{\numberline {D.3.4}Light}{74}{subsection.D.3.4}
-\contentsline {subsection}{\numberline {D.3.5}Volume}{75}{subsection.D.3.5}
-\contentsline {subsection}{\numberline {D.3.6}Steps}{75}{subsection.D.3.6}
-\contentsline {subsection}{\numberline {D.3.7}Location}{75}{subsection.D.3.7}
-\contentsline {subsection}{\numberline {D.3.8}Weather}{75}{subsection.D.3.8}
-\contentsline {section}{\numberline {D.4}Participant 4}{76}{section.D.4}
-\contentsline {subsection}{\numberline {D.4.1}date \& time}{76}{subsection.D.4.1}
-\contentsline {subsection}{\numberline {D.4.2}Questions}{76}{subsection.D.4.2}
-\contentsline {subsection}{\numberline {D.4.3}Accelerometer}{77}{subsection.D.4.3}
-\contentsline {subsection}{\numberline {D.4.4}Light}{77}{subsection.D.4.4}
-\contentsline {subsection}{\numberline {D.4.5}Volume}{78}{subsection.D.4.5}
-\contentsline {subsection}{\numberline {D.4.6}Steps}{78}{subsection.D.4.6}
-\contentsline {subsection}{\numberline {D.4.7}Location}{78}{subsection.D.4.7}
-\contentsline {subsection}{\numberline {D.4.8}Weather}{78}{subsection.D.4.8}
-\contentsline {section}{\numberline {D.5}Participant 5}{79}{section.D.5}
-\contentsline {subsection}{\numberline {D.5.1}date \& time}{79}{subsection.D.5.1}
-\contentsline {subsection}{\numberline {D.5.2}Questions}{79}{subsection.D.5.2}
-\contentsline {subsection}{\numberline {D.5.3}Accelerometer}{80}{subsection.D.5.3}
-\contentsline {subsection}{\numberline {D.5.4}Light}{80}{subsection.D.5.4}
-\contentsline {subsection}{\numberline {D.5.5}Volume}{81}{subsection.D.5.5}
-\contentsline {subsection}{\numberline {D.5.6}Steps}{81}{subsection.D.5.6}
-\contentsline {subsection}{\numberline {D.5.7}Location}{81}{subsection.D.5.7}
-\contentsline {subsection}{\numberline {D.5.8}Weather}{81}{subsection.D.5.8}
-\contentsline {chapter}{Bibliography}{82}{appendix*.70}
+\contentsline {chapter}{Chapter{} \numberline {2}The State of the Art}{9}{chapter.2}
+\contentsline {section}{\numberline {2.1}Software Metrics}{10}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Summary}{11}{subsection.2.1.1}
+\contentsline {section}{\numberline {2.2}Metrics Measurement and Analysis}{12}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Summary}{13}{subsection.2.2.1}
+\contentsline {section}{\numberline {2.3}Mobile Data Gathering}{14}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Summary}{15}{subsection.2.3.1}
+\contentsline {section}{\numberline {2.4}Data Clustering}{15}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Summary}{17}{subsection.2.4.1}
+\contentsline {section}{\numberline {2.5}Variable Quality Influences}{17}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Team Communication}{17}{subsection.2.5.1}
+\contentsline {subsubsection}{Summary}{19}{section*.10}
+\contentsline {subsection}{\numberline {2.5.2}Cognitive Performance}{20}{subsection.2.5.2}
+\contentsline {subsubsection}{Working Environment}{20}{section*.11}
+\contentsline {subsubsection}{Context Switching}{21}{section*.12}
+\contentsline {subsubsection}{Arousal Effects}{22}{section*.13}
+\contentsline {subsubsection}{Diet}{23}{section*.14}
+\contentsline {subsubsection}{Summary}{23}{section*.15}
+\contentsline {chapter}{Chapter{} \numberline {3}Design}{25}{chapter.3}
+\contentsline {section}{\numberline {3.1}Functionality Overview}{25}{section.3.1}
+\contentsline {section}{\numberline {3.2}Mobile Application Design}{26}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Requirements}{27}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}App Architecture}{27}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}User Interface}{28}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}Data Storage}{29}{subsection.3.2.4}
+\contentsline {subsection}{\numberline {3.2.5}API}{29}{subsection.3.2.5}
+\contentsline {subsection}{\numberline {3.2.6}User Information}{30}{subsection.3.2.6}
+\contentsline {section}{\numberline {3.3}Server Design}{31}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}requirements}{31}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Server Frontend Design}{31}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Server Backend Design}{32}{subsection.3.3.3}
+\contentsline {section}{\numberline {3.4}Tools}{32}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}requirements}{32}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Decrypting Tool}{32}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}Data Structuring Tools}{33}{subsection.3.4.3}
+\contentsline {chapter}{Chapter{} \numberline {4}Implementation}{34}{chapter.4}
+\contentsline {section}{\numberline {4.1}Android}{34}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}User Interface}{35}{subsection.4.1.1}
+\contentsline {subsubsection}{Gather View}{35}{section*.18}
+\contentsline {subsubsection}{Question View}{36}{section*.19}
+\contentsline {subsubsection}{Information View}{36}{section*.20}
+\contentsline {subsubsection}{Permissions View}{37}{section*.21}
+\contentsline {subsection}{\numberline {4.1.2}Data Gathering}{37}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}Data Storage}{38}{subsection.4.1.3}
+\contentsline {subsection}{\numberline {4.1.4}Security}{38}{subsection.4.1.4}
+\contentsline {section}{\numberline {4.2}Server}{40}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Back-End}{40}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Webpages}{40}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.3}Tools}{41}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Encryption Tool}{41}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}User Separation Tool}{41}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Value Separation Tool}{41}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.4}Latex Plot Syntax Creating Tool}{42}{subsection.4.3.4}
+\contentsline {chapter}{Chapter{} \numberline {5}Experiments}{43}{chapter.5}
+\contentsline {section}{\numberline {5.1}Crowd Experiment}{43}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Setup and Execution}{44}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Classification}{45}{subsection.5.1.2}
+\contentsline {subsubsection}{Indoor Outdoor differentiation}{45}{section*.24}
+\contentsline {subsubsection}{Usage of Mobile Phone}{47}{section*.27}
+\contentsline {subsubsection}{Guessing the users location}{47}{section*.29}
+\contentsline {subsubsection}{Movement}{48}{section*.30}
+\contentsline {subsubsection}{Weather Conditions}{48}{section*.31}
+\contentsline {subsubsection}{Music}{48}{section*.32}
+\contentsline {subsection}{\numberline {5.1.3}Questions}{49}{subsection.5.1.3}
+\contentsline {section}{\numberline {5.2}Individual Experiment}{50}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Setup and Execution}{50}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Scenarios}{51}{subsection.5.2.2}
+\contentsline {subsubsection}{Music}{51}{section*.33}
+\contentsline {subsubsection}{Coffee}{51}{section*.34}
+\contentsline {chapter}{Chapter{} \numberline {6}Results}{53}{chapter.6}
+\contentsline {subsection}{\numberline {6.0.1}output format}{53}{subsection.6.0.1}
+\contentsline {section}{\numberline {6.1}Individual Experiment Results}{55}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}coffee}{55}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}music}{56}{subsection.6.1.2}
+\contentsline {chapter}{Chapter{} \numberline {7}Conclusions}{59}{chapter.7}
+\contentsline {section}{\numberline {7.1}Project Overview}{59}{section.7.1}
+\contentsline {section}{\numberline {7.2}Contribution}{60}{section.7.2}
+\contentsline {section}{\numberline {7.3}Future Work}{60}{section.7.3}
+\contentsline {chapter}{Appendix{} \numberline {A}Abbreviations}{61}{appendix.A}
+\contentsline {chapter}{Appendix{} \numberline {B}Source Code}{63}{appendix.B}
+\contentsline {chapter}{Appendix{} \numberline {C}Programming task}{64}{appendix.C}
+\contentsline {section}{\numberline {C.1}Palindromes}{64}{section.C.1}
+\contentsline {subsection}{\numberline {C.1.1}Question}{64}{subsection.C.1.1}
+\contentsline {subsubsection}{What's a palindrome?}{64}{section*.42}
+\contentsline {subsubsection}{Input structure}{65}{section*.43}
+\contentsline {subsection}{\numberline {C.1.2}Example}{65}{subsection.C.1.2}
+\contentsline {subsubsection}{input}{65}{section*.44}
+\contentsline {subsubsection}{Explanation Testcase 1}{65}{section*.45}
+\contentsline {subsubsection}{Explanation Testcase 2}{66}{section*.46}
+\contentsline {chapter}{Appendix{} \numberline {D}Participant data}{67}{appendix.D}
+\contentsline {section}{\numberline {D.1}Participant 1}{68}{section.D.1}
+\contentsline {subsection}{\numberline {D.1.1}date \& time}{68}{subsection.D.1.1}
+\contentsline {subsection}{\numberline {D.1.2}Questions}{68}{subsection.D.1.2}
+\contentsline {subsection}{\numberline {D.1.3}Accelerometer}{69}{subsection.D.1.3}
+\contentsline {subsection}{\numberline {D.1.4}Light}{69}{subsection.D.1.4}
+\contentsline {subsection}{\numberline {D.1.5}Volume}{70}{subsection.D.1.5}
+\contentsline {subsection}{\numberline {D.1.6}Steps}{70}{subsection.D.1.6}
+\contentsline {subsection}{\numberline {D.1.7}Location}{70}{subsection.D.1.7}
+\contentsline {subsection}{\numberline {D.1.8}Weather}{70}{subsection.D.1.8}
+\contentsline {section}{\numberline {D.2}Participant 2}{71}{section.D.2}
+\contentsline {subsection}{\numberline {D.2.1}date \& time}{71}{subsection.D.2.1}
+\contentsline {subsection}{\numberline {D.2.2}Questions}{71}{subsection.D.2.2}
+\contentsline {subsection}{\numberline {D.2.3}Accelerometer}{72}{subsection.D.2.3}
+\contentsline {subsection}{\numberline {D.2.4}Light}{72}{subsection.D.2.4}
+\contentsline {subsection}{\numberline {D.2.5}Volume}{73}{subsection.D.2.5}
+\contentsline {subsection}{\numberline {D.2.6}Steps}{73}{subsection.D.2.6}
+\contentsline {subsection}{\numberline {D.2.7}Location}{73}{subsection.D.2.7}
+\contentsline {subsection}{\numberline {D.2.8}Weather}{73}{subsection.D.2.8}
+\contentsline {section}{\numberline {D.3}Participant 3}{74}{section.D.3}
+\contentsline {subsection}{\numberline {D.3.1}date \& time}{74}{subsection.D.3.1}
+\contentsline {subsection}{\numberline {D.3.2}Questions}{74}{subsection.D.3.2}
+\contentsline {subsection}{\numberline {D.3.3}Accelerometer}{75}{subsection.D.3.3}
+\contentsline {subsection}{\numberline {D.3.4}Light}{75}{subsection.D.3.4}
+\contentsline {subsection}{\numberline {D.3.5}Volume}{76}{subsection.D.3.5}
+\contentsline {subsection}{\numberline {D.3.6}Steps}{76}{subsection.D.3.6}
+\contentsline {subsection}{\numberline {D.3.7}Location}{76}{subsection.D.3.7}
+\contentsline {subsection}{\numberline {D.3.8}Weather}{76}{subsection.D.3.8}
+\contentsline {section}{\numberline {D.4}Participant 4}{77}{section.D.4}
+\contentsline {subsection}{\numberline {D.4.1}date \& time}{77}{subsection.D.4.1}
+\contentsline {subsection}{\numberline {D.4.2}Questions}{77}{subsection.D.4.2}
+\contentsline {subsection}{\numberline {D.4.3}Accelerometer}{78}{subsection.D.4.3}
+\contentsline {subsection}{\numberline {D.4.4}Light}{78}{subsection.D.4.4}
+\contentsline {subsection}{\numberline {D.4.5}Volume}{79}{subsection.D.4.5}
+\contentsline {subsection}{\numberline {D.4.6}Steps}{79}{subsection.D.4.6}
+\contentsline {subsection}{\numberline {D.4.7}Location}{79}{subsection.D.4.7}
+\contentsline {subsection}{\numberline {D.4.8}Weather}{79}{subsection.D.4.8}
+\contentsline {section}{\numberline {D.5}Participant 5}{80}{section.D.5}
+\contentsline {subsection}{\numberline {D.5.1}date \& time}{80}{subsection.D.5.1}
+\contentsline {subsection}{\numberline {D.5.2}Questions}{80}{subsection.D.5.2}
+\contentsline {subsection}{\numberline {D.5.3}Accelerometer}{81}{subsection.D.5.3}
+\contentsline {subsection}{\numberline {D.5.4}Light}{81}{subsection.D.5.4}
+\contentsline {subsection}{\numberline {D.5.5}Volume}{82}{subsection.D.5.5}
+\contentsline {subsection}{\numberline {D.5.6}Steps}{82}{subsection.D.5.6}
+\contentsline {subsection}{\numberline {D.5.7}Location}{82}{subsection.D.5.7}
+\contentsline {subsection}{\numberline {D.5.8}Weather}{82}{subsection.D.5.8}
+\contentsline {chapter}{Bibliography}{83}{appendix*.70}
