@@ -20,38 +20,38 @@
 \contentsline {section}{\numberline {2.4}Data Clustering}{15}{section.2.4}
 \contentsline {subsection}{\numberline {2.4.1}Summary}{17}{subsection.2.4.1}
 \contentsline {section}{\numberline {2.5}Variable Quality Influences}{17}{section.2.5}
-\contentsline {subsection}{\numberline {2.5.1}Team Communication}{17}{subsection.2.5.1}
-\contentsline {subsubsection}{Summary}{19}{section*.10}
+\contentsline {subsection}{\numberline {2.5.1}Team Communication}{18}{subsection.2.5.1}
+\contentsline {subsubsection}{Summary}{20}{section*.11}
 \contentsline {subsection}{\numberline {2.5.2}Cognitive Performance}{20}{subsection.2.5.2}
-\contentsline {subsubsection}{Working Environment}{20}{section*.11}
-\contentsline {subsubsection}{Context Switching}{21}{section*.12}
-\contentsline {subsubsection}{Arousal Effects}{22}{section*.13}
-\contentsline {subsubsection}{Diet}{23}{section*.14}
-\contentsline {subsubsection}{Summary}{23}{section*.15}
+\contentsline {subsubsection}{Working Environment}{20}{section*.12}
+\contentsline {subsubsection}{Context Switching}{21}{section*.13}
+\contentsline {subsubsection}{Arousal Effects}{22}{section*.14}
+\contentsline {subsubsection}{Diet}{23}{section*.15}
+\contentsline {subsubsection}{Summary}{24}{section*.16}
 \contentsline {chapter}{Chapter{} \numberline {3}Design}{25}{chapter.3}
 \contentsline {section}{\numberline {3.1}Functionality Overview}{25}{section.3.1}
 \contentsline {section}{\numberline {3.2}Mobile Application Design}{26}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Requirements}{27}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}App Architecture}{27}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.1}Requirements}{28}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}App Architecture}{28}{subsection.3.2.2}
 \contentsline {subsection}{\numberline {3.2.3}User Interface}{28}{subsection.3.2.3}
 \contentsline {subsection}{\numberline {3.2.4}Data Storage}{29}{subsection.3.2.4}
-\contentsline {subsection}{\numberline {3.2.5}API}{29}{subsection.3.2.5}
+\contentsline {subsection}{\numberline {3.2.5}API}{30}{subsection.3.2.5}
 \contentsline {subsection}{\numberline {3.2.6}User Information}{30}{subsection.3.2.6}
 \contentsline {section}{\numberline {3.3}Server Design}{31}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}requirements}{31}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Server Frontend Design}{31}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.1}requirements}{32}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Server Frontend Design}{32}{subsection.3.3.2}
 \contentsline {subsection}{\numberline {3.3.3}Server Backend Design}{32}{subsection.3.3.3}
 \contentsline {section}{\numberline {3.4}Tools}{32}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}requirements}{32}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}Decrypting Tool}{32}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.1}requirements}{33}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Decrypting Tool}{33}{subsection.3.4.2}
 \contentsline {subsection}{\numberline {3.4.3}Data Structuring Tools}{33}{subsection.3.4.3}
 \contentsline {chapter}{Chapter{} \numberline {4}Implementation}{34}{chapter.4}
 \contentsline {section}{\numberline {4.1}Android}{34}{section.4.1}
 \contentsline {subsection}{\numberline {4.1.1}User Interface}{35}{subsection.4.1.1}
-\contentsline {subsubsection}{Gather View}{35}{section*.18}
-\contentsline {subsubsection}{Question View}{36}{section*.19}
-\contentsline {subsubsection}{Information View}{36}{section*.20}
-\contentsline {subsubsection}{Permissions View}{37}{section*.21}
+\contentsline {subsubsection}{Gather View}{35}{section*.20}
+\contentsline {subsubsection}{Question View}{36}{section*.21}
+\contentsline {subsubsection}{Information View}{36}{section*.22}
+\contentsline {subsubsection}{Permissions View}{37}{section*.23}
 \contentsline {subsection}{\numberline {4.1.2}Data Gathering}{37}{subsection.4.1.2}
 \contentsline {subsection}{\numberline {4.1.3}Data Storage}{38}{subsection.4.1.3}
 \contentsline {subsection}{\numberline {4.1.4}Security}{38}{subsection.4.1.4}
@@ -67,18 +67,18 @@
 \contentsline {section}{\numberline {5.1}Crowd Experiment}{43}{section.5.1}
 \contentsline {subsection}{\numberline {5.1.1}Setup and Execution}{44}{subsection.5.1.1}
 \contentsline {subsection}{\numberline {5.1.2}Classification}{45}{subsection.5.1.2}
-\contentsline {subsubsection}{Indoor Outdoor differentiation}{45}{section*.24}
-\contentsline {subsubsection}{Usage of Mobile Phone}{47}{section*.27}
-\contentsline {subsubsection}{Guessing the users location}{47}{section*.29}
-\contentsline {subsubsection}{Movement}{48}{section*.30}
-\contentsline {subsubsection}{Weather Conditions}{48}{section*.31}
-\contentsline {subsubsection}{Music}{48}{section*.32}
+\contentsline {subsubsection}{Indoor Outdoor differentiation}{45}{section*.26}
+\contentsline {subsubsection}{Usage of Mobile Phone}{47}{section*.29}
+\contentsline {subsubsection}{Guessing the users location}{47}{section*.31}
+\contentsline {subsubsection}{Movement}{48}{section*.32}
+\contentsline {subsubsection}{Weather Conditions}{48}{section*.33}
+\contentsline {subsubsection}{Music}{48}{section*.34}
 \contentsline {subsection}{\numberline {5.1.3}Questions}{49}{subsection.5.1.3}
 \contentsline {section}{\numberline {5.2}Individual Experiment}{50}{section.5.2}
 \contentsline {subsection}{\numberline {5.2.1}Setup and Execution}{50}{subsection.5.2.1}
 \contentsline {subsection}{\numberline {5.2.2}Scenarios}{51}{subsection.5.2.2}
-\contentsline {subsubsection}{Music}{51}{section*.33}
-\contentsline {subsubsection}{Coffee}{51}{section*.34}
+\contentsline {subsubsection}{Music}{51}{section*.35}
+\contentsline {subsubsection}{Coffee}{51}{section*.36}
 \contentsline {chapter}{Chapter{} \numberline {6}Results}{53}{chapter.6}
 \contentsline {subsection}{\numberline {6.0.1}output format}{53}{subsection.6.0.1}
 \contentsline {section}{\numberline {6.1}Individual Experiment Results}{55}{section.6.1}
@@ -93,12 +93,12 @@
 \contentsline {chapter}{Appendix{} \numberline {C}Programming task}{64}{appendix.C}
 \contentsline {section}{\numberline {C.1}Palindromes}{64}{section.C.1}
 \contentsline {subsection}{\numberline {C.1.1}Question}{64}{subsection.C.1.1}
-\contentsline {subsubsection}{What's a palindrome?}{64}{section*.42}
-\contentsline {subsubsection}{Input structure}{65}{section*.43}
+\contentsline {subsubsection}{What's a palindrome?}{64}{section*.44}
+\contentsline {subsubsection}{Input structure}{65}{section*.45}
 \contentsline {subsection}{\numberline {C.1.2}Example}{65}{subsection.C.1.2}
-\contentsline {subsubsection}{input}{65}{section*.44}
-\contentsline {subsubsection}{Explanation Testcase 1}{65}{section*.45}
-\contentsline {subsubsection}{Explanation Testcase 2}{66}{section*.46}
+\contentsline {subsubsection}{input}{65}{section*.46}
+\contentsline {subsubsection}{Explanation Testcase 1}{65}{section*.47}
+\contentsline {subsubsection}{Explanation Testcase 2}{66}{section*.48}
 \contentsline {chapter}{Appendix{} \numberline {D}Participant data}{67}{appendix.D}
 \contentsline {section}{\numberline {D.1}Participant 1}{68}{section.D.1}
 \contentsline {subsection}{\numberline {D.1.1}date \& time}{68}{subsection.D.1.1}
@@ -145,4 +145,4 @@
 \contentsline {subsection}{\numberline {D.5.6}Steps}{82}{subsection.D.5.6}
 \contentsline {subsection}{\numberline {D.5.7}Location}{82}{subsection.D.5.7}
 \contentsline {subsection}{\numberline {D.5.8}Weather}{82}{subsection.D.5.8}
-\contentsline {chapter}{Bibliography}{83}{appendix*.70}
+\contentsline {chapter}{Bibliography}{83}{appendix*.72}
