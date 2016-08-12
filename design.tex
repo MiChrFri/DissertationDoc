@@ -146,3 +146,8 @@ Its interface contains of an input field for the path of the downloaded data in 
 I wrote a bunch of tools to work with the dataset. All the tools for this purpose are implemented in Python because it provides a very handy way to work with external files. 
 The first tool allows to extract only the entries from a specific participant by providing the his/her Github username.\\
 Another tool extracts the single values per entry with its timestamp and the last tool averages the results per minute and converts the data into a form that can directly be used in latex to draw plots.
+
+\section{Summary}
+This chapter is about the design decisions of the different software parts that are needed for the experiments. First, the functionality of each part are being described, followed by the part about the Android application. Android was the mobile OS of choice because it has the highest market share of all mobile operating systems. The app needs to be simple and easy to use for single usage which is seen in the UI and the UX specification. 
+The app was programmed in Java using the MVC design pattern while using an SQLite database for the permanent data storage. The app-server communication is been realized using a REST-API and in order to do nothing against the users will, the user needs to grand permissions and accept term to be able to use the app. \\
+The Server backend is implemented in PHP with an MySQL database while the frontend is implemented in HTML5 and CSS while the decryption tool was created in java and the rest tools in python. 

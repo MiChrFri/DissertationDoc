@@ -16,6 +16,16 @@ The user interface contains of two main views, the gathering view and the questi
 All view have a controller/activity java class which acts as the controller. The actual views contain of an activity XML and, depending on the complexity of the view, an additional content XML. Both are defining the UI-elements in XML tags and as well as their positioning within the view. \\
 The colorscheme of the app is mainly a dark grey background with a combination of bright UI-Elements and simple lightgrey fonts for information texts.
 
+\subsubsection{Login View}
+The login view has just an input field and a login button. The input field requires the Github username of the participant in order to login. After taping on the login button, the username is been verified using the Github API whether it exists or not. 
+
+\subsubsection{Permissions View}
+The Permissions view just contains of four checkboxes with it's descriptions, each for one permission. This view is just shown on devices with an Android version of at least 6.0. 
+Once all the permissions are checked, a button appears which allows to go on. A tap brings the user to the gather view.
+
+\subsubsection{Information View}
+This view contains a scrollview with a long formatted text. At the bottom of the scrollview is a button. With a tap on the button the user confirms the he/she read and understood the previous text and the user can go on to the next step which is either the permissions view or the gather view. 
+
 \subsubsection{Gather View}
 The gather view contains of an input filed for the users email address and a dynamic changing interface to for controlling the gathering and uploading process. The buttons are a blue circle shape with an icon for showing the functionality of the button itself. The Icons are a white shape without borders and designed to give a clear idea about the representing purpose of the button. 
 Depending on the different states of the gathering process, the buttons change in functionality and look. In the first state, it only makes sense to display the button that starts the gathering of the data. Once pressed a red bar with an information text on the bottom of the view indicates the running gathering process and the button that was starting the gathering changed to a new button for stopping the process.\\
@@ -28,13 +38,6 @@ The question view contains of a short information text that introduces the user 
 The questions can be either checked, to indicate a "yes" for the answer or can remain unchecked for "no".\\
 On the bottom of the view is another share button which sends the answered questions to the server once tapped.\\
 The successful send is also being indicated by a green bar at the bottom and the question view is being replaced by the gather view. 
-
-\subsubsection{Information View}
-This view contains a scrollview with a long formatted text. At the bottom of the scrollview is a button. With a tap on the button the user confirms the he/she read and understood the previous text and the user can go on to the next step which is either the permissions view or the gather view. 
-
-\subsubsection{Permissions View}
-The Permissions view just contains of four checkboxes with it's descriptions, each for one permission. This view is just shown on devices with an Android version of at least 6.0. 
-Once all the permissions are checked, a button appears which allows to go on. A tap brings the user to the gather view.
 
 \subsection{Data Gathering}
 The data gathering is managed by the gather class while the functionality is been managed by the sensor class. The most sensors can just be accessed by creating an instance of the single sensors. However, some, such as the environment volume have been customized individually in separate classes. The volume is no predefined sensor and needed to be created from the recording framework but without actually recording the sound. It is calculating the decibel from the current recording and just saved the gathered volume value. That ensures the privacy of the user and also doesn't need so much memory of the mobile device capacity.\\
@@ -96,3 +99,18 @@ In this tool it can be defined which of the entries are needed to work with. For
 \subsection{Latex Plot Syntax Creating Tool}
 This little tool is calculating an average for every Minute of the timestamp of the read text file. As the gathering saved a value every few seconds, it makes no sense to display all the values in a plotted graph.\\
 The output contains the timestamp with the value for every minute in a syntax that can directly been interpreted by latex and the pgfplots library. 
+
+\section{Summary}
+In this chapter I describe the implementation of the software and tooling for the experiments. 
+The Android app contains of:\\
+\begin{itemize}
+\item Login View - verifies username with Github API
+\item Permissions View - asks to grand permissions to app
+\item Information View - shows terms of the experiment
+\item Gather View - control center for the gathering process (start, stop, send, restart)
+\item Question - Asks participants questions and sends to server
+\end{itemize}
+the next section describes the data gathering in process in detail followed by the implementation of the data storage within the app. The app uses a hybrid encryption using AES and RSA. 
+\bigbreak
+In the next part I described the simple php implementation with the database connection of the Server backend. For the frontend I used standard HTML and CSS components and Googler web-fonts.
+The decryption tool uses RSA and AES for decrypting the data. The other tools read a textfile, manipulate the data and write the results in a new textfile.  
