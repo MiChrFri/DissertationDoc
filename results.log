@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.18)  12 AUG 2016 12:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.18)  15 AUG 2016 15:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -8,7 +8,7 @@ LaTeX2e <2015/01/01>
 Babel <3.9l> and hyphenation patterns for 79 languages loaded.
 ! Undefined control sequence.
 l.1 \chapter
-            {Results}
+            {Evaluation}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -22,18 +22,21 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1 \chapter{R
-              esults}
+l.1 \chapter{E
+              valuation}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-Missing character: There is no R in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no u in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no a in font nullfont!
 Missing character: There is no l in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no a in font nullfont!
 Missing character: There is no t in font nullfont!
-Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
 Missing character: There is no T in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no i in font nullfont!
@@ -119,7 +122,7 @@ Overfull \hbox (20.0pt too wide) in paragraph at lines 1--3
  []
 
 ! Undefined control sequence.
-l.5 \subsection
+l.4 \subsection
                {output format}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -134,7 +137,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.5 \subsection{o
+l.4 \subsection{o
                  utput format}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -160,8 +163,8 @@ Missing character: There is no e in font nullfont!
 ! Undefined control sequence.
 <write> ...: Reference `entries' on page \thepage 
                                                   \space undefined\on@line .
-l.6 Figure \ref{entries}
-                         shows how the gathered data look after the decryption.
+l.5 Figure \ref{entries}
+                         shows the format of a single entry after the decryp...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -169,35 +172,36 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `entries' on page  undefined on input line 6.
+LaTeX Warning: Reference `entries' on page  undefined on input line 5.
 
 Missing character: There is no s in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no w in font nullfont!
 Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
 Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no f in font nullfont!
 Missing character: There is no o in font nullfont!
-Missing character: There is no w in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no d in font nullfont!
+Missing character: There is no m in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no f in font nullfont!
 Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
 Missing character: There is no l in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no k in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no y in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no f in font nullfont!
 Missing character: There is no t in font nullfont!
@@ -218,12 +222,12 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 5--7
+Overfull \hbox (20.0pt too wide) in paragraph at lines 4--6
 []
  []
 
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 5--7
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 4--6
 []
  []
 
@@ -234,7 +238,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.8 \begin{figure}
+l.7 \begin{figure}
                   [!htb]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -247,7 +251,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.8 \begin{figure}[
+l.7 \begin{figure}[
                    !htb]
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -259,8 +263,8 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no b in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
-l.10 \includegraphics
-                     [width=\textwidth]{entries}
+l.9 \includegraphics
+                    [width=\textwidth]{entries}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -277,8 +281,8 @@ Missing character: There is no = in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    ]
-l.10 \includegraphics[width=\textwidth]
-                                       {entries}
+l.9 \includegraphics[width=\textwidth]
+                                      {entries}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
@@ -286,8 +290,8 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    ]
-l.10 \includegraphics[width=\textwidth]
-                                       {entries}
+l.9 \includegraphics[width=\textwidth]
+                                      {entries}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
 I'll assume that you meant to say pt, for printer's points.
@@ -310,7 +314,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.11 \caption
+l.10 \caption
              {gathered data}\label{entries}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -334,19 +338,19 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.13 \end{figure}
+l.12 \end{figure}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 8--14
+Overfull \hbox (20.0pt too wide) in paragraph at lines 7--13
 []
  []
 
 ! Undefined control sequence.
-l.15 \FloatBarrier
+l.14 \FloatBarrier
                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -361,7 +365,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.17 P
+l.16 P
       articipant number 2 was the only one who answered the question of bein...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -571,79 +575,10 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no v in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no l in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no T in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no v in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no m in font nullfont!
-Missing character: There is no m in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no k in font nullfont!
 ! Undefined control sequence.
 <write> ...ng: Reference `volps' on page \thepage 
                                                   \space undefined\on@line .
-l.17 ... to solve the programming task \ref{volps}
+l.16 ...her participants in that level \ref{volps}
                                                   .
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -652,16 +587,16 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `volps' on page  undefined on input line 17.
+LaTeX Warning: Reference `volps' on page  undefined on input line 16.
 
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 17--18
+Overfull \hbox (20.0pt too wide) in paragraph at lines 16--17
 []
  []
 
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 17--18
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 16--17
 [] 
  []
 
@@ -672,19 +607,29 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.19 i
-      n \ref{ligps} participant 1 is not mentioned. That is because the app ...
+l.18 I
+      n the diagram \ref{ligps}, participant 1 is not mentioned. That is bec...
 
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-Missing character: There is no i in font nullfont!
+Missing character: There is no I in font nullfont!
 Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no m in font nullfont!
 ! Undefined control sequence.
 <write> ...ng: Reference `ligps' on page \thepage 
                                                   \space undefined\on@line .
-l.19 in \ref{ligps}
-                    participant 1 is not mentioned. That is because the app ...
+l.18 In the diagram \ref{ligps}
+                               , participant 1 is not mentioned. That is bec...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -692,8 +637,9 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `ligps' on page  undefined on input line 19.
+LaTeX Warning: Reference `ligps' on page  undefined on input line 18.
 
+Missing character: There is no , in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no r in font nullfont!
@@ -758,6 +704,14 @@ Missing character: There is no c in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no s in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no m in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no e in font nullfont!
@@ -778,11 +732,6 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no e in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no r in font nullfont!
 Missing character: There is no m in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no a in font nullfont!
@@ -792,6 +741,28 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no m in font nullfont!
 Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no a in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no s in font nullfont!
@@ -1078,12 +1049,12 @@ Missing character: There is no x in font nullfont!
 Missing character: There is no 4 in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 19--21
+Overfull \hbox (20.0pt too wide) in paragraph at lines 18--20
 []
  []
 
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 19--21
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 18--20
 []
  []
 
@@ -1094,7 +1065,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.23 \begin{figure}
+l.22 \begin{figure}
                    [ht]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1107,7 +1078,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.23 \begin{figure}[
+l.22 \begin{figure}[
                     ht]
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1123,14 +1094,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.25 	\begin{tikzpicture}
+l.24 	\begin{tikzpicture}
                          
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Undefined control sequence.
-l.26 	\pgfplotsset
+l.25 	\pgfplotsset
                   {ticks=none}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1155,7 +1126,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.27 \begin{axis}
+l.26 \begin{axis}
                  [
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1182,7 +1153,7 @@ Missing character: There is no = in font nullfont!
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    y
-l.30 	y
+l.29 	y
        label=amplitude,
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1263,12 +1234,12 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no ] in font nullfont!
 Missing character: There is no , in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 23--34
+Overfull \hbox (20.0pt too wide) in paragraph at lines 22--33
  [] 
  []
 
 ! Undefined control sequence.
-l.35 \addplot
+l.34 \addplot
               coordinates {
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1283,7 +1254,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.35 \addplot c
+l.34 \addplot c
                oordinates {
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1775,7 +1746,7 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.56 \addplot
+l.55 \addplot
               coordinates {
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1790,7 +1761,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.56 \addplot c
+l.55 \addplot c
                oordinates {
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3193,7 +3164,7 @@ Missing character: There is no 3 in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.120 \addplot
+l.119 \addplot
                coordinates {
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3208,7 +3179,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.120 \addplot c
+l.119 \addplot c
                 oordinates {
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3456,7 +3427,7 @@ Missing character: There is no 0 in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.136 \addplot
+l.135 \addplot
                coordinates {
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3471,7 +3442,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.136 \addplot c
+l.135 \addplot c
                 oordinates {
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -4000,7 +3971,7 @@ Missing character: There is no 4 in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.158 \addplot
+l.157 \addplot
                coordinates {
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4015,7 +3986,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.158 \addplot c
+l.157 \addplot c
                 oordinates {
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -5115,7 +5086,7 @@ Missing character: There is no 0 in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.253 \addlegendentry
+l.252 \addlegendentry
                      {p1}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5130,7 +5101,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.253 \addlegendentry{p
+l.252 \addlegendentry{p
                        1}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -5138,7 +5109,7 @@ If that doesn't work, type  X <return>  to quit.
 Missing character: There is no p in font nullfont!
 Missing character: There is no 1 in font nullfont!
 ! Undefined control sequence.
-l.254 \addlegendentry
+l.253 \addlegendentry
                      {p2}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5149,7 +5120,7 @@ and I'll forget about whatever was undefined.
 Missing character: There is no p in font nullfont!
 Missing character: There is no 2 in font nullfont!
 ! Undefined control sequence.
-l.255 \addlegendentry
+l.254 \addlegendentry
                      {p3}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5160,7 +5131,7 @@ and I'll forget about whatever was undefined.
 Missing character: There is no p in font nullfont!
 Missing character: There is no 3 in font nullfont!
 ! Undefined control sequence.
-l.256 \addlegendentry
+l.255 \addlegendentry
                      {p4}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5171,7 +5142,7 @@ and I'll forget about whatever was undefined.
 Missing character: There is no p in font nullfont!
 Missing character: There is no 4 in font nullfont!
 ! Undefined control sequence.
-l.257 \addlegendentry
+l.256 \addlegendentry
                      {p5}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5188,7 +5159,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.258 \end{axis}
+l.257 \end{axis}
                 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -5201,7 +5172,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.260 \end{tikzpicture}
+l.259 \end{tikzpicture}
                        
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -5214,7 +5185,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.261 \caption
+l.260 \caption
               {Environmental Noise}\label{volps}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -5226,7 +5197,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.261 \caption{E
+l.260 \caption{E
                 nvironmental Noise}\label{volps}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -5256,14 +5227,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.263 \end{figure}
+l.262 \end{figure}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Undefined control sequence.
-l.265 \FloatBarrier
+l.264 \FloatBarrier
                    
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5278,7 +5249,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.269 \begin{figure}
+l.268 \begin{figure}
                     [ht]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -5291,7 +5262,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.269 \begin{figure}[
+l.268 \begin{figure}[
                      ht]
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -5307,14 +5278,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.271 	\begin{tikzpicture}
+l.270 	\begin{tikzpicture}
                           
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Undefined control sequence.
-l.272 	\pgfplotsset
+l.271 	\pgfplotsset
                    {ticks=none}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5339,7 +5310,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.273 \begin{axis}
+l.272 \begin{axis}
                   [
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -5366,7 +5337,7 @@ Missing character: There is no = in font nullfont!
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    y
-l.276 	y
+l.275 	y
         label=lux,
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -5440,12 +5411,12 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no ] in font nullfont!
 Missing character: There is no , in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 269--280
+Overfull \hbox (20.0pt too wide) in paragraph at lines 268--279
  [] 
  []
 
 ! Undefined control sequence.
-l.281 \addplot
+l.280 \addplot
                coordinates {
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5460,7 +5431,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.281 \addplot c
+l.280 \addplot c
                 oordinates {
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -6837,7 +6808,7 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.345 \addplot
+l.344 \addplot
                coordinates {
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -6852,7 +6823,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.345 \addplot c
+l.344 \addplot c
                 oordinates {
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -7100,7 +7071,7 @@ Missing character: There is no 0 in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.361 \addplot
+l.360 \addplot
                coordinates {
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7115,7 +7086,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.361 \addplot c
+l.360 \addplot c
                 oordinates {
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -7634,7 +7605,7 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.383 \addplot
+l.382 \addplot
                coordinates {
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7649,7 +7620,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.383 \addplot c
+l.382 \addplot c
                 oordinates {
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -9598,7 +9569,7 @@ Missing character: There is no 3 in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.478 \addlegendentry
+l.477 \addlegendentry
                      {p2}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9613,7 +9584,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.478 \addlegendentry{p
+l.477 \addlegendentry{p
                        2}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -9621,7 +9592,7 @@ If that doesn't work, type  X <return>  to quit.
 Missing character: There is no p in font nullfont!
 Missing character: There is no 2 in font nullfont!
 ! Undefined control sequence.
-l.479 \addlegendentry
+l.478 \addlegendentry
                      {p3}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9632,7 +9603,7 @@ and I'll forget about whatever was undefined.
 Missing character: There is no p in font nullfont!
 Missing character: There is no 3 in font nullfont!
 ! Undefined control sequence.
-l.480 \addlegendentry
+l.479 \addlegendentry
                      {p4}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9643,7 +9614,7 @@ and I'll forget about whatever was undefined.
 Missing character: There is no p in font nullfont!
 Missing character: There is no 4 in font nullfont!
 ! Undefined control sequence.
-l.481 \addlegendentry
+l.480 \addlegendentry
                      {p5}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9660,7 +9631,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.482 \end{axis}
+l.481 \end{axis}
                 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -9673,7 +9644,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.484 \end{tikzpicture}
+l.483 \end{tikzpicture}
                        
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -9686,7 +9657,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.485 \caption
+l.484 \caption
               {Environmental Light}\label{ligps}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -9698,7 +9669,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.485 \caption{E
+l.484 \caption{E
                 nvironmental Light}\label{ligps}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -9728,14 +9699,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.487 \end{figure}
+l.486 \end{figure}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Undefined control sequence.
-l.489 \FloatBarrier
+l.488 \FloatBarrier
                    
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9744,7 +9715,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.491 \section
+l.490 \section
               {Individual Experiment Results}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9759,7 +9730,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.491 \section{I
+l.490 \section{I
                 ndividual Experiment Results}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -9996,18 +9967,31 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no a in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no s in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no y in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no s in font nullfont!
 Missing character: There is no a in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no r in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no l in font nullfont!
 Missing character: There is no e in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no d in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
 Missing character: There is no b in font nullfont!
 Missing character: There is no u in font nullfont!
 Missing character: There is no t in font nullfont!
@@ -10015,16 +9999,16 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no a in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no e in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no t in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no f in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no c in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
@@ -10163,19 +10147,22 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no a in font nullfont!
-Missing character: There is no , in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
 Missing character: There is no m in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no e in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no o in font nullfont!
 Missing character: There is no c in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no a in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
 Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no l in font nullfont!
 Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no m in font nullfont!
@@ -10260,12 +10247,12 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 491--494
+Overfull \hbox (20.0pt too wide) in paragraph at lines 490--493
 []
  []
 
 ! Undefined control sequence.
-l.495 \subsection
+l.494 \subsection
                  {coffee}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -10280,7 +10267,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.495 \subsection{c
+l.494 \subsection{c
                    offee}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -10302,7 +10289,7 @@ Missing character: There is no e in font nullfont!
 ! Undefined control sequence.
 <write> ...g: Reference `coffee' on page \thepage 
                                                   \space undefined\on@line .
-l.496 The table \ref{coffee}
+l.495 The table \ref{coffee}
                              shows the times of 10 Sudoku solvings of the pa...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -10311,7 +10298,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `coffee' on page  undefined on input line 496.
+LaTeX Warning: Reference `coffee' on page  undefined on input line 495.
 
 Missing character: There is no s in font nullfont!
 Missing character: There is no h in font nullfont!
@@ -10371,10 +10358,15 @@ Missing character: There is no u in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no w in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no a in font nullfont!
@@ -10393,7 +10385,6 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no g in font nullfont!
-Missing character: There is no , in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no e in font nullfont!
@@ -10451,13 +10442,31 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
-Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no u in font nullfont!
 Missing character: There is no n in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no e in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no e in font nullfont!
@@ -10776,7 +10785,7 @@ Missing character: There is no e in font nullfont!
 ! Undefined control sequence.
 <write> ...erence `resultCoffee' on page \thepage 
                                                   \space undefined\on@line .
-l.498 ...having a strong coffee \ref{resultCoffee}
+l.497 ...having a strong coffee \ref{resultCoffee}
                                                   .\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -10785,7 +10794,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `resultCoffee' on page  undefined on input line 498.
+LaTeX Warning: Reference `resultCoffee' on page  undefined on input line 497.
 
 Missing character: There is no . in font nullfont!
 Missing character: There is no T in font nullfont!
@@ -10834,7 +10843,7 @@ Missing character: There is no [ in font nullfont!
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.499 ... findings in \cite{liguori1997absorption}
+l.498 ... findings in \cite{liguori1997absorption}
                                                   . Their results showed tha...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -10844,7 +10853,7 @@ and I'll forget about whatever was undefined.
 
 
 LaTeX Warning: Citation `liguori1997absorption' on page  undefined on input lin
-e 499.
+e 498.
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no . in font nullfont!
@@ -11203,57 +11212,57 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 495--501
+Overfull \hbox (20.0pt too wide) in paragraph at lines 494--500
 []
  []
 
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 495--501
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 494--500
 []
  []
 
 
-Overfull \hbox (26.1943pt too wide) in paragraph at lines 495--501
+Overfull \hbox (26.1943pt too wide) in paragraph at lines 494--500
 \OT1/cmr/bx/n/10 14:24
  []
 
 
-Overfull \hbox (22.99988pt too wide) in paragraph at lines 495--501
+Overfull \hbox (22.99988pt too wide) in paragraph at lines 494--500
 \OT1/cmr/bx/n/10 min-
  []
 
 
-Overfull \hbox (20.66794pt too wide) in paragraph at lines 495--501
+Overfull \hbox (20.66794pt too wide) in paragraph at lines 494--500
 \OT1/cmr/bx/n/10 utes
  []
 
 
-Overfull \hbox (26.1943pt too wide) in paragraph at lines 495--501
+Overfull \hbox (26.1943pt too wide) in paragraph at lines 494--500
 \OT1/cmr/bx/n/10 17:37
  []
 
 
-Overfull \hbox (22.99988pt too wide) in paragraph at lines 495--501
+Overfull \hbox (22.99988pt too wide) in paragraph at lines 494--500
 \OT1/cmr/bx/n/10 min-
  []
 
 
-Overfull \hbox (20.66794pt too wide) in paragraph at lines 495--501
+Overfull \hbox (20.66794pt too wide) in paragraph at lines 494--500
 \OT1/cmr/bx/n/10 utes
  []
 
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 495--501
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 494--500
 [] 
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 495--501
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 494--500
 []
  []
 
 ! Undefined control sequence.
-l.502 \FloatBarrier
+l.501 \FloatBarrier
                    
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -11262,7 +11271,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.507 {\rowcolors
+l.506 {\rowcolors
                  {3}{black!10!white!90}{white!100}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -11277,7 +11286,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.507 {\rowcolors{3
+l.506 {\rowcolors{3
                    }{black!10!white!90}{white!100}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -11310,7 +11319,7 @@ Missing character: There is no 1 in font nullfont!
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no 0 in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 507--508
+Overfull \hbox (20.0pt too wide) in paragraph at lines 506--507
 [] 
  []
 
@@ -11321,7 +11330,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.509 \begin{table}
+l.508 \begin{table}
                    [!htb]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -11334,7 +11343,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.509 \begin{table}[
+l.508 \begin{table}[
                     !htb]
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -11352,7 +11361,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.511 \begin{adjustbox}
+l.510 \begin{adjustbox}
                        {width=1\textwidth}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -11368,7 +11377,7 @@ Missing character: There is no 1 in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    }
-l.511 \begin{adjustbox}{width=1\textwidth}
+l.510 \begin{adjustbox}{width=1\textwidth}
                                           
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -11377,7 +11386,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.511 \begin{adjustbox}{width=1\textwidth}
+l.510 \begin{adjustbox}{width=1\textwidth}
                                           
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -11387,9 +11396,9 @@ delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 512.
+(Font)              <7> on input line 511.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 512.
+(Font)              <5> on input line 511.
 
 ! LaTeX Error: Illegal character in array arg.
 
@@ -11397,7 +11406,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.512 ...}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|  }
+l.511 ...}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|  }
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -11409,7 +11418,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.512 ...}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|  }
+l.511 ...}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|  }
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -11421,7 +11430,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.512 ...}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|  }
+l.511 ...}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|  }
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -11433,7 +11442,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.512 ...}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|  }
+l.511 ...}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|  }
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -11445,7 +11454,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.512 ...}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|  }
+l.511 ...}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|  }
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -11457,7 +11466,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.512 ...}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|  }
+l.511 ...}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|  }
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -11469,7 +11478,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.512 ...}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|  }
+l.511 ...}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|  }
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -11481,7 +11490,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.512 ...}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|  }
+l.511 ...}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|  }
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -11493,7 +11502,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.512 ...}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|  }
+l.511 ...}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|  }
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -11505,7 +11514,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.512 ...}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|  }
+l.511 ...}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|  }
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -11517,7 +11526,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.512 ...}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|  }
+l.511 ...}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|  }
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -11529,7 +11538,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.512 ...}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|  }
+l.511 ...}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|  }
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -11541,7 +11550,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.512 ...}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|  }
+l.511 ...}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|  }
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -11553,7 +11562,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.512 ...}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|  }
+l.511 ...}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|  }
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -11565,7 +11574,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.512 ...}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|  }
+l.511 ...}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|  }
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -11577,7 +11586,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.512 ...}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|  }
+l.511 ...}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|  }
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -11589,7 +11598,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.512 ...}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|  }
+l.511 ...}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|  }
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -11601,7 +11610,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.512 ...}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|  }
+l.511 ...}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|  }
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -11613,7 +11622,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.512 ...}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|  }
+l.511 ...}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|  }
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -11625,7 +11634,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.512 ...}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|  }
+l.511 ...}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|  }
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -11633,7 +11642,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Undefined control sequence.
 <recently read> \rowcolor 
                           
-l.514  \rowcolor
+l.513  \rowcolor
                 {lightgray} \multicolumn{11}{|c|}{{\bf Experiment with Caffe...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -11653,7 +11662,7 @@ Missing character: There is no y in font nullfont!
 ! Misplaced \omit.
 \multispan ->\omit 
                    \@multispan 
-l.514 ...{11}{|c|}{{\bf Experiment with Caffeine}}
+l.513 ...{11}{|c|}{{\bf Experiment with Caffeine}}
                                                    \\
 I expect to see \omit only after tab marks or the \cr of
 an alignment. Proceed, and I'll ignore this case.
@@ -11661,7 +11670,7 @@ an alignment. Proceed, and I'll ignore this case.
 ! Undefined control sequence.
 \@sharp ->{\bf 
                Experiment with Caffeine}
-l.514 ...{11}{|c|}{{\bf Experiment with Caffeine}}
+l.513 ...{11}{|c|}{{\bf Experiment with Caffeine}}
                                                    \\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -11851,7 +11860,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.527 \end{adjustbox}
+l.526 \end{adjustbox}
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -11864,7 +11873,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.528 \caption
+l.527 \caption
               {Cognitive Performance with Coffee}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -11906,24 +11915,24 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.530 \end{table}
+l.529 \end{table}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 509--531
+Overfull \hbox (20.0pt too wide) in paragraph at lines 508--530
 []
  []
 
 
-Overfull \hbox (291.13188pt too wide) in paragraph at lines 509--531
+Overfull \hbox (291.13188pt too wide) in paragraph at lines 508--530
 []
  []
 
 ! Undefined control sequence.
-l.535 \definecolor
+l.534 \definecolor
                   {noCoff}{HTML}{1c90e7}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -11938,7 +11947,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.535 \definecolor{n
+l.534 \definecolor{n
                     oCoff}{HTML}{1c90e7}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -11960,7 +11969,7 @@ Missing character: There is no 0 in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no 7 in font nullfont!
 ! Undefined control sequence.
-l.536 \definecolor
+l.535 \definecolor
                   {coffee}{HTML}{a4c639}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -11985,7 +11994,7 @@ Missing character: There is no 6 in font nullfont!
 Missing character: There is no 3 in font nullfont!
 Missing character: There is no 9 in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 535--537
+Overfull \hbox (20.0pt too wide) in paragraph at lines 534--536
 []
  []
 
@@ -11996,7 +12005,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.538 \begin{figure}
+l.537 \begin{figure}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -12009,7 +12018,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.540 	\begin{tikzpicture}
+l.539 	\begin{tikzpicture}
                           
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -12022,7 +12031,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.541         \begin{axis}
+l.540         \begin{axis}
                           [
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -12035,7 +12044,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.541         \begin{axis}[
+l.540         \begin{axis}[
                            
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -12054,7 +12063,7 @@ Missing character: There is no * in font nullfont!
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    h
-l.543         	h
+l.542         	h
                 eight = 8cm,
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -12110,7 +12119,7 @@ Missing character: There is no = in font nullfont!
 Missing character: There is no 2 in font nullfont!
 Missing character: There is no * in font nullfont!
 ! Undefined control sequence.
-l.545         	ybar=2*\pgflinewidth
+l.544         	ybar=2*\pgflinewidth
                                    ,
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -12337,7 +12346,7 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no x in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
-l.561      	\addplot
+l.560      	\addplot
                     [style={android,fill=noCoff,mark=no coffee}]
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -12417,7 +12426,7 @@ Missing character: There is no 4 in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.564         \addplot
+l.563         \addplot
                       [style={ios,fill=coffee,mark=coffee}]
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -12432,7 +12441,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.564         \addplot[
+l.563         \addplot[
                        style={ios,fill=coffee,mark=coffee}]
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -12503,7 +12512,7 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.567         \legend
+l.566         \legend
                      {No Coffee, Coffee}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -12518,7 +12527,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.567         \legend{N
+l.566         \legend{N
                        o Coffee, Coffee}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -12545,7 +12554,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.569         \end{axis}
+l.568         \end{axis}
                         
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -12558,7 +12567,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.570  	\end{tikzpicture}
+l.569  	\end{tikzpicture}
                          
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -12571,7 +12580,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.571  	\caption
+l.570  	\caption
                 {Solving times - Coffee} \label{resultCoffee}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -12583,7 +12592,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.571  	\caption{S
+l.570  	\caption{S
                   olving times - Coffee} \label{resultCoffee}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -12614,14 +12623,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.573 \end{figure}
+l.572 \end{figure}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Undefined control sequence.
-l.575 \FloatBarrier
+l.574 \FloatBarrier
                    
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -12630,7 +12639,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.577 \subsection
+l.576 \subsection
                  {music}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -12645,7 +12654,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.577 \subsection{m
+l.576 \subsection{m
                    usic}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -12656,7 +12665,7 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no c in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 577--578
+Overfull \hbox (20.0pt too wide) in paragraph at lines 576--577
 [] 
  []
 
@@ -12667,7 +12676,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.579 T
+l.578 T
        he table \ref{music} shows the times of the Sudokus that have been so...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -12684,7 +12693,7 @@ Missing character: There is no e in font nullfont!
 ! Undefined control sequence.
 <write> ...ng: Reference `music' on page \thepage 
                                                   \space undefined\on@line .
-l.579 The table \ref{music}
+l.578 The table \ref{music}
                             shows the times of the Sudokus that have been so...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -12693,7 +12702,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `music' on page  undefined on input line 579.
+LaTeX Warning: Reference `music' on page  undefined on input line 578.
 
 Missing character: There is no s in font nullfont!
 Missing character: There is no h in font nullfont!
@@ -13284,17 +13293,17 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 579--583
+Overfull \hbox (20.0pt too wide) in paragraph at lines 578--582
 []
  []
 
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 579--583
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 578--582
 []
  []
 
 ! Undefined control sequence.
-l.584 \FloatBarrier
+l.583 \FloatBarrier
                    
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -13303,7 +13312,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.589 {\rowcolors
+l.588 {\rowcolors
                  {3}{black!10!white!90}{white!100}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -13318,7 +13327,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.589 {\rowcolors{3
+l.588 {\rowcolors{3
                    }{black!10!white!90}{white!100}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -13351,7 +13360,7 @@ Missing character: There is no 1 in font nullfont!
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no 0 in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 589--590
+Overfull \hbox (20.0pt too wide) in paragraph at lines 588--589
 [] 
  []
 
@@ -13362,7 +13371,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.591 \begin{table}
+l.590 \begin{table}
                    [!htb]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -13375,7 +13384,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.591 \begin{table}[
+l.590 \begin{table}[
                     !htb]
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -13393,7 +13402,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.593 \begin{adjustbox}
+l.592 \begin{adjustbox}
                        {width=1\textwidth}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -13409,7 +13418,7 @@ Missing character: There is no 1 in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    }
-l.593 \begin{adjustbox}{width=1\textwidth}
+l.592 \begin{adjustbox}{width=1\textwidth}
                                           
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -13418,7 +13427,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.593 \begin{adjustbox}{width=1\textwidth}
+l.592 \begin{adjustbox}{width=1\textwidth}
                                           
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -13434,7 +13443,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.594 ...}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|  }
+l.593 ...}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|  }
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -13446,7 +13455,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.594 ...}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|  }
+l.593 ...}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|  }
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -13458,7 +13467,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.594 ...}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|  }
+l.593 ...}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|  }
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -13470,7 +13479,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.594 ...}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|  }
+l.593 ...}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|  }
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -13482,7 +13491,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.594 ...}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|  }
+l.593 ...}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|  }
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -13494,7 +13503,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.594 ...}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|  }
+l.593 ...}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|  }
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -13506,7 +13515,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.594 ...}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|  }
+l.593 ...}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|  }
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -13518,7 +13527,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.594 ...}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|  }
+l.593 ...}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|  }
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -13530,7 +13539,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.594 ...}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|  }
+l.593 ...}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|  }
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -13542,7 +13551,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.594 ...}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|  }
+l.593 ...}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|  }
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -13554,7 +13563,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.594 ...}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|  }
+l.593 ...}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|  }
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -13566,7 +13575,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.594 ...}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|  }
+l.593 ...}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|  }
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -13578,7 +13587,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.594 ...}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|  }
+l.593 ...}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|  }
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -13590,7 +13599,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.594 ...}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|  }
+l.593 ...}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|  }
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -13602,7 +13611,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.594 ...}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|  }
+l.593 ...}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|  }
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -13614,7 +13623,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.594 ...}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|  }
+l.593 ...}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|  }
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -13626,7 +13635,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.594 ...}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|  }
+l.593 ...}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|  }
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -13638,7 +13647,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.594 ...}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|  }
+l.593 ...}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|  }
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -13650,7 +13659,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.594 ...}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|  }
+l.593 ...}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|  }
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -13662,7 +13671,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.594 ...}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|  }
+l.593 ...}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|  }
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -13670,7 +13679,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Undefined control sequence.
 <recently read> \rowcolor 
                           
-l.596  \rowcolor
+l.595  \rowcolor
                 {lightgray} \multicolumn{11}{|c|}{{\bf Experiment with Music...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -13690,7 +13699,7 @@ Missing character: There is no y in font nullfont!
 ! Misplaced \omit.
 \multispan ->\omit 
                    \@multispan 
-l.596 ...umn{11}{|c|}{{\bf Experiment with Music}}
+l.595 ...umn{11}{|c|}{{\bf Experiment with Music}}
                                                    \\
 I expect to see \omit only after tab marks or the \cr of
 an alignment. Proceed, and I'll ignore this case.
@@ -13698,7 +13707,7 @@ an alignment. Proceed, and I'll ignore this case.
 ! Undefined control sequence.
 \@sharp ->{\bf 
                Experiment with Music}
-l.596 ...umn{11}{|c|}{{\bf Experiment with Music}}
+l.595 ...umn{11}{|c|}{{\bf Experiment with Music}}
                                                    \\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -13947,7 +13956,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.610 \end{adjustbox}
+l.609 \end{adjustbox}
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -13960,7 +13969,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.611 \caption
+l.610 \caption
               {Cognitive Performance with Music}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -14001,24 +14010,24 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.613 \end{table}
+l.612 \end{table}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 591--614
+Overfull \hbox (20.0pt too wide) in paragraph at lines 590--613
 []
  []
 
 
-Overfull \hbox (291.13188pt too wide) in paragraph at lines 591--614
+Overfull \hbox (291.13188pt too wide) in paragraph at lines 590--613
 []
  []
 
 ! Undefined control sequence.
-l.617 \definecolor
+l.616 \definecolor
                   {nada}{HTML}{e78d1c}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -14033,7 +14042,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.617 \definecolor{n
+l.616 \definecolor{n
                     ada}{HTML}{e78d1c}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -14053,7 +14062,7 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no 1 in font nullfont!
 Missing character: There is no c in font nullfont!
 ! Undefined control sequence.
-l.618 \definecolor
+l.617 \definecolor
                   {metal}{HTML}{a4c639}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -14077,7 +14086,7 @@ Missing character: There is no 6 in font nullfont!
 Missing character: There is no 3 in font nullfont!
 Missing character: There is no 9 in font nullfont!
 ! Undefined control sequence.
-l.619 \definecolor
+l.618 \definecolor
                   {classical}{HTML}{1c90e7}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -14105,7 +14114,7 @@ Missing character: There is no 0 in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no 7 in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 617--620
+Overfull \hbox (20.0pt too wide) in paragraph at lines 616--619
 []
  []
 
@@ -14116,7 +14125,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.621 \begin{figure}
+l.620 \begin{figure}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -14129,7 +14138,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.623 	\begin{tikzpicture}
+l.622 	\begin{tikzpicture}
                           
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -14142,7 +14151,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.624         \begin{axis}
+l.623         \begin{axis}
                           [
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -14155,7 +14164,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.624         \begin{axis}[
+l.623         \begin{axis}[
                            
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -14174,7 +14183,7 @@ Missing character: There is no * in font nullfont!
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    h
-l.626         	h
+l.625         	h
                 eight = 8cm,
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -14230,7 +14239,7 @@ Missing character: There is no = in font nullfont!
 Missing character: There is no 2 in font nullfont!
 Missing character: There is no * in font nullfont!
 ! Undefined control sequence.
-l.628         	ybar=2*\pgflinewidth
+l.627         	ybar=2*\pgflinewidth
                                    ,
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -14457,7 +14466,7 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no x in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
-l.644      	\addplot
+l.643      	\addplot
                     [style={android,fill=classical,mark=classical}]
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -14541,7 +14550,7 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.647         \addplot
+l.646         \addplot
                       [style={ios,fill=,metal,mark=metal}]
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -14556,7 +14565,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.647         \addplot[
+l.646         \addplot[
                        style={ios,fill=,metal,mark=metal}]
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -14630,7 +14639,7 @@ Missing character: There is no 7 in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.650         \addplot
+l.649         \addplot
                       [style={others,fill=nada,mark=no music}]
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -14645,7 +14654,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.650         \addplot[
+l.649         \addplot[
                        style={others,fill=nada,mark=no music}]
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -14719,7 +14728,7 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.653         \legend
+l.652         \legend
                      {Classical, Metal, No Music}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -14734,7 +14743,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.653         \legend{C
+l.652         \legend{C
                        lassical, Metal, No Music}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -14769,7 +14778,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.655         \end{axis}
+l.654         \end{axis}
                         
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -14782,7 +14791,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.656  	\end{tikzpicture}
+l.655  	\end{tikzpicture}
                          
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -14795,7 +14804,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.657  	\caption
+l.656  	\caption
                 {Solving times - Music}\label{resultMusic}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -14807,7 +14816,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.657  	\caption{S
+l.656  	\caption{S
                   olving times - Music}\label{resultMusic}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -14837,14 +14846,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.659 \end{figure}
+l.658 \end{figure}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Undefined control sequence.
-l.661 \FloatBarrier
+l.660 \FloatBarrier
                    
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -14866,5 +14875,5 @@ Here is how much of TeX's memory you used:
  3613 multiletter control sequences out of 15000+600000
  3948 words of font info for 15 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 19i,8n,21p,436b,150s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 19i,8n,21p,480b,150s stack positions out of 5000i,500n,10000p,200000b,80000s
 !  ==> Fatal error occurred, no output PDF file produced!
