@@ -1,35 +1,10 @@
 \begin{thebibliography}{10}
 
-\bibitem{gnomeSudoku}
-gnome-sudoku.
-\newblock \url{https://sourceforge.net/projects/gnome-sudoku/?source=navbar}.
-\newblock accessed on 20.07.2016.
-
-\bibitem{fontsGoogle}
-googlewebfonts.
-\newblock \url{https://fonts.google.com}.
-\newblock accessed on 02.07.2016.
-
-\bibitem{spotify}
-spotify.
-\newblock \url{https://www.spotify.com}.
-\newblock accessed on 23.07.2016.
-
-\bibitem{sudokugen}
-sudoku-generator.
-\newblock \url{http://www.opensky.ca/~jdhildeb/software/sudokugen/}.
-\newblock accessed on 20.07.2016.
-
 \bibitem{androidpermissions}
 System permissions.
 \newblock
   \url{https://developer.android.com/guide/topics/security/permissions.html}.
 \newblock accessed on 02.07.2016.
-
-\bibitem{weatherArchive}
-Weather archive.
-\newblock \url{http://www.timeanddate.com/weather}.
-\newblock accessed on 14.07.2016.
 
 \bibitem{amabile1996assessing}
 Teresa~M Amabile, Regina Conti, Heather Coon, Jeffrey Lazenby, and Michael

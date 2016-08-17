@@ -489,7 +489,7 @@ The detailed results are attached to this dissertation in Appendix 4.
 
 \section{Individual Experiment Results}
 The results of the individual experiment are demonstrating the usage and the abilities for the Dather Application for a single participant. Rather than in the first experiment, it is taking only the data of a single person into account.
-The data only shows a plausible factor but not a guaranteed result. A lot more test cases would be needed to create a more accurate average value. However, the purpose of this experiment was to demonstrate the usage of the data in more controlled comparable environments rather than in experiment number 1 detect the environment and patterns. 
+The data only shows a plausible factor but doesn't confirm the influences of the tested factors. A lot more test cases would be needed to create a more accurate average value. However, the purpose of this experiment was to demonstrate the usage of the data in more controlled comparable environments rather than in the other experiment which detected the environment and patterns. 
 
 \subsection{coffee}
 The table \ref{coffee} shows the times of 10 Sudoku solvings of the participant. The results indicates that at the beginning the participant was faster under the influence of caffeine and then in later runs it happened to be the opposite. As the measurements where done on different days, the participant probably gained more practice in solving Sodukus, which shows the decreasing time to solve a Sudoku.
@@ -500,33 +500,55 @@ However, in our case the participant of the Experiment mentioned to feel fretful
 
 \FloatBarrier
 
-%%%% Coffee times
-\setlength{\tabcolsep}{10pt}
-\renewcommand{\arraystretch}{1.5}
-{\rowcolors{3}{black!10!white!90}{white!100}
+%%%%%%% COFFEE Graph
+\begin{figure}[ht]
+	\centering
+	\begin{tikzpicture}
+\begin{axis}[
+	height=6cm,
+	width=\textwidth,
+	ylabel=minutes,
+	xlabel=measurements,
+	title=Coffee,
+	unbounded coords=discard],
 
-\begin{table}[!htb]
-\centering
-\begin{adjustbox}{width=1\textwidth}
-\begin{tabular}{ |p{2,5cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|  }
- \hline
- \rowcolor{lightgray} \multicolumn{11}{|c|}{{\bf Experiment with Caffeine}} \\
- \hline
- \hline
-  {Condition}
-   & \multicolumn{10}{|c|}{Duration} \\
-    \cline{2-11}
-    \hline
- \hline
- Measurement	& 1			& 2			& 3			& 4			& 5			& 6 			& 7 			& 8 			& 9			& 10			\\
- No Coffee		& 20:43	& 21:36	& 13:14	& 23:02	& 09:32	& 12:18 	& 15:05 	& 09:49 	& 10:07	& 08:41	\\
- Coffee   			& 12:39	& 22:32	& 09:00 	& 26:34 	& 14:23	& 16:21	& 25:18	& 16:16	& 14:47	& 18:15	\\
- \hline
-\end{tabular}
-\end{adjustbox}
-\caption{Cognitive Performance with Coffee}
-\label{coffee}
-\end{table}
+%Before
+\addplot coordinates {
+	(1, 12.65)
+	(2, 22.533333)
+	(3, 9.0)
+	(4, 26.566667)
+	(5, 14.383333)
+	(6, 16.35)
+	(7, 25.3)
+	(8, 16.266667)
+	(9, 14.783333)
+	(10, 18.25)
+};
+
+\addplot coordinates {
+	(1, 20.716667)
+	(2, 21.6)
+	(3, 13.233333)
+	(4, 23.0333333)	
+	(5, 9.533333)
+	(6, 12.03)
+	(7, 15.0833333)
+	(8, 9.816667)
+	(9, 10.116667)
+	(10, 8.683333)
+};
+
+\addlegendentry{without coffee}
+\addlegendentry{with coffee}
+
+\end{axis}
+ 	\end{tikzpicture}
+ 	\caption{Solving times graph - Coffee}\label{resultadasda}
+ 	\vspace{10 mm}
+\end{figure}
+
+\FloatBarrier
 
 
 % Define bar chart colors
@@ -567,7 +589,7 @@ However, in our case the participant of the Experiment mentioned to feel fretful
 
         \end{axis}
  	\end{tikzpicture}
- 	\caption{Solving times - Coffee} \label{resultCoffee}
+ 	\caption{Solving times block diagram - Coffee} \label{resultCoffee}
  	\vspace{10 mm}
 \end{figure}
 
@@ -575,41 +597,77 @@ However, in our case the participant of the Experiment mentioned to feel fretful
 
 \subsection{music}
 
-The table \ref{music} shows the times of the Sudokus that have been solved by the participant and the duration it took. It shows that the average time of solving was the shortest when the participant was listening to music. 
+\ref{resultMusicGraph} and \ref{resultMusic} show the times of the Sudokus that have been solved by the participant and the duration it took. It shows that the average time of solving was the shortest when the participant was listening to music. 
 The participant solved the ten Sudokus in 89.35\% of the average time compared to the results archived without music. That is 1 minute and 34 seconds less time in average. 
 On the other hand, the average solving time while listening to heavy metal music was 4.08 \% or 36 seconds slower than without listening to music. 
 The results show evidence that for the participant the cognitive performance in solving Sudoku riddles was increasing when listening to classical music and decreasing at heavy metal music. 
 
 \FloatBarrier
 
-%%%% Music times
-\setlength{\tabcolsep}{10pt}
-\renewcommand{\arraystretch}{1.5}
-{\rowcolors{3}{black!10!white!90}{white!100}
+%%%%%%% Music
+\begin{figure}[ht]
+	\centering
+	\begin{tikzpicture}
+\begin{axis}[
+	height=6cm,
+	width=\textwidth,
+	ylabel=minutes,
+	xlabel=measurements,
+	title=Music,
+	unbounded coords=discard],
 
-\begin{table}[!htb]
-\centering
-\begin{adjustbox}{width=1\textwidth}
-\begin{tabular}{ |p{2,5cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|  }
- \hline
- \rowcolor{lightgray} \multicolumn{11}{|c|}{{\bf Experiment with Music}} \\
- \hline
- \hline
-  {Condition}
-   & \multicolumn{10}{|c|}{Duration} \\
-    \cline{2-11}
-    \hline
- \hline
- Measurement	& 1			& 2			& 3			& 4			& 5			& 6 			& 7 			& 8 			& 9			& 10			\\
- No Music			& 13:40	& 12:16	& 09:11	& 11:07	& 15:19	& 09:47	& 11:32	& 09:08	& 16:00	& 23:33	\\
- Heavy Metal   	& 30:12	& 15:51	& 14:42	& 15:46	& 19:47	& 09:51	& 11:01	& 12:34	& 09:58	& 13:23	\\
- Classical   		& 20:52	& 09:45	& 21:14	& 13:01	& 09:06	& 19:34	& 08:02	& 10:36	& 19:58	& 15:03	\\
- \hline
-\end{tabular}
-\end{adjustbox}
-\caption{Cognitive Performance with Music}
-\label{music}
-\end{table}
+% classical
+\addplot coordinates {
+	(1, 13.666667)
+	(2, 12.266667)
+	(3, 9.183333)
+	(4, 11.116667)
+	(5, 15.316667)
+	(6, 9.783333)
+	(7, 11.533333)
+	(8, 9.133333)
+	(9, 16.0)
+	(10, 23.55)
+};
+
+% metal
+\addplot coordinates {
+	(1, 30.02)
+	(2, 15.85)
+	(3, 14.07)
+	(4, 15.766667)
+	(5, 19.783333)
+	(6, 9.85)
+	(7, 11.0166667)
+	(8, 12.566667)
+	(9, 9.966667)
+	(10, 13.383333)
+};
+
+% none
+\addplot coordinates {
+	(1, 20.866667)
+	(2, 9.75)
+	(3, 21.233333)
+	(4, 13.0166667)
+	(5, 9.1)
+	(6, 19.566667)
+	(7, 8.0333333)
+	(8, 10.6)
+	(9, 19.966667)
+	(10, 15.05)
+};
+
+\addlegendentry{classical}
+\addlegendentry{metal}
+\addlegendentry{no music}
+
+\end{axis}
+ 	\end{tikzpicture}
+ 	\caption{Solving times graph - Music}\label{resultMusicGraph}
+ 	\vspace{10 mm}
+\end{figure}
+
 
 % Define bar chart colors
 %
@@ -653,9 +711,106 @@ The results show evidence that for the participant the cognitive performance in 
 
         \end{axis}
  	\end{tikzpicture}
- 	\caption{Solving times - Music}\label{resultMusic}
+ 	\caption{Solving times block diagram - Music}\label{resultMusic}
  	\vspace{10 mm}
 \end{figure}
 
 \FloatBarrier
 
+\subsection{running}
+The graph \ref{resultRun} results show a trend for a better performance after strong physical activity. The average solving time after the run (\textbf{10:52 min}) is 3:20 min faster than the \textbf{14:12} minutes before running. That is a decrease of \textbf{22.5\%} from before to after and can be seen in \ref{resultRunning}. 
+Compared to the two other individual experiments, the results of this scenario are differing more at each measurement. 4 times, the solving after the running took actually longer than the solvings in the pre-run state. 
+
+%%%%%%% Running
+\begin{figure}[ht]
+	\centering
+	\begin{tikzpicture}
+\begin{axis}[
+	height=6cm,
+	width=\textwidth,
+	ylabel=minutes,
+	xlabel=measurements,
+	title=Running,
+	unbounded coords=discard],
+
+\addplot coordinates {
+	(1, 12.466667)
+	(2, 11.633333)
+	(3, 12.483333)
+	(4, 20.383333)
+	(5, 8.583333)
+	(6, 16.166667)
+	(7, 14.25)
+	(8, 11.766667)
+	(9, 13.533333)
+	(10, 20.683333)
+};
+
+\addplot coordinates {
+	(1, 14.45)
+	(2, 10.483333)
+	(3, 15.483333)
+	(4, 8.05)
+	(5, 8.883333)
+	(6, 9.85)
+	(7, 10.75)
+	(8, 13.466667)
+	(9, 8.683333)
+	(10, 8.516667)
+};
+
+\addlegendentry{relaxed}
+\addlegendentry{exhausted}
+
+\end{axis}
+ 	\end{tikzpicture}
+ 	\caption{Solving times graph - Running}\label{resultRun}
+ 	\vspace{10 mm}
+\end{figure}
+
+\FloatBarrier
+
+% Define bar chart colors
+%
+\definecolor{nada}{HTML}{e78d1c}
+\definecolor{metal}{HTML}{a4c639}
+\definecolor{classical}{HTML}{1c90e7}
+
+\begin{figure}
+	\centering
+	\begin{tikzpicture}
+        \begin{axis}[
+            width  = 0.5*\textwidth,
+        	height = 8cm,
+        	major x tick style = transparent,
+        	ybar=2*\pgflinewidth,
+        	bar width=30pt,
+        	ymajorgrids = true,
+        	ylabel = {Average solving time},
+        	symbolic x coords={Influences},
+       	 	xtick = data,
+        	scaled y ticks = false,
+        	enlarge x limits=0.25,
+        	ymin=0,
+        	legend cell align=left,
+        	legend style={
+                at={(1,1.05)},
+                anchor=south east,
+                column sep=1ex
+        	}
+      	]
+     	\addplot[style={android,fill=classical,mark=classical}]
+            coordinates {(Influences, 14.02)};
+
+        \addplot[style={ios,fill=,metal,mark=metal}]
+             coordinates {(Influences,10.866667)};
+
+        \legend{Relaxed, Exhausted} 
+
+        \end{axis}
+ 	\end{tikzpicture}
+ 	\caption{Solving time block diagram - Running}\label{resultRunning}
+ 	\vspace{10 mm}
+\end{figure}
+
+\FloatBarrier

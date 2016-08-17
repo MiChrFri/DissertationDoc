@@ -12,53 +12,51 @@ A level-1 auxiliary file: conclusion.aux
 A level-1 auxiliary file: appendix1.aux
 A level-1 auxiliary file: appendix2.aux
 A level-1 auxiliary file: appendix3.aux
+A level-1 auxiliary file: appendix4.aux
+A level-1 auxiliary file: appendix5.aux
 The style file: plain.bst
 Database file #1: references.bib
+Warning--I didn't find a database entry for "weatherArchive"
 Warning--to sort, need author or key in androidpermissions
-Warning--to sort, need author or key in fontsGoogle
-Warning--to sort, need author or key in weatherArchive
-Warning--to sort, need author or key in sudokugen
-Warning--to sort, need author or key in gnomeSudoku
-Warning--to sort, need author or key in spotify
-You've used 47 entries,
+You've used 42 entries,
             2118 wiz_defined-function locations,
-            799 strings with 13363 characters,
-and the built_in function-call counts, 16172 in all, are:
-= -- 1661
-> -- 692
+            783 strings with 12984 characters,
+and the built_in function-call counts, 15332 in all, are:
+= -- 1576
+> -- 687
 < -- 12
-+ -- 283
++ -- 278
 - -- 230
-* -- 1092
-:= -- 2570
-add.period$ -- 157
-call.type$ -- 47
-change.case$ -- 254
+* -- 1067
+:= -- 2475
+add.period$ -- 142
+call.type$ -- 42
+change.case$ -- 239
 chr.to.int$ -- 0
-cite$ -- 53
-duplicate$ -- 625
-empty$ -- 1310
+cite$ -- 43
+duplicate$ -- 590
+empty$ -- 1195
 format.name$ -- 230
-if$ -- 3482
+if$ -- 3272
 int.to.chr$ -- 0
-int.to.str$ -- 47
+int.to.str$ -- 42
 missing$ -- 40
-newline$ -- 241
+newline$ -- 216
 num.names$ -- 82
-pop$ -- 302
+pop$ -- 252
 preamble$ -- 1
-purify$ -- 208
+purify$ -- 198
 quote$ -- 0
-skip$ -- 446
+skip$ -- 421
 stack$ -- 0
-substring$ -- 1016
-swap$ -- 154
+substring$ -- 991
+swap$ -- 149
 text.length$ -- 12
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 184
-warning$ -- 6
+type$ -- 164
+warning$ -- 1
 while$ -- 156
-width$ -- 49
-write$ -- 530
-(There were 6 warnings)
+width$ -- 44
+write$ -- 485
+(There were 2 warnings)
