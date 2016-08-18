@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.18)  18 AUG 2016 12:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.18)  18 AUG 2016 12:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -811,21 +811,21 @@ LaTeX Warning: Label `dandt1' multiply defined.
 ) (./appendix5.aux))
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 81.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 83.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
@@ -864,7 +864,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box43
-Package hyperref Info: Link coloring OFF on input line 81.
+Package hyperref Info: Link coloring OFF on input line 83.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -873,101 +873,91 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count155
 )
-LaTeX Info: Redefining \ref on input line 81.
-LaTeX Info: Redefining \pageref on input line 81.
-LaTeX Info: Redefining \nameref on input line 81.
+LaTeX Info: Redefining \ref on input line 83.
+LaTeX Info: Redefining \pageref on input line 83.
+LaTeX Info: Redefining \nameref on input line 83.
 
 (./thesis.out) (./thesis.out)
 \@outlinefile=\write4
 \openout4 = `thesis.out'.
 
-LaTeX Info: Redefining \celsius on input line 81.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 81.
+LaTeX Info: Redefining \celsius on input line 83.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 83.
 
 
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 81.
-Package gensymb Info: Using \Omega for \ohm on input line 81.
+LaTeX Info: Redefining \ohm on input line 83.
+Package gensymb Info: Using \Omega for \ohm on input line 83.
 
 Package gensymb Warning: Not defining \micro.
 
 [1
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 84--84
+Underfull \hbox (badness 10000) in paragraph at lines 86--86
 
  []
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 85--85
+Underfull \hbox (badness 10000) in paragraph at lines 87--87
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 85--85
+Underfull \hbox (badness 10000) in paragraph at lines 87--87
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 85--85
+Underfull \hbox (badness 10000) in paragraph at lines 87--87
 
  []
 
-[3]
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 95.
- (/usr/local/texlive/2015/texmf-dist/tex/latex/lm/omllmm.fd
+[3] [4
+
+] [5] (./thesis.toc
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 5.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 95.
-
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 5.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 95.
-
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 5.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 95.
+(Font)              <12> on input line 5.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 95.
+(Font)              <8> on input line 5.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 95.
- [4
+(Font)              <6> on input line 5.
+ [6
 
-] [5
-
-]
-\openout2 = `abstract.aux'.
-
-
-(./abstract.tex) [6
-
-] (./thesis.toc [7
-
-
-] [8] [9] [10] [11])
+] [7] [8]
+[9] [10])
 \tf@toc=\write5
 \openout5 = `thesis.toc'.
 
- [12] (./thesis.lot)
+ [11] (./thesis.lot)
 \tf@lot=\write6
 \openout6 = `thesis.lot'.
 
-
-[13
+ [12
 
 
 ] (./thesis.lof)
 \tf@lof=\write7
 \openout7 = `thesis.lof'.
 
- [14
+ [13
 
 
 ]
@@ -984,7 +974,13 @@ Overfull \hbox (5.66809pt too wide) in paragraph at lines 34--35
 e I used the sen-sors and information
  []
 
-[2] [3] [4] [5] [6] [7]) [8]
+[2]
+Overfull \hbox (16.71153pt too wide) in paragraph at lines 36--41
+\OT1/lmr/m/n/12 In a sec-ond ex-per-i-ment, a sin-gle par-tic-i-pants solves Su
+-dokus in a more con-trolled environment.
+ []
+
+[3] [4] [5] [6] [7]) [8]
 \openout2 = `sota.aux'.
 
  (./sota.tex
@@ -1003,7 +999,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 51--61
 
  []
 
-[13] [14] [15] <images/clustering.png, id=926, 441.65pt x 464.73625pt>
+[13] [14] [15] <images/clustering.png, id=921, 441.65pt x 464.73625pt>
 File: images/clustering.png Graphic file (type png)
 
 <use images/clustering.png>
@@ -1040,14 +1036,14 @@ Chapter 3.
 
 
 
-] [26] <images/sensors.png, id=1020, 1505.625pt x 1626.075pt>
+] [26] <images/sensors.png, id=1017, 1505.625pt x 1626.075pt>
 File: images/sensors.png Graphic file (type png)
 
 <use images/sensors.png>
 Package pdftex.def Info: images/sensors.png used on input line 69.
 (pdftex.def)             Requested size: 227.62204pt x 245.81123pt.
  [27] [28 <./images/sensors.png>]
-<images/AndroidUI.png, id=1033, 2007.5pt x 593.21625pt>
+<images/AndroidUI.png, id=1030, 2007.5pt x 593.21625pt>
 File: images/AndroidUI.png Graphic file (type png)
 
 <use images/AndroidUI.png>
@@ -1068,7 +1064,7 @@ Chapter 4.
 
 
 
-] [36] [37] [38] <images/dataflow.png, id=1089, 1100.11pt x 354.32375pt>
+] [36] [37] [38] <images/dataflow.png, id=1086, 1100.11pt x 354.32375pt>
 File: images/dataflow.png Graphic file (type png)
 
 <use images/dataflow.png>
@@ -1087,21 +1083,21 @@ LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 81.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/lm/ot1lmtt.fd
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [41] [42]
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 108.
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 111.
 
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/lm/omslmr.fd
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 108.
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 111.
  [43]) [44]
 \openout2 = `experiement.aux'.
 
 
 (./experiement.tex
 Chapter 5.
-<images/experiment.png, id=1123, 1242.6425pt x 733.74126pt>
+<images/experiment.png, id=1121, 1242.6425pt x 733.74126pt>
 File: images/experiment.png Graphic file (type png)
 
 <use images/experiment.png>
@@ -1121,7 +1117,7 @@ Underfull \hbox (badness 1205) in paragraph at lines 66--66
 []|\OT1/lmr/m/n/12 Detailed Draw-ing Work, Very De-tailed Me-chan-i-cal
  []
 
-[47] [48] <images/accDevice.png, id=1150, 1164.35pt x 886.31125pt>
+[47] [48] <images/accDevice.png, id=1149, 1164.35pt x 886.31125pt>
 File: images/accDevice.png Graphic file (type png)
 
 <use images/accDevice.png>
@@ -1203,7 +1199,7 @@ Overfull \hbox (13.49446pt too wide) in paragraph at lines 3--21
  []
 
 )
-Overfull \hbox (13.49446pt too wide) in paragraph at lines 22--119
+Overfull \hbox (13.49446pt too wide) in paragraph at lines 22--123
 [][] 
  []
 
@@ -1767,58 +1763,106 @@ com / magazine / 201512 / jeff-[]bercovici /
 
 
 ] [91] [92] [93] [94]) [95]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 134.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 134.
- (./thesis.aux (./abstract.aux)
-(./introduction.aux) (./sota.aux) (./design.aux) (./implementation.aux)
-(./experiement.aux) (./results.aux) (./conclusion.aux) (./appendix1.aux)
-(./appendix2.aux) (./appendix3.aux) (./appendix4.aux) (./appendix5.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 134.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 134.
-Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: ECB3F976477B620485C775CE945A5BA4;8595.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 138.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 138.
+ (./thesis.aux (./introduction.aux) (./sota.aux)
+(./design.aux) (./implementation.aux) (./experiement.aux) (./results.aux)
+(./conclusion.aux) (./appendix1.aux) (./appendix2.aux) (./appendix3.aux)
+(./appendix4.aux) (./appendix5.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 138.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 138.
 
+
+Package rerunfilecheck Warning: File `thesis.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `thesis.out':
+(rerunfilecheck)             Before: DCA6EE826D0F8D60C43647AEB89B805C;8617
+(rerunfilecheck)             After:  86BC1BFF960EA6B140D83250C6600AD1;8617.
 
 LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 134.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 138.
  )
 (\end occurred inside a group at level 1)
 
 ### simple group (level 1) entered at line 32 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 29401 strings out of 493089
- 690322 string characters out of 6134841
- 925882 words of memory out of 5000000
- 31897 multiletter control sequences out of 15000+600000
- 59868 words of font info for 48 fonts, out of 8000000 for 9000
- 1146 hyphenation exceptions out of 8191
+ 29406 strings out of 493089
+ 690441 string characters out of 6134841
+ 924846 words of memory out of 5000000
+ 31894 multiletter control sequences out of 15000+600000
+ 51391 words of font info for 45 fonts, out of 8000000 for 9000
+ 1147 hyphenation exceptions out of 8191
  63i,19n,110p,1375b,2439s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-maths
-y.enc}{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc} </U
-sers/michael/Library/texlive/2015/texmf-var/fonts/pk/ljfour/public/bbding/bbdin
-g10.720pk>{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-rmtt.enc}{/
-usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texl
-ive/2015/texmf-dist/fonts/enc/dvips/lm/lm-rmsc.enc}</usr/local/texlive/2015/tex
-mf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2015/texmf-dist/fo
-nts/type1/public/lm/lmcsc10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1
-/public/lm/lmmi12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm
-/lmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmr7.pfb><
-/usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/t
-exlive/2015/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/201
-5/texmf-dist/fonts/type1/public/lm/lmro12.pfb></usr/local/texlive/2015/texmf-di
-st/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/t
-ype1/public/lm/lmsy8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public
-/lm/lmtt10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmtt12
-.pfb>
-Output written on thesis.pdf (109 pages, 1652996 bytes).
+pdfTeX warning (dest): name{figure.caption.46} has been referen
+ced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.30} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.25} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.18} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.9} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.77} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.70} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.65} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.61} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.56} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.52} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.28} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.8} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{appendix*.78} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{chapter*.7} has been referenced but does not exist,
+ replaced by a fixed one
+
+{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/loca
+l/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc} </Users/michael/Lib
+rary/texlive/2015/texmf-var/fonts/pk/ljfour/public/bbding/bbding10.720pk>{/usr/
+local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-rmtt.enc}{/usr/local/texliv
+e/2015/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}</usr/local/texlive/2015/texmf-d
+ist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/
+type1/public/lm/lmmi12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/publ
+ic/lm/lmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmr7.
+pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/lo
+cal/texlive/2015/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texliv
+e/2015/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2015/tex
+mf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2015/texmf-dist/fon
+ts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/p
+ublic/lm/lmtt12.pfb>
+Output written on thesis.pdf (108 pages, 1604366 bytes).
 PDF statistics:
- 1561 PDF objects out of 1728 (max. 8388607)
- 1406 compressed objects within 15 object streams
- 368 named destinations out of 1000 (max. 500000)
+ 1562 PDF objects out of 1728 (max. 8388607)
+ 1410 compressed objects within 15 object streams
+ 381 named destinations out of 1000 (max. 500000)
  1136 words of extra memory for PDF output out of 10000 (max. 10000000)
 

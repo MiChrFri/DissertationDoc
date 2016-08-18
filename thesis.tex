@@ -49,6 +49,8 @@
 
 \hyphenation{communication complexity environment everything information studies}
 
+\mastersthesis   
+
 \leftchapter                       							%% Uncomment one of these if you want  
 %\centerchapter                      					%% left-justified, centered or
 % \rightchapter                     						%% right-justified chapter headings.
@@ -84,18 +86,20 @@
 \thesisdeclarationpage									%% Generate the declaration page.
 \thesispermissionpage									%% Generate the copyright permission page
 
-\begin{thesisacknowledgments}               	%% Use this to write your
-			                          							%% acknowledgments; it can be anything
-First, I want to thank my family who always believed in me and helped me to be the person who I am now. 
-They taught me to work hard for what I want to achieve in my life and never give up until I reached my goals. \\
-I also want to thank my supervisor Stephen Barrett for the support and trust in my work as well as the guiding I received during my dissertation. \\
-Thank you to all my friends who kept me motivated and always listening and helping me with my problems and troubles I had. \\
-Last but not least I want to thank everyone who volunteered to participate for the experiments of this dissertation. 
-
-\end{thesisacknowledgments}                   %% allowed in LaTeX2e par-mode.
-
 \begin{thesisabstract}
-\include{abstract}      
+%\include{abstract}      
+Writing Software requires logical thinking, creativity, problem solving skills and teamwork. The whole process demands a good level of cognitive performance and solid communication within a team.\\
+However, this performance is sometimes better and sometime worse. Most people notice inconsistency in the quality and there is always a risk that a developer is producing bad code which could lead to expensive bugs and/or delays.\\
+Many developers don't really know about the quality of their code, neither in a general perspective nor in their temporary performance. Even if they would know, it is not always obvious to find reasons for negative or positive changes in their code quality.
+Software metrics have been around for decades with the purpose of evaluating the quality and the performance of the programmer but they are used primarily for project management rather than for providing feedback to the developers. 
+\bigbreak
+This dissertation investigates correlations between external influences in the coding quality and the cognitive performance of programmers. 
+In two experiments, mobile devices are being used to collect the contextual data of the environment and the behavior of the programmers. 
+An installed application on the device of the participants gathers data from sensors and collects data which is provided by the operating system. It accesses the light sensor, the amplitude of the microphone, the step counter, a 3axis-accelerometer and the location of the device. These information are then clustered and linked to a context.\\
+The first experiment investigates the single influences compared to the data of other participants in order to find general factors. In the second experiment, the focus lays on evidence for influences which are being created by a single participant. 
+\bigbreak
+Overall, the data gathering app is generating valuable information about the environment and context. 
+The application lead to findings that provide evidence for factors that influence the brain performance for an individual participant and also for patterns which could be influences in general. 
 \end{thesisabstract}
 
 %%%%%%%%%%%%%%%%%%%%%%

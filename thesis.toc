@@ -1,7 +1,6 @@
-\contentsline {chapter}{Acknowledgments}{iv}{chapter*.3}
-\contentsline {chapter}{Abstract}{v}{chapter*.4}
-\contentsline {chapter}{List of Tables}{xiii}{chapter*.7}
-\contentsline {chapter}{List of Figures}{xiv}{chapter*.8}
+\contentsline {chapter}{Abstract}{iv}{chapter*.3}
+\contentsline {chapter}{List of Tables}{xii}{chapter*.5}
+\contentsline {chapter}{List of Figures}{xiii}{chapter*.6}
 \contentsline {chapter}{Chapter{} \numberline {1}Introduction}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Motivation}{4}{section.1.1}
 \contentsline {subsection}{\numberline {1.1.1}Mobile Device Sensors}{4}{subsection.1.1.1}
@@ -21,14 +20,14 @@
 \contentsline {subsection}{\numberline {2.4.1}Summary}{17}{subsection.2.4.1}
 \contentsline {section}{\numberline {2.5}Variable Quality Influences}{17}{section.2.5}
 \contentsline {subsection}{\numberline {2.5.1}Team Communication}{18}{subsection.2.5.1}
-\contentsline {subsubsection}{Summary}{20}{section*.11}
+\contentsline {subsubsection}{Summary}{20}{section*.9}
 \contentsline {subsection}{\numberline {2.5.2}Cognitive Performance}{20}{subsection.2.5.2}
-\contentsline {subsubsection}{Working Environment}{20}{section*.12}
-\contentsline {subsubsection}{Context Switching}{21}{section*.13}
-\contentsline {subsubsection}{Arousal Effects}{22}{section*.14}
+\contentsline {subsubsection}{Working Environment}{20}{section*.10}
+\contentsline {subsubsection}{Context Switching}{21}{section*.11}
+\contentsline {subsubsection}{Arousal Effects}{22}{section*.12}
 \contentsline {subsection}{\numberline {2.5.3}Activity}{23}{subsection.2.5.3}
-\contentsline {subsubsection}{Diet}{23}{section*.15}
-\contentsline {subsubsection}{Summary}{24}{section*.16}
+\contentsline {subsubsection}{Diet}{23}{section*.13}
+\contentsline {subsubsection}{Summary}{24}{section*.14}
 \contentsline {chapter}{Chapter{} \numberline {3}Design}{25}{chapter.3}
 \contentsline {section}{\numberline {3.1}Functionality Overview}{25}{section.3.1}
 \contentsline {section}{\numberline {3.2}Mobile Application Design}{26}{section.3.2}
@@ -50,11 +49,11 @@
 \contentsline {chapter}{Chapter{} \numberline {4}Implementation}{35}{chapter.4}
 \contentsline {section}{\numberline {4.1}Android}{35}{section.4.1}
 \contentsline {subsection}{\numberline {4.1.1}User Interface}{36}{subsection.4.1.1}
-\contentsline {subsubsection}{Login View}{36}{section*.20}
-\contentsline {subsubsection}{Permissions View}{37}{section*.21}
-\contentsline {subsubsection}{Information View}{37}{section*.22}
-\contentsline {subsubsection}{Gather View}{37}{section*.23}
-\contentsline {subsubsection}{Question View}{38}{section*.24}
+\contentsline {subsubsection}{Login View}{36}{section*.18}
+\contentsline {subsubsection}{Permissions View}{37}{section*.19}
+\contentsline {subsubsection}{Information View}{37}{section*.20}
+\contentsline {subsubsection}{Gather View}{37}{section*.21}
+\contentsline {subsubsection}{Question View}{38}{section*.22}
 \contentsline {subsection}{\numberline {4.1.2}Data Gathering}{38}{subsection.4.1.2}
 \contentsline {subsection}{\numberline {4.1.3}Data Storage}{39}{subsection.4.1.3}
 \contentsline {subsection}{\numberline {4.1.4}Security}{39}{subsection.4.1.4}
@@ -66,24 +65,25 @@
 \contentsline {subsection}{\numberline {4.3.2}User Separation Tool}{42}{subsection.4.3.2}
 \contentsline {subsection}{\numberline {4.3.3}Value Separation Tool}{43}{subsection.4.3.3}
 \contentsline {subsection}{\numberline {4.3.4}Latex Plot Syntax Creating Tool}{43}{subsection.4.3.4}
+\contentsline {subsection}{\numberline {4.3.5}Map to Duration Tool}{43}{subsection.4.3.5}
 \contentsline {section}{\numberline {4.4}Summary}{43}{section.4.4}
 \contentsline {chapter}{Chapter{} \numberline {5}Experiments}{45}{chapter.5}
 \contentsline {section}{\numberline {5.1}Crowd Experiment}{45}{section.5.1}
 \contentsline {subsection}{\numberline {5.1.1}Setup and Execution}{46}{subsection.5.1.1}
 \contentsline {subsection}{\numberline {5.1.2}Classification}{47}{subsection.5.1.2}
-\contentsline {subsubsection}{Indoor Outdoor differentiation}{47}{section*.27}
-\contentsline {subsubsection}{Usage of Mobile Phone}{49}{section*.30}
-\contentsline {subsubsection}{Guessing the users location}{49}{section*.32}
-\contentsline {subsubsection}{Movement}{50}{section*.33}
-\contentsline {subsubsection}{Weather Conditions}{50}{section*.34}
-\contentsline {subsubsection}{Music}{50}{section*.35}
+\contentsline {subsubsection}{Indoor Outdoor differentiation}{47}{section*.25}
+\contentsline {subsubsection}{Usage of Mobile Phone}{49}{section*.28}
+\contentsline {subsubsection}{Guessing the users location}{49}{section*.30}
+\contentsline {subsubsection}{Movement}{50}{section*.31}
+\contentsline {subsubsection}{Weather Conditions}{50}{section*.32}
+\contentsline {subsubsection}{Music}{50}{section*.33}
 \contentsline {subsection}{\numberline {5.1.3}Questions}{51}{subsection.5.1.3}
 \contentsline {section}{\numberline {5.2}Individual Experiment}{52}{section.5.2}
 \contentsline {subsection}{\numberline {5.2.1}Setup and Execution}{52}{subsection.5.2.1}
 \contentsline {subsection}{\numberline {5.2.2}Scenarios}{53}{subsection.5.2.2}
-\contentsline {subsubsection}{Music}{53}{section*.36}
-\contentsline {subsubsection}{Coffee}{53}{section*.37}
-\contentsline {subsubsection}{Running}{54}{section*.38}
+\contentsline {subsubsection}{Music}{53}{section*.34}
+\contentsline {subsubsection}{Coffee}{53}{section*.35}
+\contentsline {subsubsection}{Running}{54}{section*.36}
 \contentsline {section}{\numberline {5.3}Summary}{54}{section.5.3}
 \contentsline {chapter}{Chapter{} \numberline {6}Evaluation}{55}{chapter.6}
 \contentsline {subsection}{\numberline {6.0.1}output format}{55}{subsection.6.0.1}
@@ -102,12 +102,12 @@
 \contentsline {chapter}{Appendix{} \numberline {C}Programming task}{69}{appendix.C}
 \contentsline {section}{\numberline {C.1}Palindromes}{69}{section.C.1}
 \contentsline {subsection}{\numberline {C.1.1}Question}{69}{subsection.C.1.1}
-\contentsline {subsubsection}{What's a palindrome?}{69}{section*.48}
-\contentsline {subsubsection}{Input structure}{70}{section*.49}
+\contentsline {subsubsection}{What's a palindrome?}{69}{section*.46}
+\contentsline {subsubsection}{Input structure}{70}{section*.47}
 \contentsline {subsection}{\numberline {C.1.2}Example}{70}{subsection.C.1.2}
-\contentsline {subsubsection}{input}{70}{section*.50}
-\contentsline {subsubsection}{Explanation Testcase 1}{70}{section*.51}
-\contentsline {subsubsection}{Explanation Testcase 2}{71}{section*.52}
+\contentsline {subsubsection}{input}{70}{section*.48}
+\contentsline {subsubsection}{Explanation Testcase 1}{70}{section*.49}
+\contentsline {subsubsection}{Explanation Testcase 2}{71}{section*.50}
 \contentsline {chapter}{Appendix{} \numberline {D}Participant data}{72}{appendix.D}
 \contentsline {section}{\numberline {D.1}Participant 1}{73}{section.D.1}
 \contentsline {subsection}{\numberline {D.1.1}date \& time}{73}{subsection.D.1.1}
@@ -158,4 +158,4 @@
 \contentsline {section}{\numberline {E.1}Coffee}{88}{section.E.1}
 \contentsline {section}{\numberline {E.2}Music}{89}{section.E.2}
 \contentsline {section}{\numberline {E.3}Running}{89}{section.E.3}
-\contentsline {chapter}{Bibliography}{90}{appendix*.79}
+\contentsline {chapter}{Bibliography}{90}{appendix*.77}
