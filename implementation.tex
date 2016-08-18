@@ -94,15 +94,19 @@ At the end the decrypted entries are written to a new created file and the filep
 This and the following three tools are written in Python. This tool reads the decrypted text file that has been created by the java decryption tool. First, it creates a SHA256 Hash from a Github username and compares the entries of the text file with it. It only takes the matching entries and writes them to a new text file. 
 
 \subsection{Value Separation  Tool}
-In this tool it can be defined which of the entries are needed to work with. For example the user can decide just to create an output file with the latitude of the participants location. The selected data and its timestamp gets written in a new text file as well. 
+This tool can be used to define which of the entries are needed to work with. For example the user can decide just to create an output file with the latitude of the participants location. The selected data and its timestamp gets written in a new text file as well. 
 
 \subsection{Latex Plot Syntax Creating Tool}
 This little tool is calculating an average for every Minute of the timestamp of the read text file. As the gathering saved a value every few seconds, it makes no sense to display all the values in a plotted graph.\\
 The output contains the timestamp with the value for every minute in a syntax that can directly been interpreted by latex and the pgfplots library. 
 
+\subsection{Map to Duration Tool}
+This tool calculates takes a duration and maps the current measurements on that specific duration. That allows to compare the results in a graph independent of the duration the participant needed to solve the task. 
+
 \section{Summary}
 In this chapter I describe the implementation of the software and tooling for the experiments. 
-The Android app contains of:\\
+\bigbreak
+The Android app contains of:
 \begin{itemize}
 \item Login View - verifies username with Github API
 \item Permissions View - asks to grand permissions to app

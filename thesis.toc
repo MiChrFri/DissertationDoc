@@ -5,7 +5,7 @@
 \contentsline {chapter}{Chapter{} \numberline {1}Introduction}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Motivation}{4}{section.1.1}
 \contentsline {subsection}{\numberline {1.1.1}Mobile Device Sensors}{4}{subsection.1.1.1}
-\contentsline {subsection}{\numberline {1.1.2}Learning to write code}{4}{subsection.1.1.2}
+\contentsline {subsection}{\numberline {1.1.2}Learning to write code}{5}{subsection.1.1.2}
 \contentsline {subsection}{\numberline {1.1.3}The importance of Software Metrics}{5}{subsection.1.1.3}
 \contentsline {subsection}{\numberline {1.1.4}Working environment}{6}{subsection.1.1.4}
 \contentsline {section}{\numberline {1.2}Aims}{7}{section.1.2}
