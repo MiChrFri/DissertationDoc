@@ -32,17 +32,17 @@
 \contentsline {chapter}{Chapter{} \numberline {3}Design}{25}{chapter.3}
 \contentsline {section}{\numberline {3.1}Functionality Overview}{25}{section.3.1}
 \contentsline {section}{\numberline {3.2}Mobile Application Design}{26}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Requirements}{28}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.1}Requirements}{27}{subsection.3.2.1}
 \contentsline {subsection}{\numberline {3.2.2}App Architecture}{28}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}User Interface}{28}{subsection.3.2.3}
-\contentsline {subsection}{\numberline {3.2.4}Data Storage}{29}{subsection.3.2.4}
+\contentsline {subsection}{\numberline {3.2.3}User Interface}{29}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}Data Storage}{30}{subsection.3.2.4}
 \contentsline {subsection}{\numberline {3.2.5}API}{30}{subsection.3.2.5}
-\contentsline {subsection}{\numberline {3.2.6}User Information}{30}{subsection.3.2.6}
-\contentsline {section}{\numberline {3.3}Server Design}{31}{section.3.3}
+\contentsline {subsection}{\numberline {3.2.6}User Information}{31}{subsection.3.2.6}
+\contentsline {section}{\numberline {3.3}Server Design}{32}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}requirements}{32}{subsection.3.3.1}
 \contentsline {subsection}{\numberline {3.3.2}Server Frontend Design}{32}{subsection.3.3.2}
 \contentsline {subsection}{\numberline {3.3.3}Server Backend Design}{32}{subsection.3.3.3}
-\contentsline {section}{\numberline {3.4}Tools}{32}{section.3.4}
+\contentsline {section}{\numberline {3.4}Tools}{33}{section.3.4}
 \contentsline {subsection}{\numberline {3.4.1}requirements}{33}{subsection.3.4.1}
 \contentsline {subsection}{\numberline {3.4.2}Decrypting Tool}{33}{subsection.3.4.2}
 \contentsline {subsection}{\numberline {3.4.3}Data Structuring Tools}{33}{subsection.3.4.3}
@@ -85,17 +85,19 @@
 \contentsline {subsubsection}{Coffee}{53}{section*.37}
 \contentsline {subsubsection}{Running}{54}{section*.38}
 \contentsline {section}{\numberline {5.3}Summary}{54}{section.5.3}
-\contentsline {chapter}{Chapter{} \numberline {6}Evaluation}{56}{chapter.6}
-\contentsline {subsection}{\numberline {6.0.1}output format}{56}{subsection.6.0.1}
-\contentsline {section}{\numberline {6.1}Individual Experiment Results}{58}{section.6.1}
-\contentsline {subsection}{\numberline {6.1.1}coffee}{58}{subsection.6.1.1}
-\contentsline {subsection}{\numberline {6.1.2}music}{60}{subsection.6.1.2}
+\contentsline {chapter}{Chapter{} \numberline {6}Evaluation}{55}{chapter.6}
+\contentsline {subsection}{\numberline {6.0.1}output format}{55}{subsection.6.0.1}
+\contentsline {subsection}{\numberline {6.0.2}Results}{55}{subsection.6.0.2}
+\contentsline {subsection}{\numberline {6.0.3}Problems}{57}{subsection.6.0.3}
+\contentsline {section}{\numberline {6.1}Individual Experiment Results}{57}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}coffee}{57}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}music}{59}{subsection.6.1.2}
 \contentsline {subsection}{\numberline {6.1.3}running}{61}{subsection.6.1.3}
 \contentsline {chapter}{Chapter{} \numberline {7}Conclusions}{63}{chapter.7}
 \contentsline {section}{\numberline {7.1}Project Overview}{63}{section.7.1}
 \contentsline {section}{\numberline {7.2}Contribution}{64}{section.7.2}
 \contentsline {section}{\numberline {7.3}Future Work}{64}{section.7.3}
-\contentsline {chapter}{Appendix{} \numberline {A}Abbreviations}{65}{appendix.A}
+\contentsline {chapter}{Appendix{} \numberline {A}Abbreviations}{66}{appendix.A}
 \contentsline {chapter}{Appendix{} \numberline {B}Source Code}{68}{appendix.B}
 \contentsline {chapter}{Appendix{} \numberline {C}Programming task}{69}{appendix.C}
 \contentsline {section}{\numberline {C.1}Palindromes}{69}{section.C.1}

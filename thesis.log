@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.18)  17 AUG 2016 18:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.18)  18 AUG 2016 11:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -803,12 +803,8 @@ Package: bbding 1999/04/15 v1.01 Dingbats symbols
 Package: parskip 2001/04/09 non-zero parskip adjustments
 )
 (./thesis.aux (./abstract.aux) (./introduction.aux) (./sota.aux) (./design.aux)
-(./implementation.aux) (./experiement.aux) (./results.aux
-
-LaTeX Warning: Label `resultadasda' multiply defined.
-
-) (./conclusion.aux) (./appendix1.aux) (./appendix2.aux) (./appendix3.aux)
-(./appendix4.aux
+(./implementation.aux) (./experiement.aux) (./results.aux) (./conclusion.aux)
+(./appendix1.aux) (./appendix2.aux) (./appendix3.aux) (./appendix4.aux
 
 LaTeX Warning: Label `dandt1' multiply defined.
 
@@ -1007,7 +1003,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 51--61
 
  []
 
-[13] [14] [15] <images/clustering.png, id=916, 441.65pt x 464.73625pt>
+[13] [14] [15] <images/clustering.png, id=926, 441.65pt x 464.73625pt>
 File: images/clustering.png Graphic file (type png)
 
 <use images/clustering.png>
@@ -1034,21 +1030,21 @@ from a mo-bile de-vice of a participant
 
 
 
-] [26] <images/sensors.png, id=1010, 1505.625pt x 1626.075pt>
+] [26] <images/sensors.png, id=1020, 1505.625pt x 1626.075pt>
 File: images/sensors.png Graphic file (type png)
 
 <use images/sensors.png>
-Package pdftex.def Info: images/sensors.png used on input line 67.
+Package pdftex.def Info: images/sensors.png used on input line 69.
 (pdftex.def)             Requested size: 227.62204pt x 245.81123pt.
- [27 <./images/sensors.png>]
-<images/AndroidUI.png, id=1019, 2007.5pt x 593.21625pt>
+ [27] [28 <./images/sensors.png>]
+<images/AndroidUI.png, id=1033, 2007.5pt x 593.21625pt>
 File: images/AndroidUI.png Graphic file (type png)
 
 <use images/AndroidUI.png>
-Package pdftex.def Info: images/AndroidUI.png used on input line 84.
+Package pdftex.def Info: images/AndroidUI.png used on input line 86.
 (pdftex.def)             Requested size: 455.24411pt x 134.5179pt.
- [28] [29 <./images/AndroidUI.png>] [30] [31]
-[32]) [33] [34]
+ [29 <./images/AndroidUI.png>] [30] [31] [32]
+[33]) [34]
 \openout2 = `implementation.aux'.
 
  (./implementation.tex
@@ -1057,7 +1053,7 @@ Chapter 4.
 
 
 
-] [36] [37] [38] <images/dataflow.png, id=1079, 1100.11pt x 354.32375pt>
+] [36] [37] [38] <images/dataflow.png, id=1089, 1100.11pt x 354.32375pt>
 File: images/dataflow.png Graphic file (type png)
 
 <use images/dataflow.png>
@@ -1093,7 +1089,7 @@ LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
 
 (./experiement.tex
 Chapter 5.
-<images/experiment.png, id=1113, 1242.6425pt x 733.74126pt>
+<images/experiment.png, id=1123, 1242.6425pt x 733.74126pt>
 File: images/experiment.png Graphic file (type png)
 
 <use images/experiment.png>
@@ -1113,7 +1109,7 @@ Underfull \hbox (badness 1205) in paragraph at lines 66--66
 []|\OT1/lmr/m/n/12 Detailed Draw-ing Work, Very De-tailed Me-chan-i-cal
  []
 
-[47] [48] <images/accDevice.png, id=1140, 1164.35pt x 886.31125pt>
+[47] [48] <images/accDevice.png, id=1150, 1164.35pt x 886.31125pt>
 File: images/accDevice.png Graphic file (type png)
 
 <use images/accDevice.png>
@@ -1127,7 +1123,7 @@ Package pdftex.def Info: images/accDevice.png used on input line 81.
 LaTeX Warning: Citation `hillman2008smart' on page 54 undefined on input line 1
 51.
 
-) [54] [55]
+) [54]
 \openout2 = `results.aux'.
 
  (./results.tex
@@ -1136,49 +1132,46 @@ Chapter 6.
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 4.
 
-<images/entries.png, id=1201, 1505.625pt x 316.18124pt>
+<images/entries.png, id=1207, 1505.625pt x 316.18124pt>
 File: images/entries.png Graphic file (type png)
 
 <use images/entries.png>
 Package pdftex.def Info: images/entries.png used on input line 9.
 (pdftex.def)             Requested size: 455.24411pt x 95.6029pt.
- [56
+ [55
 
 
 
  <./images/entries.png>]
 Missing character: There is no , in font nullfont!
 Missing character: There is no , in font nullfont!
- [57]
-Missing character: There is no , in font nullfont!
- [58]
-
-Package pgfplots Warning: Axis range for axis x is approximately empty; enlargi
-ng it (it is [0.0:0.0]) on input line 590.
-
- [warning /pgfplots/warning/approx empty range enlarged]
-[59]
-
-LaTeX Warning: Reference `resultMusicGraph' on page 60 undefined on input line 
-600.
-
+ [56] [57]
 Missing character: There is no , in font nullfont!
 
+
 Package pgfplots Warning: Axis range for axis x is approximately empty; enlargi
-ng it (it is [0.0:0.0]) on input line 712.
+ng it (it is [0.0:0.0]) on input line 594.
 
  [warning /pgfplots/warning/approx empty range enlarged]
-[60
-
-]
+[58]
 Missing character: There is no , in font nullfont!
- [61]
+
 
 Package pgfplots Warning: Axis range for axis x is approximately empty; enlargi
-ng it (it is [0.0:0.0]) on input line 810.
+ng it (it is [0.0:0.0]) on input line 716.
 
  [warning /pgfplots/warning/approx empty range enlarged]
-[62])
+[59] [60]
+Missing character: There is no , in font nullfont!
+
+
+Package pgfplots Warning: Axis range for axis x is approximately empty; enlargi
+ng it (it is [0.0:0.0]) on input line 814.
+
+ [warning /pgfplots/warning/approx empty range enlarged]
+[61
+
+]) [62]
 \openout2 = `conclusion.aux'.
 
  (./conclusion.tex
@@ -1187,27 +1180,26 @@ Chapter 7.
 
 
 
-
-]) [64]
+] [64]) [65]
 \openout2 = `appendix1.aux'.
 
  (./appendix1.tex
 Appendix A.
 
-Overfull \hbox (13.49446pt too wide) in paragraph at lines 3--28
+Overfull \hbox (13.49446pt too wide) in paragraph at lines 3--21
 [] 
  []
 
-[65
-
-
-
-])
-Overfull \hbox (13.49446pt too wide) in paragraph at lines 29--119
+)
+Overfull \hbox (13.49446pt too wide) in paragraph at lines 22--119
 [][] 
  []
 
-[66] [67]
+[66
+
+
+
+] [67]
 \openout2 = `appendix2.aux'.
 
  (./appendix2.tex
@@ -1772,7 +1764,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 134.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 134.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 134.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: DF74B99B4AB45EC59F570E5F55AB23AF;8460.
+(rerunfilecheck)             Checksum: ECB3F976477B620485C775CE945A5BA4;8595.
 
 
 LaTeX Warning: There were undefined references.
@@ -1787,13 +1779,13 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 134.
 ### simple group (level 1) entered at line 32 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 29401 strings out of 493089
- 690280 string characters out of 6134841
- 925778 words of memory out of 5000000
- 31895 multiletter control sequences out of 15000+600000
+ 29405 strings out of 493089
+ 690348 string characters out of 6134841
+ 925882 words of memory out of 5000000
+ 31897 multiletter control sequences out of 15000+600000
  59868 words of font info for 48 fonts, out of 8000000 for 9000
  1150 hyphenation exceptions out of 8191
- 63i,19n,110p,1375b,2440s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,19n,110p,1375b,2439s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-maths
 y.enc}{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc} </U
 sers/michael/Library/texlive/2015/texmf-var/fonts/pk/ljfour/public/bbding/bbdin
@@ -1811,10 +1803,10 @@ st/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/t
 ype1/public/lm/lmsy8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public
 /lm/lmtt10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmtt12
 .pfb>
-Output written on thesis.pdf (109 pages, 1649881 bytes).
+Output written on thesis.pdf (109 pages, 1652678 bytes).
 PDF statistics:
- 1548 PDF objects out of 1728 (max. 8388607)
- 1394 compressed objects within 14 object streams
- 366 named destinations out of 1000 (max. 500000)
- 1120 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1561 PDF objects out of 1728 (max. 8388607)
+ 1406 compressed objects within 15 object streams
+ 368 named destinations out of 1000 (max. 500000)
+ 1136 words of extra memory for PDF output out of 10000 (max. 10000000)
 
