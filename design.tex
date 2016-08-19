@@ -5,11 +5,14 @@ The following chapter details the design of the data gathering Android applicati
 First, it will start with a brief description of the two components and will follow with my design decisions and my reasons for the choices. 
 \end{flushleft}
 
+\section{Approach}
+This approach is meant to be the base for a system that helps to improve the working behavior and environment of developers. 
+In this dissertation we created a toolset that allows to gather data from the mobile phone of the participants, analyze it and correlate it with the code quality of their work. The technical design for this approach is created for the experimental data gathering of a limited amount of participants. The described system is not capable to handle high traffic and to analyze the data entries of great amount of users. 
+
 \section{Functionality Overview}
 The purpose of the application, named 'Dather' is to gather information from a mobile device of a participant while he/she is working on a programming task. Afterwards the application sends the collected data to a server for further processing and analysis. The participant also simultaneously submits the written code which code quality will be detected and then correlated with the processed mobile device information. 
 
 \section{Mobile Application Design}
-
 % Define bar chart colors
 \definecolor{others}{HTML}{e78d1c}
 \definecolor{android}{HTML}{a4c639}
@@ -98,9 +101,10 @@ In Figure \ref{aviews} you can see the flow of the views in the applications.
 
 \subsection{Data Storage}
 For storing the gathered data entries, the app uses a SQLite datebase. SQLite uses SQL syntax which and is embedded in Android and well documented by Google. \cite{vogel2010android}. It is a very light weight database and provides an abstracted and easy way to store the values in an object oriented environment. SQLite is storing the data unencrypted by default. In order to make sure the stored data is save and can't be read, the data is been encrypted as soon it's been gathered.\\
-The database has a capacity of 1024 MB which is equal to 1,000,000 KiB and can store 2,380,952 entries of an average of 0.42 KiB (this value is calculated based on the used storage of 1,000 entries). Assuming that the maximum gathering get 30 entries per minute, the database can store 7,9365.07 minutes or 1,322.75 hours of the gathered data. 
+The database has a capacity of 1024 MB which is equal to 1,000,000 KiB and can store 2,380,952 entries of an average of 0.42 KiB (this value is calculated based on the used storage of 1,000 entries). Assuming that the maximum gathering get 30 entries per minute, the database can store 7,9365.07 minutes or 1,322.75 hours of the gathered data.\\
 \\bigbreak
 Additional to the SQLite database, Android provides a way to store single entries such as the field with the email address of the user. The so called "shared preferences" are storing key-value-pairs persistently on the phone and can be accessed from everywhere in the application.
+
 
 \subsection{API}
 The gathered data and afterwards the answered questions will asynchronously send to the Server and written into the database. When the response will be received, the view shows a visual confirmation and moves on to the next step or in case of the questions back to the gathering interface. 
@@ -132,7 +136,7 @@ The frontend is implemented in HTML5 and CSS3 and simply uploaded to the server.
 
 \subsection{Server Backend Design}
 The backend is implemented in PHP with the MYSQL-server phpMyAdmin database.\\ 
-No external frameworks have been used to implement the basic REST-full service and the establishing of the database connection and the SQL queries. 
+No external frameworks have been used to implement the basic REST-full service and the establishing of the database connection and the SQL queries.
 
 \section{Tools}
 The following tools are were used during the experiment primarily for the decryption of data to automate some processes.
@@ -148,6 +152,12 @@ Its interface contains of an input field for the path of the downloaded data in 
 For working with the resulting data from the experiment, a tool-set was created to take over specific tasks. All the tools for this purpose are implemented in Python because it provides a very handy way to work with external files. 
 The first tool allows to extract only the entries from a specific participant by providing the his/her Github username.\\
 Another tool extracts the single values per entry with its timestamp and the last tool averages the results per minute and converts the data into a form that can directly be used in latex to draw plots.
+
+\section{Vision}
+Based on the experience and the learning from this approach, we want to enable further work on system that could be used to gather data from the developers and provide them a real-time feedback on their code and ways to improve their performance.
+A external hardware device with a collection of sensors, placed on the developers desk could gather additional to the mobile device. 
+The combined information could be constantly analyzed on a server and compared to the data of other developers. Automatic learning algorithms could compare the gathered data and the code of the developers to find more specific trends and influencing factors in the performance. 
+Furthermore, notifications from the server to the device of the developer could provide feedback and tips for improvement by mentioning the influences. 
 
 \section{Summary}
 This chapter is about the design decisions of the different software parts that are needed for the experiments. First, the functionality of each part are being described, followed by the part about the Android application. Android was the mobile OS of choice because it has the highest market share of all mobile operating systems. The app needs to be simple and easy to use for single usage which is seen in the UI and the UX specification. 

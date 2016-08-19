@@ -1,6 +1,6 @@
 \chapter{Implementation}
 
-This chapter is about the implementation of the main application for Android, the server back-end and webpages as well as the tooling for working with the data. 
+This chapter is about the implementation of the main application for Android, the server back-end and webpages. It also describes implementation of the tooling for working with the data. 
 
 \section{Android}
 As mentioned before, the Android Application (Dather) is for sensoring data of the user and get environmental information. For This purpose I wrote an Android application which can gather these information.\\ 
@@ -12,19 +12,22 @@ In terms of the ideas for future usage of the app it doesn't make sense to requi
 The implementation of the Android application has been done using the Android Studio IDE, which is provided free usage by Google, Inc. The code was written in Java, which is the official programming language for Android applications. Google also provides a variety of libraries and frameworks for user interface-Elements and basic functionality. For the user interface Android Studio has build in Solutions to either design the graphical user interface (GUI) using Java code or defining the elements in XML files. 
 
 \subsection{User Interface}
+The focus in the implementation if the user interface was to create a simple and intuitive user experience. As the participants will the app the first time and probably just once, the interface must be as simple and intuitive as possible while reducing the possibility to make mistakes. In order the achieve that, self-designed Icons are being used to simplify the handling and the available functionality is limited to a logical order. For example, it is not possible to send data to the server without any previous gathering process.
+The experiment showed that the participants felt comfortable to use the interface itself. In order to help the participants during the experiment, the project website \footnote{\url{http://frickm.de}} provided a walk-through guide through the experiment. Though, the participants didn't use these information source and tried solving it on their own or where asking for personal assistance. Therefore it is even more important to provide a clean interface and reduce the possibility of wrong actions as much as possible. 
+\bigbreak
 The user interface contains of two main views, the gathering view and the question view. There are two more views, one for asking the user for permissions and a second one for informing about the experiment and the terms of the usage for the application. \\
 All view have a controller/activity java class which acts as the controller. The actual views contain of an activity XML and, depending on the complexity of the view, an additional content XML. Both are defining the UI-elements in XML tags and as well as their positioning within the view. \\
 The colorscheme of the app is mainly a dark grey background with a combination of bright UI-Elements and simple lightgrey fonts for information texts.
 
 \subsubsection{Login View}
-The login view has just an input field and a login button. The input field requires the Github username of the participant in order to login. After taping on the login button, the username is been verified using the Github API whether it exists or not. 
+The login view only shows an input field and a login button. The input field requires the Github username of the participant in order to login. After taping on the login button, the usernames 	existence  is been verified by the Github API. 
 
 \subsubsection{Permissions View}
-The Permissions view just contains of four checkboxes with it's descriptions, each for one permission. This view is just shown on devices with an Android version of at least 6.0. 
+The Permissions view just contains four checkboxes with it's descriptions, each for one permission. This view is only shown on devices with an Android version of 6.0 or later. 
 Once all the permissions are checked, a button appears which allows to go on. A tap brings the user to the gather view.
 
 \subsubsection{Information View}
-This view contains a scrollview with a long formatted text. At the bottom of the scrollview is a button. With a tap on the button the user confirms the he/she read and understood the previous text and the user can go on to the next step which is either the permissions view or the gather view. 
+This view contains a scrollview with an HTML-formatted text. A button is located at the bottom of the scrollview. A tap on the button the user confirms that he/she read and understood the displayed information. The user is then forwarded to the next step which is either the permissions view or the gather view. 
 
 \subsubsection{Gather View}
 The gather view contains of an input filed for the users email address and a dynamic changing interface to for controlling the gathering and uploading process. The buttons are a blue circle shape with an icon for showing the functionality of the button itself. The Icons are a white shape without borders and designed to give a clear idea about the representing purpose of the button. 
