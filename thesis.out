@@ -62,78 +62,85 @@
 \BOOKMARK [0][-]{chapter.5}{Chapter Experiments}{}% 62
 \BOOKMARK [1][-]{section.5.1}{Crowd Experiment}{chapter.5}% 63
 \BOOKMARK [2][-]{subsection.5.1.1}{Setup and Execution}{section.5.1}% 64
-\BOOKMARK [2][-]{subsection.5.1.2}{Classification}{section.5.1}% 65
-\BOOKMARK [2][-]{subsection.5.1.3}{Questions}{section.5.1}% 66
-\BOOKMARK [1][-]{section.5.2}{Individual Experiment}{chapter.5}% 67
-\BOOKMARK [2][-]{subsection.5.2.1}{Setup and Execution}{section.5.2}% 68
-\BOOKMARK [2][-]{subsection.5.2.2}{Scenarios}{section.5.2}% 69
-\BOOKMARK [1][-]{section.5.3}{Summary}{chapter.5}% 70
-\BOOKMARK [0][-]{chapter.6}{Chapter Evaluation}{}% 71
-\BOOKMARK [1][-]{subsection.6.0.1}{output format}{chapter.6}% 72
-\BOOKMARK [2][-]{subsection.6.0.2}{Results}{subsection.6.0.1}% 73
-\BOOKMARK [2][-]{subsection.6.0.3}{Problems}{subsection.6.0.1}% 74
-\BOOKMARK [1][-]{section.6.1}{Individual Experiment Results}{chapter.6}% 75
-\BOOKMARK [2][-]{subsection.6.1.1}{coffee}{section.6.1}% 76
-\BOOKMARK [2][-]{subsection.6.1.2}{music}{section.6.1}% 77
-\BOOKMARK [2][-]{subsection.6.1.3}{running}{section.6.1}% 78
-\BOOKMARK [0][-]{chapter.7}{Chapter Conclusions}{}% 79
-\BOOKMARK [1][-]{section.7.1}{Project Overview}{chapter.7}% 80
-\BOOKMARK [1][-]{section.7.2}{Contribution}{chapter.7}% 81
-\BOOKMARK [1][-]{section.7.3}{Future Work}{chapter.7}% 82
-\BOOKMARK [0][-]{appendix.A}{Appendix Abbreviations}{}% 83
-\BOOKMARK [0][-]{appendix.B}{Appendix Source Code}{}% 84
-\BOOKMARK [0][-]{appendix.C}{Appendix Programming task}{}% 85
-\BOOKMARK [1][-]{section.C.1}{Palindromes}{appendix.C}% 86
-\BOOKMARK [2][-]{subsection.C.1.1}{Question}{section.C.1}% 87
-\BOOKMARK [2][-]{subsection.C.1.2}{Example}{section.C.1}% 88
-\BOOKMARK [0][-]{appendix.D}{Appendix Participant data}{}% 89
-\BOOKMARK [1][-]{section.D.1}{Participant 1}{appendix.D}% 90
-\BOOKMARK [2][-]{subsection.D.1.1}{date \046 time}{section.D.1}% 91
-\BOOKMARK [2][-]{subsection.D.1.2}{Questions}{section.D.1}% 92
-\BOOKMARK [2][-]{subsection.D.1.3}{Accelerometer}{section.D.1}% 93
-\BOOKMARK [2][-]{subsection.D.1.4}{Light}{section.D.1}% 94
-\BOOKMARK [2][-]{subsection.D.1.5}{Volume}{section.D.1}% 95
-\BOOKMARK [2][-]{subsection.D.1.6}{Steps}{section.D.1}% 96
-\BOOKMARK [2][-]{subsection.D.1.7}{Location}{section.D.1}% 97
-\BOOKMARK [2][-]{subsection.D.1.8}{Weather}{section.D.1}% 98
-\BOOKMARK [1][-]{section.D.2}{Participant 2}{appendix.D}% 99
-\BOOKMARK [2][-]{subsection.D.2.1}{date \046 time}{section.D.2}% 100
-\BOOKMARK [2][-]{subsection.D.2.2}{Questions}{section.D.2}% 101
-\BOOKMARK [2][-]{subsection.D.2.3}{Accelerometer}{section.D.2}% 102
-\BOOKMARK [2][-]{subsection.D.2.4}{Light}{section.D.2}% 103
-\BOOKMARK [2][-]{subsection.D.2.5}{Volume}{section.D.2}% 104
-\BOOKMARK [2][-]{subsection.D.2.6}{Steps}{section.D.2}% 105
-\BOOKMARK [2][-]{subsection.D.2.7}{Location}{section.D.2}% 106
-\BOOKMARK [2][-]{subsection.D.2.8}{Weather}{section.D.2}% 107
-\BOOKMARK [1][-]{section.D.3}{Participant 3}{appendix.D}% 108
-\BOOKMARK [2][-]{subsection.D.3.1}{date \046 time}{section.D.3}% 109
-\BOOKMARK [2][-]{subsection.D.3.2}{Questions}{section.D.3}% 110
-\BOOKMARK [2][-]{subsection.D.3.3}{Accelerometer}{section.D.3}% 111
-\BOOKMARK [2][-]{subsection.D.3.4}{Light}{section.D.3}% 112
-\BOOKMARK [2][-]{subsection.D.3.5}{Volume}{section.D.3}% 113
-\BOOKMARK [2][-]{subsection.D.3.6}{Steps}{section.D.3}% 114
-\BOOKMARK [2][-]{subsection.D.3.7}{Location}{section.D.3}% 115
-\BOOKMARK [2][-]{subsection.D.3.8}{Weather}{section.D.3}% 116
-\BOOKMARK [1][-]{section.D.4}{Participant 4}{appendix.D}% 117
-\BOOKMARK [2][-]{subsection.D.4.1}{date \046 time}{section.D.4}% 118
-\BOOKMARK [2][-]{subsection.D.4.2}{Questions}{section.D.4}% 119
-\BOOKMARK [2][-]{subsection.D.4.3}{Accelerometer}{section.D.4}% 120
-\BOOKMARK [2][-]{subsection.D.4.4}{Light}{section.D.4}% 121
-\BOOKMARK [2][-]{subsection.D.4.5}{Volume}{section.D.4}% 122
-\BOOKMARK [2][-]{subsection.D.4.6}{Steps}{section.D.4}% 123
-\BOOKMARK [2][-]{subsection.D.4.7}{Location}{section.D.4}% 124
-\BOOKMARK [2][-]{subsection.D.4.8}{Weather}{section.D.4}% 125
-\BOOKMARK [1][-]{section.D.5}{Participant 5}{appendix.D}% 126
-\BOOKMARK [2][-]{subsection.D.5.1}{date \046 time}{section.D.5}% 127
-\BOOKMARK [2][-]{subsection.D.5.2}{Questions}{section.D.5}% 128
-\BOOKMARK [2][-]{subsection.D.5.3}{Accelerometer}{section.D.5}% 129
-\BOOKMARK [2][-]{subsection.D.5.4}{Light}{section.D.5}% 130
-\BOOKMARK [2][-]{subsection.D.5.5}{Volume}{section.D.5}% 131
-\BOOKMARK [2][-]{subsection.D.5.6}{Steps}{section.D.5}% 132
-\BOOKMARK [2][-]{subsection.D.5.7}{Location}{section.D.5}% 133
-\BOOKMARK [2][-]{subsection.D.5.8}{Weather}{section.D.5}% 134
-\BOOKMARK [0][-]{appendix.E}{Appendix Individuals extended Data}{}% 135
-\BOOKMARK [1][-]{section.E.1}{Coffee}{appendix.E}% 136
-\BOOKMARK [1][-]{section.E.2}{Music}{appendix.E}% 137
-\BOOKMARK [1][-]{section.E.3}{Running}{appendix.E}% 138
-\BOOKMARK [0][-]{appendix*.78}{Bibliography}{}% 139
+\BOOKMARK [2][-]{subsection.5.1.2}{Programming Task}{section.5.1}% 65
+\BOOKMARK [2][-]{subsection.5.1.3}{Classification}{section.5.1}% 66
+\BOOKMARK [2][-]{subsection.5.1.4}{Questions}{section.5.1}% 67
+\BOOKMARK [1][-]{section.5.2}{Individual Experiment}{chapter.5}% 68
+\BOOKMARK [2][-]{subsection.5.2.1}{Setup and Execution}{section.5.2}% 69
+\BOOKMARK [2][-]{subsection.5.2.2}{Scenarios}{section.5.2}% 70
+\BOOKMARK [1][-]{section.5.3}{Summary}{chapter.5}% 71
+\BOOKMARK [0][-]{chapter.6}{Chapter Evaluation}{}% 72
+\BOOKMARK [1][-]{subsection.6.0.1}{output format}{chapter.6}% 73
+\BOOKMARK [1][-]{section.6.1}{Crowd Experiment}{chapter.6}% 74
+\BOOKMARK [2][-]{subsection.6.1.1}{Noise}{section.6.1}% 75
+\BOOKMARK [2][-]{subsection.6.1.2}{Light}{section.6.1}% 76
+\BOOKMARK [2][-]{subsection.6.1.3}{Location}{section.6.1}% 77
+\BOOKMARK [2][-]{subsection.6.1.4}{Weather}{section.6.1}% 78
+\BOOKMARK [2][-]{subsection.6.1.5}{Environment}{section.6.1}% 79
+\BOOKMARK [2][-]{subsection.6.1.6}{Results}{section.6.1}% 80
+\BOOKMARK [2][-]{subsection.6.1.7}{Problems}{section.6.1}% 81
+\BOOKMARK [1][-]{section.6.2}{Individual Experiment Results}{chapter.6}% 82
+\BOOKMARK [2][-]{subsection.6.2.1}{coffee}{section.6.2}% 83
+\BOOKMARK [2][-]{subsection.6.2.2}{music}{section.6.2}% 84
+\BOOKMARK [2][-]{subsection.6.2.3}{running}{section.6.2}% 85
+\BOOKMARK [0][-]{chapter.7}{Chapter Conclusions}{}% 86
+\BOOKMARK [1][-]{section.7.1}{Project Overview}{chapter.7}% 87
+\BOOKMARK [1][-]{section.7.2}{Contribution}{chapter.7}% 88
+\BOOKMARK [1][-]{section.7.3}{Future Work}{chapter.7}% 89
+\BOOKMARK [0][-]{appendix.A}{Appendix Abbreviations}{}% 90
+\BOOKMARK [0][-]{appendix.B}{Appendix Source Code}{}% 91
+\BOOKMARK [0][-]{appendix.C}{Appendix Programming task}{}% 92
+\BOOKMARK [1][-]{section.C.1}{Palindromes}{appendix.C}% 93
+\BOOKMARK [2][-]{subsection.C.1.1}{Question}{section.C.1}% 94
+\BOOKMARK [2][-]{subsection.C.1.2}{Example}{section.C.1}% 95
+\BOOKMARK [0][-]{appendix.D}{Appendix Participant data}{}% 96
+\BOOKMARK [1][-]{section.D.1}{Participant 1}{appendix.D}% 97
+\BOOKMARK [2][-]{subsection.D.1.1}{date \046 time}{section.D.1}% 98
+\BOOKMARK [2][-]{subsection.D.1.2}{Questions}{section.D.1}% 99
+\BOOKMARK [2][-]{subsection.D.1.3}{Accelerometer}{section.D.1}% 100
+\BOOKMARK [2][-]{subsection.D.1.4}{Light}{section.D.1}% 101
+\BOOKMARK [2][-]{subsection.D.1.5}{Volume}{section.D.1}% 102
+\BOOKMARK [2][-]{subsection.D.1.6}{Steps}{section.D.1}% 103
+\BOOKMARK [2][-]{subsection.D.1.7}{Location}{section.D.1}% 104
+\BOOKMARK [2][-]{subsection.D.1.8}{Weather}{section.D.1}% 105
+\BOOKMARK [1][-]{section.D.2}{Participant 2}{appendix.D}% 106
+\BOOKMARK [2][-]{subsection.D.2.1}{date \046 time}{section.D.2}% 107
+\BOOKMARK [2][-]{subsection.D.2.2}{Questions}{section.D.2}% 108
+\BOOKMARK [2][-]{subsection.D.2.3}{Accelerometer}{section.D.2}% 109
+\BOOKMARK [2][-]{subsection.D.2.4}{Light}{section.D.2}% 110
+\BOOKMARK [2][-]{subsection.D.2.5}{Volume}{section.D.2}% 111
+\BOOKMARK [2][-]{subsection.D.2.6}{Steps}{section.D.2}% 112
+\BOOKMARK [2][-]{subsection.D.2.7}{Location}{section.D.2}% 113
+\BOOKMARK [2][-]{subsection.D.2.8}{Weather}{section.D.2}% 114
+\BOOKMARK [1][-]{section.D.3}{Participant 3}{appendix.D}% 115
+\BOOKMARK [2][-]{subsection.D.3.1}{date \046 time}{section.D.3}% 116
+\BOOKMARK [2][-]{subsection.D.3.2}{Questions}{section.D.3}% 117
+\BOOKMARK [2][-]{subsection.D.3.3}{Accelerometer}{section.D.3}% 118
+\BOOKMARK [2][-]{subsection.D.3.4}{Light}{section.D.3}% 119
+\BOOKMARK [2][-]{subsection.D.3.5}{Volume}{section.D.3}% 120
+\BOOKMARK [2][-]{subsection.D.3.6}{Steps}{section.D.3}% 121
+\BOOKMARK [2][-]{subsection.D.3.7}{Location}{section.D.3}% 122
+\BOOKMARK [2][-]{subsection.D.3.8}{Weather}{section.D.3}% 123
+\BOOKMARK [1][-]{section.D.4}{Participant 4}{appendix.D}% 124
+\BOOKMARK [2][-]{subsection.D.4.1}{date \046 time}{section.D.4}% 125
+\BOOKMARK [2][-]{subsection.D.4.2}{Questions}{section.D.4}% 126
+\BOOKMARK [2][-]{subsection.D.4.3}{Accelerometer}{section.D.4}% 127
+\BOOKMARK [2][-]{subsection.D.4.4}{Light}{section.D.4}% 128
+\BOOKMARK [2][-]{subsection.D.4.5}{Volume}{section.D.4}% 129
+\BOOKMARK [2][-]{subsection.D.4.6}{Steps}{section.D.4}% 130
+\BOOKMARK [2][-]{subsection.D.4.7}{Location}{section.D.4}% 131
+\BOOKMARK [2][-]{subsection.D.4.8}{Weather}{section.D.4}% 132
+\BOOKMARK [1][-]{section.D.5}{Participant 5}{appendix.D}% 133
+\BOOKMARK [2][-]{subsection.D.5.1}{date \046 time}{section.D.5}% 134
+\BOOKMARK [2][-]{subsection.D.5.2}{Questions}{section.D.5}% 135
+\BOOKMARK [2][-]{subsection.D.5.3}{Accelerometer}{section.D.5}% 136
+\BOOKMARK [2][-]{subsection.D.5.4}{Light}{section.D.5}% 137
+\BOOKMARK [2][-]{subsection.D.5.5}{Volume}{section.D.5}% 138
+\BOOKMARK [2][-]{subsection.D.5.6}{Steps}{section.D.5}% 139
+\BOOKMARK [2][-]{subsection.D.5.7}{Location}{section.D.5}% 140
+\BOOKMARK [2][-]{subsection.D.5.8}{Weather}{section.D.5}% 141
+\BOOKMARK [0][-]{appendix.E}{Appendix Individuals extended Data}{}% 142
+\BOOKMARK [1][-]{section.E.1}{Coffee}{appendix.E}% 143
+\BOOKMARK [1][-]{section.E.2}{Music}{appendix.E}% 144
+\BOOKMARK [1][-]{section.E.3}{Running}{appendix.E}% 145
+\BOOKMARK [0][-]{appendix*.78}{Bibliography}{}% 146

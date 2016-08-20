@@ -6,11 +6,12 @@ First, it will start with a brief description of the two components and will fol
 \end{flushleft}
 
 \section{Approach}
-This approach is meant to be the base for a system that helps to improve the working behavior and environment of developers. 
+This approach has been created to be a possible base for a system that helps to improve the working behavior and environment of developers. 
 In this dissertation we created a toolset that allows to gather data from the mobile phone of the participants, analyze it and correlate it with the code quality of their work. The technical design for this approach is created for the experimental data gathering of a limited amount of participants. The described system is not capable to handle high traffic and to analyze the data entries of great amount of users. 
 
 \section{Functionality Overview}
-The purpose of the application, named 'Dather' is to gather information from a mobile device of a participant while he/she is working on a programming task. Afterwards the application sends the collected data to a server for further processing and analysis. The participant also simultaneously submits the written code which code quality will be detected and then correlated with the processed mobile device information. 
+The name of the application was chosen to be "Dather", which is a a combination of "Data" and "Gather".
+The purpose of the application is to gather information from a mobile device of a participant while he/she is working on a programming task. Afterwards the application sends the collected data to a server for further processing and analysis. The participant also simultaneously submits the written code which code quality will be detected and then correlated with the processed mobile device information. 
 
 \section{Mobile Application Design}
 % Define bar chart colors
@@ -64,7 +65,7 @@ An alternative to the native implementation (e.g. iOS or Android) could have bee
 \bigbreak
 The Android application make use of its build-in sensors and information provided by the Android operating system \ref{sensors}. Different than iOS, Android is an OS that can be installed of different devices from various manufactorers and with different hardware components \cite{goadrich2011smart}. Thus, the buit-in sensors which are clustered in motion sensors, environmental sensors and position sensors \cite{androidDevelopers} can differ between the diverse devices. Components that are required for standard functionality such as making phone calls are more common than other sensors. For example, the microphone for recording the users voice or the light sensor, which is used to detect whether the user has the phone at his ear can be found in almost every mobile android device. 
 Furthermore, the different mobile device manufacturers customize the open source android operating system for their devices and their purposes. This nature can lead to different settings or behavior for the hardware and also software components.\\
-This device diversity and the variety of different screen sizes and aspect ratios make it more difficult to support a range of android devices and make sit impossible to test all devices that are running a specific operating system. Apple at the other hand uses the same aspect ration up from the iPhone 5 and supports the hardware components in a similar way in iOS. 
+This device diversity and the variety of different screen sizes and aspect ratios make it more difficult to support a range of android devices and make sit impossible to test all devices that are running a specific operating system. Apple at the other hand uses the same aspect ration up from the iPhone5 and supports the hardware components in a similar way in iOS. 
 \end{flushleft}
 
 \begin{figure}
@@ -91,13 +92,17 @@ To keep the code base clean and to avoid bugs, the communication is separated by
 \vspace{10 mm}
 \end{figure}
 
-The Application contains of two main user Interfaces, the gathering view and the question view.\\
-The gathering view is the control interface for starting and stopping the data gathering. Its interface changes depending the current state and the logical functionality and also provides an input field for the users email address.
+The Application has two main user Interfaces, the gathering view and the question view.\\
+The gathering view is the control interface for starting, stopping and transmitting the data gathering. The appearance of the user interface changes related the current state and the logical functionality. 
+This view also displays the username and a short informing text.
 \bigbreak
-After sending the gathered data to the server the application displays the question view. Here the user sees a number of questions and check-boxes to answer the binary yes and no questions. 
+After successfully sending the gathered data to the server the application displays the question view. Here, the user sees a number of questions and check-boxes to answer the binary yes and no questions. 
 This interface also provides a send button to submit the answered questions to the Server.
 \bigbreak
 In Figure \ref{aviews} you can see the flow of the views in the applications.
+It shows screenshots of the flow within the app from left to right. Starting at the login view, where the participant enters his/her Github username. 
+The next view asks for the permissions followed by the view that informs about the sensible data handling. 
+In the middle you can see the gathering view, where the user controls the process. The right screenshot shows the gathering process in action. The next view contains the questions to the user. The last view shows the gathering view with a changed functionality. Here the user can gather data again after completing the first gathering process. 
 
 \subsection{Data Storage}
 For storing the gathered data entries, the app uses a SQLite datebase. SQLite uses SQL syntax which and is embedded in Android and well documented by Google. \cite{vogel2010android}. It is a very light weight database and provides an abstracted and easy way to store the values in an object oriented environment. SQLite is storing the data unencrypted by default. In order to make sure the stored data is save and can't be read, the data is been encrypted as soon it's been gathered.\\

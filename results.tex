@@ -1,5 +1,5 @@
 \chapter{Evaluation}
-This chapter shows the results of the experiment and how the gathered data can be interpreted. 
+This chapter shows the results of the experiments and how the gathered data can be interpreted. 
 
 \subsection{output format}
 Figure \ref{entries} shows the format of a single entry after the decryption. 
@@ -13,6 +13,28 @@ Figure \ref{entries} shows the format of a single entry after the decryption.
 
 \FloatBarrier
 
+\section{Crowd Experiment}
+This section shows the finding in the experiment where the participants had to solve the programming task. This section is divided into the different categories where the findings were clustered into.
+
+\subsection{Noise}
+Regular phone microphones are not calibrated to provide an general loudness. Therefore we can use the values of the environmental noise only for finding peeks or changes.
+The environmental noise shows a steady low noise level for four of the participants while one participant has some high peeks in the data. 
+
+
+\subsection{Light}
+
+\subsection{Location}
+The location of the participants was not gathered from two participants. Two of the other participants were working in Dublin, Ireland while a third one did the task in Madrid, Spain.\\
+The step counter of the participants didn't provide valuable information as the step count was never more than 10 and didn't change during the gathering process. Also the location of the participants didn't change during the experiment. Thus, we can assume that the participants didn't move during the experiment.
+
+\subsection{Weather}
+The weather is looked up based on the location, data and time. Therefore, the weather of the two participants without location was not possible to find out. The weather of the experiments of two participants was cloudy for one, and cloudy with a little bit of rain for the other one. The third participants had a hot sunny day. 
+
+\subsection{Environment}
+The results \ref{ligps} show a good probability that all the participants where working on the task indoor. Based on the classification mentioned in the previous section, the highest brightness of the participants environment with 554.33 lux, which is a in the section of a office space or a very dark day \ref{inLight} \ref{outLight}. However, the mentioned maximum value is a peek in the results of a single participant. Another participant whose light level was on a high level was working during a sunny time which removes the possibility that it was a very dark day and that the participants was working outside. 
+The other two participants had a lower light measured and therefore just a small possibility that they were actually working outside.  
+Also the location of the participants are all in urban areas within a range of several buildings. 
+
 \subsection{Results}
 Participant number 2 was the only one who answered the question of being distracted during the experiment with 'yes'. Also the volume amplitude had some very high peeks that were not found in the measurements of other participants in that level \ref{volps}. 
 \bigbreak
@@ -23,12 +45,13 @@ The detailed results are attached to this dissertation in Appendix 4.
 \begin{figure}[ht]
 	\centering
 	\begin{tikzpicture}
-	\pgfplotsset{ticks=none}
+	\pgfplotsset{xtick style={draw=none}}
 \begin{axis}[
 	height=6cm,
 	width=\textwidth,
-	ylabel=amplitude,
-	xlabel=duration,
+	ylabel=Uncalibrated amplitude of sound pressure,
+	xlabel=Normalized duration of the experiment,
+	xticklabels={,,}
 	title=Volume,
 	unbounded coords=discard],
 	
@@ -269,12 +292,13 @@ The detailed results are attached to this dissertation in Appendix 4.
 \begin{figure}[ht]
 	\centering
 	\begin{tikzpicture}
-	\pgfplotsset{ticks=none}
+	\pgfplotsset{xtick style={draw=none}}
 \begin{axis}[
 	height=6cm,
 	width=\textwidth,
-	ylabel=lux,
-	xlabel=duration,
+	ylabel=brightness in lux,
+	xlabel=Normalized duration of the experiment,
+	xticklabels={,,}
 	title=Light,
 	unbounded coords=discard],
 	
@@ -504,10 +528,9 @@ However, in our case the participant of the Experiment mentioned to feel fretful
 
 \FloatBarrier
 
-
 \begin{tikzpicture}
 \begin{axis}[
-ylabel=solving time in min,
+ylabel=solving time in minutes,
 xtick={0,1},
 xticklabels={Before Coffee, After Coffee},
 x=2cm,
