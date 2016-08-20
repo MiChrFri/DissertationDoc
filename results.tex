@@ -20,26 +20,40 @@ This section shows the finding in the experiment where the participants had to s
 Regular phone microphones are not calibrated to provide an general loudness. Therefore we can use the values of the environmental noise only for finding peeks or changes.
 The environmental noise shows a steady low noise level for four of the participants while one participant has some high peeks in the data. 
 
-
-\subsection{Light}
-
 \subsection{Location}
 The location of the participants was not gathered from two participants. Two of the other participants were working in Dublin, Ireland while a third one did the task in Madrid, Spain.\\
 The step counter of the participants didn't provide valuable information as the step count was never more than 10 and didn't change during the gathering process. Also the location of the participants didn't change during the experiment. Thus, we can assume that the participants didn't move during the experiment.
 
-\subsection{Weather}
-The weather is looked up based on the location, data and time. Therefore, the weather of the two participants without location was not possible to find out. The weather of the experiments of two participants was cloudy for one, and cloudy with a little bit of rain for the other one. The third participants had a hot sunny day. 
+\subsection{Movement}
+The 3-axis accelerometer of the participants devices don't show any changes. In all the gathered results, the device was laying on the desk without big movements in between. A value close to 0 for the X and Z axis of the measurements as well as a value close to 10 for the Z axis show that the mobile phones were positioned screen upwards on a horizontal surface. Any movements of the device would have changed at least one of the values of an axis. 
 
-\subsection{Environment}
+\subsection{Weather}
+\FloatBarrier
+
+\begin{table}[ht]
+  \begin{tabular}{|P{3cm}|P{3cm}|P{3cm}|P{3cm}|}
+   \textbf{Description}		& \textbf{Temperature}		& \textbf{Humidity}		& 	\textbf{Pressure}		\\ \hline
+   	- 									& -										& -								& -								\\ \hline		%p1
+   	Cloudy and Drizzly 		& 17\degree C						& 	82\%						& 1007 nPA					\\ \hline		%p2
+   	 - 									& -										& -								& -								\\ \hline		%p3
+   	Sunny 							& 31\degree C						& 	31\%						& 1018 nPA					\\ \hline		%p4 
+   	Cloudy 							& 14\degree C						& 	62\%						& 1028 nPA					\\ \hline		%p5
+  \end{tabular}
+  \newline\newline
+  \caption{Weather during experiment}\label{weather}
+\end{table}
+
+The weather is looked up based on the location, data and time. Therefore, the weather of the two participants without location was not possible to find out. The weather of the experiments of two participants was cloudy for one, and cloudy with a little bit of rain for the other one. The third participants had a hot sunny day. The individual information can be seen in table \ref{weather}.
+\FloatBarrier
+
+\subsection{Light and Environment}
 The results \ref{ligps} show a good probability that all the participants where working on the task indoor. Based on the classification mentioned in the previous section, the highest brightness of the participants environment with 554.33 lux, which is a in the section of a office space or a very dark day \ref{inLight} \ref{outLight}. However, the mentioned maximum value is a peek in the results of a single participant. Another participant whose light level was on a high level was working during a sunny time which removes the possibility that it was a very dark day and that the participants was working outside. 
 The other two participants had a lower light measured and therefore just a small possibility that they were actually working outside.  
 Also the location of the participants are all in urban areas within a range of several buildings. 
 
 \subsection{Results}
-Participant number 2 was the only one who answered the question of being distracted during the experiment with 'yes'. Also the volume amplitude had some very high peeks that were not found in the measurements of other participants in that level \ref{volps}. 
-\bigbreak
-In the diagram \ref{ligps}, participant 1 is not mentioned. That is because the app wasn't able to access data from the light sensor. In the  measurements of the other participants it is again noticeable that Participant 2 shows different patterns than the others. The light value in lux differs from the others in it's dynamic. The value is much less constant and possibly an indicator, that it could influence the concentration in a negative way.\\
-The detailed results are attached to this dissertation in Appendix 4.
+The problem is this crowd experiment are the small amount of participants and the difference between their results. The results show that different results in the code quality always have more than just one factors that are differentiating the work and environmental patterns. There is no direct factor that can be either correlated to good code or another factor that can give evidence fot bad code. However, there are indicator that are having an impact. For example, the participant who was working a very dark environment was needed to longest time to solve the programming task, which leads to the idea that bad lightning can have a negative impact.\\ 
+Also, participant number 2 was the only one who answered the question of being distracted during the experiment with 'yes'. Additional, The volume amplitude had some very high peeks that were not found in the measurements of other participants in that level \ref{volps}. In the results of the light sensor it is again noticeable that the same participant shows different patterns than the others. The light value in lux differs from the others in it's dynamic. Thus, the values for light and noise are is much less constant and possibly an indicator, that it could lead to the developers distraction.\\
 
 %%%%%%% VOLUME
 \begin{figure}[ht]
@@ -582,146 +596,8 @@ coordinates {
 (	1.2,17.62)
 };
 
-
 \end{axis}
 \end{tikzpicture}
-
-
-%%%%%%% COFFEE Graph
-\begin{figure}[ht]
-	\centering
-	\begin{tikzpicture}
-\begin{axis}[
-	height=6cm,
-	width=\textwidth,
-	ylabel=minutes,
-	xlabel=measurements,
-	title=Coffee,
-	unbounded coords=discard],
-
-%Before
-\addplot coordinates {
-	(1, 12.65)
-	(2, 22.533333)
-	(3, 9.0)
-	(4, 26.566667)
-	(5, 14.383333)
-	(6, 16.35)
-	(7, 25.3)
-	(8, 16.266667)
-	(9, 14.783333)
-	(10, 18.25)
-};
-
-\addplot coordinates {
-	(1, 20.716667)
-	(2, 21.6)
-	(3, 13.233333)
-	(4, 23.0333333)	
-	(5, 9.533333)
-	(6, 12.03)
-	(7, 15.0833333)
-	(8, 9.816667)
-	(9, 10.116667)
-	(10, 8.683333)
-};
-
-\addlegendentry{without coffee}
-\addlegendentry{with coffee}
-
-\end{axis}
- 	\end{tikzpicture}
- 	\caption{Solving times graph - Coffee}\label{resultadasda}
- 	\vspace{10 mm}
-\end{figure}
-
-\FloatBarrier
-
-
-% Define bar chart colors
-%
-\definecolor{noCoff}{HTML}{1c90e7}
-\definecolor{coffee}{HTML}{a4c639}
-
-\begin{figure}
-	\centering
-	\begin{tikzpicture}
-        \begin{axis}[
-            width  = 0.5*\textwidth,
-        	height = 8cm,
-        	major x tick style = transparent,
-        	ybar=2*\pgflinewidth,
-        	bar width=30pt,
-        	ymajorgrids = true,
-        	ylabel = {Average solving time},
-        	symbolic x coords={Influences},
-       	 	xtick = data,
-        	scaled y ticks = false,
-        	enlarge x limits=0.25,
-        	ymin=0,
-        	legend cell align=left,
-        	legend style={
-                at={(1,1.05)},
-                anchor=south east,
-                column sep=1ex
-        	}
-      	]
-     	\addplot[style={android,fill=noCoff,mark=no coffee}]
-            coordinates {(Influences, 14.42)};
-
-        \addplot[style={ios,fill=coffee,mark=coffee}]
-             coordinates {(Influences,17.62)};
-
-        \legend{No Coffee, Coffee} 
-
-        \end{axis}
- 	\end{tikzpicture}
- 	\caption{Solving times block diagram - Coffee} \label{resultCoffee}
- 	\vspace{10 mm}
-\end{figure}
-
-%CONTROLL VALUE
-
-\pgfplotsset{every error bar/.style={line width=1 cm}}
-
-\pgfplotstableread{
-x         				y    			y-max  				y-min
-BeforeCoffee  	14.42		23.0333333  	8.683333  
-AfterCoffee  	17.62  		26.566667  	9.0
-}{\mytable}
-
-\begin{tikzpicture}[scale=1.3] 
-\begin{axis} [
-	width  = 0.5*\textwidth,
-	height = 8cm,
-	x=2cm,
-	enlarge x limits={abs=1.5cm}, % The distance between the center of the first bar and the left edge
-	symbolic x coords={BeforeCoffee, AfterCoffee},
-	x tick label style={rotate=45, anchor=east, align=center},
-	xtick=data,
-    ymajorgrids = true,
-    ylabel = {Average solving time},
-    scaled y ticks = false,
-    ymin=0,
-    legend cell align=left,
-    legend style={
-    	at={(1,1.05)},
-      	anchor=south east,
-       column sep=1ex
-    }
-]
-\addplot+[blue, very thick, forget plot,only marks] 
-  plot[very thick, error bars/.cd, y dir=plus, y explicit]
-  table[x=x,y=y,y error expr=\thisrow{y-max}] {\mytable};
-\addplot+[red, very thick, only marks,xticklabels=\empty] 
-  plot[very thick, error bars/.cd, y dir=minus, y explicit]
-  table[x=x,y=y,y error expr=\thisrow{y-min}] {\mytable};
-\end{axis} 
-\end{tikzpicture}
-
-
-
-
 
 \FloatBarrier
 
@@ -734,116 +610,85 @@ The results show evidence that for the participant the cognitive performance in 
 
 \FloatBarrier
 
-%%%%%%% Music
-\begin{figure}[ht]
-	\centering
-	\begin{tikzpicture}
+\begin{tikzpicture}
 \begin{axis}[
-	height=6cm,
-	width=\textwidth,
-	ylabel=minutes,
-	xlabel=measurements,
-	title=Music,
-	unbounded coords=discard],
-
-% classical
-\addplot coordinates {
-	(1, 13.666667)
-	(2, 12.266667)
-	(3, 9.183333)
-	(4, 11.116667)
-	(5, 15.316667)
-	(6, 9.783333)
-	(7, 11.533333)
-	(8, 9.133333)
-	(9, 16.0)
-	(10, 23.55)
+ylabel=solving time in minutes,
+xtick={0,1,2},
+xticklabels={Classical, Heavy Metal, No Music},
+x=2cm,
+x tick label style={rotate=45, anchor=east, align=center},
+enlarge x limits={abs=1.5cm}, 
+scatter/classes={%
+    a={mark=*,draw=black}}]
+\addplot[scatter,only marks, fill opacity=0.5, opacity=0.5, 
+    scatter src=explicit symbolic]
+table[meta=label] {
+x 	y 						label
+0	13.666667		1
+0	12.266667		2
+0	9.183333		3
+0	11.116667		4
+0	15.316667		5
+0	9.783333		6
+0	11.533333		7
+0	9.133333		8
+0	16.0					9
+0	23.55				10
 };
 
-% metal
-\addplot coordinates {
-	(1, 30.02)
-	(2, 15.85)
-	(3, 14.07)
-	(4, 15.766667)
-	(5, 19.783333)
-	(6, 9.85)
-	(7, 11.0166667)
-	(8, 12.566667)
-	(9, 9.966667)
-	(10, 13.383333)
+\addplot[mark=none, color=red, very thick] 
+coordinates {
+(-0.2, 13.15) 
+(0.2, 13.15)
 };
 
-% none
-\addplot coordinates {
-	(1, 20.866667)
-	(2, 9.75)
-	(3, 21.233333)
-	(4, 13.0166667)
-	(5, 9.1)
-	(6, 19.566667)
-	(7, 8.0333333)
-	(8, 10.6)
-	(9, 19.966667)
-	(10, 15.05)
+\addplot[scatter,only marks, fill opacity=0.5, opacity=0.5,
+    scatter src=explicit symbolic]
+table[meta=label] {
+x 	y	 					label
+1	30.2					1
+1 	15.85				2
+1 	14.7					3
+1 	15.766667		4
+1 	19.783333		5
+1 	9.85					6
+1 	11.0166667	7
+1 	12.566667		8
+1 	9.966667		9
+1 	13.383333		10
 };
 
-\addlegendentry{classical}
-\addlegendentry{metal}
-\addlegendentry{no music}
+\addplot[mark=none, color=red, very thick] 
+coordinates {
+(0.8, 15.316667) 
+(	1.2,15.316667)
+};
+
+\addplot[scatter,only marks, fill opacity=0.5, opacity=0.5,
+    scatter src=explicit symbolic]
+table[meta=label] {
+x 	y	 					label
+2 	20.866667		1
+2 	9.75					2
+2 	21.233333		3
+2 	13.0166667	4
+2 	9.1					5	
+2 	19.566667		6
+2 	8.0333333		7
+2 	10.6					8
+2 	19.966667		9
+2 	15.05				10
+};
+
+\addplot[mark=none, color=red, very thick] 
+coordinates {
+(1.8, 14.716667) 
+(	2.2,14.716667)
+};
 
 \end{axis}
- 	\end{tikzpicture}
- 	\caption{Solving times graph - Music}\label{resultMusicGraph}
- 	\vspace{10 mm}
-\end{figure}
+\end{tikzpicture}
 
-
-% Define bar chart colors
-%
-\definecolor{nada}{HTML}{e78d1c}
-\definecolor{metal}{HTML}{a4c639}
-\definecolor{classical}{HTML}{1c90e7}
-
-\begin{figure}
-	\centering
-	\begin{tikzpicture}
-        \begin{axis}[
-            width  = 0.5*\textwidth,
-        	height = 8cm,
-        	major x tick style = transparent,
-        	ybar=2*\pgflinewidth,
-        	bar width=30pt,
-        	ymajorgrids = true,
-        	ylabel = {Average solving time},
-        	symbolic x coords={Influences},
-       	 	xtick = data,
-        	scaled y ticks = false,
-        	enlarge x limits=0.25,
-        	ymin=0,
-        	legend cell align=left,
-        	legend style={
-                at={(1,1.05)},
-                anchor=south east,
-                column sep=1ex
-        	}
-      	]
-     	\addplot[style={android,fill=classical,mark=classical}]
-            coordinates {(Influences, 13.15)};
-
-        \addplot[style={ios,fill=,metal,mark=metal}]
-             coordinates {(Influences,15.316667)};
-
-        \addplot[style={others,fill=nada,mark=no music}]
-             coordinates {(Influences, 15.005)};
-
-        \legend{Classical, Metal, No Music} 
-
-        \end{axis}
- 	\end{tikzpicture}
- 	\caption{Solving times block diagram - Music}\label{resultMusic}
- 	\vspace{10 mm}
-\end{figure}
 
 \FloatBarrier
 
@@ -851,96 +696,62 @@ The results show evidence that for the participant the cognitive performance in 
 The graph \ref{resultRun} results show a trend for a better performance after strong physical activity. The average solving time after the run (\textbf{10:52 min}) is 3:20 min faster than the \textbf{14:12} minutes before running. That is a decrease of \textbf{22.5\%} from before to after and can be seen in \ref{resultRunning}. 
 Compared to the two other individual experiments, the results of this scenario are differing more at each measurement. 4 times, the solving after the running took actually longer than the solvings in the pre-run state. 
 
-%%%%%%% Running
-\begin{figure}[ht]
-	\centering
-	\begin{tikzpicture}
+
+\begin{tikzpicture}
 \begin{axis}[
-	height=6cm,
-	width=\textwidth,
-	ylabel=minutes,
-	xlabel=measurements,
-	title=Running,
-	unbounded coords=discard],
-
-\addplot coordinates {
-	(1, 12.466667)
-	(2, 11.633333)
-	(3, 12.483333)
-	(4, 20.383333)
-	(5, 8.583333)
-	(6, 16.166667)
-	(7, 14.25)
-	(8, 11.766667)
-	(9, 13.533333)
-	(10, 20.683333)
+ylabel=solving time in minutes,
+xtick={0,1},
+xticklabels={Before Run, After Run},
+x=2cm,
+x tick label style={rotate=45, anchor=east, align=center},
+enlarge x limits={abs=1.5cm}, 
+scatter/classes={%
+    a={mark=*,draw=black}}]
+\addplot[scatter,only marks, fill opacity=0.5, opacity=0.5, 
+    scatter src=explicit symbolic]
+table[meta=label] {
+x 	y 						label
+0	12.466667		1
+0	11.633333		2
+0	12.483333		3
+0	20.383333		4
+0	8.583333		5
+0	16.166667		6
+0	14.25				7
+0	11.766667		8
+0	13.533333		9
+0	20.683333		10
 };
 
-\addplot coordinates {
-	(1, 14.45)
-	(2, 10.483333)
-	(3, 15.483333)
-	(4, 8.05)
-	(5, 8.883333)
-	(6, 9.85)
-	(7, 10.75)
-	(8, 13.466667)
-	(9, 8.683333)
-	(10, 8.516667)
+\addplot[mark=none, color=red, very thick] 
+coordinates {
+(-0.2, 14.2) 
+(0.2, 14.2)
 };
 
-\addlegendentry{relaxed}
-\addlegendentry{exhausted}
+\addplot[scatter,only marks, fill opacity=0.5, opacity=0.5,
+    scatter src=explicit symbolic]
+table[meta=label] {
+x 	y	 				label
+1 	14.45			1
+1 	10.483333	2
+1 	15.483333	3
+1 	8.05				4
+1 	8.883333	5
+1 	9.85				6
+1 	10.75			7
+1 	13.466667	8
+1 	8.683333	9
+1 	8.516667	10
+};
+
+\addplot[mark=none, color=red, very thick] 
+coordinates {
+(0.8, 10.866667) 
+(1.2, 10.866667)
+};
 
 \end{axis}
- 	\end{tikzpicture}
- 	\caption{Solving times graph - Running}\label{resultRun}
- 	\vspace{10 mm}
-\end{figure}
-
-\FloatBarrier
-
-% Define bar chart colors
-%
-\definecolor{nada}{HTML}{e78d1c}
-\definecolor{metal}{HTML}{a4c639}
-\definecolor{classical}{HTML}{1c90e7}
-
-\begin{figure}
-	\centering
-	\begin{tikzpicture}
-        \begin{axis}[
-            width  = 0.5*\textwidth,
-        	height = 8cm,
-        	major x tick style = transparent,
-        	ybar=2*\pgflinewidth,
-        	bar width=30pt,
-        	ymajorgrids = true,
-        	ylabel = {Average solving time},
-        	symbolic x coords={Influences},
-       	 	xtick = data,
-        	scaled y ticks = false,
-        	enlarge x limits=0.25,
-        	ymin=0,
-        	legend cell align=left,
-        	legend style={
-                at={(1,1.05)},
-                anchor=south east,
-                column sep=1ex
-        	}
-      	]
-     	\addplot[style={android,fill=classical,mark=classical}]
-            coordinates {(Influences, 14.02)};
-
-        \addplot[style={ios,fill=,metal,mark=metal}]
-             coordinates {(Influences,10.866667)};
-
-        \legend{Relaxed, Exhausted} 
-
-        \end{axis}
- 	\end{tikzpicture}
- 	\caption{Solving time block diagram - Running}\label{resultRunning}
- 	\vspace{10 mm}
-\end{figure}
+\end{tikzpicture}
 
 \FloatBarrier
