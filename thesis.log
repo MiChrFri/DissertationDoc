@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.18)  20 AUG 2016 17:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.18)  20 AUG 2016 18:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1008,7 +1008,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 51--61
 
  []
 
-[13] [14] [15] <images/clustering.png, id=918, 441.65pt x 464.73625pt>
+[13] [14] [15] <images/clustering.png, id=914, 441.65pt x 464.73625pt>
 File: images/clustering.png Graphic file (type png)
 
 <use images/clustering.png>
@@ -1045,14 +1045,14 @@ Chapter 3.
 
 
 
-] [26] [27] <images/sensors.png, id=1019, 1505.625pt x 1626.075pt>
+] [26] [27] <images/sensors.png, id=1015, 1505.625pt x 1626.075pt>
 File: images/sensors.png Graphic file (type png)
 
 <use images/sensors.png>
 Package pdftex.def Info: images/sensors.png used on input line 73.
 (pdftex.def)             Requested size: 227.62204pt x 245.81123pt.
  [28 <./images/sensors.png>]
-<images/AndroidUI.png, id=1025, 2007.5pt x 593.21625pt>
+<images/AndroidUI.png, id=1021, 2007.5pt x 593.21625pt>
 File: images/AndroidUI.png Graphic file (type png)
 
 <use images/AndroidUI.png>
@@ -1090,7 +1090,7 @@ LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 16.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/lm/ot1lmtt.fd
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [37] [38]
-[39] [40] <images/dataflow.png, id=1095, 1100.11pt x 354.32375pt>
+[39] [40] <images/dataflow.png, id=1091, 1100.11pt x 354.32375pt>
 File: images/dataflow.png Graphic file (type png)
 
 <use images/dataflow.png>
@@ -1111,7 +1111,7 @@ LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
 
 (./experiement.tex
 Chapter 5.
-<images/experiment.png, id=1126, 1242.6425pt x 733.74126pt>
+<images/experiment.png, id=1122, 1242.6425pt x 733.74126pt>
 File: images/experiment.png Graphic file (type png)
 
 <use images/experiment.png>
@@ -1145,7 +1145,7 @@ Underfull \hbox (badness 1205) in paragraph at lines 48--48
 []|\OT1/lmr/m/n/12 Detailed Draw-ing Work, Very De-tailed Me-chan-i-cal
  []
 
-[54] <images/accDevice.png, id=1197, 1164.35pt x 886.31125pt>
+[54] <images/accDevice.png, id=1193, 1164.35pt x 886.31125pt>
 File: images/accDevice.png Graphic file (type png)
 
 <use images/accDevice.png>
@@ -1163,7 +1163,7 @@ Chapter 7.
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 4.
 
-<images/entries.png, id=1227, 1505.625pt x 316.18124pt>
+<images/entries.png, id=1223, 1505.625pt x 316.18124pt>
 File: images/entries.png Graphic file (type png)
 
 <use images/entries.png>
@@ -1274,7 +1274,15 @@ LaTeX Warning: Reference `resultMusicGraph' on page 65 undefined on input line
 
 LaTeX Warning: Reference `resultMusic' on page 65 undefined on input line 606.
 
-[65]) [66]
+[65]
+
+LaTeX Warning: Reference `resultRun' on page 66 undefined on input line 696.
+
+
+LaTeX Warning: Reference `resultRunning' on page 66 undefined on input line 696
+.
+
+) [66]
 \openout2 = `conclusion.aux'.
 
  (./conclusion.tex
@@ -1836,15 +1844,9 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 151.
 (./appendix3.aux) (./appendix4.aux) (./appendix5.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 151.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 151.
+Package rerunfilecheck Info: File `thesis.out' has not changed.
+(rerunfilecheck)             Checksum: 934D588BB4200D627072578B9330E1D4;8684.
 
-
-Package rerunfilecheck Warning: File `thesis.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `thesis.out':
-(rerunfilecheck)             Before: BF35300CDE9384B4D253C53C8A90D7B6;8684
-(rerunfilecheck)             After:  934D588BB4200D627072578B9330E1D4;8684.
 
 LaTeX Warning: There were undefined references.
 
@@ -1858,64 +1860,34 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 151.
 ### simple group (level 1) entered at line 14 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 29849 strings out of 493089
- 707436 string characters out of 6134841
- 957718 words of memory out of 5000000
+ 29839 strings out of 493089
+ 707278 string characters out of 6134841
+ 957602 words of memory out of 5000000
  32322 multiletter control sequences out of 15000+600000
  59868 words of font info for 48 fonts, out of 8000000 for 9000
  1147 hyphenation exceptions out of 8191
- 63i,19n,110p,1375b,2398s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{figure.caption.43} has been referen
-ced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.42} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.caption.71} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.caption.70} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.caption.65} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.caption.61} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.caption.57} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.caption.53} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.caption.49} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{appendix*.72} has been referenced but does not exis
-t, replaced by a fixed one
-
- </Users/michael/Library/texlive/2015/texmf-var/fonts/pk/ljfour/public/bbding/b
-bding10.720pk>{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-rmtt.en
-c}{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/lo
-cal/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texliv
-e/2015/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2015/texmf-d
-ist/fonts/enc/dvips/lm/lm-rmsc.enc}</usr/local/texlive/2015/texmf-dist/fonts/ty
-pe1/public/lm/lmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public
-/lm/lmcsc10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmmi1
-2.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr
-/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texl
-ive/2015/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/local/texlive/2015/tex
-mf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2015/texmf-dist/font
-s/type1/public/lm/lmri12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/pu
-blic/lm/lmro12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lm
-sy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></
-usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/local/
-texlive/2015/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on thesis.pdf (113 pages, 1683634 bytes).
+ 63i,19n,110p,1375b,2400s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </Users/michael/Library/texlive/2015/texmf-var/fonts/pk/ljfour
+/public/bbding/bbding10.720pk>{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvi
+ps/lm/lm-rmtt.enc}{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-mat
+hit.enc}{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/
+usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texl
+ive/2015/texmf-dist/fonts/enc/dvips/lm/lm-rmsc.enc}</usr/local/texlive/2015/tex
+mf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2015/texmf-dist/fo
+nts/type1/public/lm/lmcsc10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1
+/public/lm/lmmi12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm
+/lmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmr12.pfb>
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/local/
+texlive/2015/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2015
+/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2015/texmf-dis
+t/fonts/type1/public/lm/lmro12.pfb></usr/local/texlive/2015/texmf-dist/fonts/ty
+pe1/public/lm/lmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public
+/lm/lmsy8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmtt10.
+pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
+Output written on thesis.pdf (113 pages, 1682711 bytes).
 PDF statistics:
- 1593 PDF objects out of 1728 (max. 8388607)
- 1433 compressed objects within 15 object streams
- 378 named destinations out of 1000 (max. 500000)
+ 1578 PDF objects out of 1728 (max. 8388607)
+ 1418 compressed objects within 15 object streams
+ 368 named destinations out of 1000 (max. 500000)
  1144 words of extra memory for PDF output out of 10000 (max. 10000000)
 
