@@ -77,6 +77,13 @@ Inc. Google.
   \url{https://developer.android.com/guide/topics/sensors/sensors_overview.html}.
 \newblock accessed on 08.06.2016.
 
+\bibitem{hayes1997textordfemininethe}
+W~Hayes and JW~Over.
+\newblock {\textordfeminine}the personal software process (psp): An empirical
+  study of the impact of psp on individual engineers.
+\newblock Technical report, {\textordmasculine} Technical Report,
+  CMU/SEI-97-TR-001, Software Eng. Inst., Pittsburgh, 1997.
+
 \bibitem{hillman2008smart}
 Charles~H Hillman, Kirk~I Erickson, and Arthur~F Kramer.
 \newblock Be smart, exercise your heart: exercise effects on brain and
@@ -89,6 +96,11 @@ Andreas Holzinger, Peter Treitler, and Wolfgang Slany.
   interoperability for business application development on smartphones.
 \newblock In {\em Multidisciplinary research and practice for information
   systems}, pages 176--189. Springer, 2012.
+
+\bibitem{humphrey1995discipline}
+Watts~S Humphrey.
+\newblock {\em A discipline for software engineering}.
+\newblock Addison-Wesley Longman Publishing Co., Inc., 1995.
 
 \bibitem{jain1999data}
 Anil~K Jain, M~Narasimha Murty, and Patrick~J Flynn.

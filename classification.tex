@@ -1,12 +1,12 @@
 \chapter{Classification}
-In this Chapter, the classification of the gathered data is described. That means that the data is interpreted and put into a context which can be used to generate results in the next section.
+In this Chapter, the classification of the gathered data is been described. That means that the data is interpreted and put into a context which can be used to generate results in the next section.
 
 \section{Context Classification}
 In order to understand the gathered values from the sensors rather than just using them, it makes sense to interpret them and bring it into a context. Previous research results and also classifying controlled tested events using the gathered values will be described in further detail within the next paragraphs.
 
 \subsubsection{Indoor Outdoor differentiation}
-The brightness of indoor lightning is different from the brightness outdoors. Indoor environments are mostly receiving light from an artificial light source which flickers in a rate than can't be noticed by the human eye. Sadly the light sensor of the mobile devices is not precise enough to detect that flickering. Anyhow, also the luminance is different indoors and outdoors. Artificial lights are just not as powerful as the sun and it would require a ridiculous amount of artificial light sources and windows to create the same brightness within buildings as they are outside. 
-As seen in the two tables \ref{outLight} and \ref{inLight} based on the lux from the light sensor it is possible to detect whether the device is indoor or outdoor by a high probability.
+The brightness of indoor lightning is different from the brightness outdoors. Indoor environments are mostly receiving light from an artificial light source which flickers in a rate than can't be noticed by the human eye. Sadly the light sensor of the mobile devices is not precise enough to detect that flickering. Anyhow, also the luminance is different indoors and outdoors. Indoor lights are just not as powerful as the sun and it would require a ridiculous amount of artificial light sources and windows to create the same brightness within buildings as they are outside. 
+As seen in the two tables \ref{outLight} and \ref{inLight}, based on the lux from the light sensor it is possible to give an educated guess whether the mobile device is indoor or outdoor.
 
 %%%% TABLE outdoor light
 \setlength{\tabcolsep}{10pt}
@@ -67,24 +67,24 @@ The values from the 3 axis can give an indicator how the participant interacts w
 \end{figure}
 \FloatBarrier
 
-\subsubsection{Detecting the users location}
+\subsubsection{Location}
 In order to detect the location of the user, the location with the environmental noise as well as the detection whether the user is indoor our outside. The location accuracy depends on the way how it is been calculated which is ether the network or GPS. However, it can vary and can't ensure a the exact location but also using the noise and information from the light sensor can help to limit the results to fewer possibilities.\\
 When, for example the location shows a radius in an area with a library, a coffee shop and a public crowded square it's a high chance that the library is not an option in the case of a noisy environment. In order to detect whether the user is in the coffee-shop or the square, the light sensor can detect whether the light value is in the outdoor or indoor brightness range. 
 
 \subsubsection{Movement}
-The movement of the user can directly be seen by the steps he/she walks during the start of the gathering until the ending. The distance and the frequency shows if the user just walks to the fridge, toilet or somewhere close or actually walks from one place to another. Also the locations can indicate that. 
+The movement of the user can directly be seen by the steps he/she walks during the start of the gathering until the ending. The distance and the frequency shows if the user just walks to the fridge, toilet or somewhere close or actually walks from one place to another. Also the locations can indicate that.\\
 The location can also show whether the user was on public transport, on a train/car or an Airplane depending on the travel speed and from where the user started and where he/she arrives (airport, garage, train-station etc.). 
 
 \subsubsection{Weather Conditions}
 With the location and the timestamp of the gathering and it is possible to get information about the local weather of the users location at the time when the gathering happened using the timeanddate-website \footnote{\url{http://www.timeanddate.com/weather}}.
 
 \subsubsection{Music}
-Using the environmental noise it is possible to find patterns that can be related to music. In general modern music has a very constant noise level rather than the dynamic classical music. The iTunes top 100\footnote{\url{http://www.apple.com/ie/itunes/charts}} songs at July 14th 2016 have an average length of 3:39 minutes, the shortest song is 2:42 minutes and the longest 5:13 minutes long.
+Using the environmental noise it is possible to find patterns that can be related to music. In general modern music has a very constant noise level rather than the dynamic classical music. The iTunes top 100\footnote{\url{http://www.apple.com/ie/itunes/charts}} songs at July 14th 2016 have an average length of 3:39 minutes, the shortest song is 2:42 minutes and the longest 5:13 minutes long.\\
 In order to detect whether the participant is listening to music, the volume should go down for 2-5 seconds between a track with a duration between 2:30 minutes and 5:30 minutes. 
 A regular pattern with these attributes should indicate that the user is listening to background music while working on the coding task.
 
 \subsection{Questions}
-After the gathering process, the participant is asked to answer some questions:
+After the gathering process, the participant was asked to answer some questions:
 \begin{itemize}
 \item Are you a Student?
 \item Did you work in a team?
@@ -97,5 +97,5 @@ After the gathering process, the participant is asked to answer some questions:
 \item Do you think the tasks were easy?
 \end{itemize}
 
-All the questions can either be checked to indicate 'yes' or leave unchecked for 'no'. The answers can help to clarify the classification or to get new additional contexts. Some of the questions are created based on the knowledge from previous work of researchers and their results that can possibly influence cognitive performance. 
+All the questions can either be checked to indicate 'yes' or leave unchecked for 'no'. The answers can help to clarify the classification or to get new additional contexts. Some of the questions are created based on the knowledge from previous work of researchers and their results that can possibly influence cognitive performance. \\
 In a long term, asking questions is not optimal. In the future the app is supposed to learn and slowly make the questions unnecessary. Currently there is a way to detect whether the user is listening to music by identifying patterns but the accuracy is not exactly known and therefore also asked as a question as well could it be that the user is wearing headphones. If the detection using the environmental noise is highly accurate, the question can be removed from the app.

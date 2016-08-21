@@ -6,7 +6,7 @@ First, it will start with a brief description of the two components and will fol
 \end{flushleft}
 
 \section{Approach}
-This approach has been created to be a possible base for a system that helps to improve the working behavior and environment of developers. 
+This approach has been created a part of an idea for a system that helps to improve the working behavior and environment of developers. The whole system is described later in the section 'Dynamic Code and Developer Analysis'.
 In this dissertation we created a toolset that allows to gather data from the mobile phone of the participants, analyze it and correlate it with the code quality of their work. The technical design for this approach is created for the experimental data gathering of a limited amount of participants. The described system is not capable to handle high traffic and to analyze the data entries of great amount of users. 
 
 \section{Functionality Overview}
@@ -158,11 +158,14 @@ For working with the resulting data from the experiment, a tool-set was created 
 The first tool allows to extract only the entries from a specific participant by providing the his/her Github username.\\
 Another tool extracts the single values per entry with its timestamp and the last tool averages the results per minute and converts the data into a form that can directly be used in latex to draw plots.
 
-\section{Future Work}
-Based on the experience and the learning from this approach, we want to enable further work on system that could be used to gather data from the developers and provide them a real-time feedback on their code and ways to improve their performance.
-A external hardware device with a collection of sensors, placed on the developers desk could gather additional to the mobile device. 
-The combined information could be constantly analyzed on a server and compared to the data of other developers. Automatic learning algorithms could compare the gathered data and the code of the developers to find more specific trends and influencing factors in the performance. 
-Furthermore, notifications from the server to the device of the developer could provide feedback and tips for improvement by mentioning the influences. 
+\section{Dynamic Code and Developer Analysis}
+The work in this dissertation is part of an analysis system for code and developer. The limited scope of the dissertation didn't allow to target the whole idea which will be described in this section. 
+\bigbreak
+The idea for the full approach is a system that constantly gathers data from the developer. The system provide the developer real-time feedback on the code quality and ways to improve the performance.\\
+Many developers are already using applications to track their time on projects. Our approach could combine the time tracking and the performance analysis and thus avoid more work for the developer. \\
+In order to reduce the problem of the limited and different sensors in the variety of mobile phone, an additional hardware device (base station) with a collection of sensors, placed on the developers desk could gather the main environmental information. The mobile phone would transfer specific data, that only the mobile phone can gather to the base station. This data could be for example the location and the rotation of the mobile device. The base station collects all the data and could also request additional information from various sources in the internet such as the weather based on time and location.\\
+The combined information constantly analyze the gathered data and the latest commits of the source code and compare the data with the results of other developers. Furthermore, automatic learning algorithms could compare the gathered data and the code of the developers to find more specific trends and influencing factors in the performance for individual developers. 
+Last, notifications sent to device of the developer could provide feedback and tips for improvement, either in the working patterns or environment. 
 
 \section{Summary}
 This chapter is about the design decisions of the different software parts that are needed for the experiments. First, the functionality of each part are being described, followed by the part about the Android application. Android was the mobile OS of choice because it has the highest market share of all mobile operating systems. The app needs to be simple and easy to use for single usage which is seen in the UI and the UX specification. 

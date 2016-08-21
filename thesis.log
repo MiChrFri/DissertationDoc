@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.18)  21 AUG 2016 12:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.18)  21 AUG 2016 16:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -806,6 +806,39 @@ Package: placeins 2005/04/18  v 2.2
 (/usr/local/texlive/2015/texmf-dist/tex/latex/was/gensymb.sty
 Package: gensymb 2003/07/02 v1.0 (WaS)
 )
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2015/05/11 v0.4x Insert pages of external PDF documents (AM)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count149
+\calc@Bcount=\count150
+\calc@Adimen=\dimen201
+\calc@Bdimen=\dimen202
+\calc@Askip=\skip51
+\calc@Bskip=\skip52
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count151
+\calc@Cskip=\skip53
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2015/04/20 v2.0e eso-pic (RN)
+)
+\AM@pagewidth=\dimen203
+\AM@pageheight=\dimen204
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2015/05/11 v0.4x Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box42
+\AM@toc@title=\toks40
+\c@AM@survey=\count152
+\AM@templatesizebox=\box43
+)
 (/usr/local/texlive/2015/texmf-dist/tex/latex/bbding/bbding.sty
 Package: bbding 1999/04/15 v1.01 Dingbats symbols
 )
@@ -819,39 +852,41 @@ Package: parskip 2001/04/09 non-zero parskip adjustments
 
 LaTeX Warning: Label `dandt1' multiply defined.
 
-) (./appendix5.aux))
+) (./appendix5.aux) (./appendix6.aux))
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 85.
- (/usr/local/texlive/2015/texmf-dist/tex/latex/lm/ot1lmr.fd
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 88.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
+)
+(/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count149
-\scratchdimen=\dimen201
-\scratchbox=\box42
-\nofMPsegments=\count150
-\nofMParguments=\count151
-\everyMPshowfont=\toks40
-\MPscratchCnt=\count152
-\MPscratchDim=\dimen202
-\MPnumerator=\count153
-\makeMPintoPDFobject=\count154
-\everyMPtoPDFconversion=\toks41
+\scratchcounter=\count153
+\scratchdimen=\dimen205
+\scratchbox=\box44
+\nofMPsegments=\count154
+\nofMParguments=\count155
+\everyMPshowfont=\toks41
+\MPscratchCnt=\count156
+\MPscratchDim=\dimen206
+\MPnumerator=\count157
+\makeMPintoPDFobject=\count158
+\everyMPtoPDFconversion=\toks42
 ) (/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
@@ -874,81 +909,82 @@ enefit from \pgfplotsset{compat=1.12} (current compat level: 1.8).
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\AtBeginShipoutBox=\box43
-Package hyperref Info: Link coloring OFF on input line 85.
+\AtBeginShipoutBox=\box45
+Package hyperref Info: Link coloring OFF on input line 88.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
 (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count155
+\c@section@level=\count159
 )
-LaTeX Info: Redefining \ref on input line 85.
-LaTeX Info: Redefining \pageref on input line 85.
-LaTeX Info: Redefining \nameref on input line 85.
+LaTeX Info: Redefining \ref on input line 88.
+LaTeX Info: Redefining \pageref on input line 88.
+LaTeX Info: Redefining \nameref on input line 88.
 
 (./thesis.out) (./thesis.out)
 \@outlinefile=\write4
 \openout4 = `thesis.out'.
 
-LaTeX Info: Redefining \celsius on input line 85.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 85.
+LaTeX Info: Redefining \celsius on input line 88.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 88.
 
 
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 85.
-Package gensymb Info: Using \Omega for \ohm on input line 85.
+LaTeX Info: Redefining \ohm on input line 88.
+Package gensymb Info: Using \Omega for \ohm on input line 88.
 
 Package gensymb Warning: Not defining \micro.
 
 [1
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 88--88
+Underfull \hbox (badness 10000) in paragraph at lines 91--91
 
  []
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 89--89
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 89--89
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 89--89
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
 
  []
 
 [3]
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 98.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 101.
+
  (/usr/local/texlive/2015/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 98.
-
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 101
+.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 98.
-
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 101
+.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 98.
+(Font)              <12> on input line 101.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 98.
+(Font)              <8> on input line 101.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 98.
+(Font)              <6> on input line 101.
  [4
 
 ] [5
@@ -1010,35 +1046,35 @@ Chapter 2.
 
 
 ] [9] [10] [11]
-Underfull \hbox (badness 10000) in paragraph at lines 51--61
+Underfull \hbox (badness 10000) in paragraph at lines 50--60
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 51--61
+Underfull \hbox (badness 10000) in paragraph at lines 50--60
 
  []
 
-[12] [13] [14] <images/clustering.png, id=912, 441.65pt x 464.73625pt>
+[12] [13] [14] <images/clustering.png, id=923, 441.65pt x 464.73625pt>
 File: images/clustering.png Graphic file (type png)
 
 <use images/clustering.png>
-Package pdftex.def Info: images/clustering.png used on input line 91.
+Package pdftex.def Info: images/clustering.png used on input line 90.
 (pdftex.def)             Requested size: 284.52756pt x 299.41574pt.
  [15]
-Overfull \hbox (14.55919pt too wide) in paragraph at lines 99--100
+Overfull \hbox (14.55919pt too wide) in paragraph at lines 98--99
 \OT1/lmr/m/n/12 Clus-ter-ing tech-niques are men-tioned as well as dif-fer-ent 
 ap-proaches to clas-sify the information
  []
 
 [16 <./images/clustering.png>] [17] [18]
-Overfull \hbox (6.20438pt too wide) in paragraph at lines 122--124
+Overfull \hbox (6.20438pt too wide) in paragraph at lines 121--123
 \OT1/lmr/m/n/12 team with more communication cre-ated bet-ter re-sults than a t
 eam with less communication. 
  []
 
 [19] [20]
-Underfull \hbox (badness 10000) in paragraph at lines 146--147
+Underfull \hbox (badness 10000) in paragraph at lines 145--146
 
  []
 
@@ -1051,14 +1087,14 @@ Chapter 3.
 
 
 
-] [25] [26] <images/sensors.png, id=1015, 1505.625pt x 1626.075pt>
+] [25] [26] <images/sensors.png, id=1027, 1505.625pt x 1626.075pt>
 File: images/sensors.png Graphic file (type png)
 
 <use images/sensors.png>
 Package pdftex.def Info: images/sensors.png used on input line 73.
 (pdftex.def)             Requested size: 227.62204pt x 245.81123pt.
  [27 <./images/sensors.png>]
-<images/AndroidUI.png, id=1021, 2007.5pt x 593.21625pt>
+<images/AndroidUI.png, id=1033, 2007.5pt x 593.21625pt>
 File: images/AndroidUI.png Graphic file (type png)
 
 <use images/AndroidUI.png>
@@ -1075,12 +1111,12 @@ Overfull \hbox (12.20538pt too wide) in paragraph at lines 117--119
 e server but not re-ceive information,
  []
 
-[30] [31] [32] [33]) [34]
+[30] [31] [32] [33]) [34] [35]
 \openout2 = `implementation.aux'.
 
  (./implementation.tex
 Chapter 4.
-[35
+[36
 
 
 
@@ -1095,14 +1131,14 @@ LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 16.
 
  (/usr/local/texlive/2015/texmf-dist/tex/latex/lm/ot1lmtt.fd
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [36] [37]
-[38] [39] <images/dataflow.png, id=1091, 1100.11pt x 354.32375pt>
+) [37] [38]
+[39] [40] <images/dataflow.png, id=1107, 1100.11pt x 354.32375pt>
 File: images/dataflow.png Graphic file (type png)
 
 <use images/dataflow.png>
 Package pdftex.def Info: images/dataflow.png used on input line 59.
 (pdftex.def)             Requested size: 455.24411pt x 146.6253pt.
- [40 <./images/dataflow.png>] [41] [42] [43]
+ [41 <./images/dataflow.png>] [42] [43] [44]
 LaTeX Font Info:    Try loading font information for OMS+lmr on input line 114.
 
 
@@ -1111,29 +1147,29 @@ File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 114.
-) [44] [45]
+) [45] [46]
 \openout2 = `experiment.aux'.
 
 
 (./experiment.tex
 Chapter 5.
-<images/experiment.png, id=1122, 1242.6425pt x 733.74126pt>
+<images/experiment.png, id=1138, 1242.6425pt x 733.74126pt>
 File: images/experiment.png Graphic file (type png)
 
 <use images/experiment.png>
 Package pdftex.def Info: images/experiment.png used on input line 10.
 (pdftex.def)             Requested size: 455.24411pt x 268.80417pt.
- [46
+ [47
 
 
 
-] [47 <./images/experiment.png>] [48] [49]
-[50]) [51]
+] [48 <./images/experiment.png>] [49] [50]
+[51]) [52]
 \openout2 = `classification.aux'.
 
  (./classification.tex
 Chapter 6.
-[52
+[53
 
 
 
@@ -1147,15 +1183,15 @@ Underfull \hbox (badness 1205) in paragraph at lines 48--48
 []|\OT1/lmr/m/n/12 Detailed Draw-ing Work, Very De-tailed Me-chan-i-cal
  []
 
-[53] <images/accDevice.png, id=1194, 1164.35pt x 886.31125pt>
+[54] <images/accDevice.png, id=1210, 1164.35pt x 886.31125pt>
 File: images/accDevice.png Graphic file (type png)
 
 <use images/accDevice.png>
 Package pdftex.def Info: images/accDevice.png used on input line 64.
 (pdftex.def)             Requested size: 284.52756pt x 216.57338pt.
- [54
+ [55
 
- <./images/accDevice.png>] [55]) [56] [57]
+ <./images/accDevice.png>] [56]) [57] [58]
 \openout2 = `results.aux'.
 
 
@@ -1165,17 +1201,17 @@ Chapter 7.
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 4.
 
-<images/entries.png, id=1224, 1505.625pt x 316.18124pt>
+<images/entries.png, id=1240, 1505.625pt x 316.18124pt>
 File: images/entries.png Graphic file (type png)
 
 <use images/entries.png>
 Package pdftex.def Info: images/entries.png used on input line 9.
 (pdftex.def)             Requested size: 455.24411pt x 95.6029pt.
- [58
+ [59
 
 
 
- <./images/entries.png>] [59]
+ <./images/entries.png>] [60]
 Underfull \hbox (badness 10000) in paragraph at lines 34--43
 
  []
@@ -1185,7 +1221,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--43
 
  []
 
-[60]
+[61]
 Underfull \hbox (badness 10000) in paragraph at lines 55--57
 
  []
@@ -1196,96 +1232,89 @@ Overfull \hbox (12.07744pt too wide) in paragraph at lines 297--298
  [][] 
  []
 
-[61]
+[62]
 Missing character: There is no , in font nullfont!
 
 Overfull \hbox (2.93858pt too wide) in paragraph at lines 521--522
  [][] 
  []
 
-[62]
-
-LaTeX Warning: Reference `resultCoffee' on page 63 undefined on input line 538.
-
-
+[63]
 
 Package pgfplots Warning: scatter/classes: can't find class for '1'!? Please ma
 ke sure you have specified 'scatter src=explicit symbolic'. Ignoring class '1' 
-(this message will not come again). on input line 598.
+(this message will not come again). on input line 601.
 
  [warning /pgfplots/warning/scatter classes no such class]
 
 Package pgfplots Warning: scatter/classes: can't find class for '2'!? Please ma
 ke sure you have specified 'scatter src=explicit symbolic'. Ignoring class '2' 
-(this message will not come again). on input line 598.
+(this message will not come again). on input line 601.
 
  [warning /pgfplots/warning/scatter classes no such class]
 
 Package pgfplots Warning: scatter/classes: can't find class for '3'!? Please ma
 ke sure you have specified 'scatter src=explicit symbolic'. Ignoring class '3' 
-(this message will not come again). on input line 598.
+(this message will not come again). on input line 601.
 
  [warning /pgfplots/warning/scatter classes no such class]
 
 Package pgfplots Warning: scatter/classes: can't find class for '4'!? Please ma
 ke sure you have specified 'scatter src=explicit symbolic'. Ignoring class '4' 
-(this message will not come again). on input line 598.
+(this message will not come again). on input line 601.
 
  [warning /pgfplots/warning/scatter classes no such class]
 
 Package pgfplots Warning: scatter/classes: can't find class for '5'!? Please ma
 ke sure you have specified 'scatter src=explicit symbolic'. Ignoring class '5' 
-(this message will not come again). on input line 598.
+(this message will not come again). on input line 601.
 
  [warning /pgfplots/warning/scatter classes no such class]
 
 Package pgfplots Warning: scatter/classes: can't find class for '6'!? Please ma
 ke sure you have specified 'scatter src=explicit symbolic'. Ignoring class '6' 
-(this message will not come again). on input line 598.
+(this message will not come again). on input line 601.
 
  [warning /pgfplots/warning/scatter classes no such class]
 
 Package pgfplots Warning: scatter/classes: can't find class for '7'!? Please ma
 ke sure you have specified 'scatter src=explicit symbolic'. Ignoring class '7' 
-(this message will not come again). on input line 598.
+(this message will not come again). on input line 601.
 
  [warning /pgfplots/warning/scatter classes no such class]
 
 Package pgfplots Warning: scatter/classes: can't find class for '8'!? Please ma
 ke sure you have specified 'scatter src=explicit symbolic'. Ignoring class '8' 
-(this message will not come again). on input line 598.
+(this message will not come again). on input line 601.
 
  [warning /pgfplots/warning/scatter classes no such class]
 
 Package pgfplots Warning: scatter/classes: can't find class for '9'!? Please ma
 ke sure you have specified 'scatter src=explicit symbolic'. Ignoring class '9' 
-(this message will not come again). on input line 598.
+(this message will not come again). on input line 601.
 
  [warning /pgfplots/warning/scatter classes no such class]
 
 Package pgfplots Warning: scatter/classes: can't find class for '10'!? Please m
 ake sure you have specified 'scatter src=explicit symbolic'. Ignoring class '10
-' (this message will not come again). on input line 598.
+' (this message will not come again). on input line 601.
 
  [warning /pgfplots/warning/scatter classes no such class]
-[63] [64]
+[64] [65]
 
-LaTeX Warning: Reference `resultRun' on page 65 undefined on input line 698.
-
-
-LaTeX Warning: Reference `resultRunning' on page 65 undefined on input line 698
+LaTeX Warning: Reference `resultRunning' on page 66 undefined on input line 703
 .
 
-) [65]
+[66]) [67]
 \openout2 = `conclusion.aux'.
 
  (./conclusion.tex
 Chapter 8.
-[66
+[68
 
 
 
-] [67]) [68]
+] [69]) [70]
 \openout2 = `appendix1.aux'.
 
  (./appendix1.tex
@@ -1296,20 +1325,20 @@ Overfull \hbox (13.49446pt too wide) in paragraph at lines 3--21
  []
 
 )
-Overfull \hbox (13.49446pt too wide) in paragraph at lines 22--136
+Overfull \hbox (13.49446pt too wide) in paragraph at lines 22--139
 [][] 
  []
 
-[69
+[71
 
 
 
-] [70]
+] [72]
 \openout2 = `appendix2.aux'.
 
  (./appendix2.tex
 Appendix B.
-) [71
+) [73
 
 
 
@@ -1323,7 +1352,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--19
 
  []
 
-[72
+[74
 
 
 
@@ -1337,12 +1366,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 27--34
 
  []
 
-[73]) [74]
+[75]) [76]
 \openout2 = `appendix4.aux'.
 
  (./appendix4.tex
 Appendix D.
-[75
+[77
 
 
 
@@ -1359,7 +1388,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--13
 LaTeX Font Info:    Try loading font information for U+ding on input line 18.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/bbding/Uding.fd
 File: Uding.fd 1996/02/01 v1.0 BBding font definitions
-) [76
+) [78
 
 ]
 Missing character: There is no , in font nullfont!
@@ -1375,9 +1404,9 @@ Overfull \hbox (0.7798pt too wide) in paragraph at lines 153--155
  [][] 
  []
 
-[77]
+[79]
 Missing character: There is no , in font nullfont!
-) [78] (./participant2.tex
+) [80] (./participant2.tex
 Underfull \hbox (badness 10000) in paragraph at lines 5--13
 
  []
@@ -1387,19 +1416,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--13
 
  []
 
-[79
+[81
 
 ]
 Missing character: There is no , in font nullfont!
 Missing character: There is no , in font nullfont!
- [80]
+ [82]
 Missing character: There is no , in font nullfont!
 
 Overfull \hbox (7.087pt too wide) in paragraph at lines 411--413
  [][] 
  []
 
-) [81] (./participant3.tex
+) [83] (./participant3.tex
 Underfull \hbox (badness 10000) in paragraph at lines 5--13
 
  []
@@ -1409,14 +1438,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--13
 
  []
 
-[82
+[84
 
 ]
 Missing character: There is no , in font nullfont!
 Missing character: There is no , in font nullfont!
- [83]
+ [85]
 Missing character: There is no , in font nullfont!
-) [84] (./participant4.tex
+) [86] (./participant4.tex
 Underfull \hbox (badness 10000) in paragraph at lines 5--13
 
  []
@@ -1426,14 +1455,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--13
 
  []
 
-[85
+[87
 
 ]
 Missing character: There is no , in font nullfont!
 Missing character: There is no , in font nullfont!
- [86]
+ [88]
 Missing character: There is no , in font nullfont!
-) [87] (./participant5.tex
+) [89] (./participant5.tex
 Underfull \hbox (badness 10000) in paragraph at lines 5--13
 
  []
@@ -1443,19 +1472,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--13
 
  []
 
-[88
+[90
 
 ]
 Missing character: There is no , in font nullfont!
 Missing character: There is no , in font nullfont!
- [89]
+ [91]
 Missing character: There is no , in font nullfont!
 
 Overfull \hbox (6.20042pt too wide) in paragraph at lines 567--569
  [][] 
  []
 
-)) [90]
+)) [92]
 \openout2 = `appendix5.aux'.
 
  (./appendix5.tex
@@ -1560,7 +1589,7 @@ Overfull \hbox (4.00165pt too wide) in paragraph at lines 22--23
  []|\OT1/lmr/m/n/12 18:15| 
  []
 
-[91
+[93
 
 
 
@@ -1814,7 +1843,112 @@ Overfull \hbox (4.00165pt too wide) in paragraph at lines 78--79
  []|\OT1/lmr/m/n/12 08:31| 
  []
 
-) [92] (./thesis.bbl
+) [94]
+\openout2 = `appendix6.aux'.
+
+ (./appendix6.tex
+Appendix F.
+<ethics.pdf, id=1437, 597.51233pt x 845.0471pt>
+File: ethics.pdf Graphic file (type pdf)
+ <use ethics.pdf>
+Package pdftex.def Info: ethics.pdf used on input line 5.
+(pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
+File: ethics.pdf Graphic file (type pdf)
+
+<use ethics.pdf>
+Package pdftex.def Info: ethics.pdf used on input line 5.
+(pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
+ <ethics.pdf, id=1440, page=1, 597.51233pt x 845.0471pt>
+File: ethics.pdf Graphic file (type pdf)
+
+<use ethics.pdf, page 1>
+Package pdftex.def Info: ethics.pdf, page1 used on input line 5.
+(pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
+File: ethics.pdf Graphic file (type pdf)
+ <use ethics.pdf, page 1>
+Package pdftex.def Info: ethics.pdf, page1 used on input line 5.
+(pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
+File: ethics.pdf Graphic file (type pdf)
+ <use ethics.pdf, page 1>
+Package pdftex.def Info: ethics.pdf, page1 used on input line 5.
+(pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
+File: ethics.pdf Graphic file (type pdf)
+
+<use ethics.pdf, page 1>
+Package pdftex.def Info: ethics.pdf, page1 used on input line 5.
+(pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
+ [95
+
+
+
+]
+<ethics.pdf, id=1446, page=2, 597.51233pt x 845.0471pt>
+File: ethics.pdf Graphic file (type pdf)
+
+<use ethics.pdf, page 2>
+Package pdftex.def Info: ethics.pdf, page2 used on input line 5.
+(pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
+File: ethics.pdf Graphic file (type pdf)
+ <use ethics.pdf, page 2>
+Package pdftex.def Info: ethics.pdf, page2 used on input line 5.
+(pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
+File: ethics.pdf Graphic file (type pdf)
+ <use ethics.pdf, page 1>
+Package pdftex.def Info: ethics.pdf, page1 used on input line 5.
+(pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
+
+[96 <./ethics.pdf>] <ethics.pdf, id=1471, page=3, 597.51233pt x 845.0471pt>
+File: ethics.pdf Graphic file (type pdf)
+
+<use ethics.pdf, page 3>
+Package pdftex.def Info: ethics.pdf, page3 used on input line 5.
+(pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
+File: ethics.pdf Graphic file (type pdf)
+ <use ethics.pdf, page 3>
+Package pdftex.def Info: ethics.pdf, page3 used on input line 5.
+(pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
+File: ethics.pdf Graphic file (type pdf)
+ <use ethics.pdf, page 2>
+Package pdftex.def Info: ethics.pdf, page2 used on input line 5.
+(pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
+
+[97 <./ethics.pdf>] <ethics.pdf, id=1476, page=4, 597.51233pt x 845.0471pt>
+File: ethics.pdf Graphic file (type pdf)
+
+<use ethics.pdf, page 4>
+Package pdftex.def Info: ethics.pdf, page4 used on input line 5.
+(pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
+File: ethics.pdf Graphic file (type pdf)
+ <use ethics.pdf, page 4>
+Package pdftex.def Info: ethics.pdf, page4 used on input line 5.
+(pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
+File: ethics.pdf Graphic file (type pdf)
+ <use ethics.pdf, page 3>
+Package pdftex.def Info: ethics.pdf, page3 used on input line 5.
+(pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
+
+[98 <./ethics.pdf>] <ethics.pdf, id=1481, page=5, 597.51233pt x 845.0471pt>
+File: ethics.pdf Graphic file (type pdf)
+
+<use ethics.pdf, page 5>
+Package pdftex.def Info: ethics.pdf, page5 used on input line 5.
+(pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
+File: ethics.pdf Graphic file (type pdf)
+ <use ethics.pdf, page 5>
+Package pdftex.def Info: ethics.pdf, page5 used on input line 5.
+(pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
+File: ethics.pdf Graphic file (type pdf)
+ <use ethics.pdf, page 4>
+Package pdftex.def Info: ethics.pdf, page4 used on input line 5.
+(pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
+
+[99 <./ethics.pdf>]
+File: ethics.pdf Graphic file (type pdf)
+ <use ethics.pdf, page 5>
+Package pdftex.def Info: ethics.pdf, page5 used on input line 5.
+(pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
+ [100 <./ethics.pdf>])
+(./thesis.bbl
 Underfull \hbox (badness 1281) in paragraph at lines 17--24
 []\OT1/lmr/m/n/12 Jeff Bercovici.  Slack is our com-pany of the year. here's wh
 y ev-ery-body's
@@ -1826,41 +1960,48 @@ Underfull \hbox (badness 3668) in paragraph at lines 17--24
 com / magazine / 201512 / jeff-[]bercovici /
  []
 
-[93
+[101
 
 
-] [94] [95] [96] [97]) [98]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 151.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 151.
- (./thesis.aux (./introduction.aux) (./sota.aux)
-(./design.aux) (./implementation.aux) (./experiment.aux) (./classification.aux)
-(./results.aux) (./conclusion.aux) (./appendix1.aux) (./appendix2.aux)
-(./appendix3.aux) (./appendix4.aux) (./appendix5.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 151.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 151.
-Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: C0689DAD7B82FB3C82E5D754A2963CA7;8684.
+] [102] [103] [104] [105]) [106]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 155.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 155.
+ (./thesis.aux (./introduction.aux)
+(./sota.aux) (./design.aux) (./implementation.aux) (./experiment.aux)
+(./classification.aux) (./results.aux) (./conclusion.aux) (./appendix1.aux)
+(./appendix2.aux) (./appendix3.aux) (./appendix4.aux) (./appendix5.aux)
+(./appendix6.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 155.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 155.
 
+
+Package rerunfilecheck Warning: File `thesis.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `thesis.out':
+(rerunfilecheck)             Before: 90CA9D93E59773E921018189E6FC2661;8749
+(rerunfilecheck)             After:  66573B10727AC24765B5221F967DD486;8773.
 
 LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 151.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 155.
  )
 (\end occurred inside a group at level 1)
 
 ### simple group (level 1) entered at line 14 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 29838 strings out of 493089
- 707272 string characters out of 6134841
- 956695 words of memory out of 5000000
- 32321 multiletter control sequences out of 15000+600000
+ 30558 strings out of 493089
+ 718643 string characters out of 6134841
+ 971568 words of memory out of 5000000
+ 33001 multiletter control sequences out of 15000+600000
  59868 words of font info for 48 fonts, out of 8000000 for 9000
  1147 hyphenation exceptions out of 8191
- 63i,19n,110p,1375b,2398s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,19n,110p,1375b,2417s stack positions out of 5000i,500n,10000p,200000b,80000s
  </Users/michael/Library/texlive/2015/texmf-var/fonts/pk/ljfour
 /public/bbding/bbding10.720pk>{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvi
 ps/lm/lm-rmtt.enc}{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-mat
@@ -1878,10 +2019,10 @@ t/fonts/type1/public/lm/lmro12.pfb></usr/local/texlive/2015/texmf-dist/fonts/ty
 pe1/public/lm/lmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public
 /lm/lmsy8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmtt10.
 pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on thesis.pdf (112 pages, 1682576 bytes).
+Output written on thesis.pdf (120 pages, 1750859 bytes).
 PDF statistics:
- 1581 PDF objects out of 1728 (max. 8388607)
- 1422 compressed objects within 15 object streams
- 369 named destinations out of 1000 (max. 500000)
- 1144 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1667 PDF objects out of 1728 (max. 8388607)
+ 1486 compressed objects within 15 object streams
+ 382 named destinations out of 1000 (max. 500000)
+ 1192 words of extra memory for PDF output out of 10000 (max. 10000000)
 

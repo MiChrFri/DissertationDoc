@@ -528,19 +528,22 @@ Also, participant number 2 was the only one who answered the question of being d
 \subsection{Problems}
 The gathering process showed some problems with the permissions of different mobile devices and different settings. Not every device has the same sensors and some devices have different default security settings that permit to access specific data within the application even when the application itself has permissions granted.
 
+
 \section{Individual Experiment Results}
 The results of the individual experiment are demonstrating the usage and the abilities for the Dather Application for a single participant. Rather than in the first experiment, it is taking only the data of a single person into account.
 The data only shows a plausible factor but doesn't confirm the influences of the tested factors. A lot more test cases would be needed to create a more accurate average value. However, the purpose of this experiment was to demonstrate the usage of the data in more controlled comparable environments rather than in the other experiment which detected the environment and patterns. 
-
-\subsection{Coffee}
-The table \ref{coffee} shows the times of 10 Sudoku solvings of the participant. The results indicates that at the beginning the participant was faster under the influence of caffeine and then in later runs it happened to be the opposite. As the measurements where done on different days, the participant probably gained more practice in solving Sodukus, which shows the decreasing time to solve a Sudoku.
-\\
-The average time, the participant needed without drinking coffee was \textbf{14:24 minutes} and after consuming \textbf{17:37 minutes} minutes per Sudoku. The participnat needed 3:13 minutes or 22.34\%  longer after having a strong coffee \ref{resultCoffee}.\\
-These results are different than the findings in \cite{liguori1997absorption}. Their results showed that a similar amount of caffeine increases the cognitive performance. \\
-However, in our case the participant of the Experiment mentioned to feel fretful after the intake of the high amount of caffeine. That could be a reason for the lower performance of the subject. Thus, it is possible that a overdose had negative impact on the participant and lower amount of caffeine would have had resulted better. 
+\bigbreak
+The graphs of the three scenarios \ref{coffeeGraph}, \ref{musicGraph} and \ref{runGraph} shows an overview of the durations, the participant needed to solve the Sudokus. The black dots are signaling the solving time on the y-axis for each of the ten measurements per scenario. The horizontal line in every scenario is at the position of average during, the participant needed to solve the Sudokus. 
 
 \FloatBarrier
+\subsection{Coffee}
+The the scatter plot \ref{coffeeGraph} shows the times of 10 Sudoku solvings of the participant. The exact time can be seen in table \ref{coffee} in the appendix.
+\bigbreak
+The results shows an average time which the participant needed without drinking coffee was \textbf{14:24 minutes} and after consuming \textbf{17:37 minutes} minutes per Sudoku. The participant needed 3:13 minutes or 22.34\%  longer after having a strong coffee.\\
+These results are different than the findings in \cite{liguori1997absorption}, who found that a similar amount of caffeine (400 mg) increases the cognitive performance. \\
+However, in our case the participant of the Experiment mentioned to feel fretful after the intake of the high amount of caffeine. That could be a reason for the lower performance of the subject. Thus, it is possible that a overdose had negative impact on the participant and lower amount of caffeine would have had resulted better. 
 
+\begin{figure}
 \begin{tikzpicture}
 \begin{axis}[
 ylabel=solving time in minutes,
@@ -597,13 +600,15 @@ coordinates {
 
 \end{axis}
 \end{tikzpicture}
+\caption{Scatter Plot: Coffee} \label{coffeeGraph}
+\end{figure}
 
 \FloatBarrier
 
 \subsection{Music}
 
 \ref{musicGraph} and \ref{music} show the times of the Sudokus that have been solved by the participant and the duration it took. It shows that the average time of solving was the shortest when the participant was listening to music. 
-The participant solved the ten Sudokus in 89.35\% of the average time compared to the results archived without music. That is 1 minute and 34 seconds less time in average. 
+The participant solved the ten Sudokus in 89.35\% of the average time compared to the results archived without music. That is \textbf{1 minute and 34 seconds less time in average}. 
 On the other hand, the average solving time while listening to heavy metal music was 4.08 \% or 36 seconds slower than without listening to music. 
 The results show evidence that for the participant the cognitive performance in solving Sudoku riddles was increasing when listening to classical music and decreasing at heavy metal music. 
 
@@ -695,10 +700,10 @@ coordinates {
 \FloatBarrier
 
 \subsection{Running}
-The graph \ref{resultRun} results show a trend for a better performance after strong physical activity. The average solving time after the run (\textbf{10:52 min}) is 3:20 min faster than the \textbf{14:12} minutes before running. That is a decrease of \textbf{22.5\%} from before to after and can be seen in \ref{resultRunning}. 
-Compared to the two other individual experiments, the results of this scenario are differing more at each measurement. 4 times, the solving after the running took actually longer than the solvings in the pre-run state. 
+The graph \ref{runGraph} results show a trend for a better performance after strong physical activity. Table table with the exact times can also be found in the appendix \ref{running}.The average solving time after the run (\textbf{10:52 min}) is 3:20 min faster than the \textbf{14:12} minutes before running. That is a decrease of \textbf{22.5\%} from before to after and can be seen in \ref{resultRunning}. 
+Compared to the two other individual experiments, the results of this scenario are differing more at each measurement. 4 times, the solving after the running took actually longer than the completion in the pre-run state. 
 
-
+\begin{figure}
 \begin{tikzpicture}
 \begin{axis}[
 ylabel=solving time in minutes,
@@ -755,5 +760,8 @@ coordinates {
 
 \end{axis}
 \end{tikzpicture}
+\caption{Scatter Plot: Running} \label{runGraph}
+\end{figure}
+
 
 \FloatBarrier
