@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.18)  20 AUG 2016 18:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.18)  21 AUG 2016 12:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -984,21 +984,32 @@ Chapter 1.
 
 
 ]
-Overfull \hbox (16.71153pt too wide) in paragraph at lines 35--40
-\OT1/lmr/m/n/12 In a sec-ond ex-per-i-ment, a sin-gle par-tic-i-pants solves Su
--dokus in a more con-trolled environment.
+Overfull \hbox (16.90768pt too wide) in paragraph at lines 35--38
+\OT1/lmr/m/n/12 In a sec-ond ex-per-i-ment, only one par-tic-i-pant solves Su-d
+okus in a more con-trolled environment.
  []
 
-[2] [3] [4] [5] [6] [7]) [8]
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--38
+
+ []
+
+[2] [3]
+Overfull \hbox (8.88005pt too wide) in paragraph at lines 51--54
+\OT1/lmr/m/n/12 Thus, a lot of peo-ple own the hard-ware with the ca-pa-bil-ity
+ to col-lect rich con-text information
+ []
+
+[4] [5] [6]) [7]
 \openout2 = `sota.aux'.
 
  (./sota.tex
 Chapter 2.
-[9
+[8
 
 
 
-] [10] [11] [12]
+] [9] [10] [11]
 Underfull \hbox (badness 10000) in paragraph at lines 51--61
 
  []
@@ -1008,68 +1019,68 @@ Underfull \hbox (badness 10000) in paragraph at lines 51--61
 
  []
 
-[13] [14] [15] <images/clustering.png, id=916, 441.65pt x 464.73625pt>
+[12] [13] [14] <images/clustering.png, id=912, 441.65pt x 464.73625pt>
 File: images/clustering.png Graphic file (type png)
 
 <use images/clustering.png>
 Package pdftex.def Info: images/clustering.png used on input line 91.
 (pdftex.def)             Requested size: 284.52756pt x 299.41574pt.
- [16]
+ [15]
 Overfull \hbox (14.55919pt too wide) in paragraph at lines 99--100
 \OT1/lmr/m/n/12 Clus-ter-ing tech-niques are men-tioned as well as dif-fer-ent 
 ap-proaches to clas-sify the information
  []
 
-[17 <./images/clustering.png>] [18] [19]
+[16 <./images/clustering.png>] [17] [18]
 Overfull \hbox (6.20438pt too wide) in paragraph at lines 122--124
 \OT1/lmr/m/n/12 team with more communication cre-ated bet-ter re-sults than a t
 eam with less communication. 
  []
 
-[20] [21]
+[19] [20]
 Underfull \hbox (badness 10000) in paragraph at lines 146--147
 
  []
 
-[22] [23]) [24]
+[21] [22]) [23]
 \openout2 = `design.aux'.
 
  (./design.tex
 Chapter 3.
-[25
+[24
 
 
 
-] [26] [27] <images/sensors.png, id=1019, 1505.625pt x 1626.075pt>
+] [25] [26] <images/sensors.png, id=1015, 1505.625pt x 1626.075pt>
 File: images/sensors.png Graphic file (type png)
 
 <use images/sensors.png>
 Package pdftex.def Info: images/sensors.png used on input line 73.
 (pdftex.def)             Requested size: 227.62204pt x 245.81123pt.
- [28 <./images/sensors.png>]
-<images/AndroidUI.png, id=1025, 2007.5pt x 593.21625pt>
+ [27 <./images/sensors.png>]
+<images/AndroidUI.png, id=1021, 2007.5pt x 593.21625pt>
 File: images/AndroidUI.png Graphic file (type png)
 
 <use images/AndroidUI.png>
 Package pdftex.def Info: images/AndroidUI.png used on input line 90.
 (pdftex.def)             Requested size: 455.24411pt x 134.5179pt.
- [29 <./images/AndroidUI.png>]
+ [28 <./images/AndroidUI.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 108--112
 
  []
 
-[30]
+[29]
 Overfull \hbox (12.20538pt too wide) in paragraph at lines 117--119
 \OT1/lmr/m/n/12 As this ap-pli-ca-tion just re-quires to send information to th
 e server but not re-ceive information,
  []
 
-[31] [32] [33] [34]) [35]
+[30] [31] [32] [33]) [34]
 \openout2 = `implementation.aux'.
 
  (./implementation.tex
 Chapter 4.
-[36
+[35
 
 
 
@@ -1084,14 +1095,14 @@ LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 16.
 
  (/usr/local/texlive/2015/texmf-dist/tex/latex/lm/ot1lmtt.fd
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [37] [38]
-[39] [40] <images/dataflow.png, id=1095, 1100.11pt x 354.32375pt>
+) [36] [37]
+[38] [39] <images/dataflow.png, id=1091, 1100.11pt x 354.32375pt>
 File: images/dataflow.png Graphic file (type png)
 
 <use images/dataflow.png>
 Package pdftex.def Info: images/dataflow.png used on input line 59.
 (pdftex.def)             Requested size: 455.24411pt x 146.6253pt.
- [41 <./images/dataflow.png>] [42] [43] [44]
+ [40 <./images/dataflow.png>] [41] [42] [43]
 LaTeX Font Info:    Try loading font information for OMS+lmr on input line 114.
 
 
@@ -1100,29 +1111,29 @@ File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 114.
-) [45] [46]
+) [44] [45]
 \openout2 = `experiment.aux'.
 
 
 (./experiment.tex
 Chapter 5.
-<images/experiment.png, id=1126, 1242.6425pt x 733.74126pt>
+<images/experiment.png, id=1122, 1242.6425pt x 733.74126pt>
 File: images/experiment.png Graphic file (type png)
 
 <use images/experiment.png>
 Package pdftex.def Info: images/experiment.png used on input line 10.
 (pdftex.def)             Requested size: 455.24411pt x 268.80417pt.
- [47
+ [46
 
 
 
-] [48 <./images/experiment.png>] [49] [50]
-[51]) [52]
+] [47 <./images/experiment.png>] [48] [49]
+[50]) [51]
 \openout2 = `classification.aux'.
 
  (./classification.tex
 Chapter 6.
-[53
+[52
 
 
 
@@ -1136,15 +1147,15 @@ Underfull \hbox (badness 1205) in paragraph at lines 48--48
 []|\OT1/lmr/m/n/12 Detailed Draw-ing Work, Very De-tailed Me-chan-i-cal
  []
 
-[54] <images/accDevice.png, id=1198, 1164.35pt x 886.31125pt>
+[53] <images/accDevice.png, id=1194, 1164.35pt x 886.31125pt>
 File: images/accDevice.png Graphic file (type png)
 
 <use images/accDevice.png>
 Package pdftex.def Info: images/accDevice.png used on input line 64.
 (pdftex.def)             Requested size: 284.52756pt x 216.57338pt.
- [55
+ [54
 
- <./images/accDevice.png>] [56]) [57] [58]
+ <./images/accDevice.png>] [55]) [56] [57]
 \openout2 = `results.aux'.
 
 
@@ -1154,17 +1165,17 @@ Chapter 7.
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 4.
 
-<images/entries.png, id=1228, 1505.625pt x 316.18124pt>
+<images/entries.png, id=1224, 1505.625pt x 316.18124pt>
 File: images/entries.png Graphic file (type png)
 
 <use images/entries.png>
 Package pdftex.def Info: images/entries.png used on input line 9.
 (pdftex.def)             Requested size: 455.24411pt x 95.6029pt.
- [59
+ [58
 
 
 
- <./images/entries.png>] [60]
+ <./images/entries.png>] [59]
 Underfull \hbox (badness 10000) in paragraph at lines 34--43
 
  []
@@ -1174,7 +1185,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--43
 
  []
 
-[61]
+[60]
 Underfull \hbox (badness 10000) in paragraph at lines 55--57
 
  []
@@ -1185,16 +1196,16 @@ Overfull \hbox (12.07744pt too wide) in paragraph at lines 297--298
  [][] 
  []
 
-[62]
+[61]
 Missing character: There is no , in font nullfont!
 
 Overfull \hbox (2.93858pt too wide) in paragraph at lines 521--522
  [][] 
  []
 
-[63]
+[62]
 
-LaTeX Warning: Reference `resultCoffee' on page 64 undefined on input line 538.
+LaTeX Warning: Reference `resultCoffee' on page 63 undefined on input line 538.
 
 
 
@@ -1257,24 +1268,24 @@ ake sure you have specified 'scatter src=explicit symbolic'. Ignoring class '10
 ' (this message will not come again). on input line 598.
 
  [warning /pgfplots/warning/scatter classes no such class]
-[64] [65]
+[63] [64]
 
-LaTeX Warning: Reference `resultRun' on page 66 undefined on input line 698.
+LaTeX Warning: Reference `resultRun' on page 65 undefined on input line 698.
 
 
-LaTeX Warning: Reference `resultRunning' on page 66 undefined on input line 698
+LaTeX Warning: Reference `resultRunning' on page 65 undefined on input line 698
 .
 
-) [66]
+) [65]
 \openout2 = `conclusion.aux'.
 
  (./conclusion.tex
 Chapter 8.
-[67
+[66
 
 
 
-] [68]) [69]
+] [67]) [68]
 \openout2 = `appendix1.aux'.
 
  (./appendix1.tex
@@ -1289,16 +1300,16 @@ Overfull \hbox (13.49446pt too wide) in paragraph at lines 22--136
 [][] 
  []
 
-[70
+[69
 
 
 
-] [71]
+] [70]
 \openout2 = `appendix2.aux'.
 
  (./appendix2.tex
 Appendix B.
-) [72
+) [71
 
 
 
@@ -1312,7 +1323,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--19
 
  []
 
-[73
+[72
 
 
 
@@ -1326,12 +1337,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 27--34
 
  []
 
-[74]) [75]
+[73]) [74]
 \openout2 = `appendix4.aux'.
 
  (./appendix4.tex
 Appendix D.
-[76
+[75
 
 
 
@@ -1348,7 +1359,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--13
 LaTeX Font Info:    Try loading font information for U+ding on input line 18.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/bbding/Uding.fd
 File: Uding.fd 1996/02/01 v1.0 BBding font definitions
-) [77
+) [76
 
 ]
 Missing character: There is no , in font nullfont!
@@ -1364,9 +1375,9 @@ Overfull \hbox (0.7798pt too wide) in paragraph at lines 153--155
  [][] 
  []
 
-[78]
+[77]
 Missing character: There is no , in font nullfont!
-) [79] (./participant2.tex
+) [78] (./participant2.tex
 Underfull \hbox (badness 10000) in paragraph at lines 5--13
 
  []
@@ -1376,19 +1387,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--13
 
  []
 
-[80
+[79
 
 ]
 Missing character: There is no , in font nullfont!
 Missing character: There is no , in font nullfont!
- [81]
+ [80]
 Missing character: There is no , in font nullfont!
 
 Overfull \hbox (7.087pt too wide) in paragraph at lines 411--413
  [][] 
  []
 
-) [82] (./participant3.tex
+) [81] (./participant3.tex
 Underfull \hbox (badness 10000) in paragraph at lines 5--13
 
  []
@@ -1398,14 +1409,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--13
 
  []
 
-[83
+[82
 
 ]
 Missing character: There is no , in font nullfont!
 Missing character: There is no , in font nullfont!
- [84]
+ [83]
 Missing character: There is no , in font nullfont!
-) [85] (./participant4.tex
+) [84] (./participant4.tex
 Underfull \hbox (badness 10000) in paragraph at lines 5--13
 
  []
@@ -1415,14 +1426,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--13
 
  []
 
-[86
+[85
 
 ]
 Missing character: There is no , in font nullfont!
 Missing character: There is no , in font nullfont!
- [87]
+ [86]
 Missing character: There is no , in font nullfont!
-) [88] (./participant5.tex
+) [87] (./participant5.tex
 Underfull \hbox (badness 10000) in paragraph at lines 5--13
 
  []
@@ -1432,19 +1443,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--13
 
  []
 
-[89
+[88
 
 ]
 Missing character: There is no , in font nullfont!
 Missing character: There is no , in font nullfont!
- [90]
+ [89]
 Missing character: There is no , in font nullfont!
 
 Overfull \hbox (6.20042pt too wide) in paragraph at lines 567--569
  [][] 
  []
 
-)) [91]
+)) [90]
 \openout2 = `appendix5.aux'.
 
  (./appendix5.tex
@@ -1549,7 +1560,7 @@ Overfull \hbox (4.00165pt too wide) in paragraph at lines 22--23
  []|\OT1/lmr/m/n/12 18:15| 
  []
 
-[92
+[91
 
 
 
@@ -1803,7 +1814,7 @@ Overfull \hbox (4.00165pt too wide) in paragraph at lines 78--79
  []|\OT1/lmr/m/n/12 08:31| 
  []
 
-) [93] (./thesis.bbl
+) [92] (./thesis.bbl
 Underfull \hbox (badness 1281) in paragraph at lines 17--24
 []\OT1/lmr/m/n/12 Jeff Bercovici.  Slack is our com-pany of the year. here's wh
 y ev-ery-body's
@@ -1815,10 +1826,10 @@ Underfull \hbox (badness 3668) in paragraph at lines 17--24
 com / magazine / 201512 / jeff-[]bercovici /
  []
 
-[94
+[93
 
 
-] [95] [96] [97] [98]) [99]
+] [94] [95] [96] [97]) [98]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 151.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 151.
  (./thesis.aux (./introduction.aux) (./sota.aux)
@@ -1843,8 +1854,8 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 151.
 ### simple group (level 1) entered at line 14 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 29839 strings out of 493089
- 707279 string characters out of 6134841
+ 29838 strings out of 493089
+ 707272 string characters out of 6134841
  956695 words of memory out of 5000000
  32321 multiletter control sequences out of 15000+600000
  59868 words of font info for 48 fonts, out of 8000000 for 9000
@@ -1867,10 +1878,10 @@ t/fonts/type1/public/lm/lmro12.pfb></usr/local/texlive/2015/texmf-dist/fonts/ty
 pe1/public/lm/lmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public
 /lm/lmsy8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmtt10.
 pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on thesis.pdf (113 pages, 1683311 bytes).
+Output written on thesis.pdf (112 pages, 1682576 bytes).
 PDF statistics:
- 1585 PDF objects out of 1728 (max. 8388607)
- 1425 compressed objects within 15 object streams
- 370 named destinations out of 1000 (max. 500000)
+ 1581 PDF objects out of 1728 (max. 8388607)
+ 1422 compressed objects within 15 object streams
+ 369 named destinations out of 1000 (max. 500000)
  1144 words of extra memory for PDF output out of 10000 (max. 10000000)
 
