@@ -68,7 +68,7 @@ Inc. Gartner.
 Mark~H Goadrich and Michael~P Rogers.
 \newblock Smart smartphone development: ios versus android.
 \newblock In {\em Proceedings of the 42nd ACM technical symposium on Computer
-  science education}, pages 607--612. ACM, 2011.
+  science education}, pages 607--612, Dallas, Texas, USA, 2011. ACM.
 
 \bibitem{androidDevelopers}
 Inc. Google.
@@ -76,6 +76,12 @@ Inc. Google.
 \newblock
   \url{https://developer.android.com/guide/topics/sensors/sensors_overview.html}.
 \newblock accessed on 08.06.2016.
+
+\bibitem{hillman2008smart}
+Charles~H Hillman, Kirk~I Erickson, and Arthur~F Kramer.
+\newblock Be smart, exercise your heart: exercise effects on brain and
+  cognition.
+\newblock {\em Nature reviews neuroscience}, 9(1):58--65, 2008.
 
 \bibitem{holzinger2012making}
 Andreas Holzinger, Peter Treitler, and Wolfgang Slany.
@@ -148,8 +154,8 @@ Panu Korpip{\"a}{\"a}, Miika Koskinen, Johannes Peltola, Satu-Marja
 John Laugesen and Yufei Yuan.
 \newblock What factors contributed to the success of apple's iphone?
 \newblock In {\em Mobile Business and 2010 Ninth Global Mobility Roundtable
-  (ICMB-GMR), 2010 Ninth International Conference on}, pages 91--99. IEEE,
-  2010.
+  (ICMB-GMR), 2010 Ninth International Conference on}, pages 91--99, Athens,
+  Greece, 2010. IEEE.
 
 \bibitem{liguori1997absorption}
 Anthony Liguori, John~R Hughes, and Jacob~A Grass.
@@ -220,7 +226,7 @@ Thomas Sch{\"o}ps, Torsten Sattler, Christian H{\"a}ne, and Marc Pollefeys.
 \newblock 3d modeling on the go: Interactive 3d reconstruction of large-scale
   scenes on mobile devices.
 \newblock In {\em 3D Vision (3DV), 2015 International Conference on}, pages
-  291--299. IEEE, 2015.
+  291--299, Lyon, France, 2015. IEEE.
 
 \bibitem{sobolewski2009monitoring}
 Rory Sobolewski, Richard~B Reilly, Simon Finnigan, Paul Dockree, Kate

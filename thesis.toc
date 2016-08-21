@@ -101,9 +101,9 @@
 \contentsline {subsection}{\numberline {7.1.6}Results}{62}{subsection.7.1.6}
 \contentsline {subsection}{\numberline {7.1.7}Problems}{63}{subsection.7.1.7}
 \contentsline {section}{\numberline {7.2}Individual Experiment Results}{64}{section.7.2}
-\contentsline {subsection}{\numberline {7.2.1}coffee}{64}{subsection.7.2.1}
-\contentsline {subsection}{\numberline {7.2.2}music}{65}{subsection.7.2.2}
-\contentsline {subsection}{\numberline {7.2.3}running}{66}{subsection.7.2.3}
+\contentsline {subsection}{\numberline {7.2.1}Coffee}{64}{subsection.7.2.1}
+\contentsline {subsection}{\numberline {7.2.2}Music}{65}{subsection.7.2.2}
+\contentsline {subsection}{\numberline {7.2.3}Running}{66}{subsection.7.2.3}
 \contentsline {chapter}{Chapter{} \numberline {8}Conclusions}{67}{chapter.8}
 \contentsline {section}{\numberline {8.1}Project Overview}{67}{section.8.1}
 \contentsline {section}{\numberline {8.2}Contribution}{68}{section.8.2}
@@ -113,12 +113,12 @@
 \contentsline {chapter}{Appendix{} \numberline {C}Programming task}{73}{appendix.C}
 \contentsline {section}{\numberline {C.1}Palindromes}{73}{section.C.1}
 \contentsline {subsection}{\numberline {C.1.1}Question}{73}{subsection.C.1.1}
-\contentsline {subsubsection}{What's a palindrome?}{73}{section*.42}
-\contentsline {subsubsection}{Input structure}{74}{section*.43}
+\contentsline {subsubsection}{What's a palindrome?}{73}{section*.43}
+\contentsline {subsubsection}{Input structure}{74}{section*.44}
 \contentsline {subsection}{\numberline {C.1.2}Example}{74}{subsection.C.1.2}
-\contentsline {subsubsection}{input}{74}{section*.44}
-\contentsline {subsubsection}{Explanation Testcase 1}{74}{section*.45}
-\contentsline {subsubsection}{Explanation Testcase 2}{75}{section*.46}
+\contentsline {subsubsection}{input}{74}{section*.45}
+\contentsline {subsubsection}{Explanation Testcase 1}{74}{section*.46}
+\contentsline {subsubsection}{Explanation Testcase 2}{75}{section*.47}
 \contentsline {chapter}{Appendix{} \numberline {D}Participant data}{76}{appendix.D}
 \contentsline {section}{\numberline {D.1}Participant 1}{77}{section.D.1}
 \contentsline {subsection}{\numberline {D.1.1}date \& time}{77}{subsection.D.1.1}
@@ -159,4 +159,4 @@
 \contentsline {section}{\numberline {E.1}Coffee}{92}{section.E.1}
 \contentsline {section}{\numberline {E.2}Music}{93}{section.E.2}
 \contentsline {section}{\numberline {E.3}Running}{93}{section.E.3}
-\contentsline {chapter}{Bibliography}{94}{appendix*.70}
+\contentsline {chapter}{Bibliography}{94}{appendix*.71}
