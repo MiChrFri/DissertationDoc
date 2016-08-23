@@ -88,76 +88,82 @@
 \contentsline {subsubsection}{Location}{55}{section*.34}
 \contentsline {subsubsection}{Movement}{56}{section*.35}
 \contentsline {subsubsection}{Weather Conditions}{56}{section*.36}
-\contentsline {subsubsection}{Music}{56}{section*.37}
+\contentsline {subsubsection}{Dynamic}{56}{section*.37}
+\contentsline {subsubsection}{Music}{57}{section*.38}
 \contentsline {subsection}{\numberline {6.1.1}Questions}{57}{subsection.6.1.1}
 \contentsline {chapter}{Chapter{} \numberline {7}Evaluation}{59}{chapter.7}
 \contentsline {subsection}{\numberline {7.0.1}output format}{59}{subsection.7.0.1}
 \contentsline {section}{\numberline {7.1}Crowd Experiment}{60}{section.7.1}
 \contentsline {subsection}{\numberline {7.1.1}Noise}{60}{subsection.7.1.1}
-\contentsline {subsection}{\numberline {7.1.2}Location}{60}{subsection.7.1.2}
-\contentsline {subsection}{\numberline {7.1.3}Movement}{60}{subsection.7.1.3}
-\contentsline {subsection}{\numberline {7.1.4}Weather}{61}{subsection.7.1.4}
-\contentsline {subsection}{\numberline {7.1.5}Light and Environment}{61}{subsection.7.1.5}
-\contentsline {subsection}{\numberline {7.1.6}Results}{62}{subsection.7.1.6}
-\contentsline {subsection}{\numberline {7.1.7}Problems}{63}{subsection.7.1.7}
-\contentsline {section}{\numberline {7.2}Individual Experiment Results}{64}{section.7.2}
-\contentsline {subsection}{\numberline {7.2.1}Coffee}{64}{subsection.7.2.1}
-\contentsline {subsection}{\numberline {7.2.2}Music}{65}{subsection.7.2.2}
-\contentsline {subsection}{\numberline {7.2.3}Running}{66}{subsection.7.2.3}
-\contentsline {chapter}{Chapter{} \numberline {8}Conclusions}{68}{chapter.8}
-\contentsline {section}{\numberline {8.1}Project Overview}{68}{section.8.1}
-\contentsline {section}{\numberline {8.2}Contribution}{69}{section.8.2}
-\contentsline {section}{\numberline {8.3}Future Work}{69}{section.8.3}
-\contentsline {chapter}{Appendix{} \numberline {A}Abbreviations}{71}{appendix.A}
-\contentsline {chapter}{Appendix{} \numberline {B}Source Code}{73}{appendix.B}
-\contentsline {chapter}{Appendix{} \numberline {C}Programming task}{74}{appendix.C}
-\contentsline {section}{\numberline {C.1}Palindromes}{74}{section.C.1}
-\contentsline {subsection}{\numberline {C.1.1}Question}{74}{subsection.C.1.1}
-\contentsline {subsubsection}{What's a palindrome?}{74}{section*.45}
-\contentsline {subsubsection}{Input structure}{75}{section*.46}
-\contentsline {subsection}{\numberline {C.1.2}Example}{75}{subsection.C.1.2}
-\contentsline {subsubsection}{input}{75}{section*.47}
-\contentsline {subsubsection}{Explanation Testcase 1}{75}{section*.48}
-\contentsline {subsubsection}{Explanation Testcase 2}{76}{section*.49}
-\contentsline {chapter}{Appendix{} \numberline {D}Participant data}{77}{appendix.D}
-\contentsline {section}{\numberline {D.1}Participant 1}{78}{section.D.1}
-\contentsline {subsection}{\numberline {D.1.1}date \& time}{78}{subsection.D.1.1}
-\contentsline {subsection}{\numberline {D.1.2}Questions}{78}{subsection.D.1.2}
-\contentsline {subsection}{\numberline {D.1.3}Accelerometer}{79}{subsection.D.1.3}
-\contentsline {subsection}{\numberline {D.1.4}Light}{79}{subsection.D.1.4}
-\contentsline {subsection}{\numberline {D.1.5}Volume}{80}{subsection.D.1.5}
-\contentsline {subsection}{\numberline {D.1.6}Location}{80}{subsection.D.1.6}
-\contentsline {section}{\numberline {D.2}Participant 2}{81}{section.D.2}
-\contentsline {subsection}{\numberline {D.2.1}date \& time}{81}{subsection.D.2.1}
-\contentsline {subsection}{\numberline {D.2.2}Questions}{81}{subsection.D.2.2}
-\contentsline {subsection}{\numberline {D.2.3}Accelerometer}{82}{subsection.D.2.3}
-\contentsline {subsection}{\numberline {D.2.4}Light}{82}{subsection.D.2.4}
-\contentsline {subsection}{\numberline {D.2.5}Volume}{83}{subsection.D.2.5}
-\contentsline {subsection}{\numberline {D.2.6}Location}{83}{subsection.D.2.6}
-\contentsline {section}{\numberline {D.3}Participant 3}{84}{section.D.3}
-\contentsline {subsection}{\numberline {D.3.1}date \& time}{84}{subsection.D.3.1}
-\contentsline {subsection}{\numberline {D.3.2}Questions}{84}{subsection.D.3.2}
-\contentsline {subsection}{\numberline {D.3.3}Accelerometer}{85}{subsection.D.3.3}
-\contentsline {subsection}{\numberline {D.3.4}Light}{85}{subsection.D.3.4}
-\contentsline {subsection}{\numberline {D.3.5}Volume}{86}{subsection.D.3.5}
-\contentsline {subsection}{\numberline {D.3.6}Location}{86}{subsection.D.3.6}
-\contentsline {section}{\numberline {D.4}Participant 4}{87}{section.D.4}
-\contentsline {subsection}{\numberline {D.4.1}date \& time}{87}{subsection.D.4.1}
-\contentsline {subsection}{\numberline {D.4.2}Questions}{87}{subsection.D.4.2}
-\contentsline {subsection}{\numberline {D.4.3}Accelerometer}{88}{subsection.D.4.3}
-\contentsline {subsection}{\numberline {D.4.4}Light}{88}{subsection.D.4.4}
-\contentsline {subsection}{\numberline {D.4.5}Volume}{89}{subsection.D.4.5}
-\contentsline {subsection}{\numberline {D.4.6}Location}{89}{subsection.D.4.6}
-\contentsline {section}{\numberline {D.5}Participant 5}{90}{section.D.5}
-\contentsline {subsection}{\numberline {D.5.1}date \& time}{90}{subsection.D.5.1}
-\contentsline {subsection}{\numberline {D.5.2}Questions}{90}{subsection.D.5.2}
-\contentsline {subsection}{\numberline {D.5.3}Accelerometer}{91}{subsection.D.5.3}
-\contentsline {subsection}{\numberline {D.5.4}Light}{91}{subsection.D.5.4}
-\contentsline {subsection}{\numberline {D.5.5}Volume}{92}{subsection.D.5.5}
-\contentsline {subsection}{\numberline {D.5.6}Location}{92}{subsection.D.5.6}
-\contentsline {chapter}{Appendix{} \numberline {E}Individuals extended Data}{93}{appendix.E}
-\contentsline {section}{\numberline {E.1}Coffee}{93}{section.E.1}
-\contentsline {section}{\numberline {E.2}Music}{94}{section.E.2}
-\contentsline {section}{\numberline {E.3}Running}{94}{section.E.3}
-\contentsline {chapter}{Appendix{} \numberline {F}Ethics Information}{95}{appendix.F}
-\contentsline {chapter}{Bibliography}{101}{appendix*.73}
+\contentsline {subsection}{\numberline {7.1.2}Dynamic in Light and Noise}{60}{subsection.7.1.2}
+\contentsline {subsection}{\numberline {7.1.3}Location}{61}{subsection.7.1.3}
+\contentsline {subsection}{\numberline {7.1.4}Movement}{61}{subsection.7.1.4}
+\contentsline {subsection}{\numberline {7.1.5}Weather}{61}{subsection.7.1.5}
+\contentsline {subsection}{\numberline {7.1.6}Light and Environment}{62}{subsection.7.1.6}
+\contentsline {subsection}{\numberline {7.1.7}Code Quality}{63}{subsection.7.1.7}
+\contentsline {subsubsection}{Efficiency}{63}{section*.43}
+\contentsline {subsubsection}{Complexity}{63}{section*.44}
+\contentsline {subsubsection}{Clean Code}{64}{section*.45}
+\contentsline {subsection}{\numberline {7.1.8}Results}{64}{subsection.7.1.8}
+\contentsline {subsection}{\numberline {7.1.9}Problems}{66}{subsection.7.1.9}
+\contentsline {section}{\numberline {7.2}Individual Experiment Results}{66}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}Coffee}{67}{subsection.7.2.1}
+\contentsline {subsection}{\numberline {7.2.2}Music}{68}{subsection.7.2.2}
+\contentsline {subsection}{\numberline {7.2.3}Running}{69}{subsection.7.2.3}
+\contentsline {chapter}{Chapter{} \numberline {8}Conclusions}{71}{chapter.8}
+\contentsline {section}{\numberline {8.1}Project Overview}{71}{section.8.1}
+\contentsline {section}{\numberline {8.2}Contribution}{72}{section.8.2}
+\contentsline {section}{\numberline {8.3}Future Work}{72}{section.8.3}
+\contentsline {chapter}{Appendix{} \numberline {A}Abbreviations}{74}{appendix.A}
+\contentsline {chapter}{Appendix{} \numberline {B}Source Code}{76}{appendix.B}
+\contentsline {chapter}{Appendix{} \numberline {C}Programming task}{77}{appendix.C}
+\contentsline {section}{\numberline {C.1}Palindromes}{77}{section.C.1}
+\contentsline {subsection}{\numberline {C.1.1}Question}{77}{subsection.C.1.1}
+\contentsline {subsubsection}{What's a palindrome?}{77}{section*.51}
+\contentsline {subsubsection}{Input structure}{78}{section*.52}
+\contentsline {subsection}{\numberline {C.1.2}Example}{78}{subsection.C.1.2}
+\contentsline {subsubsection}{input}{78}{section*.53}
+\contentsline {subsubsection}{Explanation Testcase 1}{78}{section*.54}
+\contentsline {subsubsection}{Explanation Testcase 2}{79}{section*.55}
+\contentsline {chapter}{Appendix{} \numberline {D}Participant data}{80}{appendix.D}
+\contentsline {section}{\numberline {D.1}Participant 1}{81}{section.D.1}
+\contentsline {subsection}{\numberline {D.1.1}date \& time}{81}{subsection.D.1.1}
+\contentsline {subsection}{\numberline {D.1.2}Questions}{81}{subsection.D.1.2}
+\contentsline {subsection}{\numberline {D.1.3}Accelerometer}{82}{subsection.D.1.3}
+\contentsline {subsection}{\numberline {D.1.4}Light}{82}{subsection.D.1.4}
+\contentsline {subsection}{\numberline {D.1.5}Volume}{83}{subsection.D.1.5}
+\contentsline {subsection}{\numberline {D.1.6}Location}{83}{subsection.D.1.6}
+\contentsline {section}{\numberline {D.2}Participant 2}{84}{section.D.2}
+\contentsline {subsection}{\numberline {D.2.1}date \& time}{84}{subsection.D.2.1}
+\contentsline {subsection}{\numberline {D.2.2}Questions}{84}{subsection.D.2.2}
+\contentsline {subsection}{\numberline {D.2.3}Accelerometer}{85}{subsection.D.2.3}
+\contentsline {subsection}{\numberline {D.2.4}Light}{85}{subsection.D.2.4}
+\contentsline {subsection}{\numberline {D.2.5}Volume}{86}{subsection.D.2.5}
+\contentsline {subsection}{\numberline {D.2.6}Location}{86}{subsection.D.2.6}
+\contentsline {section}{\numberline {D.3}Participant 3}{87}{section.D.3}
+\contentsline {subsection}{\numberline {D.3.1}date \& time}{87}{subsection.D.3.1}
+\contentsline {subsection}{\numberline {D.3.2}Questions}{87}{subsection.D.3.2}
+\contentsline {subsection}{\numberline {D.3.3}Accelerometer}{88}{subsection.D.3.3}
+\contentsline {subsection}{\numberline {D.3.4}Light}{88}{subsection.D.3.4}
+\contentsline {subsection}{\numberline {D.3.5}Volume}{89}{subsection.D.3.5}
+\contentsline {subsection}{\numberline {D.3.6}Location}{89}{subsection.D.3.6}
+\contentsline {section}{\numberline {D.4}Participant 4}{90}{section.D.4}
+\contentsline {subsection}{\numberline {D.4.1}date \& time}{90}{subsection.D.4.1}
+\contentsline {subsection}{\numberline {D.4.2}Questions}{90}{subsection.D.4.2}
+\contentsline {subsection}{\numberline {D.4.3}Accelerometer}{91}{subsection.D.4.3}
+\contentsline {subsection}{\numberline {D.4.4}Light}{91}{subsection.D.4.4}
+\contentsline {subsection}{\numberline {D.4.5}Volume}{92}{subsection.D.4.5}
+\contentsline {subsection}{\numberline {D.4.6}Location}{92}{subsection.D.4.6}
+\contentsline {section}{\numberline {D.5}Participant 5}{93}{section.D.5}
+\contentsline {subsection}{\numberline {D.5.1}date \& time}{93}{subsection.D.5.1}
+\contentsline {subsection}{\numberline {D.5.2}Questions}{93}{subsection.D.5.2}
+\contentsline {subsection}{\numberline {D.5.3}Accelerometer}{94}{subsection.D.5.3}
+\contentsline {subsection}{\numberline {D.5.4}Light}{94}{subsection.D.5.4}
+\contentsline {subsection}{\numberline {D.5.5}Volume}{95}{subsection.D.5.5}
+\contentsline {subsection}{\numberline {D.5.6}Location}{95}{subsection.D.5.6}
+\contentsline {chapter}{Appendix{} \numberline {E}Individuals extended Data}{96}{appendix.E}
+\contentsline {section}{\numberline {E.1}Coffee}{96}{section.E.1}
+\contentsline {section}{\numberline {E.2}Music}{97}{section.E.2}
+\contentsline {section}{\numberline {E.3}Running}{97}{section.E.3}
+\contentsline {chapter}{Appendix{} \numberline {F}Ethics Information}{98}{appendix.F}
+\contentsline {chapter}{Bibliography}{104}{appendix*.79}

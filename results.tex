@@ -14,11 +14,41 @@ Figure \ref{entries} shows the format of a single entry after the decryption.
 \FloatBarrier
 
 \section{Crowd Experiment}
-This section shows the finding in the experiment where the participants had to solve the programming task. This section is divided into the different categories where the findings were clustered into.
+This section shows the finding in the experiment where the participants had to solve the programming task. This section is divided into the different categories where the findings were clustered into. 
 
 \subsection{Noise}
 Regular phone microphones are not calibrated to provide an general loudness. Therefore we can use the values of the environmental noise only for finding peeks or changes.
 The environmental noise shows a steady low noise level for four of the participants while one participant has some high peeks in the data. 
+
+\subsection{Dynamic in Light and Noise}
+\FloatBarrier
+
+\begin{table}[ht]
+  \begin{tabular}{|P{3cm}|P{1.6cm}|P{1.6cm}|P{1.6cm}|P{1.6cm}|P{1.6cm}|}
+   	\textbf{Noise}				& \textbf{P1}			& \textbf{P2}			& 	\textbf{P3}		& 	\textbf{P4}			& 	\textbf{P5}	\\ \hline
+  	Dynamic Score				& 139.72					& 78.51					& 37.61				& 67.80					& 59.63			\\ \hline
+  	Average 						& 1,676.59				& 549.59					& 159.82				& 1033.95				& 498.67			\\ \hline
+  	\end{tabular}
+  	\newline\newline
+  	\caption{Dynamic Noise Level}\label{dynNoise}
+\end{table}
+
+\begin{table}[ht]
+  \begin{tabular}{|P{3cm}|P{1.6cm}|P{1.6cm}|P{1.6cm}|P{1.6cm}|P{1.6cm}|}
+   	\textbf{Light}				& \textbf{P1}			& \textbf{P2}			& 	\textbf{P3}		& 	\textbf{P4}			& 	\textbf{P5}	\\ \hline
+  	Dynamic Score				& 2.46						& 2.44						& 	-						& 12.73					& 0.26				\\ \hline
+  	Average 						& 7.37						& 5.69						& 	-						& 59.73					& 1.35				\\ \hline
+  	\end{tabular}
+  	\newline\newline
+  	\caption{Dynamic Light Level}\label{dynLight}
+\end{table}
+
+The standard deviation added and subtracted from the mean is the range that separates normal noise and peeks. 
+The values outside of the range as a percentage relatively to the standard deviation were added together and result in a number which can give a good indicator of the amount and level of dynamic. 
+These value divided by the number of minutes of the gathering create the dynamic score which indicates the level of dynamic in a dataset.
+The average value is the mean of all the percentage values outside of the range.
+
+\FloatBarrier
 
 \subsection{Location}
 The location of the participants was not gathered from two participants. Two of the other participants were working in Dublin, Ireland while a third one did the task in Madrid, Spain.\\
@@ -51,9 +81,32 @@ The results \ref{ligps} show a good probability that all the participants where 
 The other two participants had a lower light measured and therefore just a small possibility that they were actually working outside.  
 Also the location of the participants are all in urban areas within a range of several buildings. 
 
+\subsection{Code Quality}
+A tool named "Teamscale" was used for the code analysis. The systems analysis the code for Structure Metrics like lines of code, nesting depth etc. It also detects comments, test coverage, architecture conformance, code duplications and Anomalies like naming convention violations \cite{heinemann2014teamscale}.
+\bigbreak
+The limited size of the project from the experiment also provides only limited code analysis information. However, to actually rank the code and it's quality, the following categories were used to calculate an actual quality score. 
+The different quality factor either decrease or increase the score of the code depending weather its  negative or positive factor. The lowest score at the end signals the best code. 
+Testing the code was not part of the experiment and therefore a factor which can't take any influence in the results. 
+
+\subsubsection{Efficiency}
+In order to evaluate the efficiency of the code, we calculated the productivity by written source code lines per minutes
+As both factors a the better the lower they are, they have been added to the score. 
+
+\subsubsection{Complexity}
+The code complexity is measured with two factors. The nesting depth within the code and the amount of lines of source code. In this case, all participants solved the same programming task and the lines of code actually detect how much value each line creates. The result is been divided by 6 which seemed to be a good weighting for the complexity of the given task.\\
+The longest method length was not used as an indicator because long method names can be more descriptive as well as too confusing. Therefore it can't be detected only from the metrics if it's positive or negative. 
+The two factor of the code complexity also got added to the quality score. 
+
+\subsubsection{Clean Code}
+This factor is been calculated as several empty lines within the code files. Having single lines of white-space is alright to keep the structure of the code clean but several lines are just reducing the code that a developer can see on the screen. Also, a lower score is better and therefore added to the score as well.
+In this section also the formatting is been looked at. The score gets two added points for code without indented code blocks and plus one point if it happened only a few times. Even when Python is based on intends, it is still a factor which makes some code unreadable. 
+
+
 \subsection{Results}
 The problem is this crowd experiment are the small amount of participants and the difference between their results. The results show that different results in the code quality always have more than just one factors that are differentiating the work and environmental patterns. There is no direct factor that can be either correlated to good code or another factor that can give evidence fot bad code. However, there are indicator that are having an impact. For example, the participant who was working a very dark environment was needed to longest time to solve the programming task, which leads to the idea that bad lightning can have a negative impact.\\ 
 Also, participant number 2 was the only one who answered the question of being distracted during the experiment with 'yes'. Additional, The volume amplitude had some very high peeks that were not found in the measurements of other participants in that level \ref{volps}. In the results of the light sensor it is again noticeable that the same participant shows different patterns than the others. The light value in lux differs from the others in it's dynamic. Thus, the values for light and noise are is much less constant and possibly an indicator, that it could lead to the developers distraction.\\
+
+At the first place, the idea was to let the participants do the task whenever they want to find out whether they work at night or day. However, it turned out that the majority of the participants confirmed to do it but actually forget it all the time and at the end did it right after a being reminded. So, the time of the day can not be used as a indicator for detecting the working times of participants. 
 
 %%%%%%% VOLUME
 \begin{figure}[ht]

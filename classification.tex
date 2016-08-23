@@ -78,6 +78,10 @@ The location can also show whether the user was on public transport, on a train/
 \subsubsection{Weather Conditions}
 With the location and the timestamp of the gathering and it is possible to get information about the local weather of the users location at the time when the gathering happened using the timeanddate-website \footnote{\url{http://www.timeanddate.com/weather}}.
 
+
+\subsubsection{Dynamic}
+The dynamic in values is the way it differentiates in itself. This information can be used to detect changes in the noise level and environmental light. For detecting a range within the dataset a range must be set which value are within a normal range and which are falling out. One way to calculate a range is to use the standard deviation + and - to the mean of the values. 
+
 \subsubsection{Music}
 Using the environmental noise it is possible to find patterns that can be related to music. In general modern music has a very constant noise level rather than the dynamic classical music. The iTunes top 100\footnote{\url{http://www.apple.com/ie/itunes/charts}} songs at July 14th 2016 have an average length of 3:39 minutes, the shortest song is 2:42 minutes and the longest 5:13 minutes long.\\
 In order to detect whether the participant is listening to music, the volume should go down for 2-5 seconds between a track with a duration between 2:30 minutes and 5:30 minutes. 
