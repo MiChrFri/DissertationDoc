@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.18)  23 AUG 2016 16:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.18)  24 AUG 2016 11:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -848,11 +848,7 @@ Package: parskip 2001/04/09 non-zero parskip adjustments
 (./thesis.aux (./introduction.aux) (./sota.aux) (./design.aux)
 (./implementation.aux) (./experiment.aux) (./classification.aux) (./results.aux
 ) (./conclusion.aux) (./appendix1.aux) (./appendix2.aux) (./appendix3.aux)
-(./appendix4.aux
-
-LaTeX Warning: Label `dandt1' multiply defined.
-
-) (./appendix5.aux) (./appendix6.aux))
+(./appendix4.aux) (./appendix5.aux) (./appendix6.aux))
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 88.
@@ -1055,7 +1051,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 50--60
 
  []
 
-[12] [13] [14] <images/clustering.png, id=932, 441.65pt x 464.73625pt>
+[12] [13] [14] <images/clustering.png, id=954, 441.65pt x 464.73625pt>
 File: images/clustering.png Graphic file (type png)
 
 <use images/clustering.png>
@@ -1087,14 +1083,14 @@ Chapter 3.
 
 
 
-] [25] [26] <images/sensors.png, id=1036, 1505.625pt x 1626.075pt>
+] [25] [26] <images/sensors.png, id=1058, 1505.625pt x 1626.075pt>
 File: images/sensors.png Graphic file (type png)
 
 <use images/sensors.png>
 Package pdftex.def Info: images/sensors.png used on input line 73.
 (pdftex.def)             Requested size: 227.62204pt x 245.81123pt.
  [27 <./images/sensors.png>]
-<images/AndroidUI.png, id=1042, 2007.5pt x 593.21625pt>
+<images/AndroidUI.png, id=1064, 2007.5pt x 593.21625pt>
 File: images/AndroidUI.png Graphic file (type png)
 
 <use images/AndroidUI.png>
@@ -1132,7 +1128,7 @@ LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 16.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/lm/ot1lmtt.fd
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [37] [38]
-[39] [40] <images/dataflow.png, id=1116, 1100.11pt x 354.32375pt>
+[39] [40] <images/dataflow.png, id=1138, 1100.11pt x 354.32375pt>
 File: images/dataflow.png Graphic file (type png)
 
 <use images/dataflow.png>
@@ -1153,7 +1149,7 @@ LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
 
 (./experiment.tex
 Chapter 5.
-<images/experiment.png, id=1147, 1242.6425pt x 733.74126pt>
+<images/experiment.png, id=1169, 1242.6425pt x 733.74126pt>
 File: images/experiment.png Graphic file (type png)
 
 <use images/experiment.png>
@@ -1183,7 +1179,7 @@ Underfull \hbox (badness 1205) in paragraph at lines 48--48
 []|\OT1/lmr/m/n/12 Detailed Draw-ing Work, Very De-tailed Me-chan-i-cal
  []
 
-[54] <images/accDevice.png, id=1219, 1164.35pt x 886.31125pt>
+[54] <images/accDevice.png, id=1241, 1164.35pt x 886.31125pt>
 File: images/accDevice.png Graphic file (type png)
 
 <use images/accDevice.png>
@@ -1201,7 +1197,7 @@ Chapter 7.
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 4.
 
-<images/entries.png, id=1250, 1505.625pt x 316.18124pt>
+<images/entries.png, id=1272, 1505.625pt x 316.18124pt>
 File: images/entries.png Graphic file (type png)
 
 <use images/entries.png>
@@ -1241,93 +1237,89 @@ Underfull \hbox (badness 10000) in paragraph at lines 64--73
 
  []
 
-[61]
-
-LaTeX Warning: Citation `heinemann2014teamscale' on page 62 undefined on input 
-line 85.
-
-[62] [63]
-Underfull \hbox (badness 10000) in paragraph at lines 106--108
+[61] [62]
+Underfull \hbox (badness 10000) in paragraph at lines 89--99
 
  []
 
-[64]
-Missing character: There is no , in font nullfont!
 
-Overfull \hbox (12.07744pt too wide) in paragraph at lines 350--351
- [][] 
+Underfull \hbox (badness 10000) in paragraph at lines 89--99
+
  []
 
-Missing character: There is no , in font nullfont!
 
-Overfull \hbox (2.93858pt too wide) in paragraph at lines 574--575
- [][] 
+LaTeX Warning: Citation `heinemann2014teamscale' on page 63 undefined on input 
+line 103.
+
+[63] [64]
+Underfull \hbox (badness 10000) in paragraph at lines 131--133
+
  []
 
 [65] [66]
 
 Package pgfplots Warning: scatter/classes: can't find class for '1'!? Please ma
 ke sure you have specified 'scatter src=explicit symbolic'. Ignoring class '1' 
-(this message will not come again). on input line 654.
+(this message will not come again). on input line 211.
 
  [warning /pgfplots/warning/scatter classes no such class]
 
 Package pgfplots Warning: scatter/classes: can't find class for '2'!? Please ma
 ke sure you have specified 'scatter src=explicit symbolic'. Ignoring class '2' 
-(this message will not come again). on input line 654.
+(this message will not come again). on input line 211.
 
  [warning /pgfplots/warning/scatter classes no such class]
 
 Package pgfplots Warning: scatter/classes: can't find class for '3'!? Please ma
 ke sure you have specified 'scatter src=explicit symbolic'. Ignoring class '3' 
-(this message will not come again). on input line 654.
+(this message will not come again). on input line 211.
 
  [warning /pgfplots/warning/scatter classes no such class]
 
 Package pgfplots Warning: scatter/classes: can't find class for '4'!? Please ma
 ke sure you have specified 'scatter src=explicit symbolic'. Ignoring class '4' 
-(this message will not come again). on input line 654.
+(this message will not come again). on input line 211.
 
  [warning /pgfplots/warning/scatter classes no such class]
 
 Package pgfplots Warning: scatter/classes: can't find class for '5'!? Please ma
 ke sure you have specified 'scatter src=explicit symbolic'. Ignoring class '5' 
-(this message will not come again). on input line 654.
+(this message will not come again). on input line 211.
 
  [warning /pgfplots/warning/scatter classes no such class]
 
 Package pgfplots Warning: scatter/classes: can't find class for '6'!? Please ma
 ke sure you have specified 'scatter src=explicit symbolic'. Ignoring class '6' 
-(this message will not come again). on input line 654.
+(this message will not come again). on input line 211.
 
  [warning /pgfplots/warning/scatter classes no such class]
 
 Package pgfplots Warning: scatter/classes: can't find class for '7'!? Please ma
 ke sure you have specified 'scatter src=explicit symbolic'. Ignoring class '7' 
-(this message will not come again). on input line 654.
+(this message will not come again). on input line 211.
 
  [warning /pgfplots/warning/scatter classes no such class]
 
 Package pgfplots Warning: scatter/classes: can't find class for '8'!? Please ma
 ke sure you have specified 'scatter src=explicit symbolic'. Ignoring class '8' 
-(this message will not come again). on input line 654.
+(this message will not come again). on input line 211.
 
  [warning /pgfplots/warning/scatter classes no such class]
 
 Package pgfplots Warning: scatter/classes: can't find class for '9'!? Please ma
 ke sure you have specified 'scatter src=explicit symbolic'. Ignoring class '9' 
-(this message will not come again). on input line 654.
+(this message will not come again). on input line 211.
 
  [warning /pgfplots/warning/scatter classes no such class]
 
 Package pgfplots Warning: scatter/classes: can't find class for '10'!? Please m
 ake sure you have specified 'scatter src=explicit symbolic'. Ignoring class '10
-' (this message will not come again). on input line 654.
+' (this message will not come again). on input line 211.
 
  [warning /pgfplots/warning/scatter classes no such class]
 [67] [68]
 
-LaTeX Warning: Reference `resultRunning' on page 69 undefined on input line 756
+LaTeX Warning: Reference `resultRunning' on page 69 undefined on input line 313
 .
 
 [69]) [70]
@@ -1396,6 +1388,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 27--34
 
  (./appendix4.tex
 Appendix D.
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 5.
+
 [80
 
 
@@ -1418,10 +1414,19 @@ File: Uding.fd 1996/02/01 v1.0 BBding font definitions
 ]
 Missing character: There is no , in font nullfont!
 Missing character: There is no , in font nullfont!
- [82]
+
+Overfull \hbox (3.49878pt too wide) in paragraph at lines 141--143
+ [][] 
+ []
+
+[82]
 Missing character: There is no , in font nullfont!
-)
-[83] (./participant2.tex
+
+Overfull \hbox (3.49878pt too wide) in paragraph at lines 182--184
+ [][] 
+ []
+
+) [83] (./participant2.tex
 Underfull \hbox (badness 10000) in paragraph at lines 7--15
 
  []
@@ -1460,7 +1465,7 @@ ng it (it is [0.0:0.0]) on input line 154.
 
  [warning /pgfplots/warning/approx empty range enlarged]
 
-Overfull \hbox (0.7798pt too wide) in paragraph at lines 155--157
+Overfull \hbox (6.33043pt too wide) in paragraph at lines 155--157
  [][] 
  []
 
@@ -1481,10 +1486,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--15
 ]
 Missing character: There is no , in font nullfont!
 Missing character: There is no , in font nullfont!
- [91]
+
+Overfull \hbox (3.49878pt too wide) in paragraph at lines 335--337
+ [][] 
+ []
+
+[91]
 Missing character: There is no , in font nullfont!
 
-Overfull \hbox (7.087pt too wide) in paragraph at lines 424--426
+Overfull \hbox (12.63763pt too wide) in paragraph at lines 424--426
  [][] 
  []
 
@@ -1503,10 +1513,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--15
 ]
 Missing character: There is no , in font nullfont!
 Missing character: There is no , in font nullfont!
- [94]
+
+Overfull \hbox (5.87608pt too wide) in paragraph at lines 454--456
+ [][] 
+ []
+
+[94]
 Missing character: There is no , in font nullfont!
 
-Overfull \hbox (6.20042pt too wide) in paragraph at lines 574--576
+Overfull \hbox (11.75105pt too wide) in paragraph at lines 574--576
  [][] 
  []
 
@@ -1874,7 +1889,7 @@ Overfull \hbox (4.00165pt too wide) in paragraph at lines 78--79
 
  (./appendix6.tex
 Appendix F.
-<ethics.pdf, id=1476, 597.51233pt x 845.0471pt>
+<ethics.pdf, id=1492, 597.51233pt x 845.0471pt>
 File: ethics.pdf Graphic file (type pdf)
  <use ethics.pdf>
 Package pdftex.def Info: ethics.pdf used on input line 5.
@@ -1884,7 +1899,7 @@ File: ethics.pdf Graphic file (type pdf)
 <use ethics.pdf>
 Package pdftex.def Info: ethics.pdf used on input line 5.
 (pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
- <ethics.pdf, id=1479, page=1, 597.51233pt x 845.0471pt>
+ <ethics.pdf, id=1495, page=1, 597.51233pt x 845.0471pt>
 File: ethics.pdf Graphic file (type pdf)
 
 <use ethics.pdf, page 1>
@@ -1908,7 +1923,7 @@ Package pdftex.def Info: ethics.pdf, page1 used on input line 5.
 
 
 ]
-<ethics.pdf, id=1484, page=2, 597.51233pt x 845.0471pt>
+<ethics.pdf, id=1500, page=2, 597.51233pt x 845.0471pt>
 File: ethics.pdf Graphic file (type pdf)
 
 <use ethics.pdf, page 2>
@@ -1923,7 +1938,7 @@ File: ethics.pdf Graphic file (type pdf)
 Package pdftex.def Info: ethics.pdf, page1 used on input line 5.
 (pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
 
-[99 <./ethics.pdf>] <ethics.pdf, id=1508, page=3, 597.51233pt x 845.0471pt>
+[99 <./ethics.pdf>] <ethics.pdf, id=1524, page=3, 597.51233pt x 845.0471pt>
 File: ethics.pdf Graphic file (type pdf)
 
 <use ethics.pdf, page 3>
@@ -1938,7 +1953,7 @@ File: ethics.pdf Graphic file (type pdf)
 Package pdftex.def Info: ethics.pdf, page2 used on input line 5.
 (pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
 
-[100 <./ethics.pdf>] <ethics.pdf, id=1513, page=4, 597.51233pt x 845.0471pt>
+[100 <./ethics.pdf>] <ethics.pdf, id=1529, page=4, 597.51233pt x 845.0471pt>
 File: ethics.pdf Graphic file (type pdf)
 
 <use ethics.pdf, page 4>
@@ -1953,7 +1968,7 @@ File: ethics.pdf Graphic file (type pdf)
 Package pdftex.def Info: ethics.pdf, page3 used on input line 5.
 (pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
 
-[101 <./ethics.pdf>] <ethics.pdf, id=1519, page=5, 597.51233pt x 845.0471pt>
+[101 <./ethics.pdf>] <ethics.pdf, id=1535, page=5, 597.51233pt x 845.0471pt>
 File: ethics.pdf Graphic file (type pdf)
 
 <use ethics.pdf, page 5>
@@ -2006,13 +2021,13 @@ Package rerunfilecheck Warning: File `thesis.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `thesis.out':
-(rerunfilecheck)             Before: 5DCDA3A9F613DEC0FEEB3958D3DB1B98;8854
-(rerunfilecheck)             After:  D3F2C495FC3A5FE823BA5BA338B475CB;8921.
+(rerunfilecheck)             Before: D6836DDE5F81D67E13CDFE10128941D7;9221
+(rerunfilecheck)             After:  8C8372B75510D588BDF5217863DDCF22;9221.
 
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 155.
  )
@@ -2021,52 +2036,46 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 155.
 ### simple group (level 1) entered at line 14 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 30607 strings out of 493089
- 719621 string characters out of 6134841
- 971674 words of memory out of 5000000
- 33027 multiletter control sequences out of 15000+600000
+ 30394 strings out of 493089
+ 714183 string characters out of 6134841
+ 970115 words of memory out of 5000000
+ 32815 multiletter control sequences out of 15000+600000
  59868 words of font info for 48 fonts, out of 8000000 for 9000
  1147 hyphenation exceptions out of 8191
  63i,19n,110p,1375b,2417s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{figure.caption.45} has been referen
+pdfTeX warning (dest): name{figure.caption.50} has been referen
 ced but does not exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{figure.caption.44} has been referenced but does not
+pdfTeX warning (dest): name{figure.caption.49} has been referenced but does not
  exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{figure.caption.43} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.caption.75} has been referenced but does not 
+pdfTeX warning (dest): name{table.caption.78} has been referenced but does not 
 exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{table.caption.74} has been referenced but does not 
+pdfTeX warning (dest): name{table.caption.77} has been referenced but does not 
 exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{table.caption.73} has been referenced but does not 
+pdfTeX warning (dest): name{table.caption.72} has been referenced but does not 
 exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{table.caption.69} has been referenced but does not 
+pdfTeX warning (dest): name{table.caption.68} has been referenced but does not 
 exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{table.caption.65} has been referenced but does not 
+pdfTeX warning (dest): name{table.caption.64} has been referenced but does not 
 exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{table.caption.61} has been referenced but does not 
+pdfTeX warning (dest): name{table.caption.60} has been referenced but does not 
 exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{table.caption.57} has been referenced but does not 
+pdfTeX warning (dest): name{table.caption.56} has been referenced but does not 
 exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{table.caption.53} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{appendix*.76} has been referenced but does not exis
+pdfTeX warning (dest): name{appendix*.79} has been referenced but does not exis
 t, replaced by a fixed one
 
- </Users/michael/Library/texlive/2015/texmf-var/fonts/pk/ljfour/public/bbding/b
-bding10.720pk>{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-rmtt.en
-c}{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/lo
+{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc} </Users/m
+ichael/Library/texlive/2015/texmf-var/fonts/pk/ljfour/public/bbding/bbding10.72
+0pk>{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-rmtt.enc}{/usr/lo
 cal/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texliv
 e/2015/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2015/texmf-d
 ist/fonts/enc/dvips/lm/lm-rmsc.enc}</usr/local/texlive/2015/texmf-dist/fonts/ty
@@ -2081,10 +2090,10 @@ blic/lm/lmro12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lm
 sy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></
 usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/local/
 texlive/2015/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on thesis.pdf (123 pages, 1757921 bytes).
+Output written on thesis.pdf (123 pages, 1736833 bytes).
 PDF statistics:
- 1712 PDF objects out of 1728 (max. 8388607)
- 1527 compressed objects within 16 object streams
- 405 named destinations out of 1000 (max. 500000)
- 1200 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1728 PDF objects out of 1728 (max. 8388607)
+ 1543 compressed objects within 16 object streams
+ 404 named destinations out of 1000 (max. 500000)
+ 1232 words of extra memory for PDF output out of 10000 (max. 10000000)
 

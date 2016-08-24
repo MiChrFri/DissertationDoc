@@ -12,7 +12,7 @@
    \multicolumn{2}{c}{\textbf{00:12:01}} 			\\ \hline
   \end{tabular}
   \newline\newline
- \caption{p3: date and time}\label{dandt3}
+ \caption{p1: date and time}\label{dandt1}
 \end{table}
 
 \subsection{Questions}
@@ -104,15 +104,15 @@
 \end{figure}
 
 \FloatBarrier
-\subsection{Light}
+\subsection{Light Level}
 \begin{figure}[ht]
 	\centering
 	\begin{tikzpicture}
 \begin{axis}[
 	height=6cm,
 	width=\textwidth,
-	xlabel=minutes,
-	ylabel=sensor,
+	xlabel=Duration of the experiment in minutes,
+	ylabel=Light level in lux,
 	title=Light,
 	unbounded coords=discard],
 	
@@ -145,15 +145,15 @@
 \newpage
 \FloatBarrier
 \newpage
-\subsection{Volume}
+\subsection{Noise Level}
 \begin{figure}[ht]
 	\centering
 	\begin{tikzpicture}
 \begin{axis}[
 	height=6cm,
 	width=\textwidth,
-	xlabel=minutes,
-	ylabel=sensor,
+	ylabel=Uncalibrated amplitude of sound pressure,
+	xlabel=Duration of the experiment in minutes,
 	title=Volume,
 	unbounded coords=discard],
 
