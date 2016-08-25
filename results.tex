@@ -2,7 +2,7 @@
 This chapter shows the results of the experiments and how the gathered data can be interpreted. 
 
 \subsection{output format}
-Figure \ref{entries} shows the format of a single entry after the decryption. 
+Figure \ref{entries} shows the output format of a single entry after the decryption. 
 
 \begin{figure}[!htb]
 \centering
@@ -17,7 +17,7 @@ Figure \ref{entries} shows the format of a single entry after the decryption.
 This section shows the finding in the experiment where the participants had to solve the programming task. This section is divided into the different categories where the findings were clustered into. 
 
 \subsection{Noise}
-Regular phone microphones are not calibrated to provide an general loudness. Therefore we can use the values of the environmental noise only for finding peeks or changes.
+Regular mobile phone microphones are not calibrated to provide an general loudness. Therefore we can use the values of the environmental noise only for finding peeks or changes.
 The environmental noise shows a steady low noise level for four of the participants while one participant has some high peeks in the data. 
 
 \subsection{Dynamic in Light and Noise}
@@ -43,15 +43,15 @@ The environmental noise shows a steady low noise level for four of the participa
   	\caption{Dynamic Light Level}\label{dynLight}
 \end{table}
 
-The standard deviation added and subtracted from the mean is the range that separates normal noise and peeks. The values are only in a positive range. If the minimum value goes negative in the calculation it was set to zero instead. 
-The values outside of the range as a percentage relatively to the standard deviation were added together and result in a number which can give a good indicator of the amount and level of dynamic. 
+The standard deviation added and subtracted from the mean is the range that separates normal noise and peeks. The values are only in a positive range. If the minimum value went negative in the calculation, it was set to zero instead.\\ 
+The values outside of the range, as a percentage relatively to the standard deviation were added together and result in a number which can give a good indicator of the amount and level of dynamic. 
 These value divided by the number of minutes of the gathering create the dynamic score which indicates the level of dynamic in a dataset.
 The average value is the mean of all the percentage values outside of the range.
 
 \FloatBarrier
 
 \subsection{Location}
-The location of the participants was not gathered from two participants. Two of the other participants were working in Dublin, Ireland while a third one did the task in Madrid, Spain.\\
+The location of the participants was not able to be accessed from two of the participants. Two of the other participants were working in Dublin, Ireland while a third one did the task in Madrid, Spain.\\
 The step counter of the participants didn't provide valuable information as the step count was never more than 10 and didn't change during the gathering process. Also the location of the participants didn't change during the experiment. Thus, we can assume that the participants didn't move during the experiment.
 
 \subsection{Movement}
@@ -81,6 +81,9 @@ The results \ref{ligps} show a good probability that all the participants where 
 The other two participants had a lower light measured and therefore just a small possibility that they were actually working outside.  
 Also the location of the participants are all in urban areas within a range of several buildings. 
 
+\subsection{Music}
+Only two of the five participants answered the questions if they listening to music, with 'yes'. However, there didn't seem so be a correlation between any of the results and the fact of listening to music. Also the analysis of the gathered noise level showed didn't show any evidence of people listening to music. That either means that the participants were wearing headphones or the noise level didn't match the pattern that is described in the classification chapter. 
+
 \subsection{Development Performance}
 The performance in software development is not only measured by the quality of the resulting code also the actual efficiency of the programmer matters especially for companies.
 The code from the experiment is analyzed based on these three aspects.  
@@ -99,23 +102,22 @@ The code from the experiment is analyzed based on these three aspects.
   	\caption{Code Performance}\label{codePerformance}
 \end{table}
 
-A tool named "Teamscale" was used for the code analysis. The systems analysis the code for Structure Metrics like lines of code, nesting depth etc. It also detects comments, test coverage, architecture conformance, code duplications and Anomalies like naming convention violations \cite{heinemann2014teamscale}.
+A software named "Teamscale" was used for the code analysis. The systems analysed the code for Structure Metrics like lines of code, nesting depth etc. It also detects comments, test coverage, architecture conformance, code duplications and Anomalies like naming convention violations \cite{heinemann2014teamscale}.
 \bigbreak
-The limited size of the project from the experiment also provides only limited code analysis information. However, to actually rank the code and it's quality, the following categories were used to calculate an actual quality score. 
-The different quality factor either decrease or increase the score of the code depending weather its  negative or positive factor. The lowest score at the end signals the best code. 
-Testing the code was not part of the experiment and therefore a factor which can't take any influence in the results. 
+The limited size of the code from the experiment also provides only limited code analysis information. 
+Writing unit tests of the code was not part of the experiment and therefore a factor which can't take any influence in the results. 
 
 \subsubsection{Efficiency}
-The efficiency of the code is calculated by the productivity by written source code lines per minutes. The more code the developer wrote per minute, the more productive he/she is. 
-The lines of code of the project are in indicator of the complexity of the solution. Solving the same problem with less code is mostly a sign that the developer reduced the complexity and created better code. 
-Also the nesting depth within the code is a factor in the efficiency of solving a problem. The deeper the nested loops are, the more complex it gets. In the majority it is better to keep the nested depth as low as possible. 
-The longest method length was not used as an indicator because long method names can be more descriptive as well as too confusing. Therefore it can't be detected only from the metrics if it's positive or negative. 
+The efficiency of the code is been determined by the written source code lines per minutes. The more code the developer wrote per minute, the more productive he/she is. 
+The lines of code in the project is an indicator of the complexity of the solution. Solving the same problem with less code is mostly a sign that the developer reduced the complexity and created better code. 
+Also the nesting depth within the code is a factor in the efficiency of solving a problem. The deeper the nested loops are, the more complex it gets. In most of the cases it is better to keep the nested depth as low as possible. 
+The longest method length was not used as an indicator because long method names can be more descriptive as well as be confusing. Therefore it can't be detected only from the metrics if it's positive or negative. 
 
 \subsubsection{Code Quality}
-Having single lines of white-space is alright to keep the structure of the code clean but several lines are just reducing the code that a developer can see on the screen and should be avoided. 
-In this section also the formatting is been looked at. Code without indented code blocks is massively decreasing the readability of the code and makes it very hard to get an overview. 
-
-It is also a bad habit to have duplicated code at different places in the project. That reduces the maintainability and can cause bugs or unexpected behavior. Here, the amount of duplicated code is shown in percentage. Luckily, none of the participants had any duplications in the code. 
+Having single lines of white-space is important to keep the structure of the code clean and separate parts such as methods from eachother. Anyhow, several lines are just reducing the code that a developer can see on the screen and should be avoided. 
+In this section also the formatting is been looked at. Code without indented code blocks is massively decreasing the readability of the structure and makes it very hard to get an overview. 
+\
+It is also bad style to have duplicated code at different places in the project. That reduces the maintainability and can cause bugs or unexpected behavior. Here, the amount of duplicated code is shown in percentage. Luckily, none of the participants had any duplications in the code. 
 
 \subsection{Variable and Method/Function Naming}
 The naming of the variables is detected by hand. A script can extract the variable names and method names of a project to make it easier for a large code base and multiple projects. For this experiment, we just looked at meaningful names rather than abbreviations which meaning can just be guessed. 
@@ -123,36 +125,36 @@ The evaluation of the naming of variables and methods should be descriptive and 
 The least descriptive variable naming was done by participant 5 and the method name of participant of participant 4 where confusing in the functionality of the methods.
 
 \subsection{Coding Conventions}
-Coding conventions such as using camelCase for variables and method names starting lowercase and Class names starting Uppercase are some examples for coding conventions that should not be changed within a project to help to increase readability. 
-The above mentioned conventions as well as keeping a constant style was followed by all participants except of participant number 5, who was switching between camelCase and underscore for variable names. 
+Coding conventions such as using camelCase for variables and method names, starting lowercase and Class names starting Uppercase, are some examples for coding conventions that should not be changed within a project to help to increase readability. 
+The mentioned conventions above and keeping a constant style was followed by all participants except of participant number 5, who switched between camelCase and underscore for variable names. 
 
 \subsection{Results}
 The experiment demonstrates that the application for collecting data works well and creates valuable data that can be used to to find evidence for influencing factors in development quality when it will be applied in a larger scope. 
 \\bigbreak
-The evaluation of the data showed that different results in the developing quality always had more than just one factors that are differentiating the work and environmental patterns \ref{codePerformance}. Also, the quality software developing is assembled from different components and can't be used as a general term.
+The evaluation of the data showed that different results in the developing quality always had more than just one factors that are differentiating the work and environmental patterns \ref{codePerformance}. Also, the quality in software developing is assembled from different components and can't be used as a general term.
 \bigbreak
-Participant 4 was the only participants who stated to be distracted during the experiment results show that there could be a possible correlation between the dynamic changes in the light level of the distraction as this participant has by far the highest dynamic score and highest average in the relative amplitude \ref{dynLight}.
-The noise didn't show clear evidence as the results in the coding task don't show a pattern for the two highest values of participant 1 and participant 4. 
+Participant four was the only participants who stated to be distracted during the experiment results show that there could be a possible correlation between the dynamic changes in the light level of the distraction as this participant has by far the highest dynamic score and highest average in the relative amplitude \ref{dynLight}.
+The noise didn't show clear evidence as the results in the coding task don't show a pattern for the two highest values of participant one and participant four. 
 Also no evidence was found that the solving time of the experiments has any influence in the length and quality of the code.
 Correlations between weather and any code metrics were not found within the results.  
 
 \FloatBarrier
 
 \subsection{Problems}
-The gathering process showed some problems with the permissions of different mobile devices and different settings. Not every device has the same sensors and some devices have different default security settings that permit to access specific data within the application even when the application itself has permissions granted. Furthermore the usage of different programming languages for the experiments made it difficult to compare the results with each other. 
-A larger group as well as a larger project with more resulting source code was not achievable in the scope of this dissertation but mandatory to detect influences rather than just plausible factors.
+The gathering process showed some problems with the permissions of different mobile devices and different settings. Also, not every device has the same sensors and some devices have different default security settings that permit to access specific data within the application even when the application itself has permissions granted. Furthermore the usage of different programming languages for the experiments made it difficult to compare the results with each other. 
+A larger group and a larger project with more resulting source code was not achievable in the scope of this dissertation but would have been of great value to detect influences rather than just plausible factors.
 \\
-At the first place, the idea was to let the participants do the task whenever they want to find out whether they work at night or day. However, it turned out that the majority of the participants confirmed to do it but actually forget it all the time and at the end did it right after a being reminded. So, the time of the day can not be used as a indicator for detecting the working times of participants. 
+A first idea was to let the participants do the task whenever they want to find out whether they work at night or day. However, it turned out that the majority of the participants confirmed to do participate at the experiment but actually forgot to execute the experiment for several times.  At the end,  they did it right now after a being reminded. So, the time of the day can not be used as a indicator for detecting the working times of participants. 
 
 \section{Individual Experiment Results}
-The results of the individual experiment are demonstrating the usage and the abilities for the Dather Application for a single participant. Rather than in the first experiment, it is taking only the data of a single person into account.
-The data only shows a plausible factor but doesn't confirm the influences of the tested factors. A lot more test cases would be needed to create a more accurate average value. However, the purpose of this experiment was to demonstrate the usage of the data in more controlled comparable environments rather than in the other experiment which detected the environment and patterns. 
+The results of the individual experiment are demonstrating the usage and the abilities for the 'Dather' application. Rather than in the first experiment, it is taking only the data of a single person into account.
+The data only shows a plausible factor but doesn't confirm the influences of the tested factors. A lot more test cases would be needed to create a more accurate average value. However, the purpose of this experiment was to demonstrate the usage of the gathering application to ensure more controlled comparable environments rather than in the other experiment which detected the environment and patterns. 
 \bigbreak
-The graphs of the three scenarios \ref{coffeeGraph}, \ref{musicGraph} and \ref{runGraph} shows an overview of the durations, the participant needed to solve the Sudokus. The black dots are signaling the solving time on the y-axis for each of the ten measurements per scenario. The horizontal line in every scenario is at the position of average during, the participant needed to solve the Sudokus. 
+The graphs of the three scenarios \ref{coffeeGraph}, \ref{musicGraph} and \ref{runGraph} shows an overview of the durations that the participant needed to solve the Sudokus. The black dots are signaling the solving time on the y-axis for each of the ten measurements per scenario. The horizontal line in every scenario is signaling the mean duration that the participant needed to solve the Sudokus. 
 
 \FloatBarrier
 \subsection{Coffee}
-The the scatter plot \ref{coffeeGraph} shows the times of 10 Sudoku solvings of the participant. The exact time can be seen in table \ref{coffee} in the appendix.
+The the scatter plot \ref{coffeeGraph} shows the times of ten Sudoku solvings of the participant. The exact time can be seen in table \ref{coffee} in the appendix.
 \bigbreak
 The results shows an average time which the participant needed without drinking coffee was \textbf{14:24 minutes} and after consuming \textbf{17:37 minutes} minutes per Sudoku. The participant needed 3:13 minutes or 22.34\%  longer after having a strong coffee.\\
 These results are different than the findings in \cite{liguori1997absorption}, who found that a similar amount of caffeine (400 mg) increases the cognitive performance. \\
