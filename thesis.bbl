@@ -84,6 +84,12 @@ W~Hayes and JW~Over.
 \newblock Technical report, {\textordmasculine} Technical Report,
   CMU/SEI-97-TR-001, Software Eng. Inst., Pittsburgh, 1997.
 
+\bibitem{heinemann2014teamscale}
+Lars Heinemann, Benjamin Hummel, and Daniela Steidl.
+\newblock Teamscale: Software quality control in real-time.
+\newblock In {\em Companion Proceedings of the 36th International Conference on
+  Software Engineering}, pages 592--595, Hyderabad, India, 2014. ACM.
+
 \bibitem{hillman2008smart}
 Charles~H Hillman, Kirk~I Erickson, and Arthur~F Kramer.
 \newblock Be smart, exercise your heart: exercise effects on brain and

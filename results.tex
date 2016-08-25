@@ -61,16 +61,15 @@ The 3-axis accelerometer of the participants devices don't show any changes. In 
 \FloatBarrier
 
 \begin{table}[ht]
-  \begin{tabular}{|P{3cm}|P{3cm}|P{3cm}|P{3cm}|}
-   \textbf{Description}		& \textbf{Temperature}		& \textbf{Humidity}		& 	\textbf{Pressure}		\\ \hline
-   	- 									& -										& -								& -								\\ \hline		%p1
-   	Cloudy and Drizzly 		& 17\degree C						& 	82\%						& 1007 nPA					\\ \hline		%p2
-   	 - 									& -										& -								& -								\\ \hline		%p3
-   	Sunny 							& 31\degree C						& 	31\%						& 1018 nPA					\\ \hline		%p4 
-   	Cloudy 							& 14\degree C						& 	62\%						& 1028 nPA					\\ \hline		%p5
-  \end{tabular}
-  \newline\newline
-  \caption{Weather during experiment}\label{weather}
+  \begin{tabular}{|P{2.6cm}|P{0.8cm}|P{3.6cm}|P{0.8cm}|P{2cm}|P{2cm}|}
+   										& \textbf{P1}			& \textbf{P2}				& 	\textbf{P3}		& 	\textbf{P4}			& 	\textbf{P5}		\\ \hline
+  	Description					& -							& Cloudy and Drizzly	& 	-						& Sunny					& Cloudy				\\ \hline
+  	Temperature 				& -							& 17\degree C				& 	-						& 31\degree C			& 14\degree C		\\ \hline
+  	Humidity						& -							& 	82\%						& 	-						& 	31\%					& 	62\%				\\ \hline
+  	Pressure						& -							& 	1007 nPA					& 	-						& 	1018 nPA				& 	1028 nPA			\\ \hline
+  	\end{tabular}	
+  	\newline\newline
+  	\caption{Weather during experiment}\label{weather}
 \end{table}
 
 The weather is looked up based on the location, data and time. Therefore, the weather of the two participants without location was not possible to find out. The weather of the experiments of two participants was cloudy for one, and cloudy with a little bit of rain for the other one. The third participants had a hot sunny day. The individual information can be seen in table \ref{weather}.
@@ -99,7 +98,7 @@ The code from the experiment is analyzed based on these three aspects.
   	duplicated code			& 0\%						& 0\%						&	 0\%					& 0\%						& 0\%						\\ \hline
   	\end{tabular}
   	\newline\newline
-  	\caption{Code Performance}\label{codePerformance}
+  	\caption{Development Performance}\label{codePerformance}
 \end{table}
 
 A software named "Teamscale" was used for the code analysis. The systems analysed the code for Structure Metrics like lines of code, nesting depth etc. It also detects comments, test coverage, architecture conformance, code duplications and Anomalies like naming convention violations \cite{heinemann2014teamscale}.

@@ -14,48 +14,49 @@ A level-1 auxiliary file: appendix2.aux
 A level-1 auxiliary file: appendix3.aux
 A level-1 auxiliary file: appendix4.aux
 A level-1 auxiliary file: appendix5.aux
+A level-1 auxiliary file: appendix6.aux
 The style file: plain.bst
 Database file #1: references.bib
 Warning--to sort, need author or key in androidpermissions
-You've used 45 entries,
+You've used 46 entries,
             2118 wiz_defined-function locations,
-            797 strings with 13568 characters,
-and the built_in function-call counts, 16124 in all, are:
-= -- 1657
-> -- 725
-< -- 12
-+ -- 294
-- -- 242
-* -- 1118
-:= -- 2621
-add.period$ -- 151
-call.type$ -- 45
-change.case$ -- 254
+            805 strings with 13817 characters,
+and the built_in function-call counts, 16619 in all, are:
+= -- 1712
+> -- 743
+< -- 13
++ -- 301
+- -- 248
+* -- 1149
+:= -- 2692
+add.period$ -- 155
+call.type$ -- 46
+change.case$ -- 260
 chr.to.int$ -- 0
-cite$ -- 46
-duplicate$ -- 621
-empty$ -- 1251
-format.name$ -- 242
-if$ -- 3430
+cite$ -- 47
+duplicate$ -- 644
+empty$ -- 1290
+format.name$ -- 248
+if$ -- 3545
 int.to.chr$ -- 0
-int.to.str$ -- 45
-missing$ -- 43
-newline$ -- 231
-num.names$ -- 88
-pop$ -- 265
+int.to.str$ -- 46
+missing$ -- 44
+newline$ -- 236
+num.names$ -- 90
+pop$ -- 273
 preamble$ -- 1
-purify$ -- 210
+purify$ -- 215
 quote$ -- 0
-skip$ -- 440
+skip$ -- 458
 stack$ -- 0
-substring$ -- 1026
-swap$ -- 148
-text.length$ -- 12
+substring$ -- 1063
+swap$ -- 158
+text.length$ -- 13
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 174
+type$ -- 178
 warning$ -- 1
-while$ -- 164
-width$ -- 47
-write$ -- 520
+while$ -- 169
+width$ -- 48
+write$ -- 533
 (There was 1 warning)
