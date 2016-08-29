@@ -3,7 +3,7 @@
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Data Clustering \cite {korpipaa2003bayesian}\relax }}{16}{figure.caption.9}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Smartphone OS Marketshare\relax }}{25}{figure.caption.16}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces gather data: light, timestamp, steps, accelerometer, location, volume\relax }}{27}{figure.caption.17}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Gathering: light, timestamp, steps, accelerometer, location, volume\relax }}{27}{figure.caption.17}
 \contentsline {figure}{\numberline {3.3}{\ignorespaces Android Views\relax }}{28}{figure.caption.18}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Security Dataflow\relax }}{41}{figure.caption.24}
@@ -12,7 +12,7 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {6.1}{\ignorespaces Device Rotation\relax }}{55}{figure.caption.33}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces gathered data\relax }}{59}{figure.caption.39}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Gathered Data\relax }}{59}{figure.caption.39}
 \contentsline {figure}{\numberline {7.2}{\ignorespaces Scatter Plot: Coffee\relax }}{68}{figure.caption.46}
 \contentsline {figure}{\numberline {7.3}{\ignorespaces Scatter Plot: Music\relax }}{70}{figure.caption.47}
 \contentsline {figure}{\numberline {7.4}{\ignorespaces Scatter Plot: Running\relax }}{71}{figure.caption.48}

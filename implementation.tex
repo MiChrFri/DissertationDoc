@@ -3,7 +3,7 @@
 This chapter is about the implementation of the main application for Android, the server back-end and webpages. It also describes implementation of the tooling for working with the data. 
 
 \section{Android}
-As mentioned before, the Android Application (Dather) is for gathering data of the user and get environmental information. For This purpose I wrote an Android application which can gather these information.\\ 
+As mentioned before, the Android Application (Dather) is for gathering data of the user and get environmental information. For This purpose we developed an Android application which can gather these information.\\ 
 Beside gathering the data using an App it is also possible to read the sensoring information which are being recorded continuously as described in the approach of
 Zhu, Hengshu, et al. \cite{zhu2015mining}. They are reading the device logs and get all the logged device more information about the apps being used etc. .
 Sandboxing is an Android security concept that only allows an app to access the data of the app itself and isolates the content for other applications. Thus it is no possible, using an official way, to access the device logs via an app without having physical access to the device. \\
@@ -73,7 +73,7 @@ Thus, a decryption within the applications is not possible because the functiona
 
 \section{Server}
 The server contains of three different parts, the back-end that handles the REST-full API calls, the MySQL Database and the web-pages for providing information to the participants of the study. 
-In this chapter I will just write about the back-end and the web-pages because the Database design is already described in the previous design chapter. 
+This chapter will be about the back-end and the web-pages because the Database design is already described in the previous design chapter. 
 
 \subsection{Back-End}
 In the PHP script, the data from the POST gets extracted and decoded from JSON to an PHP-Array.\\
@@ -119,5 +119,5 @@ The Android app contains of:
 \end{itemize}
 The next section describes the data gathering in process in detail followed by the implementation of the data storage within the app. The app uses a hybrid encryption using AES and RSA. 
 \bigbreak
-The next part will point out the simple PHP implementation with the database connection of the Server backend. For the frontend we used standard HTML and CSS components and Googler web-fonts.
+The next part will point out the simple PHP implementation with the database connection of the Server back-end. For the front-end we used standard HTML and CSS components and Googler web-fonts.
 The decryption tool uses RSA and AES for decrypting the data. The other tools read a textfile, manipulate the data and write the results in a new textfile.  

@@ -18,45 +18,45 @@ A level-1 auxiliary file: appendix6.aux
 The style file: plain.bst
 Database file #1: references.bib
 Warning--to sort, need author or key in androidpermissions
-You've used 46 entries,
+You've used 47 entries,
             2118 wiz_defined-function locations,
-            805 strings with 13817 characters,
-and the built_in function-call counts, 16619 in all, are:
-= -- 1712
-> -- 743
+            811 strings with 13968 characters,
+and the built_in function-call counts, 16954 in all, are:
+= -- 1747
+> -- 756
 < -- 13
-+ -- 301
-- -- 248
-* -- 1149
-:= -- 2692
-add.period$ -- 155
-call.type$ -- 46
-change.case$ -- 260
++ -- 307
+- -- 252
+* -- 1175
+:= -- 2747
+add.period$ -- 158
+call.type$ -- 47
+change.case$ -- 265
 chr.to.int$ -- 0
-cite$ -- 47
-duplicate$ -- 644
-empty$ -- 1290
-format.name$ -- 248
-if$ -- 3545
+cite$ -- 48
+duplicate$ -- 655
+empty$ -- 1317
+format.name$ -- 252
+if$ -- 3613
 int.to.chr$ -- 0
-int.to.str$ -- 46
-missing$ -- 44
-newline$ -- 236
-num.names$ -- 90
-pop$ -- 273
+int.to.str$ -- 47
+missing$ -- 45
+newline$ -- 241
+num.names$ -- 92
+pop$ -- 276
 preamble$ -- 1
-purify$ -- 215
+purify$ -- 219
 quote$ -- 0
-skip$ -- 458
+skip$ -- 466
 stack$ -- 0
-substring$ -- 1063
-swap$ -- 158
+substring$ -- 1094
+swap$ -- 159
 text.length$ -- 13
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 178
+type$ -- 182
 warning$ -- 1
-while$ -- 169
-width$ -- 48
-write$ -- 533
+while$ -- 173
+width$ -- 49
+write$ -- 544
 (There was 1 warning)

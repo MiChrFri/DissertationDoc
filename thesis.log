@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.18)  29 AUG 2016 14:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.18)  29 AUG 2016 16:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1064,13 +1064,7 @@ Overfull \hbox (14.55919pt too wide) in paragraph at lines 98--99
 ap-proaches to clas-sify the information
  []
 
-[16 <./images/clustering.png>]
-Overfull \hbox (14.0363pt too wide) in paragraph at lines 109--112
-\OT1/lmr/m/n/12 concepts al-low to re-act to problems and new information in a 
-faster way /cite-chow2008survey.
- []
-
-[17] [18]
+[16 <./images/clustering.png>] [17] [18]
 Overfull \hbox (6.20438pt too wide) in paragraph at lines 121--123
 \OT1/lmr/m/n/12 team with more communication cre-ated bet-ter re-sults than a t
 eam with less communication. 
@@ -1092,30 +1086,36 @@ Underfull \hbox (badness 10000) in paragraph at lines 145--146
 
  (./design.tex
 Chapter 3.
+
+Overfull \hbox (4.50429pt too wide) in paragraph at lines 3--6
+\OT1/lmr/m/n/12 It will also out-line the sever side im-ple-men-ta-tion to com-
+pute, store and pro-vide information.
+ []
+
 [24
 
 
 
-] [25] <images/sensors.png, id=1052, 1505.625pt x 1626.075pt>
+] [25] <images/sensors.png, id=1054, 1505.625pt x 1626.075pt>
 File: images/sensors.png Graphic file (type png)
 
 <use images/sensors.png>
-Package pdftex.def Info: images/sensors.png used on input line 69.
+Package pdftex.def Info: images/sensors.png used on input line 70.
 (pdftex.def)             Requested size: 227.62204pt x 245.81123pt.
  [26] [27 <./images/sensors.png>]
-<images/AndroidUI.png, id=1065, 2007.5pt x 593.21625pt>
+<images/AndroidUI.png, id=1067, 2007.5pt x 593.21625pt>
 File: images/AndroidUI.png Graphic file (type png)
 
 <use images/AndroidUI.png>
-Package pdftex.def Info: images/AndroidUI.png used on input line 86.
+Package pdftex.def Info: images/AndroidUI.png used on input line 87.
 (pdftex.def)             Requested size: 455.24411pt x 134.5179pt.
  [28 <./images/AndroidUI.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 104--108
+Underfull \hbox (badness 10000) in paragraph at lines 105--109
 
  []
 
 [29]
-Overfull \hbox (12.20538pt too wide) in paragraph at lines 113--115
+Overfull \hbox (12.20538pt too wide) in paragraph at lines 114--116
 \OT1/lmr/m/n/12 As this ap-pli-ca-tion just re-quires to send information to th
 e server but not re-ceive information,
  []
@@ -1141,7 +1141,7 @@ LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 16.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/lm/ot1lmtt.fd
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [37] [38]
-[39] [40] <images/dataflow.png, id=1139, 1100.11pt x 354.32375pt>
+[39] [40] <images/dataflow.png, id=1141, 1100.11pt x 354.32375pt>
 File: images/dataflow.png Graphic file (type png)
 
 <use images/dataflow.png>
@@ -1162,7 +1162,7 @@ LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
 
 (./experiment.tex
 Chapter 5.
-<images/experiment.png, id=1170, 1242.6425pt x 733.74126pt>
+<images/experiment.png, id=1172, 1242.6425pt x 733.74126pt>
 File: images/experiment.png Graphic file (type png)
 
 <use images/experiment.png>
@@ -1192,7 +1192,7 @@ Underfull \hbox (badness 1205) in paragraph at lines 48--48
 []|\OT1/lmr/m/n/12 Detailed Draw-ing Work, Very De-tailed Me-chan-i-cal
  []
 
-[54] <images/accDevice.png, id=1242, 1164.35pt x 886.31125pt>
+[54] <images/accDevice.png, id=1244, 1164.35pt x 886.31125pt>
 File: images/accDevice.png Graphic file (type png)
 
 <use images/accDevice.png>
@@ -1210,7 +1210,7 @@ Chapter 7.
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 4.
 
-<images/entries.png, id=1273, 1505.625pt x 316.18124pt>
+<images/entries.png, id=1275, 1505.625pt x 316.18124pt>
 File: images/entries.png Graphic file (type png)
 
 <use images/entries.png>
@@ -1255,11 +1255,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 64--72
 
  []
 
-[61]
-
-LaTeX Warning: Reference `ligps' on page 62 undefined on input line 79.
-
-[62]
+[61] [62]
 Underfull \hbox (badness 10000) in paragraph at lines 91--101
 
  []
@@ -1330,12 +1326,7 @@ ake sure you have specified 'scatter src=explicit symbolic'. Ignoring class '10
 ' (this message will not come again). on input line 217.
 
  [warning /pgfplots/warning/scatter classes no such class]
-[68] [69]
-
-LaTeX Warning: Reference `resultRunning' on page 70 undefined on input line 319
-.
-
-[70]) [71]
+[68] [69] [70]) [71]
 \openout2 = `conclusion.aux'.
 
  (./conclusion.tex
@@ -1907,7 +1898,7 @@ Overfull \hbox (4.00165pt too wide) in paragraph at lines 78--79
 
  (./appendix6.tex
 Appendix F.
-<ethics.pdf, id=1494, 597.51233pt x 845.0471pt>
+<ethics.pdf, id=1497, 597.51233pt x 845.0471pt>
 File: ethics.pdf Graphic file (type pdf)
  <use ethics.pdf>
 Package pdftex.def Info: ethics.pdf used on input line 5.
@@ -1917,7 +1908,7 @@ File: ethics.pdf Graphic file (type pdf)
 <use ethics.pdf>
 Package pdftex.def Info: ethics.pdf used on input line 5.
 (pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
- <ethics.pdf, id=1497, page=1, 597.51233pt x 845.0471pt>
+ <ethics.pdf, id=1500, page=1, 597.51233pt x 845.0471pt>
 File: ethics.pdf Graphic file (type pdf)
 
 <use ethics.pdf, page 1>
@@ -1941,7 +1932,7 @@ Package pdftex.def Info: ethics.pdf, page1 used on input line 5.
 
 
 ]
-<ethics.pdf, id=1502, page=2, 597.51233pt x 845.0471pt>
+<ethics.pdf, id=1505, page=2, 597.51233pt x 845.0471pt>
 File: ethics.pdf Graphic file (type pdf)
 
 <use ethics.pdf, page 2>
@@ -1956,7 +1947,7 @@ File: ethics.pdf Graphic file (type pdf)
 Package pdftex.def Info: ethics.pdf, page1 used on input line 5.
 (pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
 
-[100 <./ethics.pdf>] <ethics.pdf, id=1526, page=3, 597.51233pt x 845.0471pt>
+[100 <./ethics.pdf>] <ethics.pdf, id=1529, page=3, 597.51233pt x 845.0471pt>
 File: ethics.pdf Graphic file (type pdf)
 
 <use ethics.pdf, page 3>
@@ -1971,7 +1962,7 @@ File: ethics.pdf Graphic file (type pdf)
 Package pdftex.def Info: ethics.pdf, page2 used on input line 5.
 (pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
 
-[101 <./ethics.pdf>] <ethics.pdf, id=1532, page=4, 597.51233pt x 845.0471pt>
+[101 <./ethics.pdf>] <ethics.pdf, id=1535, page=4, 597.51233pt x 845.0471pt>
 File: ethics.pdf Graphic file (type pdf)
 
 <use ethics.pdf, page 4>
@@ -1986,7 +1977,7 @@ File: ethics.pdf Graphic file (type pdf)
 Package pdftex.def Info: ethics.pdf, page3 used on input line 5.
 (pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
 
-[102 <./ethics.pdf>] <ethics.pdf, id=1537, page=5, 597.51233pt x 845.0471pt>
+[102 <./ethics.pdf>] <ethics.pdf, id=1540, page=5, 597.51233pt x 845.0471pt>
 File: ethics.pdf Graphic file (type pdf)
 
 <use ethics.pdf, page 5>
@@ -2033,11 +2024,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 155.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 155.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 155.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: E15545A110682DDD995B01BC55781911;9285.
-
-
-LaTeX Warning: There were undefined references.
-
+(rerunfilecheck)             Checksum: 69882E09C13E346B464F60D40E4DC833;9287.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 155.
  )
 (\end occurred inside a group at level 1)
@@ -2046,12 +2033,12 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 155.
 ### bottom level 
 Here is how much of TeX's memory you used:
  30406 strings out of 493089
- 714280 string characters out of 6134841
- 970014 words of memory out of 5000000
- 32815 multiletter control sequences out of 15000+600000
+ 714293 string characters out of 6134841
+ 970013 words of memory out of 5000000
+ 32814 multiletter control sequences out of 15000+600000
  59868 words of font info for 48 fonts, out of 8000000 for 9000
  1164 hyphenation exceptions out of 8191
- 63i,19n,110p,1375b,2418s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,19n,110p,1375b,2416s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-mathi
 t.enc} </Users/michael/Library/texlive/2015/texmf-var/fonts/pk/ljfour/public/bb
 ding/bbding10.720pk>{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-r
@@ -2069,10 +2056,10 @@ t/fonts/type1/public/lm/lmro12.pfb></usr/local/texlive/2015/texmf-dist/fonts/ty
 pe1/public/lm/lmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public
 /lm/lmsy8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmtt10.
 pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on thesis.pdf (124 pages, 1739076 bytes).
+Output written on thesis.pdf (124 pages, 1739244 bytes).
 PDF statistics:
- 1728 PDF objects out of 1728 (max. 8388607)
- 1542 compressed objects within 16 object streams
- 399 named destinations out of 1000 (max. 500000)
+ 1731 PDF objects out of 2073 (max. 8388607)
+ 1545 compressed objects within 16 object streams
+ 400 named destinations out of 1000 (max. 500000)
  1240 words of extra memory for PDF output out of 10000 (max. 10000000)
 
