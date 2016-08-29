@@ -1,9 +1,7 @@
 \chapter{Design}
 
-\begin{flushleft}
 The following chapter details the design of the data gathering Android application. It will also outline the sever side implementation to compute, store and provide information. Afterwards follows a short description of some additional tools, needed for the data analysis.\\
 First, it will start with a brief description of the two components and will follow with my design decisions and my reasons for the choices. 
-\end{flushleft}
 
 \section{Approach}
 This approach has been created a part of an idea for a system that helps to improve the working behavior and environment of developers. The whole system is described later in the section 'Dynamic Code and Developer Analysis'.
@@ -59,14 +57,12 @@ The purpose of the application is to gather information from a mobile device of 
  	\vspace{10 mm}
 \end{figure}
 
-\begin{flushleft}
 In quarter 4 of 2015 Android had a market share of 80.7\% in smart-phone sales by operating system (see Figure \ref{result}). The trend also shows that the number increased from the last year \cite{gartnerMobileOSMarketshare}. Therefore I decided to realize the mobile application implementation for Android in order to be able to work with more users who have access to that application.\\
 An alternative to the native implementation (e.g. iOS or Android) could have been a hybrid application. A hybrid apps is based on web-technology and using the addvantage of resposive web design to be able to work with every aspect ratio and resolution on an mobile device. One way doing that would be by using a framework such as PhoneGap, wich internally creates a native webview applicationand just loads the hybrid JavaScript, HTML, CSS in it. Another software for cerating a hybrid solution is Titanum accelerator which itself is using native UI components. Both frameworks have the advantage is the simple development and the OS independence. The problem with hybrid apps are the performance and limited accessiblity to hardware components including some sensors \cite{holzinger2012making}.  
 \bigbreak
 The Android application make use of its build-in sensors and information provided by the Android operating system \ref{sensors}. Different than iOS, Android is an OS that can be installed of different devices from various manufactorers and with different hardware components \cite{goadrich2011smart}. Thus, the buit-in sensors which are clustered in motion sensors, environmental sensors and position sensors \cite{androidDevelopers} can differ between the diverse devices. Components that are required for standard functionality such as making phone calls are more common than other sensors. For example, the microphone for recording the users voice or the light sensor, which is used to detect whether the user has the phone at his ear can be found in almost every mobile android device. 
 Furthermore, the different mobile device manufacturers customize the open source android operating system for their devices and their purposes. This nature can lead to different settings or behavior for the hardware and also software components.\\
 This device diversity and the variety of different screen sizes and aspect ratios make it more difficult to support a range of android devices and make sit impossible to test all devices that are running a specific operating system. Apple at the other hand uses the same aspect ration up from the iPhone5 and supports the hardware components in a similar way in iOS. 
-\end{flushleft}
 
 \begin{figure}
 \centering

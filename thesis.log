@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.18)  25 AUG 2016 11:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.18)  29 AUG 2016 14:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1026,11 +1026,23 @@ Overfull \hbox (8.88005pt too wide) in paragraph at lines 53--56
 
  (./sota.tex
 Chapter 2.
+
+Overfull \hbox (1.17278pt too wide) in paragraph at lines 10--16
+[]\OT1/lmr/m/n/12 A good pro-gram-mer nowa-days is de-scribed as a per-son who 
+can solve com-pli-cated problems
+ []
+
 [8
 
 
 
-] [9] [10] [11]
+] [9]
+Overfull \hbox (19.84654pt too wide) in paragraph at lines 32--33
+\OT1/lmr/m/n/12 Software metrics are val-ues that in-di-cate the qual-ity and p
+erformance in software development.
+ []
+
+[10] [11]
 Underfull \hbox (badness 10000) in paragraph at lines 50--60
 
  []
@@ -1052,10 +1064,22 @@ Overfull \hbox (14.55919pt too wide) in paragraph at lines 98--99
 ap-proaches to clas-sify the information
  []
 
-[16 <./images/clustering.png>] [17] [18]
+[16 <./images/clustering.png>]
+Overfull \hbox (14.0363pt too wide) in paragraph at lines 109--112
+\OT1/lmr/m/n/12 concepts al-low to re-act to problems and new information in a 
+faster way /cite-chow2008survey.
+ []
+
+[17] [18]
 Overfull \hbox (6.20438pt too wide) in paragraph at lines 121--123
 \OT1/lmr/m/n/12 team with more communication cre-ated bet-ter re-sults than a t
 eam with less communication. 
+ []
+
+
+Overfull \hbox (1.99376pt too wide) in paragraph at lines 126--127
+\OT1/lmr/m/n/12 Looking at the in-di-vid-ual pro-gram-mer, the most im-por-tant
+ fac-tor is ob-vi-ously the cognitive
  []
 
 [19] [20]
@@ -1072,26 +1096,26 @@ Chapter 3.
 
 
 
-] [25] [26] <images/sensors.png, id=1059, 1505.625pt x 1626.075pt>
+] [25] <images/sensors.png, id=1052, 1505.625pt x 1626.075pt>
 File: images/sensors.png Graphic file (type png)
 
 <use images/sensors.png>
-Package pdftex.def Info: images/sensors.png used on input line 73.
+Package pdftex.def Info: images/sensors.png used on input line 69.
 (pdftex.def)             Requested size: 227.62204pt x 245.81123pt.
- [27 <./images/sensors.png>]
+ [26] [27 <./images/sensors.png>]
 <images/AndroidUI.png, id=1065, 2007.5pt x 593.21625pt>
 File: images/AndroidUI.png Graphic file (type png)
 
 <use images/AndroidUI.png>
-Package pdftex.def Info: images/AndroidUI.png used on input line 90.
+Package pdftex.def Info: images/AndroidUI.png used on input line 86.
 (pdftex.def)             Requested size: 455.24411pt x 134.5179pt.
  [28 <./images/AndroidUI.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 108--112
+Underfull \hbox (badness 10000) in paragraph at lines 104--108
 
  []
 
 [29]
-Overfull \hbox (12.20538pt too wide) in paragraph at lines 117--119
+Overfull \hbox (12.20538pt too wide) in paragraph at lines 113--115
 \OT1/lmr/m/n/12 As this ap-pli-ca-tion just re-quires to send information to th
 e server but not re-ceive information,
  []
@@ -2021,12 +2045,12 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 155.
 ### simple group (level 1) entered at line 14 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 30389 strings out of 493089
- 714115 string characters out of 6134841
- 970073 words of memory out of 5000000
+ 30406 strings out of 493089
+ 714280 string characters out of 6134841
+ 970014 words of memory out of 5000000
  32815 multiletter control sequences out of 15000+600000
  59868 words of font info for 48 fonts, out of 8000000 for 9000
- 1147 hyphenation exceptions out of 8191
+ 1164 hyphenation exceptions out of 8191
  63i,19n,110p,1375b,2418s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-mathi
 t.enc} </Users/michael/Library/texlive/2015/texmf-var/fonts/pk/ljfour/public/bb
@@ -2045,7 +2069,7 @@ t/fonts/type1/public/lm/lmro12.pfb></usr/local/texlive/2015/texmf-dist/fonts/ty
 pe1/public/lm/lmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public
 /lm/lmsy8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmtt10.
 pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on thesis.pdf (124 pages, 1738732 bytes).
+Output written on thesis.pdf (124 pages, 1739076 bytes).
 PDF statistics:
  1728 PDF objects out of 1728 (max. 8388607)
  1542 compressed objects within 16 object streams
